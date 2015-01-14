@@ -1,0 +1,15 @@
+.home-hero {
+	background-color: $hero-background;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.home-heading {
+	h1 {
+		padding: 1.25em 0 0 0;
+		color: $background-color;
+		line-height: 1.25em;
+	}
+}

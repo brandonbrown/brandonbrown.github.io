@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "This Is Probably My Normal Length"
+title:  "Long-ish Kind Of Post Title For Testing"
 date:   2015-01-13 21:43:49
 categories: jekyll update
-header-img: "img/sun-nustar.jpg"
+header-img: "img/freeway.jpg"
+title-color: white
+title-bg: "#ad1e20"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
