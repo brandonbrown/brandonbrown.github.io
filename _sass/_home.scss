@@ -1,15 +1,38 @@
-.home-hero {
-	background-color: $hero-background;
-	margin-bottom: 50px;
-	width: 100%;
-	height: 400px;
-	position: relative;
-}
+.home {
+	.home-hero {
+		background-color: $hero-background;
+		background: no-repeat center center;
+		background-attachment: scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		margin-bottom: 50px;
+		width: 100%;
+		min-height: 325px;
+		padding-bottom: 2em;
+	}
 
-.home-heading {
-	h1 {
-		padding: 1.25em 0 0 0;
-		color: $background-color;
-		line-height: 1.25em;
+	.home-heading {
+		h1 {
+			padding: 1.25em 0 0 0;
+			color: $background-color;
+			line-height: 1.25em;
+		}
+
+	}
+	.recent-posts {
+		margin-top: 100px;
+	}
+	.post-list {
+		li {
+			border-bottom: 1px solid darken($background-color, 10%);
+		}
+		li:last-child {
+			border-bottom: 1px solid transparent;
+		}
+		.post-link {
+			font-size: 38px;
+		}
 	}
 }
