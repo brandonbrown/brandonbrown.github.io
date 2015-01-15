@@ -7,10 +7,10 @@
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
-		margin-bottom: 50px;
+		margin: -56px 0 50px 0;
 		width: 100%;
 		min-height: 325px;
-		padding-bottom: 2em;
+		padding: 56px 0 2em 0;
 	}
 
 	.home-heading {
@@ -18,21 +18,52 @@
 			padding: 1.25em 0 0 0;
 			color: $background-color;
 			line-height: 1.25em;
+			font-family: $headings-condensed;
+			font-size: 40px;
+			font-style: italic;
+			font-weight: 500;
+			.punctuation {
+				font-size: 30px;
+				font-weight: 400;
+
+			}
+			a {
+				font-family: $headings;
+				color: #ffd393;
+				font-size: 26px;
+				font-style: normal;
+				text-transform: uppercase;
+				
+				border-bottom: 1px dotted rgba(255,255,255,.25);
+
+				&:hover { 
+					text-decoration: none;
+					border-bottom: 1px dotted rgba(255,255,255,.75);
+					cursor: pointer;
+				}
+			}
 		}
 
 	}
 	.recent-posts {
 		margin-top: 100px;
+		ul {
+			li {
+				display: block;
+				border: 2px solid darken($background-color, 10%);
+				padding: $spacing-unit;
+				h3 {
+					padding: 0;
+					margin: 0;
+
+					.post-link {
+						font-size: 30px;
+					}
+				}
+			}
+		}
+
+	
 	}
-	.post-list {
-		li {
-			border-bottom: 1px solid darken($background-color, 10%);
-		}
-		li:last-child {
-			border-bottom: 1px solid transparent;
-		}
-		.post-link {
-			font-size: 38px;
-		}
-	}
+
 }

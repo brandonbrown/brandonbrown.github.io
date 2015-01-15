@@ -8,9 +8,9 @@ layout: default
 		<div class="container">
 			<h1 class="post-title" style="color: {{ page.title-color }}">{{ page.title }}</h1>
 		        {% if page.subtitle %}
-		    <h2 class="subheading">{{ page.subtitle }}</h2>
+		    <h2 class="subheading" style="color: {{ page.title-color }}">{{ page.subtitle }}</h2>
 		        {% endif %}
-		    <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span>
+		    <span class="meta" style="color: {{ page.title-color }}">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span>
 		</div>
 	</div>
 </header>

@@ -1,6 +1,6 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="wrapper container">
 
     <h2 class="footer-heading">{{ site.title }}</h2>
 
@@ -42,12 +42,15 @@
             </a>
           </li>
           {% endif %}
+          <li class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
         </ul>
       </div>
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
       </div>
+
+
     </div>
 
   </div>
