@@ -25,13 +25,14 @@
 	}
 }
 
-.post-number {
-	font-family: $headings-condensed;
-	font-size: $base-font-size + 4;
-}
-
 .post-meta {
 	font-family: $headings-condensed;
+}
+
+.post {
+	.site-header {
+		background-color: rgba($hero-background, .75);
+	}
 }
 
 .container {

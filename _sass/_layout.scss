@@ -12,21 +12,28 @@
     position: relative;
 }
 
-.site-title {
+.coffee-link {
     
     line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    float: right;
+
+    font-family: $base-font-family;
+    font-style: italic;
+    text-transform: none;
 
     &,
     &:visited {
         color: $background-color;
     }
+
+    @include media-query($on-laptop) {
+        float: left;
+    }
 }
 
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
 
     .menu-icon {
@@ -39,16 +46,15 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 15px;
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-laptop) {
         position: absolute;
-        top: 9px;
+        top: 14px;
         right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        
         border-radius: 5px;
         text-align: right;
 
@@ -66,7 +72,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $background-color;
                 }
             }
         }

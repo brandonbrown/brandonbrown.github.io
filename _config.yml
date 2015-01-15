@@ -1,5 +1,5 @@
 # Site settings
-title: Brandon Brown
+title: The Website of Brandon Brown
 email: brandon@bybrandonbrown.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -12,3 +12,10 @@ github_username:  brandonbrown
 
 # Build settings
 markdown: kramdown
+
+
+# Jokes
+
+joke: I'm going to put random jokes and sayings here.
+
+

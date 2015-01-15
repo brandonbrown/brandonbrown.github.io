@@ -15,12 +15,12 @@
 
 	.home-heading {
 		h1 {
-			padding: 1.25em 0 0 0;
+			padding: .5em 0 0 0;
 			color: $background-color;
 			line-height: 1.25em;
-			font-family: $headings-condensed;
+			font-family: $base-font-family;
 			font-size: 40px;
-			font-style: italic;
+			font-style: normal;
 			font-weight: 500;
 			.punctuation {
 				font-size: 30px;
@@ -29,7 +29,7 @@
 			}
 			a {
 				font-family: $headings;
-				color: #ffd393;
+				color: $brand-color;
 				font-size: 26px;
 				font-style: normal;
 				text-transform: uppercase;
@@ -42,23 +42,73 @@
 					cursor: pointer;
 				}
 			}
+			.stylized-italic {
+				font-family: $headings-condensed;
+				font-style: italic;
+			}
 		}
 
 	}
 	.recent-posts {
 		margin-top: 100px;
+		@extend %clearfix;
+
+		h2 {
+			float: left;
+			display: block;
+		}
+
+		.archive {
+			float: right;
+			display: block;
+			font-size: 14px;
+			font-style: italic;
+			color: $text-color;
+			border: 1px solid $brand-color;
+			padding: 5px 8px;
+
+			&:hover {
+				background: lighten($brand-color, 5%);
+			}
+		}
+
 		ul {
+			clear: both;
 			li {
 				display: block;
 				border: 2px solid darken($background-color, 10%);
-				padding: $spacing-unit;
+				padding: $spacing-unit $spacing-unit $spacing-unit 0;
+
+				.post-number {
+					font-family: $headings-condensed;
+					font-size: 24px;
+					font-weight: 900;
+					color: $background-color;
+					display: block;
+					float: left;
+					padding: 5px;
+					background: darken($background-color, 10%);
+					width: $spacing-unit * 3;
+					text-align: center;
+					margin-right: $spacing-unit;
+				}
+
 				h3 {
 					padding: 0;
 					margin: 0;
+					color: $text-color;
 
 					.post-link {
 						font-size: 30px;
+						color: $text-color;
 					}
+
+				}
+
+				.post-meta {
+					font-size: $base-font-size;
+					margin-left: 2px;
+
 				}
 			}
 		}

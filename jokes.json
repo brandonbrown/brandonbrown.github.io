@@ -1,0 +1,16 @@
+---
+---
+[
+    {% for joke in site.jokes %}
+    {
+      "title"    : "{{ jokes.question }}",
+      "href"     : "{{ jokes.question }}",
+      "date"     : {
+         "day"   : "{{ post.date | date: "%d" }}",
+         "month" : "{{ post.date | date: "%B" }}",
+         "year"  : "{{ post.date | date: "%Y" }}"
+      }
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
