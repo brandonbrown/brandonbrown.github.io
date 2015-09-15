@@ -1,52 +1,83 @@
+body {
+    padding: 75px 10% 25px;
+}
+
+.col-1 {
+    width: 70.8641975%;
+    float: left;
+}
+
+.col-2 {
+    width: 100% - 70.8641975%;
+    float: right;
+}
+
+.page-wrap {
+    overflow: hidden;
+}
+
 /**
  * Site header
  */
 .site-header {
-    min-height: 56px;
-    background: transparent;
-    text-transform: uppercase;
-    color: $background-color;
-    padding: 0 $spacing-unit;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-.coffee-link {
-    
-    line-height: 56px;
-    margin-bottom: 0;
-    float: right;
-
-    font-family: $base-font-family;
+.work-link {
+    font-family: $headings-condensed;
     font-style: italic;
-    text-transform: none;
+    font-weight: regular;
+    @include font-size(1.6);
+    color: $grey-color;
+    padding: 100px 0;
 
-    &,
-    &:visited {
-        color: $background-color;
-    }
+    span {
+        display: block;
+        color: $grey-color;
 
-    @include media-query($on-laptop) {
-        float: left;
+        a {
+            font-weight: bold;
+            font-family: $base-font-family;
+            font-style: normal;
+        }
     }
 }
 
+
+
 .site-nav {
+
     float: left;
     line-height: 56px;
-
+    margin-top: 70px;
+    width: 100%;
+   
+    .trigger {
+        overflow: hidden;
+        width: 100%;
+    }
     .menu-icon {
         display: none;
     }
 
-    .page-link {
-        color: $background-color;
-        line-height: $base-line-height;
+    .nav-list {
+        float: left;
+        margin-right: 15%;
 
+        &.social {
+        }
+    }
+
+    .page-link {
+        color: $hero-background;
+        display: block;
+        line-height: 2;
+        @include font-size(1.4);
+        font-weight: 300;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 15px;
+            //margin-left: 15px;
         }
     }
 
@@ -92,6 +123,7 @@
             padding: 5px 10px;
         }
     }
+
 }
 
 

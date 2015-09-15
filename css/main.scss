@@ -3,34 +3,7 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: 'kepler-std', 'Georgia', serif;
-$headings: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif; 
-$headings-condensed:  'kepler-std-semicondensed-dis', 'Georgia', serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #1a1414;
-$background-color: #eff1f2;
-$brand-color:      #ffd393;
-$hero-background:  #25292a;
-
-$grey-color:       #333;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        1000px;
-
-
+html {font-size: 62.5%;}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -49,6 +22,8 @@ $on-laptop:        1000px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+		"mixins",
+		"variables",
         "base",
         "layout",
         "fonts",

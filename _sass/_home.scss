@@ -1,119 +1,43 @@
 .home {
-	.home-hero {
-		background-color: $hero-background;
-		background: no-repeat center center;
-		background-attachment: scroll;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		-o-background-size: cover;
-		margin: -56px 0 50px 0;
-		width: 100%;
-		min-height: 325px;
-		padding: 56px 0 2em 0;
-	}
+	.post-title {
 
-	.home-heading {
-		h1 {
-			padding: .5em 0 0 0;
-			color: $background-color;
-			line-height: 1.25em;
-			font-family: $base-font-family;
-			font-size: 40px;
-			font-style: normal;
-			font-weight: 500;
-			.punctuation {
-				font-size: 30px;
-				font-weight: 400;
+		color: $brand-color;
+		@include font-size(4.8);
+		font-weight: 300;
+		padding-bottom: 68px;
 
-			}
-			a {
-				font-family: $headings;
-				color: $brand-color;
-				font-size: 26px;
-				font-style: normal;
-				text-transform: uppercase;
-				
-				border-bottom: 1px dotted rgba(255,255,255,.25);
-
-				&:hover { 
-					text-decoration: none;
-					border-bottom: 1px dotted rgba(255,255,255,.75);
-					cursor: pointer;
-				}
-			}
-			.stylized-italic {
-				font-family: $headings-condensed;
-				font-style: italic;
-			}
-		}
-
-	}
-	.recent-posts {
-		margin-top: 100px;
-		@extend %clearfix;
-
-		h2 {
-			float: left;
+		span {
+			color: $text-color; 
 			display: block;
+			font-family: $headings-condensed;
+			font-weight: bold;
+			padding: 62px 0;
 		}
-
-		.archive {
-			float: right;
-			display: block;
-			font-size: 14px;
-			font-style: italic;
-			color: $text-color;
-			border: 1px solid $brand-color;
-			padding: 5px 8px;
-
-			&:hover {
-				background: lighten($brand-color, 5%);
-			}
-		}
-
-		ul {
-			clear: both;
-			li {
-				display: block;
-				border: 2px solid darken($background-color, 10%);
-				padding: $spacing-unit $spacing-unit $spacing-unit 0;
-
-				.post-number {
-					font-family: $headings-condensed;
-					font-size: 24px;
-					font-weight: 900;
-					color: $background-color;
-					display: block;
-					float: left;
-					padding: 5px;
-					background: darken($background-color, 10%);
-					width: $spacing-unit * 3;
-					text-align: center;
-					margin-right: $spacing-unit;
-				}
-
-				h3 {
-					padding: 0;
-					margin: 0;
-					color: $text-color;
-
-					.post-link {
-						font-size: 30px;
-						color: $text-color;
-					}
-
-				}
-
-				.post-meta {
-					font-size: $base-font-size;
-					margin-left: 2px;
-
-				}
-			}
-		}
-
-	
 	}
+}
 
+.introduction {
+
+	li {
+		padding-bottom: 60px;
+		overflow: hidden;
+	}
+	h4 {
+		color: $grey-color;
+		font-family: $headings-condensed;
+		font-weight: 300;
+		font-style: italic;
+		@include font-size(1.4);
+		margin: 0;
+		padding: 15px 0 10px;
+	}
+	a {
+		display: block;
+		float: left;
+		clear: both;
+		padding: 5px 10px;
+		margin-left: -10px;
+		font-weight: bold;
+
+	}
 }

@@ -1,7 +1,9 @@
-.site-header {
-	font-family: $headings;
-}
-
-h2,h3,h4,h5,h6 {
-	color: darken($background-color, 30%);
+.introduction {
+	h4 {
+		font-weight: 700;
+		color: $brand-color;
+	}
+	a {
+		
+	}
 }

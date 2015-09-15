@@ -19,8 +19,12 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background-color: $window-color;
     -webkit-text-size-adjust: 100%;
+}
+
+.page-wrap {
+    background-color: $background-color;
 }
 
 
@@ -173,8 +177,8 @@ padding-right: $spacing-unit;
 }
 
 .container {
-    width: 75%;
-    margin: 0 auto;
+    margin: 0 9.3368237% 0 17.2774869%;
+    width: 67.2774869%;
 }
 
 
@@ -208,4 +212,8 @@ padding-right: $spacing-unit;
             fill: $grey-color;
         }
     }
+}
+
+ul {
+    list-style: none;
 }
