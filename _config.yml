@@ -1,21 +1,15 @@
 # Site settings
 title: The Website of Brandon Brown
 email: brandon@bybrandonbrown.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Brandon's personal site where you can find references to his personal and professional work. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://bybrandonbrown.com" # the base hostname & protocol for your site
 twitter_username: bybrandonbrown
 github_username:  brandonbrown
 
 # Build settings
 markdown: kramdown
 
-
-# Jokes
-
-joke: I'm going to put random jokes and sayings here.
-
-
+# Pagination
+paginate: 5
+paginate_path: "/blog/page/:num"
