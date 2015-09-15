@@ -184,6 +184,10 @@ padding-right: $spacing-unit;
         width: 80%;
         margin: 0 10%;
     }
+    @include media-query($on-device) {
+        width: 90%;
+        margin: 0 5%;
+    }
 }
 
 

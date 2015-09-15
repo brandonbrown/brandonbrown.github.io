@@ -15,12 +15,15 @@ body {
     width: 70.8641975%;
     float: left;
 
-    @include media-query($on-laptop) {
-        width: 55%;
-    }
     @include media-query($on-large) {
         width: 65%;
     }
+
+    @include media-query($on-laptop) {
+        width: 55%;
+    }
+    
+    
     @include media-query($on-device) {
 
             display: block;
@@ -37,13 +40,14 @@ body {
     width: 100% - 70.8641975%;
     float: right;
 
-    
-    @include media-query($on-laptop) {
-        width: 45%;
-    }
     @include media-query($on-large) {
         width: 35%;
     }
+
+    @include media-query($on-laptop) {
+        width: 45%;
+    }
+    
     @include media-query($on-device) {
 
             display: block;
@@ -54,7 +58,19 @@ body {
 }
 
 div[role="main"] {
-
+    @include media-query($on-laptop) {
+        .col-1 {
+            display: block;
+            float: left;
+            width: 80%;
+            padding: 0;
+        }
+        .col-2 {
+            display: block;
+            float: right;
+            width: 20%;
+        }
+    }
     @include media-query($on-device) {
         .col-1 {
             display: block;
@@ -68,6 +84,8 @@ div[role="main"] {
             width: 100%;
         }
     }
+
+    
 }
 
 .page-wrap {
@@ -143,20 +161,61 @@ div[role="main"] {
         }
     }
 
+
+
+    @include media-query($on-laptop) { 
+        .nav-list {
+            &.work {
+                width: 10%;
+            }
+            &.sites {
+                width: 25%;
+            }
+
+            &.social {
+
+            }
+        }
+    }
+
+    @include media-query($on-classic) { 
+        .nav-list {
+
+            &.work {
+                width: 25%;
+                margin: 0;
+            }
+            &.sites {
+                width: 35%;
+                margin: 0;
+            }
+            &.social {
+                width: 30%;
+                margin: 0;
+            }
+        }
+    }
+
     @include media-query($on-device) {
 
         float: none;
+        margin-top: 10px;
 
         .nav-list {
             float: left;
-            width: 35%;
+            width: 37%;
             margin: 0 0 0 5%;
 
             &.work {
-                width: 23%;
+                width: 25%;
+                
+            }
+            &.sites {
+                margin-left: 12%;
             }
             &.social {
-                width: 25%;
+                width: 15%;
+                float: right;
             }
         }
 

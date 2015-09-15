@@ -14,6 +14,24 @@
 			font-weight: bold;
 			padding: 62px 0;
 		}
+
+		@include media-query($on-classic) {
+       		@include font-size(3.6);
+
+       		span {
+       			padding: 20px 0 20px;
+       		}
+
+    	}
+    	@include media-query($on-device) {
+       		@include font-size(3.0);
+    	}
+    	
+
+	}
+
+	.home-heading {
+		overflow: hidden;
 	}
 }
 
