@@ -1,47 +1,25 @@
-.post-hero {
-	background-color: $hero-background;
-	background: no-repeat center center;
-	background-attachment: scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	margin: -56px 0 50px 0;
-	width: 100%;
-	min-height: 325px;
-	padding: 56px 0 2em 0;
-}
 
 .post-heading {
-	width: 85%;
-	margin: 0 auto;
-	padding: 10% 0 0 0;
-	text-align: left;
-	.post-title-white {
-		color: white;
+	.post-title {
+		@include font-size(2.8);
+		font-family: $headings-condensed;
+		font-weight: 100;
+		float: none;
+		display: block;
+		margin: 0 0 0px -5px;
+		padding: 5px;
+		color: $text-color;		
 	}
-	.post-title-black {
-		color: $text-color;
-	}
-}
-
-.post-meta {
-	font-family: $headings-condensed;
-}
-
-.post {
-	.site-header {
-		background-color: rgba($hero-background, .75);
+	.meta {
+		margin: 0;
+		font-family: $headings-condensed;
+		font-style: italic;
+		font-weight: 100;
+		@include font-size(1.4);
 	}
 }
 
-.container {
-	&.main-content {
-		font-size: 18px;
-		
-		p {
-			width: 85%;
-			margin: 0 auto;
-		}
-	}
+.post-hero {
+	overflow: hidden;
+	padding-bottom: 20px;
 }

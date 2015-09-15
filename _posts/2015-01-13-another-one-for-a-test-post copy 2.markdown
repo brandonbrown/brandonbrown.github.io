@@ -1,5 +1,6 @@
 ---
 layout: post
+styles: blog
 title:  "Long-ish Kind Of Post Title For Testing"
 permalink: blog/longish-kind-of-post
 date:   2015-01-13 21:43:49

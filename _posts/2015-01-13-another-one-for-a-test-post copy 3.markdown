@@ -1,5 +1,6 @@
 ---
 layout: post
+styles: blog
 title:  "Long-ish Kind Of Post Title For Testing"
 date:   2015-01-13 21:43:49
 categories: jekyll update
