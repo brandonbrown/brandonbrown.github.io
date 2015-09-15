@@ -1,15 +1,74 @@
 body {
     padding: 75px 10% 25px;
+
+    @include media-query($on-large) {
+        padding: 50px 2.5% 25px;
+    }
+
+    @include media-query($on-device) {
+        padding: 5px;
+    }
+
 }
 
 .col-1 {
     width: 70.8641975%;
     float: left;
+
+    @include media-query($on-device) {
+
+            display: block;
+            float: none;
+            width: 90%;
+            padding: 5%;
+        }
+    
+    @include media-query($on-laptop) {
+        width: 55%;
+    }
+    @include media-query($on-large) {
+        width: 65%;
+    }
+
+
+
 }
 
 .col-2 {
     width: 100% - 70.8641975%;
     float: right;
+
+    
+    @include media-query($on-laptop) {
+        width: 45%;
+    }
+    @include media-query($on-large) {
+        width: 35%;
+    }
+    @include media-query($on-device) {
+
+            display: block;
+            float: none;
+            width: 90%;
+            margin: 5%;
+        }
+}
+
+div[role="main"] {
+
+    @include media-query($on-device) {
+        .col-1 {
+            display: block;
+            float: none;
+            width: 100%;
+            padding: 0;
+        }
+        .col-2 {
+            display: block;
+            float: none;
+            width: 100%;
+        }
+    }
 }
 
 .page-wrap {
@@ -81,48 +140,26 @@ body {
         }
     }
 
-    @include media-query($on-laptop) {
-        position: absolute;
-        top: 14px;
-        right: 30px;
-        
-        border-radius: 5px;
-        text-align: right;
+    @include media-query($on-device) {
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+        float: none;
 
-            > svg {
-                width: 18px;
-                height: 15px;
+        .nav-list {
+            float: left;
+            width: 43%;
+            margin: 0;
 
-                path {
-                    fill: $background-color;
-                }
+            &.work {
+                width: 32%;
+            }
+            &.social {
+                width: 25%;
             }
         }
 
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
     }
+
+    
 
 }
 
@@ -131,70 +168,6 @@ body {
 /**
  * Site footer
  */
-.site-footer {
-    
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
 
 
 

@@ -179,6 +179,11 @@ padding-right: $spacing-unit;
 .container {
     margin: 0 9.3368237% 0 17.2774869%;
     width: 67.2774869%;
+
+    @include media-query($on-large) {
+        width: 80%;
+        margin: 0 10%;
+    }
 }
 
 
