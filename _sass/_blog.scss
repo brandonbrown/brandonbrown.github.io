@@ -26,3 +26,65 @@
 		}
 	}
 }
+
+.Blog {
+	.col-1 {
+		h1 {
+			margin: 0;
+		}
+		h1 a {
+			@include font-size(2.8);
+			font-family: $headings-condensed;
+			font-weight: 900;
+			float: none;
+			display: block;
+			margin: 0 0 0px -5px;
+			padding: 1px;
+			color: $text-color;
+		}
+
+		.author {
+			margin-bottom: 10px;
+
+			.date {
+				margin: 0;
+				font-family: $headings-condensed;
+				font-style: italic;
+				font-weight: 100;
+				@include font-size(1.4);
+			}
+		}
+
+		section {
+			h1 a {
+				@include font-size(2.8);
+				font-family: $headings-condensed;
+				font-weight: 900;
+				float: none;
+				display: block;
+				margin: 0 0 0px -5px;
+				padding: 0px;
+				color: $text-color;
+			}
+			.intro {
+				color: lighten($grey-color, 10%);
+			}
+			margin: 35px 0;
+		}
+	}
+	.col-2 {
+		h2 {
+			font-family: $headings-condensed;
+			@include font-size(1.8);
+		}
+		.sidebar-post-list {
+			color: $hero-background;
+			font-family: $base-font-family;
+	        display: block;
+	        line-height: 2;
+	        @include font-size(1.4);
+	        font-weight: 300;
+	        margin: 0;
+		}
+	}
+}
