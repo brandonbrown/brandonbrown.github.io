@@ -15,6 +15,12 @@ body {
     width: 70.8641975%;
     float: left;
 
+    @include media-query($on-laptop) {
+        width: 55%;
+    }
+    @include media-query($on-large) {
+        width: 65%;
+    }
     @include media-query($on-device) {
 
             display: block;
@@ -23,13 +29,6 @@ body {
             padding: 5%;
         }
     
-    @include media-query($on-laptop) {
-        width: 55%;
-    }
-    @include media-query($on-large) {
-        width: 65%;
-    }
-
 
 
 }
@@ -101,6 +100,10 @@ div[role="main"] {
             font-style: normal;
         }
     }
+
+    @include media-query($on-device) {
+        padding: 10px 0;
+    }
 }
 
 
@@ -146,16 +149,18 @@ div[role="main"] {
 
         .nav-list {
             float: left;
-            width: 43%;
-            margin: 0;
+            width: 35%;
+            margin: 0 0 0 5%;
 
             &.work {
-                width: 32%;
+                width: 23%;
             }
             &.social {
                 width: 25%;
             }
         }
+
+       
 
     }
 
