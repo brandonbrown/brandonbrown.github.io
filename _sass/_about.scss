@@ -1,0 +1,17 @@
+.about {
+	figure {
+		img {
+			display: block;
+			max-width: 120%;
+			margin: 30px 0 10px -13%;
+		}
+
+		figcaption {
+			color: lighten($grey-color,20%);
+			font-family: $headings-condensed;
+			font-style: italic;
+			margin: 0 0 30px 0%;
+			@include font-size(1.2);
+		}
+	}
+}
