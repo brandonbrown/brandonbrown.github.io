@@ -17,7 +17,7 @@ permalink: /about/
 			<p>I'm excited about technology and the near prophetical feeling it offers through the absurdly fast advancements we're watching. We share in the guessing game of new ideas, whos-who lists, and trying to figure out just why ideas like Snapchat and Yo! really work. Our dopamine values as a culture must be off the charts- which explains a lot.</p>
 			<p>Looking at design choices and questioning them at every turn has always been a large part of how my mind works. Breaking down processes, studying forms, and asking why we do the tiniest and thoughtless of actions - Why do we <em>really</em> make our beds at the beginning of the day? - are the thoughts that remind me why I choose the professional label of Designer.
 			</p>
-			<p>This makes it a flipping ton of fun to teach research, design, and user-testing. Submerging myself deep into design thought processes then sharing the ideas and outcomes is a dream job. I've been teaching for over five years at Full Sail University and have loved it since day one. Not only for the subject matter but the priviledge of working with some of the most exciting new talent into our industry and the motivated instructors who support them.</p>
+			<p>This makes it a flipping ton of fun to teach research, design, and user-testing. Submerging myself deep into design thought processes then sharing the ideas and outcomes is a dream job. I've been teaching for over five years at Full Sail University and have loved it since day one. Not only for the subject matter but the priviledge of working with some of the most exciting new talent launching into our industry and the motivated instructors who support them.</p>
 
 			<figure>
 		      	<img src="{{ site.baseurl }}/assets/david.jpg" />
