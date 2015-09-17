@@ -74,17 +74,30 @@
 	}
 	.col-2 {
 		h2 {
-			font-family: $headings-condensed;
-			@include font-size(1.8);
+
+			font-family: $base-font-family;
+			@include font-size(1.4);
+			color: $grey-color;
+
 		}
 		.sidebar-post-list {
-			color: $hero-background;
+
+
+			
 			font-family: $base-font-family;
 	        display: block;
 	        line-height: 2;
 	        @include font-size(1.4);
 	        font-weight: 300;
 	        margin: 0;
+
+	        a {
+	        	color: lighten($grey-color,20%);
+
+	        	&:hover {
+	        		color: $grey-color;
+	        	}
+	        }
 		}
 	}
 }

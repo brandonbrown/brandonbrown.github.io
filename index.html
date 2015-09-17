@@ -16,14 +16,14 @@ layout: default
 </header>
 <section id="front-blog" class="col-1">
   <ul class="introduction container">
-    <li>
-      <a class="post-title" href="#">Title of a post</a>
-      <a class="post-category" href="#">Category</a>
-      <p>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.
-      </p>
-    </li>
-   
-  </ul>
-</section>
+  {% for post in site.posts limit:1 %}
+      
+        <li>
+        <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+        <a class="post-category">{{ post.date | date: '%B %d, %Y' }}</a>
+        <p class="intro">{{ post.intro }}</p>
+      </li>
+
+    {% endfor %}
+</ul>
 </div>
