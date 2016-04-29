@@ -165,14 +165,14 @@ padding-right: $spacing-unit;
 
  */
 .wrapper {
-    
+
     margin-right: auto;
     margin-left: auto;
-    
+
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-       
+
     }
 }
 

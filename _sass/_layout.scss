@@ -1,8 +1,8 @@
 body {
-    padding: 75px 10% 25px;
+    padding: 25px 10% 25px;
 
     @include media-query($on-large) {
-        padding: 50px 2.5% 25px;
+        padding: 25px 2.5% 25px;
     }
 
     @include media-query($on-device) {
@@ -22,8 +22,8 @@ body {
     @include media-query($on-laptop) {
         width: 55%;
     }
-    
-    
+
+
     @include media-query($on-device) {
 
             display: block;
@@ -31,7 +31,7 @@ body {
             width: 90%;
             padding: 5%;
         }
-    
+
 
 
 }
@@ -47,7 +47,7 @@ body {
     @include media-query($on-laptop) {
         width: 45%;
     }
-    
+
     @include media-query($on-device) {
 
             display: block;
@@ -85,7 +85,7 @@ div[role="main"] {
         }
     }
 
-    
+
 }
 
 .page-wrap {
@@ -106,7 +106,7 @@ div[role="main"] {
     font-weight: regular;
     @include font-size(1.6);
     color: $grey-color;
-    padding: 100px 0;
+    padding: 70px 0 0;
 
     span {
         display: block;
@@ -132,7 +132,7 @@ div[role="main"] {
     line-height: 56px;
     margin-top: 70px;
     width: 100%;
-   
+
     .trigger {
         overflow: hidden;
         width: 100%;
@@ -163,7 +163,7 @@ div[role="main"] {
 
 
 
-    @include media-query($on-laptop) { 
+    @include media-query($on-laptop) {
         .nav-list {
             &.work {
                 width: 10%;
@@ -178,7 +178,7 @@ div[role="main"] {
         }
     }
 
-    @include media-query($on-classic) { 
+    @include media-query($on-classic) {
         .nav-list {
 
             &.work {
@@ -208,7 +208,7 @@ div[role="main"] {
 
             &.work {
                 width: 25%;
-                
+
             }
             &.sites {
                 margin-left: 12%;
@@ -219,11 +219,11 @@ div[role="main"] {
             }
         }
 
-       
+
 
     }
 
-    
+
 
 }
 
@@ -235,6 +235,7 @@ div[role="main"] {
 
 footer {
     background-color: $background-color;
+    padding-bottom: 50px;
 }
 
 

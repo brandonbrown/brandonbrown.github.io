@@ -1,7 +1,7 @@
 # Site settings
 title: The Website of Brandon Brown
 email: brandon@bybrandonbrown.com
-description: Brandon's personal site where you can find references to his personal and professional work. 
+description: Brandon's personal site where you can find references to his personal and professional work.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "localhost:4000" # the base hostname & protocol for your site
 twitter_username: bybrandonbrown

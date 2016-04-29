@@ -6,9 +6,10 @@ permalink: blog/a-new-site
 date:   2015-09-16 11:45:01
 categories: personal update site
 post-number: 01
-post-style: 
+post-style:
+intro: Well, like the title says...
 ---
-This is version 4. 
+This is version 4.
 
 Back in December of 2014, in the midst of an upheavel of my professional, personal lives I had the added benefit of a site hacking. This prompted a response from me to simply tear down the site. I'm happy I did.
 

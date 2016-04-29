@@ -8,11 +8,11 @@
 		margin-bottom: 0;
 
 		span {
-			color: $text-color; 
+			color: $text-color;
 			display: block;
 			font-family: $headings-condensed;
 			font-weight: bold;
-			padding: 62px 0;
+			padding: 31px 0;
 		}
 
 		@include media-query($on-classic) {
@@ -26,7 +26,7 @@
     	@include media-query($on-device) {
        		@include font-size(3.0);
     	}
-    	
+
 
 	}
 
