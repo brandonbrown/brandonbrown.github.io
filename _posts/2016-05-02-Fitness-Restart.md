@@ -29,7 +29,7 @@ To achieve this mindset once more, I know I need to see and feel results. From m
 
 Gym time is for weight lifting. I simply hate the idea of standing in a room, in one spot, for anymore than 5 minutes doing cardio. I live in beautiful and sunny Florida- I'll take my cardio outside. Rather than only running, I will be bringing Soccer and Golf back into my life. These are the opposite ends of the cardio spectrum which are both needed for a full, healthy body. Soccer is the easy one to understand, because there's running involved- but golf? Golf is a sport of focus, concentration, and control. Lining up a tee-shot is much different than staring down an 8-foot putt. In even the highest level of competition you can't line up heart racing, adrenaline pumping. You must learn to control your body's reactions, which is a huge part of testing your cardiovascular system. I'll be keeping Golf and Soccer in mind as I create my routine.
 
-I just finished the audiobook Zen Golf: Mastering the Mental Game by Dr. Joseph Parent and learned an absolute ton on the subject of focus. Can't wait to share more of that with you.
+I just finished the [audiobook Zen Golf: Mastering the Mental Game by Dr. Joseph Parent](http://amzn.to/1rsoSCA) <span class="affiliate">Amazon Affiliate</span> and learned an absolute ton on the subject of focus. Can't wait to share more of that with you.
 
 #### What I'm Doing To Get There
 
