@@ -35,19 +35,21 @@ I just finished the audiobook Zen Golf: Mastering the Mental Game by Dr. Joseph 
 
 The most helpful advice I can give when picking a routine, is pick one you'll stick with. It has to work with you, on your terms, otherwise you're setting yourself up for failure before you've put on your gym shorts. My personal best solution right now will be a workout that will last about one hour in the afternoon, three days a week. Also something simple and flexible. Flexible in movements that can be added or changed depending on the crowd at the gym. I have a little over an hour to get to the gym, get in my workout, and clean up post workout. Sometimes to get a full routine in at a busy gym I'll need a few options. Starting simple will help with that. Last thing is understanding that this is a foundational routine, preparing my body for the scaling up of intensity in 4 weeks. This means more reps per set with a slow increase of weight each workout. This foundation is not about adding a ton of weight on the bar fast, but telling all my muscles it's time to do work again. Rep ranges in the 8-12 range will be best for this.
 
-So let's break that down quick. This routine will be based on:
+
+#### The Routine
+
+So let's break this down quick. This routine will be based on:
+
 - 3 Days a week
 - 4 week duration
 - 1 hour sessions (max)
 - Medium to High rep ranges
 
-#### The routine
-
-##### Day 1: Legs and Flexibility
+##### Day 1: Legs
 
 | Exercise | Sets X Reps | Details |
-|----------|:-------------:|---------|
-|Stationary Bike| 5 to 10 minutes | Warm Up|
+|:-------------------|:-------------:|---------|
+|Stationary Bike     | 5 to 10 minutes | Warm Up|
 | Hip Thrusts | 3 x 8 | Warm Up |
 | Barbell Back Squat | 3 x 8 | |
 | Dumbbell Lunges | 4 x 12 | Alternate Legs |
@@ -63,7 +65,7 @@ So let's break that down quick. This routine will be based on:
 ##### Day 2: Chest and Triceps
 
 | Exercise | Sets X Reps | Details |
-|----------|:-------------:|---------|
+|:-------------------|:-------------:|---------|
 | Stationary Bike| 5 to 10 minutes | Warm Up|
 | Flat Bench Press | 1 x 12 | Empty bar Warmup |
 | Flat Bench Press | 3 x 8 | |
@@ -81,7 +83,7 @@ So let's break that down quick. This routine will be based on:
 ##### Day 3: Shoulders and Back
 
 | Exercise | Sets X Reps | Details |
-|----------|:-------------:|---------|
+|:-------------------|:-------------:|---------|
 | Row Machine | 5 to 10 minutes | Warm Up|
 | Shoulder Rolls | 30 seconds | |
 | Pull Ups | 3 x F | Bodyweight |
