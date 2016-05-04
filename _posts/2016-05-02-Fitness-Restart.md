@@ -7,7 +7,7 @@ date:   2016-05-02 13:45:00
 categories: fitness personal
 post-number: 03
 post-style:
-intro: How I Chose My New Workout Routine
+intro: How I chose my new workout routine
 ---
 ## How I Chose My New Workout Routine
 
@@ -48,7 +48,7 @@ So let's break this down quick. This routine will be based on:
 ##### Day 1: Legs
 
 | Exercise | Sets X Reps | Details |
-|:-------------------|:-------------:|:---------:|
+|:-------------------|:-------------|:---------|
 |Stationary Bike     | 5 to 10 minutes | Warm Up|
 | Hip Thrusts | 3 x 8 | Warm Up |
 | Barbell Back Squat | 3 x 8 | |
@@ -65,10 +65,10 @@ So let's break this down quick. This routine will be based on:
 ##### Day 2: Chest and Triceps
 
 | Exercise | Sets X Reps | Details |
-|:-------------------|:-------------:|:---------:|
-| Stationary Bike| 5 to 10 minutes | Warm Up|
-| Flat Bench Press | 1 x 12 | Empty bar Warmup |
-| Flat Bench Press | 3 x 8 | |
+|:-------------------|:-------------|:---------|
+| Stationary Bike    | 5 to 10 minutes | Warm Up|
+| Flat Bench Press   | 1 x 12 | Empty bar Warmup |
+| Flat Bench Press   | 3 x 8 | |
 | Incline Dumbbell Press | 3 x 8 | |
 | Chest Fly | 3 x 8 | Machine | |
 | Chest Dips | 3 x F | Bodyweight | |
@@ -83,7 +83,7 @@ So let's break this down quick. This routine will be based on:
 ##### Day 3: Shoulders and Back
 
 | Exercise | Sets X Reps | Details |
-|:-------------------|:-------------:|:---------:|
+|:-------------------|:-------------|:---------|
 | Row Machine | 5 to 10 minutes | Warm Up|
 | Shoulder Rolls | 30 seconds | |
 | Pull Ups | 3 x F | Bodyweight |

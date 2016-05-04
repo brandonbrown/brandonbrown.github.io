@@ -34,6 +34,17 @@ styles: post
                     {% endif %}
                 </ul> -->
 
-        
-</article>
 
+</article>
+<div class="Blog">
+<section class="col-1 recentPosts">
+  <h2>Recent Posts</h2>
+  <ul class="sidebar-post-list">
+    {% for post in site.posts limit:20 %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+</div>
