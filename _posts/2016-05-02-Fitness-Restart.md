@@ -5,6 +5,7 @@ title:  "A Fitness Restart at 30(ish)"
 permalink: blog/fitness-restart
 date:   2016-05-02 13:45:00
 categories: fitness personal
+author: Brandon
 post-number: 03
 post-style:
 intro: How I chose my new workout routine

@@ -5,6 +5,7 @@ title:  "Catching Up"
 permalink: blog/catching-up
 date:   2016-04-28 11:45:00
 categories: personal update
+author: Brandon
 post-number: 02
 post-style:
 intro: Hey, Rocko. There has been a lot of change this year already. This is a post on the more personal side of things.

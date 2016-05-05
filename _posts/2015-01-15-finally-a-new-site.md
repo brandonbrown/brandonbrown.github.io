@@ -5,6 +5,7 @@ title:  "Finally, a New Site"
 permalink: blog/a-new-site
 date:   2015-09-16 11:45:01
 categories: personal update site
+author: Brandon
 post-number: 01
 post-style:
 intro: Well, like the title says...
