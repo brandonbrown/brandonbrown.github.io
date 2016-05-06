@@ -28,11 +28,18 @@
 
 
 	th, td {
-		width: 33em;
+		min-width: 11em;
+	}
+
+	tr {
+		border-bottom: 1px solid #dfdfdf;
+		padding: 3px 0 5px;
+		display: block;
 	}
 
 	table {
 		margin-bottom: 2em;
+
 	}
 	.container {
 		padding: 40px 10% 29px 30px;

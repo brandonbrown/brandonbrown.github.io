@@ -52,12 +52,12 @@ So let's break this down quick. This routine will be based on:
 |:-------------------|:-------------|:---------|
 |Stationary Bike     | 5 to 10 minutes | Warm Up|
 | Hip Thrusts | 3 x 8 | Warm Up |
-| Barbell Back Squat | 3 x 8 | |
+| Barbell Back Squat | 3 x 8 |
 | Dumbbell Lunges | 4 x 12 | Alternate Legs |
-|Leg Press Machine | 3 x 8 | |
-|Leg Extension | 3 x 8 | |
-|Lying Leg Curl | 3 x 8 | |
-| Standing Calf Raise | 3 x 8 | |
+|Leg Press Machine | 3 x 8 |
+|Leg Extension | 3 x 8 |
+|Lying Leg Curl | 3 x 8 |
+| Standing Calf Raise | 3 x 8 |
 |Planks | 3 x 30 seconds | Traditional |
 |Planks | 4 x 12 | Leg Raises |
 |Planks | 3 x 30 seconds | Hip Twists |
@@ -69,13 +69,13 @@ So let's break this down quick. This routine will be based on:
 |:-------------------|:-------------|:---------|
 | Stationary Bike    | 5 to 10 minutes | Warm Up|
 | Flat Bench Press   | 1 x 12 | Empty bar Warmup |
-| Flat Bench Press   | 3 x 8 | |
-| Incline Dumbbell Press | 3 x 8 | |
-| Chest Fly | 3 x 8 | Machine | |
-| Chest Dips | 3 x F | Bodyweight | |
-| Tricep Cable PullDown | 3 x 12 | |
-| EZ Curl Bar Pullover | 3 x 12 | |
-| Standing Dumbbell Pullover | 3 x 12 | |
+| Flat Bench Press   | 3 x 8 |
+| Incline Dumbbell Press | 3 x 8 |
+| Chest Fly | 3 x 8 | Machine |
+| Chest Dips | 3 x F | Bodyweight |
+| Tricep Cable PullDown | 3 x 12 |
+| EZ Curl Bar Pullover | 3 x 12 |
+| Standing Dumbbell Pullover | 3 x 12 |
 | Stability Ball Dumbbell Twist | 3 x 20 |
 | Power Kneeling Cable Twist | 4 x 12 |
 
@@ -88,13 +88,13 @@ So let's break this down quick. This routine will be based on:
 | Row Machine | 5 to 10 minutes | Warm Up|
 | Shoulder Rolls | 30 seconds | |
 | Pull Ups | 3 x F | Bodyweight |
-| Lat Pull Down | 3 x 8 | |
-| Dumbbell Shoulder Press | 3 x 8| |
-| Front Dumbbell Raise | 3 x 8 | |
-| Side Dumbbell Raise | 3 x 8 | |
-| Reverse Flyes | 3 x 8 | |
-| Medicine Ball Rollouts | 3 X F | |
-| Leg Raises | 3 x 12 | |
+| Lat Pull Down | 3 x 8 |
+| Dumbbell Shoulder Press | 3 x 8|
+| Front Dumbbell Raise | 3 x 8 |
+| Side Dumbbell Raise | 3 x 8 |
+| Reverse Flyes | 3 x 8 |
+| Medicine Ball Rollouts | 3 X F | 
+| Leg Raises | 3 x 12 |
 
 #### Wrap Up
 
