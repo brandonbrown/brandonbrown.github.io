@@ -31,7 +31,22 @@
 			border-bottom: 8px solid $secondary-color;
 		}
 	}
-	.col-3 {
+	@include media-query($on-classic) {
+		flex-direction: column;
+		.col-1 {
+			width: 0;
+			flex: 0;
+		}
+		.col-2 {
+			width: 100%;
+			flex: 1;
+		}
+		.col-3 {
+			width: 100%;
+			flex: 1;
+			border-left: 0;
+			border-top: 1px solid $window-color;
 
+		}
 	}
 }

@@ -20,6 +20,9 @@
 			line-height: 3.75rem;
 
 			padding-top: 40px;
+			@include media-query($on-classic) {
+				padding-top: 20px;
+			}
 			margin-bottom: 0;
 			font-family: $headings-condensed;
 
@@ -34,16 +37,12 @@
 			}
 
 			@include media-query($on-classic) {
-	       		@include font-size(3.6);
 
-	       		span {
-	       			padding: 20px 0 20px;
-	       		}
 
-	    	}
-	    	@include media-query($on-device) {
-	       		@include font-size(3.0);
-	    	}
+	    }
+	    @include media-query($on-device) {
+
+	    }
 
 
 		}
@@ -60,15 +59,46 @@
 	.home-heading {
 		overflow: hidden;
 	}
+
+	@include media-query($on-classic) {
+		flex-direction: column;
+		.col-1 {
+			width: 0;
+			flex: 0;
+		}
+		.col-2 {
+			width: 100%;
+			flex: 1;
+		}
+		.col-3 {
+			width: 100%;
+			flex: 1;
+			border-left: 0;
+			border-top: 1px solid $window-color;
+
+		}
+	}
 }
 
 .introduction {
 	flex-grow: 1;
 	margin-left: 0;
 	padding-top: 25px;
+
+	@include media-query($on-classic) {
+		flex-direction: row;
+		display: flex;
+		padding: 25px 20px 25px;
+	}
+
 	li {
 		padding: 5px 30px 10px 20px;
 		overflow: hidden;
+
+		@include media-query($on-classic) {
+			flex: 1;
+			padding: 10px;
+		}
 
 		.post-title {
 			@include font-size(1.5);

@@ -55,7 +55,7 @@
 
           // nav items styles
           color: $hero-background;
-          padding: 5px 5px;
+          padding: 5px;
           margin: 0 5px;
           display: block;
           float: left;
@@ -75,6 +75,15 @@
       }
 
       @include media-query($on-classic) {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        .page-link {
+          margin: 0 2px;
+        }
+        nav, nav[role="primary"] {
+          padding-left: 20px;
+        }
       }
 
       @include media-query($on-device) {
@@ -86,7 +95,13 @@
   }
 
   .headerExtras {
-    border-left: 1px solid $window-color
+    border-left: 1px solid $window-color;
+
+    @include media-query($on-classic) {
+      width: 0;
+      flex: 0;
+      border: none;
+    }
   }
 
 
