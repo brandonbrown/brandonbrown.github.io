@@ -1,0 +1,93 @@
+.site-header {
+  // header styles
+  border-bottom: 1px solid $window-color;
+  width: 100%;
+
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+  }
+
+  .col-1, .col-2, .col-3 {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-container {
+    border-right: 1px solid $window-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    h1 {
+      @include font-size(1.75);
+      font-weight: bold;
+      line-height: 1.8rem;
+      margin-bottom: 0;
+      padding: 20px;
+      color: $window-color;
+      span {
+          display: block;
+          font-weight: normal;
+          @include font-size(1.25);
+      }
+    }
+  }
+
+  .site-nav {
+      // main header link styles
+      justify-content: flex-start;
+
+      nav[role="primary"] {
+        padding-left: 20px;
+      }
+      .page-link {
+
+          // nav items styles
+          color: $hero-background;
+          padding: 5px 5px;
+          margin: 0 5px;
+          display: block;
+          float: left;
+          line-height: 2;
+          @include font-size(1.2);
+          font-weight: 900;
+          font-family: $headings;
+          text-transform: uppercase;
+          // Gaps between nav items, but not on the first one
+          &:not(:first-child) {
+              //margin-left: 15px;
+          }
+      }
+
+      @include media-query($on-laptop) {
+
+      }
+
+      @include media-query($on-classic) {
+      }
+
+      @include media-query($on-device) {
+
+      }
+
+
+
+  }
+
+  .headerExtras {
+    border-left: 1px solid $window-color
+  }
+
+
+}

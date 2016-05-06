@@ -1,31 +1,54 @@
 .home {
-	.post-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 
-		color: $brand-color;
-		@include font-size(4.8);
-		font-weight: 300;
-		padding-bottom: 68px;
-		margin-bottom: 0;
-
-		span {
-			color: $text-color;
-			display: block;
-			font-family: $headings-condensed;
-			font-weight: bold;
-			padding: 31px 0;
+	.home-hero {
+		.container {
+			padding-left: 30px;
+			padding-right: 10%;
+			margin: 0;
 		}
+		.post-title {
 
-		@include media-query($on-classic) {
-       		@include font-size(3.6);
+			color: $secondary-color;
+			@include font-size(3.5);
+			line-height: 3.75rem;
 
-       		span {
-       			padding: 20px 0 20px;
-       		}
+			padding-top: 40px;
+			margin-bottom: 0;
+			font-family: $headings-condensed;
 
-    	}
-    	@include media-query($on-device) {
-       		@include font-size(3.0);
-    	}
+			span {
+				color: $text-color;
+				@include font-size(4.8);
+				display: block;
+				font-family: $headings;
+				font-weight: bold;
+				padding: 31px 0;
+
+			}
+
+			@include media-query($on-classic) {
+	       		@include font-size(3.6);
+
+	       		span {
+	       			padding: 20px 0 20px;
+	       		}
+
+	    	}
+	    	@include media-query($on-device) {
+	       		@include font-size(3.0);
+	    	}
+
+
+		}
+	}
+
+
+	.col-3 {
+		display: flex;
+		border-left: 1px solid $window-color;
 
 
 	}
@@ -36,17 +59,38 @@
 }
 
 .introduction {
-
+	flex-grow: 1;
+	margin-left: 0;
+	padding-top: 25px;
 	li {
-		padding-bottom: 60px;
+		padding: 5px 30px 10px 20px;
 		overflow: hidden;
+
+		.post-title {
+			@include font-size(1.5);
+			padding-bottom: 0px;
+			float: none;
+			line-height: 2.25rem;
+			text-transform: uppercase;
+			margin-bottom: 0;
+			color: $brand-color;
+		}
+		.post-category {
+			float: none;
+			padding-bottom: 5px;
+			display: block;
+		}
+		.intro {
+			@include font-size(1.4);
+			font-family: $headings-condensed;
+			line-height: 1.5rem;
+		}
 	}
 	h4 {
 		color: $grey-color;
 		font-family: $headings-condensed;
 		font-weight: 300;
 		font-style: italic;
-		@include font-size(1.4);
 		margin: 0;
 		padding: 15px 0 10px;
 	}
@@ -57,6 +101,7 @@
 		padding: 5px 10px;
 		margin-left: -10px;
 		font-weight: bold;
+		@include font-size(1);
 
 	}
 }

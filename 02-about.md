@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-<div class="about">
+<div class="about wrapper">
 	<div class="col-1">
+	&nbsp;
+	</div>
+	<div class="col-2">
         <div class="container">
 	      <p>Well hi again, welcome to my fourth<em>(ish)</em> version of this site. This one is built with Jekyll, Sass, a sprinkling of JavaScript, and hosted on GitHub. I was considering Laravel and Wordpress but decided against them to keep this version focused on content creation rather than the temptations of a sandbox. I'm working on other projects to satisfy those feelings.</p>
 

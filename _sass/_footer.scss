@@ -1,0 +1,44 @@
+footer {
+  border-top: 1px solid $window-color;
+  padding-top: 20px;
+  display: flex;
+
+  .wrapper {
+    .col-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      .site-nav {
+        padding: 0 30px;
+        &.social {
+          margin-left: 0;
+        }
+        a.page-link {
+          display: block;
+          padding: 5px;
+          @include font-size(1.2);
+          font-weight: 900;
+          font-family: $headings;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .col-3 {
+      border: none;
+    }
+  }
+
+  .thankyou {
+    padding-left: 30px;
+    padding-right: 10%;
+    font-style: normal;
+  }
+
+  .copyright {
+    @include font-size(1);
+    padding: 0px 30px 10px 20px;
+    color: $grey-color;
+    font-family: $headings;
+    font-weight: bold;
+  }
+}

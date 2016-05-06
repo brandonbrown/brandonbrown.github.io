@@ -1,105 +1,37 @@
-#front-blog {
-	.introduction {
-		li {
-			a {
-				&.post-title {
-					@include font-size(2.8);
-					font-family: $headings-condensed;
-					font-weight: 100;
-					float: none;
-					display: block;
-					margin: 0 0 0px -5px;
-					padding: 5px;
-					color: $text-color;
-				}
-				&.post-category {
-					float: none;
-					display: block;
-					margin: 0 0 15px 0;
-					padding: 0;
-					color: $grey-color;
-					font-family: $headings-condensed;
-					@include font-size(1.4);
-					font-style: italic;
-				}
-			}
-		}
-	}
-}
-
-.Blog {
-	.col-1 {
+.blog {
+	display: flex;
+	.col-2 {
 		h1 {
 			margin: 0;
-		}
-		h1 a {
-			@include font-size(2.8);
-			font-family: $headings-condensed;
-			font-weight: 900;
-			float: none;
-			display: block;
-			margin: 0 0 0px -5px;
-			padding: 1px;
-			color: $text-color;
-		}
-
-		.author {
-			margin-bottom: 10px;
-
-			.date {
-				margin: 0;
-				font-family: $headings-condensed;
-				font-style: italic;
-				font-weight: 100;
-				@include font-size(1.4);
-			}
-		}
-
-		section {
-			h1 a {
-				@include font-size(2.8);
-				font-family: $headings-condensed;
+			padding: 0px;
+			line-height: 4.5rem;
+				a {
+				@include font-size(4.8);
+				font-family: $headings;
+				text-transform: uppercase;
 				font-weight: 900;
 				float: none;
 				display: block;
-				margin: 0 0 0px -5px;
-				padding: 0px;
+				margin: 0;
+				padding: 0;
 				color: $text-color;
 			}
-			.intro {
-				color: lighten($grey-color, 10%);
-			}
-			margin: 35px 0;
+		}
+		.meta {
+			margin: 0;
+			font-family: $headings-condensed;
+			font-style: italic;
+			font-weight: 100;
+			@include font-size(1.4);
+		}
+
+		.displayed-post {
+			margin-bottom: 75px;
+			padding-bottom: 25px;
+			border-bottom: 8px solid $secondary-color;
 		}
 	}
-	.recentPosts {
-		padding-left: 9%;
-		margin: 25px 0;
-		h2 {
+	.col-3 {
 
-			font-family: $base-font-family;
-			@include font-size(1.4);
-			color: $grey-color;
-
-		}
-		.sidebar-post-list {
-
-
-
-			font-family: $base-font-family;
-	        display: block;
-	        line-height: 2;
-	        @include font-size(1.4);
-	        font-weight: 300;
-	        margin: 0;
-
-	        a {
-	        	color: lighten($grey-color,20%);
-
-	        	&:hover {
-	        		color: $grey-color;
-	        	}
-	        }
-		}
 	}
 }
