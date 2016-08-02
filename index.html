@@ -3,22 +3,11 @@ layout: default
 ---
 
 <div class="home">
-
-  <section class="col-1">
-    &nbsp;
-  </section>
-  <section class="home-hero col-2">
-      <div class="container">
-        <h1 class="post-title"><span>Hi there, I'm Brandon</span>I teach mobile design <em>&amp;</em> development, photograph cosplay, run a few websites, podcast, write about fitness, cheer for Manchester United, and dream about space exploration.</h1>
-
-      </div>
-  </section>
-
 <section class="col-3">
-  <ul class="introduction">
-  {% for post in site.posts limit:5 %}
+  <ul class="main-list">
+  {% for post in site.posts%}
       <li>
-        <a href="{{ post.url }}">
+        <a href="{{ post.url }}" class="words">
 
           <h3 class="post-title">{{ post.title }}</h3>
           <span class="post-category">{{ post.date | date: '%B %d, %Y' }}</span>

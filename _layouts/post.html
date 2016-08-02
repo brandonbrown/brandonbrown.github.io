@@ -18,18 +18,5 @@ styles: post
 	   {{ content }}
         </div>
   </article>
-<section class="col-3">
-  <ul class="introduction">
-  {% for post in site.posts limit:5 %}
-      <li>
-        <a href="{{ post.url }}">
 
-          <h3 class="post-title">{{ post.title }}</h3>
-          <span class="post-category">{{ post.date | date: '%B %d, %Y' }}</span>
-          <p class="intro">{{ post.intro }}</p>
-        </a>
-      </li>
-  {% endfor %}
-  </ul>
-</section>
 </div>

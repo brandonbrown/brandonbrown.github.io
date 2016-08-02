@@ -1,95 +1,95 @@
-footer {
-  border-top: 1px solid $window-color;
-  padding-top: 20px;
-  display: flex;
-
-  .wrapper {
-    .col-1 {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      @include media-query($on-device) {
-        display: block;
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      .site-nav {
-        padding-left: 25px;
-        @include media-query($on-laptop) {
-          padding: 0;
-          padding-left: 15px;
-        }
-        &.social {
-          margin-left: 0;
-        }
-        a.page-link {
-          display: block;
-          padding: 5px;
-          @include font-size(1.2);
-          font-weight: 900;
-          font-family: $headings;
-          text-transform: uppercase;
-        }
-        @include media-query($on-laptop) {
-
-        }
-        @include media-query($on-device) {
-          float: none;
-          display: block;
-          width: 100%;
-          a.page-link {
-            display: inline;
-          }
-
-        }
-      }
-    }
-    .col-3 {
-      border: none;
-      // @include media-query($on-classic) {
-      //   width: 100%;
-      // }
-    }
-
-    @include media-query($on-device) {
-      flex-direction: column;
-    }
-  }
-
-  .thankyou {
-    padding-left: 60px;
-    padding-right: 10%;
-    font-style: normal;
-
-  }
-
-
-  .copyright {
-    @include font-size(1);
-    padding: 0px 30px 10px 20px;
-    color: $grey-color;
-    font-family: $headings;
-    font-weight: bold;
-  }
-
-
-
-  .col-2 {
-    @include media-query($on-device) {
-      width: 100%;
-      flex: 1;
-
-      .thankyou {
-        padding-left: 20px;
-      }
-
-    }
-  }
-
-  .col-3 {
-    @include media-query($on-device) {
-      width: 100%;
-      flex: 1;
-    }
-  }
-}
+// footer {
+//   border-top: 1px solid $window-color;
+//   padding-top: 20px;
+//   display: flex;
+//
+//   .wrapper {
+//     .col-1 {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: flex-start;
+//       @include media-query($on-device) {
+//         display: block;
+//         width: 100%;
+//         margin-bottom: 20px;
+//       }
+//       .site-nav {
+//         padding-left: 25px;
+//         @include media-query($on-laptop) {
+//           padding: 0;
+//           padding-left: 15px;
+//         }
+//         &.social {
+//           margin-left: 0;
+//         }
+//         a.page-link {
+//           display: block;
+//           padding: 5px;
+//           @include font-size(1.2);
+//           font-weight: 900;
+//           font-family: $headings;
+//           text-transform: uppercase;
+//         }
+//         @include media-query($on-laptop) {
+//
+//         }
+//         @include media-query($on-device) {
+//           float: none;
+//           display: block;
+//           width: 100%;
+//           a.page-link {
+//             display: inline;
+//           }
+//
+//         }
+//       }
+//     }
+//     .col-3 {
+//       border: none;
+//       // @include media-query($on-classic) {
+//       //   width: 100%;
+//       // }
+//     }
+//
+//     @include media-query($on-device) {
+//       flex-direction: column;
+//     }
+//   }
+//
+//   .thankyou {
+//     padding-left: 60px;
+//     padding-right: 10%;
+//     font-style: normal;
+//
+//   }
+//
+//
+//   .copyright {
+//     @include font-size(1);
+//     padding: 0px 30px 10px 20px;
+//     color: $grey-color;
+//     font-family: $headings;
+//     font-weight: bold;
+//   }
+//
+//
+//
+//   .col-2 {
+//     @include media-query($on-device) {
+//       width: 100%;
+//       flex: 1;
+//
+//       .thankyou {
+//         padding-left: 20px;
+//       }
+//
+//     }
+//   }
+//
+//   .col-3 {
+//     @include media-query($on-device) {
+//       width: 100%;
+//       flex: 1;
+//     }
+//   }
+// }

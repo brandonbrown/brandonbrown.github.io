@@ -1,7 +1,9 @@
 .site-header {
   // header styles
-  border-bottom: 1px solid $window-color;
-  width: 100%;
+  width: 460px;
+  position: fixed;
+  margin-top: 200px;
+
 
   .wrapper {
     width: 100%;
@@ -15,6 +17,15 @@
 
   }
 
+  h1 {
+    @include font-size(1.4);
+    font-weight: bold;
+    line-height: 1.6rem;
+    border-bottom: 1px solid $window-color;
+    padding-left: 50px;
+    padding-bottom: 15px;
+  }
+
   .col-1, .col-2, .col-3 {
     float: none;
     display: flex;
@@ -22,41 +33,15 @@
     justify-content: center;
   }
 
-  .logo-container {
-    border-right: 1px solid $window-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-
-    h1 {
-      @include font-size(1.75);
-      font-weight: bold;
-      line-height: 1.8rem;
-      margin-bottom: 0;
-      padding: 20px;
-      color: $window-color;
-      span {
-          display: block;
-          font-weight: normal;
-          @include font-size(1.25);
-      }
-    }
-  }
-
   .site-nav {
       // main header link styles
-      justify-content: flex-start;
-
-      nav[role="primary"] {
-        padding-left: 20px;
-      }
+      padding-left: 45px;
+      overflow: hidden;
       .page-link {
 
           // nav items styles
-          color: $hero-background;
           padding: 5px;
-          margin: 0 5px;
+          margin: 0 15px 0 0;
           display: block;
           float: left;
           line-height: 2;
@@ -74,17 +59,7 @@
 
       }
 
-      @include media-query($on-classic) {
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        .page-link {
-          margin: 0 2px;
-        }
-        nav, nav[role="primary"] {
-          padding-left: 20px;
-        }
-      }
+
 
       @include media-query($on-device) {
 
@@ -94,14 +69,9 @@
 
   }
 
-  .headerExtras {
-    border-left: 1px solid $window-color;
-
-    @include media-query($on-classic) {
-      width: 0;
-      flex: 0;
-      border: none;
-    }
+  p {
+    padding-top: 15px;
+    padding-left: 50px;
   }
 
 
