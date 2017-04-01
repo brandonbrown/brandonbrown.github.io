@@ -1,5 +1,0 @@
-var jokes = [
-    {"joke-part-1":"John", "joke-part-2":"Doe"}, 
-    {"joke-part-1":"Anna", "joke-part-2":"Smith"}, 
-    {"joke-part-1":"Peter"}
-];
