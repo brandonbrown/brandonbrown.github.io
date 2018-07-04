@@ -21,8 +21,8 @@
       "component---src-layouts-index-js-b16cbddf137beb346923.js.map"
     ],
     "path---index": [
-      "path---index-03fa8c47210fa74d4421.js",
-      "path---index-03fa8c47210fa74d4421.js.map"
+      "path---index-b2295ce09074fc0f8a5a.js",
+      "path---index-b2295ce09074fc0f8a5a.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -38,22 +38,26 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---yourfirststeps-part-3": [
+      "path---yourfirststeps-part-3-31195a3353c12e7cc8f0.js",
+      "path---yourfirststeps-part-3-31195a3353c12e7cc8f0.js.map"
+    ],
     "path---yourfirststeps-part-2": [
-      "path---yourfirststeps-part-2-5b43ae46bd7564b63104.js",
-      "path---yourfirststeps-part-2-5b43ae46bd7564b63104.js.map"
+      "path---yourfirststeps-part-2-93c504266755fc98abac.js",
+      "path---yourfirststeps-part-2-93c504266755fc98abac.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---yourfirststeps-part-1": [
-      "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js",
-      "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js.map"
+      "path---yourfirststeps-part-1-5cfeede3a82e66d50171.js",
+      "path---yourfirststeps-part-1-5cfeede3a82e66d50171.js.map"
     ],
     "app": [
-      "app-c245e18693f65939f40b.js",
+      "app-569f2e0ef279b212b507.js",
       "build-js-styles.css",
-      "app-c245e18693f65939f40b.js.map",
+      "app-569f2e0ef279b212b507.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
