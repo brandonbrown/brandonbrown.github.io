@@ -1,0 +1,81 @@
+@import "variables";
+
+
+body {
+  background: white;
+  color: $dark-gray;
+}
+
+.header {
+  color: $dark-gray;
+
+  span {
+    display: block;
+  }
+}
+
+h3 a {
+  color: $dark-gray;
+  text-decoration: underline solid $blue;
+  box-shadow: none;
+  font-size: 2rem;
+
+  &:visited {
+
+    text-decoration: underline solid $red;
+  }
+}
+
+p a {
+  color: $blue;
+  text-decoration: none;
+  box-shadow: none;
+  &:visited {
+    color: $red;
+  }
+}
+
+.biotext {
+  color: $mid-gray;
+  font-weight: 500
+}
+
+.post h1 {
+  color: $red;
+}
+
+.postnav {
+  a {
+    color: $blue;
+
+    &:visited {
+      color: $red;
+    }
+  }
+}
+
+blockquote {
+  border-left-color: $light-gray
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+  font-family: 'IBM Plex Serif';
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+h5 {
+
+}
