@@ -19,8 +19,7 @@ module.exports = {
      options: {
        fonts: [
          `IBM Plex Sans`,
-         `IBM Plex Serif`
-        
+         `IBM Plex Serif\:300,400,700,900`
        ]
      }
     },
