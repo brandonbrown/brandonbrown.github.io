@@ -35,7 +35,7 @@ class Bio extends React.Component {
             lineHeight: '1.25rem',
             marginTop: rhythm(.2)
           }}>
-          Brandon is a <a href="https://dribbble.com/brandonbrown">designer</a> and <a href="https://github.com/brandonbrown">developer</a> focusing his work on creating better systems for education and health.{' '}
+          Brandon is a <a href="https://dribbble.com/brandonbrown">designer</a> and <a href="https://github.com/brandonbrown">developer</a> focusing his work on creating better systems for education and <a href="https://www.minmaxfit.com/">health</a>.{' '}
           <a href="https://twitter.com/bybrandonbrown">
             Say hi on Twitter.
           </a>

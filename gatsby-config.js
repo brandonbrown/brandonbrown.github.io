@@ -5,7 +5,7 @@ module.exports = {
     description: 'Brandon is a designer and developer focusing his work on creating better systems for education and health.',
     siteUrl: 'https://bybrandonbrown.com',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/brandonbrown.github.io',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -13,6 +13,16 @@ module.exports = {
         path: `${__dirname}/src/pages`,
         name: 'pages',
       },
+    },
+    {
+     resolve: `gatsby-plugin-google-fonts`,
+     options: {
+       fonts: [
+         `IBM Plex Sans`,
+         `IBM Plex Serif`
+        
+       ]
+     }
     },
     {
       resolve: `gatsby-transformer-remark`,

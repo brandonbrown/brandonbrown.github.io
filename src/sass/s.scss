@@ -4,6 +4,7 @@
 body {
   background: white;
   color: $dark-gray;
+  font-family: "IBM Plex Serif", serif;
 }
 
 .header {
@@ -14,6 +15,11 @@ body {
   }
 }
 
+h1{
+  font-weight: bold;
+
+}
+
 h3 a {
   color: $dark-gray;
   text-decoration: underline solid $blue;
@@ -22,7 +28,7 @@ h3 a {
 
   &:visited {
 
-    text-decoration: underline solid $red;
+    text-decoration: 2px underline solid $red;
   }
 }
 
@@ -59,15 +65,24 @@ blockquote {
 }
 
 h1 {
-
+  font-family: 'IBM Plex Serif';
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 700;
 }
 
 h2 {
-
+  font-family: 'IBM Plex Serif';
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 700;
 }
 
 h3 {
-
+  font-family: 'IBM Plex Serif';
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 700;
 }
 
 h4 {
@@ -77,5 +92,8 @@ h4 {
 }
 
 h5 {
-
+  font-family: 'IBM Plex Serif';
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 700;
 }
