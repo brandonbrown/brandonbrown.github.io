@@ -16,17 +16,21 @@
       "component---src-templates-blog-post-js-82ca6c3a4364e6530315.js",
       "component---src-templates-blog-post-js-82ca6c3a4364e6530315.js.map"
     ],
+    "path---design-your-life": [
+      "path---design-your-life-756cf54dada121fd5c79.js",
+      "path---design-your-life-756cf54dada121fd5c79.js.map"
+    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-b16cbddf137beb346923.js",
       "component---src-layouts-index-js-b16cbddf137beb346923.js.map"
     ],
     "path---index": [
-      "path---index-9ea525dd1fef4a27b343.js",
-      "path---index-9ea525dd1fef4a27b343.js.map"
+      "path---index-ed50b79e523bf47e80b1.js",
+      "path---index-ed50b79e523bf47e80b1.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+      "component---src-pages-404-js-7cef5e86477838756f05.js",
+      "component---src-pages-404-js-7cef5e86477838756f05.js.map"
     ],
     "commons": [
       "commons-4e98a79f4e3f58fbd9e0.js",
@@ -39,8 +43,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---yourfirststeps-part-3": [
-      "path---yourfirststeps-part-3-69a65f885dec928f333a.js",
-      "path---yourfirststeps-part-3-69a65f885dec928f333a.js.map"
+      "path---yourfirststeps-part-3-e1be1e583f7375fcc96f.js",
+      "path---yourfirststeps-part-3-e1be1e583f7375fcc96f.js.map"
     ],
     "path---yourfirststeps-part-2": [
       "path---yourfirststeps-part-2-b96f287db9f5183a8375.js",
@@ -55,9 +59,9 @@
       "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js.map"
     ],
     "app": [
-      "app-18532c6f09566991b430.js",
+      "app-ab6670a5e45ecee7c249.js",
       "build-js-styles.css",
-      "app-18532c6f09566991b430.js.map",
+      "app-ab6670a5e45ecee7c249.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
