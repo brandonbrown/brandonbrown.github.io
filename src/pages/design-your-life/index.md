@@ -48,7 +48,7 @@ Taking this step alone was generously therapeutic. Having a clear understanding 
 1. **Health**: Growth, Persistence, Doing, Vitality
 2. **Respect**: Timeliness, Discipline, Integrity, Accountability
 3. **Creativity**: Adventure, Hope, Wonder, Courage
-4. **Security**: Freedom, Strength, Control
+4. **Security**: Freedom, Strength, Control, Calm
 5. **Fulfillment**: Family, Fun, Success, Service
 
 ### Time to Dream
