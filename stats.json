@@ -17,16 +17,16 @@
       "component---src-templates-blog-post-js-82ca6c3a4364e6530315.js.map"
     ],
     "path---design-your-life": [
-      "path---design-your-life-29fdb0e69d2befa7415a.js",
-      "path---design-your-life-29fdb0e69d2befa7415a.js.map"
+      "path---design-your-life-f6879dd2305066239432.js",
+      "path---design-your-life-f6879dd2305066239432.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-b16cbddf137beb346923.js",
       "component---src-layouts-index-js-b16cbddf137beb346923.js.map"
     ],
     "path---index": [
-      "path---index-ed50b79e523bf47e80b1.js",
-      "path---index-ed50b79e523bf47e80b1.js.map"
+      "path---index-be703b7ec77dafa30308.js",
+      "path---index-be703b7ec77dafa30308.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -59,14 +59,18 @@
       "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js.map"
     ],
     "app": [
-      "app-ab6670a5e45ecee7c249.js",
+      "app-250de844fe588224a827.js",
       "build-js-styles.css",
-      "app-ab6670a5e45ecee7c249.js.map",
+      "app-250de844fe588224a827.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---world-cup-fitness-inspiration": [
+      "path---world-cup-fitness-inspiration-904993bad61af4c6a0d1.js",
+      "path---world-cup-fitness-inspiration-904993bad61af4c6a0d1.js.map"
     ]
   }
 }
