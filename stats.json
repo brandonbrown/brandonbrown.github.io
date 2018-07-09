@@ -25,8 +25,8 @@
       "component---src-layouts-index-js-b16cbddf137beb346923.js.map"
     ],
     "path---index": [
-      "path---index-be703b7ec77dafa30308.js",
-      "path---index-be703b7ec77dafa30308.js.map"
+      "path---index-d037ba712153fa72988e.js",
+      "path---index-d037ba712153fa72988e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -59,18 +59,22 @@
       "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js.map"
     ],
     "app": [
-      "app-250de844fe588224a827.js",
+      "app-796495a6ff5bc78b280c.js",
       "build-js-styles.css",
-      "app-250de844fe588224a827.js.map",
+      "app-796495a6ff5bc78b280c.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---coffee-and-success": [
+      "path---coffee-and-success-212edb74f865dc7e689c.js",
+      "path---coffee-and-success-212edb74f865dc7e689c.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---world-cup-fitness-inspiration": [
-      "path---world-cup-fitness-inspiration-904993bad61af4c6a0d1.js",
-      "path---world-cup-fitness-inspiration-904993bad61af4c6a0d1.js.map"
+      "path---world-cup-fitness-inspiration-8d796f58385f5a7503f5.js",
+      "path---world-cup-fitness-inspiration-8d796f58385f5a7503f5.js.map"
     ]
   }
 }
