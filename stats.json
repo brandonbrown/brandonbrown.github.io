@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---athleanx": [
+      "path---athleanx-6771ce3e95a19eca282c.js",
+      "path---athleanx-6771ce3e95a19eca282c.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-cdc645c8e5f2b8ae2168.js",
       "component---src-pages-index-js-cdc645c8e5f2b8ae2168.js.map"
@@ -25,8 +29,8 @@
       "component---src-layouts-index-js-b16cbddf137beb346923.js.map"
     ],
     "path---index": [
-      "path---index-d037ba712153fa72988e.js",
-      "path---index-d037ba712153fa72988e.js.map"
+      "path---index-0c01c00bb5b6151313fb.js",
+      "path---index-0c01c00bb5b6151313fb.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -59,14 +63,14 @@
       "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js.map"
     ],
     "app": [
-      "app-796495a6ff5bc78b280c.js",
+      "app-1e4cf98e3417def5730f.js",
       "build-js-styles.css",
-      "app-796495a6ff5bc78b280c.js.map",
+      "app-1e4cf98e3417def5730f.js.map",
       "build-js-styles.css.map"
     ],
     "path---coffee-and-success": [
-      "path---coffee-and-success-212edb74f865dc7e689c.js",
-      "path---coffee-and-success-212edb74f865dc7e689c.js.map"
+      "path---coffee-and-success-ae8eabd5163a7cf32fa4.js",
+      "path---coffee-and-success-ae8eabd5163a7cf32fa4.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
