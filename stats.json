@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---athleanx": [
-      "path---athleanx-6771ce3e95a19eca282c.js",
-      "path---athleanx-6771ce3e95a19eca282c.js.map"
+      "path---athleanx-dfa47125c955e7363c10.js",
+      "path---athleanx-dfa47125c955e7363c10.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-cdc645c8e5f2b8ae2168.js",
@@ -29,8 +29,8 @@
       "component---src-layouts-index-js-b16cbddf137beb346923.js.map"
     ],
     "path---index": [
-      "path---index-0c01c00bb5b6151313fb.js",
-      "path---index-0c01c00bb5b6151313fb.js.map"
+      "path---index-63809340c3e6e2bc32cb.js",
+      "path---index-63809340c3e6e2bc32cb.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -63,9 +63,9 @@
       "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js.map"
     ],
     "app": [
-      "app-1e4cf98e3417def5730f.js",
+      "app-b30cfa70e51f5e59a478.js",
       "build-js-styles.css",
-      "app-1e4cf98e3417def5730f.js.map",
+      "app-b30cfa70e51f5e59a478.js.map",
       "build-js-styles.css.map"
     ],
     "path---coffee-and-success": [
@@ -79,6 +79,10 @@
     "path---world-cup-fitness-inspiration": [
       "path---world-cup-fitness-inspiration-8d796f58385f5a7503f5.js",
       "path---world-cup-fitness-inspiration-8d796f58385f5a7503f5.js.map"
+    ],
+    "path---personal-training": [
+      "path---personal-training-73ec1ce497b2f1fb2472.js",
+      "path---personal-training-73ec1ce497b2f1fb2472.js.map"
     ]
   }
 }
