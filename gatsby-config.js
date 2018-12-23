@@ -14,15 +14,7 @@ module.exports = {
         name: 'pages',
       },
     },
-    {
-     resolve: `gatsby-plugin-google-fonts`,
-     options: {
-       fonts: [
-         `IBM Plex Sans`,
-         `IBM Plex Serif\:300,400,700,900`
-       ]
-     }
-    },
+    
     {
       resolve: `gatsby-transformer-remark`,
       options: {

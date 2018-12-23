@@ -30,7 +30,7 @@ class Bio extends React.Component {
         <p
           className="biotext"
           style={{
-            fontFamily:'IBM Plex Sans',
+            fontFamily:'font-light',
             fontSize: rhythm(.5),
             lineHeight: '1.25rem',
             marginTop: rhythm(.2)

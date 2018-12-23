@@ -5,6 +5,8 @@ import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
+import logo from '../assets/logo.svg'
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
@@ -17,81 +19,60 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          className="header"
-          style={{
-            ...scale(.75),
-            marginBottom: rhythm(1),
-            marginTop: 0,
-            fontFamily:'IBM Plex Serif',
-            fontWeight: 900
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            <span
-            style={{
-              fontSize: '.75rem',
-              fontFamily:'IBM Plex Sans',
-              fontWeight: 900,
-              display: 'block',
-              marginBottom: rhythm(-.65),
-            }}
-            >The Personal Website of </span>Brandon Brown
-          </Link>
-        </h1>
+        <div className="header">
+          <div className="headerContent">
+            <img className="logo" src={logo} />
+            <h1>
+              <Link
+                to={'/'}
+              >
+                Brandon Brown
+              </Link>
+            </h1>
+          </div>
+        </div>
       )
     } else {
       header = (
-        <h3
-          className="header"
-          style={{
-            ...scale(.75),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-            fontFamily:'IBM Plex Serif',
-            fontWeight: 900
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            <span
-            style={{
-              fontSize: '.75rem',
-              fontFamily:'IBM Plex Sans',
-              fontWeight: 900,
-              display: 'block',
-              marginBottom: rhythm(-.65),
-            }}
-            >The Personal Website of </span>Brandon Brown
-          </Link>
-        </h3>
+        <div className="header">
+          <div className="headerContent">
+            <img className="logo" src={logo} />
+            <h1>
+              <Link
+                to={'/'}
+              >
+                Brandon Brown
+              </Link>
+            </h1>
+          </div>
+        </div>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          fontFamily:'IBM Plex Serif',
-        }}
-      >
-        {header}
-        {children()}
+      <div>
+        <div
+          style={{
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            // maxWidth: '45rem',
+            // padding: `${rhythm(1.5)} 0 0`,
+            fontFamily:'font-light',
+          }}
+        >
+          
+          {header}
+        </div>
+        <main
+          style={{
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            // maxWidth: rhythm(36),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            fontFamily:'font-light',
+          }}
+        >
+          {children()}
+        </main>
       </div>
     )
   }

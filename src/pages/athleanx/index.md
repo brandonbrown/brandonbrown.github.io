@@ -1,6 +1,7 @@
 ---
 title: Athlean-X and Supporting The Honest Givers
 date: "2018-07-13T11:00:00"
+category: Training
 ---
 
 I'm a big fan of constant learning. I obsessively watch YouTube videos on a breath of topics, religiously listen to podcasts that go deep into areas I didn't know could be so interesting, and I will do everything I can to support the people that make this all possible.

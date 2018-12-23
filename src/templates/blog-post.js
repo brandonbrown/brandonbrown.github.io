@@ -11,27 +11,38 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pathContext
-
+    console.log(post)
     return (
-      <div className="post">
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+      <article>
+      <div className="post-title">
         <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: rhythm(1.5),
-            fontFamily:'IBM Plex Serif'
-          }}
-        >{post.frontmatter.title}</h1>
+            style={{
+              ...scale(1.25),
+              marginBottom: rhythm(6),
+              marginTop: rhythm(1.5),
+              fontFamily:'font-black'
+            }}
+          >{post.frontmatter.title}<span
+            className="category"
+            >{post.frontmatter.category}</span></h1>
+        
+        </div>
+      <div className="post">
+        <Helmet
+          title={`${post.frontmatter.title} | ${siteTitle}`} 
+          />
+        
         <p
           style={{
             ...scale(-1 / 5),
             display: 'block',
             marginBottom: rhythm(1),
             marginTop: rhythm(-1),
+            color: 'hsla(0,0%,100%,.5)'
           }}
         >
           {post.frontmatter.date}
+          
         </p>
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -45,35 +56,40 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+        </div>
+        
+        
+        <div>
+          <Bio />
 
-        <ul
-          className="postnav"
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          {previous && (
-            <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            </li>
-          )}
+          <ul
+            className="postnav"
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              justifyContent: 'space-between',
+              listStyle: 'none',
+              padding: 0,
+            }}
+          >
+            {previous && (
+              <li>
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              </li>
+            )}
 
-          {next && (
-            <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            </li>
-          )}
-        </ul>
+            {next && (
+              <li>
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              </li>
+            )}
+          </ul>
       </div>
+      </article>
     )
   }
 }
@@ -94,6 +110,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        category
       }
     }
   }

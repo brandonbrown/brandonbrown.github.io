@@ -1,7 +1,25 @@
 $purple     :     #382154;
-$red        :     #ed5a61;
+$red        :     #DA291C;
 $blue       :     #40c3f2;
 
 $light-gray :     #c5c5c5;
 $mid-gray   :     #939393;
 $dark-gray  :     #444;
+
+@font-face {
+    font-family: 'font-black';
+    src: url('../assets/fonts/typetype_-_tt_firs_neue_black-webfont.woff2') format('woff2'),
+         url('../assets/fonts/typetype_-_tt_firs_neue_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'font-light';
+    src: url('../assets/fonts/typetype_-_tt_firs_neue_light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/typetype_-_tt_firs_neue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

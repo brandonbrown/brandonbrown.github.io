@@ -2,17 +2,42 @@
 
 
 body {
-  background: white;
-  color: $dark-gray;
-  font-family: "IBM Plex Serif", serif;
+  color: #150d2b;
+  background: #fff;
+  font-family: "font-light", serif;
 }
 
 .header {
-  color: $dark-gray;
-
-  span {
-    display: block;
+  color: #fff;
+  background-image: linear-gradient(294deg,#150d2b,#242351);
+  .headerContent {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    h1 {
+      margin: 0;
+      padding: 0;
+      height: auto;
+      a {
+        color: white;
+        height: auto;
+        box-shadow: 0 0 0 0 currentColor;
+      }
+    }
+    span {
+      display: block;
+      
+    }
   }
+  
+}
+
+.logo {
+  width: 32px;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 h1{
@@ -20,8 +45,47 @@ h1{
 
 }
 
+article {
+  width: 100%;
+}
+
+article h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: $red;
+  position: relative;
+  max-width: 65rem;
+}
+
+.category {
+  background-image: linear-gradient(180deg,#2c2c57,#2c2c57);
+  color: white;
+  padding: 10px 18px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+    width: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  bottom: -3rem;
+  text-transform: uppercase;
+  font-family: "font-light";
+  letter-spacing: 1px;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.post-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "font-black", serif;
+}
+
 h3 a {
-  color: $dark-gray;
+  color: #fff;
   text-decoration: underline solid $blue;
   box-shadow: none;
   font-size: 2rem;
@@ -33,7 +97,7 @@ h3 a {
 }
 
 p a {
-  color: $blue;
+  color:#fff;
   text-decoration: none;
   box-shadow: none;
   &:visited {
@@ -42,12 +106,13 @@ p a {
 }
 
 .biotext {
-  color: $mid-gray;
+  color: #fff;
   font-weight: 500
 }
 
-.post h1 {
-  color: $red;
+.post {
+  max-width: 45rem;
+  margin: 0 auto;
 }
 
 .postnav {
@@ -65,34 +130,34 @@ blockquote {
 }
 
 h1 {
-  font-family: 'IBM Plex Serif';
+  font-family: 'font-black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
 }
 
 h2 {
-  font-family: 'IBM Plex Serif';
+  font-family: 'font-black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
 }
 
 h3 {
-  font-family: 'IBM Plex Serif';
+  font-family: 'font-black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
 }
 
 h4 {
-  font-family: 'IBM Plex Serif';
+  font-family: 'font-black';
   letter-spacing: normal;
   text-transform: none;
 }
 
 h5 {
-  font-family: 'IBM Plex Serif';
+  font-family: 'font-black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
