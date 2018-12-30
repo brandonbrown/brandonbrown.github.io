@@ -28,7 +28,8 @@
     "lodash": "^4.17.5",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",
-    "typography-theme-wordpress-2016": "^0.15.10"
+    "typography-theme-wordpress-2016": "^0.15.10",
+    "victory": "^31.0.2"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
