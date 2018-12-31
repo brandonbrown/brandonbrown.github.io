@@ -8,6 +8,7 @@ import { rhythm, scale } from '../utils/typography'
 import '../sass/s.scss'
 
 import logo from '../assets/logo.svg'
+import exampleImage from '../assets/shape.svg'
 
 const data = [
   {quarter: 1, earnings: 13000},
@@ -28,93 +29,84 @@ class Template extends React.Component {
     
     return (
       <div>
-        <div
-          style={{
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            // maxWidth: '45rem',
-            // padding: `${rhythm(1.5)} 0 0`,
-            fontFamily:'font-light',
-          }}
-        >
+        <header>
           
-          <div className="header">
-            <div className="headerContent">
-              <img className="logo" src={logo} />
-              <h1>
-                <Link
-                  to={'/'}
-                >
-                  <span>A Catalogue of</span>Brandon Brown
-                </Link>
-              </h1>
-            </div>
-            <nav>
-              <a href="#">Writing</a>
-              <a href="#">Reading</a>
-              <a href="#">Listening</a>
-              <a href="#">Watching</a>
-              <a href="#">Training</a>
-              <a href="#">Producing</a>
-              <a href="#">About</a>
-            </nav>
             
-            </div>
-        </div>
-        <main
-          style={{
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            // maxWidth: rhythm(36),
-            padding: `${rhythm(1.5)} 0`,
-            fontFamily:'font-light',
-            width: '90%'
-          }}
-        >
-          <div className="grid-container">
-            <div className="g1">
-              <div className="gridInterior">
-                <h1>Hi, I'm Brandon and this is a record of <span>almost</span> everything I'm doing.</h1>
-                <p>This website is an experiment of the quantified-self. How much is too much, where's the balance, and what can I learn from paying attention to the details? Tracking started January 1, 2019.</p>
-                <p>There's a fair share of content that I'll be filling in as well. I'm a designer by passion, writer by interest, and YouTube Creator out of pure will.</p>
+            <div className="header">
+              <div className="headerContent">
+                
+                <h1>
+                  <Link to={'/'}><img className="logo" src={logo} /></Link>
+                </h1>
               </div>
-            </div>
-            <div className="g2 grid-cell">
-              <div className="grid-quickview">
-                <p>Last Tracked:</p>
-              </div>
-            </div>
-            <div className="g3 grid-cell">
-              <div className="grid-quickview">
-                <p>Articles written</p>
-                <p>Most Recent Article:</p>
-              </div>
-            </div>
-            <div className="g4 grid-cell">
-              <div className="grid-quickview">
-                <p>Podcasts Minutes Listened:</p>
-              </div>
-            </div>
-            <div className="g5 grid-cell">
-              <div className="grid-quickview">
-                <p>Deadlift Progress:</p>
-              </div>
-            </div>
-            <div className="g6">
-              <div className="g7"></div>
-              <div className="g8"></div>
-              <div className="g9"></div>
-              <div className="g10"></div>
-              <div className="g11"></div>
-              <div className="g12"></div>
-            </div>
+              <nav>
+                <a href="#">Writing</a>
+                <a href="#">Reading</a>
+                <a href="#">Listening</a>
+                <a href="#">Watching</a>
+                <a href="#">Training</a>
+                <a href="#">Producing</a>
+                <a href="#">About</a>
+              </nav>
+              
           </div>
-          {/* {children()} */}
-          
-
-
+        </header>
+        <main>
+          <div className="content-wrapper">
+            <section className="personal-info">
+              <h1 className="introduction">
+                <span>Brandon is a Design &amp; Development Educator</span>
+                <span>solving problems in the health & fitness industries</span>
+                <span>with efficient and personalized technology solutions.</span>
+              </h1>
+              <ul className="sociallinks">
+                <li>twitter <span>&mdash;</span> <a href="#">@bybrandonbrown</a></li>
+                <li>dribbble <span>&mdash;</span> <a href="#">@brandonbrown</a></li>
+                <li>medium <span>&mdash;</span> <a href="#">@bybrandonbrown</a></li>
+                <li>github <span>&mdash;</span> <a href="#">@brandonbrown</a></li>
+                <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlane</a></li>
+                <li>email <span>&mdash;</span> <a href="#">hey@bybrandonbrown.com</a></li>
+              </ul>
+            </section>
+            <section className="content-previews">
+              <h2>Latest Updates &amp; Changes</h2>
+              <ul>
+                <li>
+                  <section className="imageReference">
+                    <img src={exampleImage} />
+                  </section>
+                  <section className="contentPreview">
+                    <h3>Content Title</h3>
+                    <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    {/* <a href="#" className="contentButton">Read More</a> */}
+                  </section>
+                </li>
+                <li>
+                  <section className="imageReference">
+                    <img src={exampleImage} />
+                  </section>
+                  <section className="contentPreview">
+                    <h3>Content Title</h3>
+                    <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    {/* <a href="#" className="contentButton">Read More</a> */}
+                  </section>
+                </li>
+                <li>
+                  <section className="imageReference">
+                    <img src={exampleImage} />
+                  </section>
+                  <section className="contentPreview">
+                    <h3>Content Title</h3>
+                    <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    {/* <a href="#" className="contentButton">Read More</a> */}
+                  </section>
+                </li>
+              </ul>
+            </section>
+          </div>
         </main>
       </div>
+        
     )
   }
 }

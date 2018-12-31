@@ -3,8 +3,90 @@
 
 body {
   color: #150d2b;
-  background: #fff;
-  font-family: "font-light", serif;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(235deg, rgba(255,255,255,.5) 0%, rgba(239,237,252,.5) 84%);
+  background: -webkit-linear-gradient(235deg, rgba(255,255,255,.5) 0%, rgba(239,237,252,.5) 84%);
+  background: linear-gradient(235deg, rgba(255,255,255,.5) 0%, rgba(239,237,252,.5) 84%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f8ff",endColorstr="#efedfc",GradientType=1);
+  
+  font-family: "Ilisarniq-Light", serif;
+
+  min-height: 100vh;
+}
+
+// layout
+
+main {
+  display: flex;
+  min-height: calc(100vh - 100px);
+  .content-wrapper {
+    flex: 1;
+    padding: 0 5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .personal-info {
+      flex: 1;
+      margin-top: 20vh
+    }
+    .content-previews {
+      flex: 1;
+    }
+  }
+}
+
+.content-previews {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: flex;
+      flex-direction: row;
+      background-color: #F9F9F9;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100px;
+      border-radius: 15px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+      .imageReference {
+        position: relative;
+        width: 100px;
+        border-radius: 15px 0px 0px 15px;
+        background: #2c2c57;
+
+        &:before{
+          content: "";
+          display: block;
+          width: 100px;
+          padding-top: 100%;
+      }
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          padding: 20px;
+        }
+      }
+      .contentPreview {
+        height: 100%;
+        padding: 10px;        
+        h3 {
+          margin: 0;
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
 }
 
 .header {
@@ -25,12 +107,12 @@ body {
     height: 100px;
     
     h1 {
-      margin: 0 0 -5px 0;
-      padding: 0 0 0 10px;
+      margin: 0 0 0px 0;
+      padding: 0 0 0 0px;
       height: auto;
       font-size: 1.5rem;
       text-transform: uppercase;
-      font-family: 'font-bold';
+      font-family: 'Ilisarniq-Bold';
       a {
         color: white;
         height: auto;
@@ -40,7 +122,7 @@ body {
     span {
       display: block;
       font-size: .5rem;
-      font-family: 'font-light';
+      font-family: 'Ilisarniq-Light';
       text-transform: uppercase;
       line-height: .5rem;
       letter-spacing: 1px;
@@ -55,10 +137,9 @@ body {
     a {
       text-decoration: none;
       box-shadow: 0 0 0 0 currentColor;
-      font-family: 'font-light';
+      font-family: 'hk_groteskbold';
       text-transform: uppercase;
       font-size: .75rem;
-      font-family: 'font-medium';
       color: white;
       background: rgba(40,40,97,.5);
       padding: 8px 12px;
@@ -76,14 +157,6 @@ body {
   height: auto;
   margin: 0;
   padding: 0;
-}
-
-body {
-  background: rgb(249,248,255);
-background: -moz-linear-gradient(235deg, rgba(249,248,255,.5) 0%, rgba(239,237,252,.5) 84%);
-background: -webkit-linear-gradient(235deg, rgba(249,248,255,.5) 0%, rgba(239,237,252,.5) 84%);
-background: linear-gradient(235deg, rgba(249,248,255,.5) 0%, rgba(239,237,252,.5) 84%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f8ff",endColorstr="#efedfc",GradientType=1);
 }
 
 h1{
@@ -107,56 +180,6 @@ p {
   line-height: 1.5rem;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "g1 g1 g2 g2 g3 g3" "g1 g1 g2 g2 g3 g3" "g1 g1 g4 g4 g5 g5" "g1 g1 g4 g4 g5 g5" "g6 g6 g6 g6 g6 g6";
-}
-
-.g1 { grid-area: g1; }
-
-.g2 { grid-area: g2; }
-
-.g3 { grid-area: g3; }
-
-.g4 { grid-area: g4; }
-
-.g5 { grid-area: g5; }
-
-.g6 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "g7 g8 g9" "g10 g11 g12";
-  grid-area: g6;
-}
-
-.g7 { grid-area: g7; }
-
-.g8 { grid-area: g8; }
-
-.g9 { grid-area: g9; }
-
-.g10 { grid-area: g10; }
-
-.g11 { grid-area: g11; }
-
-.g12 { grid-area: g12; }
-
-.grid-cell {
-  display: flex;
-}
-
-.grid-quickview {
-  background: white;
-  border-radius: 6px;
-  flex: 1;
-  margin: 10px;
-  -webkit-box-shadow: 0px 10px 13px -7px rgba(0,0,100,.025), 0px 3px 5px 1px rgba(0,0,100,.025); 
-  box-shadow: 0px 10px 5px -7px rgba(0,0,100,.025), 0px 3px 5px 1px rgba(0,0,100,.025);
-}
-
 .category {
   background-image: linear-gradient(180deg,#2c2c57,#2c2c57);
   color: white;
@@ -172,7 +195,7 @@ p {
     transform: translateX(-50%);
   bottom: -3rem;
   text-transform: uppercase;
-  font-family: "font-light";
+  font-family: "Ilisarniq-Bold";
   letter-spacing: 1px;
   font-size: 1rem;
   line-height: 1rem;
@@ -181,7 +204,7 @@ p {
 .post-title {
   text-align: center;
   text-transform: uppercase;
-  font-family: "font-black", serif;
+  font-family: "Ilisarniq-Black", serif;
 }
 
 h3 a {
@@ -230,35 +253,66 @@ blockquote {
 }
 
 h1 {
-  font-family: 'font-black';
+  font-family: 'Ilisarniq-Black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
 }
 
 h2 {
-  font-family: 'font-black';
+  font-family: 'Ilisarniq-Black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
 }
 
 h3 {
-  font-family: 'font-black';
+  font-family: 'Ilisarniq-Black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
 }
 
 h4 {
-  font-family: 'font-black';
+  font-family: 'Ilisarniq-Black';
   letter-spacing: normal;
   text-transform: none;
 }
 
 h5 {
-  font-family: 'font-black';
+  font-family: 'Ilisarniq-Black';
   letter-spacing: normal;
   text-transform: none;
   font-weight: 700;
+}
+
+.introduction {
+  font-size: 1.25rem;
+  font-family: 'hk_groteskregular';
+  line-height: 2rem;
+  margin-top: 0rem;
+  span {
+    display: block;
+  }
+}
+
+.sociallinks {
+  font-family: 'hk_groteskbold';
+  font-size: .9rem;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0;
+
+    span {
+      font-family: 'hk_grotesklight';
+    }
+
+    a {
+      box-shadow: none;
+      text-decoration: none;
+      color: $red;
+    }
+  }
 }
