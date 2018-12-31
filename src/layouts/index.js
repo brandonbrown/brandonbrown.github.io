@@ -1,21 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import { VictoryBar } from 'victory';
-
-import { rhythm, scale } from '../utils/typography'
-
 import '../sass/s.scss'
 
 import logo from '../assets/logo.svg'
 import exampleImage from '../assets/shape.svg'
-
-const data = [
-  {quarter: 1, earnings: 13000},
-  {quarter: 2, earnings: 16500},
-  {quarter: 3, earnings: 14250},
-  {quarter: 4, earnings: 19000}
-];
 
 class Template extends React.Component {
   render() {

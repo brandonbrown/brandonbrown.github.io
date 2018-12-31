@@ -1,65 +1,113 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import get from 'lodash/get'
-import Helmet from 'react-helmet'
 
-import Bio from '../components/Bio'
-import { rhythm } from '../utils/typography'
+import '../sass/s.scss'
 
-class BlogIndex extends React.Component {
+import logo from '../assets/logo.svg'
+import exampleImage from '../assets/shape.svg'
+
+class Template extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const { location, children } = this.props
+    let header
 
+    let rootPath = `/`
+    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+      rootPath = __PATH_PREFIX__ + `/`
+    }
+    
     return (
       <div>
-        <Helmet title={siteTitle} />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
+        <header>
+          
+            
+            <div className="header">
+              <div className="headerContent">
+                
+                <h1>
+                  <Link to={'/'}><img className="logo" src={logo} /></Link>
+                </h1>
+              </div>
+              <nav>
+                <a href="#">Writing</a>
+                <a href="#">Reading</a>
+                <a href="#">Listening</a>
+                <a href="#">Watching</a>
+                <a href="#">Training</a>
+                <a href="#">Producing</a>
+                <a href="#">About</a>
+              </nav>
+              
+          </div>
+        </header>
+        <main>
+          <div className="content-wrapper">
+            <section className="personal-info">
+              <h2>Welcome!</h2>
+              <h1 className="introduction">
+                <span>Brandon is a Design &amp; Development Educator</span>
+                <span>solving problems in the health & fitness industries</span>
+                <span>with efficient and personalized technology solutions.</span>
+              </h1>
+              <ul className="sociallinks">
+                <li>twitter <span>&mdash;</span> <a href="#">@bybrandonbrown</a></li>
+                <li>dribbble <span>&mdash;</span> <a href="#">@brandonbrown</a></li>
+                <li>medium <span>&mdash;</span> <a href="#">@bybrandonbrown</a></li>
+                <li>github <span>&mdash;</span> <a href="#">@brandonbrown</a></li>
+                <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlane</a></li>
+                <li>email <span>&mdash;</span> <a href="#">hey@bybrandonbrown.com</a></li>
+              </ul>
+            </section>
+            <section className="content-previews">
+              <h2>Recent Things</h2>
+              <ul>
+                <li>
+                  <section className="imageReference">
+                    <a href="#">
+                      <img src={exampleImage} />
+                    </a>
+                  </section>
+                  <section className="contentPreview">
+                    <a href="#">
+                      <h3>Content Title</h3>
+                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    </a>
+                  </section>
+                </li>
+                <li>
+                  <section className="imageReference">
+                    <a href="#">
+                      <img src={exampleImage} />
+                    </a>
+                  </section>
+                  <section className="contentPreview">
+                    <a href="#">
+                      <h3>Content Title</h3>
+                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    </a>
+                  </section>
+                </li>
+                <li>
+                  <section className="imageReference">
+                    <a href="#">
+                      <img src={exampleImage} />
+                    </a>
+                  </section>
+                  <section className="contentPreview">
+                    <a href="#">
+                      <h3>Content Title</h3>
+                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    </a>
+                  </section>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </main>
       </div>
+        
     )
   }
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "DD MMMM, YYYY")
-            title
-          }
-        }
-      }
-    }
-  }
-`
+export default Template
