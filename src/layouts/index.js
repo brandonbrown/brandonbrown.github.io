@@ -54,6 +54,7 @@ class Template extends React.Component {
         <main>
           <div className="content-wrapper">
             <section className="personal-info">
+              <h2>Welcome!</h2>
               <h1 className="introduction">
                 <span>Brandon is a Design &amp; Development Educator</span>
                 <span>solving problems in the health & fitness industries</span>
@@ -69,36 +70,45 @@ class Template extends React.Component {
               </ul>
             </section>
             <section className="content-previews">
-              <h2>Latest Updates &amp; Changes</h2>
+              <h2>Recent Things</h2>
               <ul>
                 <li>
                   <section className="imageReference">
-                    <img src={exampleImage} />
+                    <a href="#">
+                      <img src={exampleImage} />
+                    </a>
                   </section>
                   <section className="contentPreview">
-                    <h3>Content Title</h3>
-                    <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
-                    {/* <a href="#" className="contentButton">Read More</a> */}
+                    <a href="#">
+                      <h3>Content Title</h3>
+                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    </a>
                   </section>
                 </li>
                 <li>
                   <section className="imageReference">
-                    <img src={exampleImage} />
+                    <a href="#">
+                      <img src={exampleImage} />
+                    </a>
                   </section>
                   <section className="contentPreview">
-                    <h3>Content Title</h3>
-                    <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
-                    {/* <a href="#" className="contentButton">Read More</a> */}
+                    <a href="#">
+                      <h3>Content Title</h3>
+                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    </a>
                   </section>
                 </li>
                 <li>
                   <section className="imageReference">
-                    <img src={exampleImage} />
+                    <a href="#">
+                      <img src={exampleImage} />
+                    </a>
                   </section>
                   <section className="contentPreview">
-                    <h3>Content Title</h3>
-                    <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
-                    {/* <a href="#" className="contentButton">Read More</a> */}
+                    <a href="#">
+                      <h3>Content Title</h3>
+                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
+                    </a>
                   </section>
                 </li>
               </ul>
