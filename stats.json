@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
     "path---athleanx": [
-      "path---athleanx-dfa47125c955e7363c10.js",
-      "path---athleanx-dfa47125c955e7363c10.js.map"
+      "path---athleanx-7344cd8fba895efa8202.js",
+      "path---athleanx-7344cd8fba895efa8202.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-cdc645c8e5f2b8ae2168.js",
-      "component---src-pages-index-js-cdc645c8e5f2b8ae2168.js.map"
+      "component---src-pages-index-js-d71847689421bfe017bf.js",
+      "component---src-pages-index-js-d71847689421bfe017bf.js.map"
+    ],
+    "component---src-pages-reading-js": [
+      "component---src-pages-reading-js-1eba75407d97dd9d5999.js",
+      "component---src-pages-reading-js-1eba75407d97dd9d5999.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -16,73 +20,89 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
+    "path---reading": [
+      "path---reading-a0e39f21c11f6a62c5ab.js",
+      "path---reading-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-82ca6c3a4364e6530315.js",
-      "component---src-templates-blog-post-js-82ca6c3a4364e6530315.js.map"
+      "component---src-templates-blog-post-js-4a17f7662fb55a8b9331.js",
+      "component---src-templates-blog-post-js-4a17f7662fb55a8b9331.js.map"
     ],
     "path---design-your-life": [
-      "path---design-your-life-f6879dd2305066239432.js",
-      "path---design-your-life-f6879dd2305066239432.js.map"
+      "path---design-your-life-f0f4e2951cb27f550096.js",
+      "path---design-your-life-f0f4e2951cb27f550096.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b16cbddf137beb346923.js",
-      "component---src-layouts-index-js-b16cbddf137beb346923.js.map"
+      "component---src-layouts-index-js-6387534dbbea09cd7d5a.js",
+      "component---src-layouts-index-js-6387534dbbea09cd7d5a.js.map"
     ],
     "path---index": [
-      "path---index-63809340c3e6e2bc32cb.js",
-      "path---index-63809340c3e6e2bc32cb.js.map"
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---writing": [
+      "path---writing-97cbf2bdd807b3ba773e.js",
+      "path---writing-97cbf2bdd807b3ba773e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
       "component---src-pages-404-js-7cef5e86477838756f05.js.map"
     ],
     "commons": [
-      "commons-4e98a79f4e3f58fbd9e0.js",
+      "commons-9a7090a70e142e7139c6.js",
       "build-js-styles.css",
-      "commons-4e98a79f4e3f58fbd9e0.js.map",
+      "commons-9a7090a70e142e7139c6.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---the-fast-app": [
+      "path---the-fast-app-4315ed7c55458a4fba87.js",
+      "path---the-fast-app-4315ed7c55458a4fba87.js.map"
+    ],
+    "component---src-pages-writing-js": [
+      "component---src-pages-writing-js-daef98831a89a2ff3891.js",
+      "component---src-pages-writing-js-daef98831a89a2ff3891.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---yourfirststeps-part-3": [
-      "path---yourfirststeps-part-3-e1be1e583f7375fcc96f.js",
-      "path---yourfirststeps-part-3-e1be1e583f7375fcc96f.js.map"
+      "path---yourfirststeps-part-3-decba176a38f0933d1a3.js",
+      "path---yourfirststeps-part-3-decba176a38f0933d1a3.js.map"
     ],
     "path---yourfirststeps-part-2": [
-      "path---yourfirststeps-part-2-b96f287db9f5183a8375.js",
-      "path---yourfirststeps-part-2-b96f287db9f5183a8375.js.map"
+      "path---yourfirststeps-part-2-923d647e560f8649eefc.js",
+      "path---yourfirststeps-part-2-923d647e560f8649eefc.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---yourfirststeps-part-1": [
-      "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js",
-      "path---yourfirststeps-part-1-cda36fa83b8126bc34ce.js.map"
+      "path---yourfirststeps-part-1-b99f0ec6717bebc9f12b.js",
+      "path---yourfirststeps-part-1-b99f0ec6717bebc9f12b.js.map"
     ],
     "app": [
-      "app-b30cfa70e51f5e59a478.js",
+      "app-8c2d81c5798f21585230.js",
       "build-js-styles.css",
-      "app-b30cfa70e51f5e59a478.js.map",
+      "app-8c2d81c5798f21585230.js.map",
       "build-js-styles.css.map"
     ],
     "path---coffee-and-success": [
-      "path---coffee-and-success-ae8eabd5163a7cf32fa4.js",
-      "path---coffee-and-success-ae8eabd5163a7cf32fa4.js.map"
+      "path---coffee-and-success-7bb7b115381a5cee4be1.js",
+      "path---coffee-and-success-7bb7b115381a5cee4be1.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---world-cup-fitness-inspiration": [
-      "path---world-cup-fitness-inspiration-8d796f58385f5a7503f5.js",
-      "path---world-cup-fitness-inspiration-8d796f58385f5a7503f5.js.map"
+      "path---world-cup-fitness-inspiration-0b0b6f3ad6825be884b6.js",
+      "path---world-cup-fitness-inspiration-0b0b6f3ad6825be884b6.js.map"
     ],
     "path---personal-training": [
-      "path---personal-training-73ec1ce497b2f1fb2472.js",
-      "path---personal-training-73ec1ce497b2f1fb2472.js.map"
+      "path---personal-training-f186526b97f753ee6ab2.js",
+      "path---personal-training-f186526b97f753ee6ab2.js.map"
     ]
   }
 }
