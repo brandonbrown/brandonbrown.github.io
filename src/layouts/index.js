@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import '../sass/s.scss'
 
 import logo from '../assets/logo.svg'
+import hello from '../assets/hello.gif'
 import exampleImage from '../assets/shape.svg'
 
 class Template extends React.Component {
@@ -15,15 +16,15 @@ class Template extends React.Component {
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
       rootPath = __PATH_PREFIX__ + `/`
     }
-    
+
     return (
       <div>
         <header>
-          
-            
+
+
             <div className="header">
               <div className="headerContent">
-                
+
                 <h1>
                   <Link to={'/'}><img className="logo" src={logo} /></Link>
                 </h1>
@@ -35,19 +36,20 @@ class Template extends React.Component {
                 <a href="#">Watching</a>
                 <a href="#">Training</a>
                 <a href="#">Producing</a>
+                <a href="#">Collecting</a>
                 <a href="#">About</a>
               </nav>
-              
+
           </div>
         </header>
         <main>
           <div className="content-wrapper">
             <section className="personal-info">
-              <h2>Welcome!</h2>
+              <img className="helloImg" src={hello} alt="Hello!" />
               <h1 className="introduction">
-                <span>Brandon is a Design &amp; Development Educator</span>
-                <span>solving problems in the health & fitness industries</span>
-                <span>with efficient and personalized technology solutions.</span>
+                <span>I'm Brandon, a Design &amp; Web Development Educator </span>
+                <span>focused on making the health & fitness industries stronger </span>
+                <span>through meaningful and personalized technology solutions.</span>
               </h1>
               <ul className="sociallinks">
                 <li>twitter <span>&mdash;</span> <a href="#">@bybrandonbrown</a></li>
@@ -58,54 +60,10 @@ class Template extends React.Component {
                 <li>email <span>&mdash;</span> <a href="#">hey@bybrandonbrown.com</a></li>
               </ul>
             </section>
-            <section className="content-previews">
-              <h2>Recent Things</h2>
-              <ul>
-                <li>
-                  <section className="imageReference">
-                    <a href="#">
-                      <img src={exampleImage} />
-                    </a>
-                  </section>
-                  <section className="contentPreview">
-                    <a href="#">
-                      <h3>Content Title</h3>
-                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
-                    </a>
-                  </section>
-                </li>
-                <li>
-                  <section className="imageReference">
-                    <a href="#">
-                      <img src={exampleImage} />
-                    </a>
-                  </section>
-                  <section className="contentPreview">
-                    <a href="#">
-                      <h3>Content Title</h3>
-                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
-                    </a>
-                  </section>
-                </li>
-                <li>
-                  <section className="imageReference">
-                    <a href="#">
-                      <img src={exampleImage} />
-                    </a>
-                  </section>
-                  <section className="contentPreview">
-                    <a href="#">
-                      <h3>Content Title</h3>
-                      <p>One of the most complex products I have built this year, for which I designed not only different pages & states.</p>
-                    </a>
-                  </section>
-                </li>
-              </ul>
-            </section>
           </div>
         </main>
       </div>
-        
+
     )
   }
 }
