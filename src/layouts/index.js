@@ -3,8 +3,10 @@ import Link from 'gatsby-link'
 
 import '../sass/s.scss'
 
+import Footer from '../components/Footer'
+
 import logo from '../assets/logo.svg'
-import hello from '../assets/hello.gif'
+
 import exampleImage from '../assets/shape.svg'
 
 class Template extends React.Component {
@@ -30,39 +32,22 @@ class Template extends React.Component {
                 </h1>
               </div>
               <nav>
-                <a href="#">Writing</a>
-                <a href="#">Reading</a>
-                <a href="#">Listening</a>
-                <a href="#">Watching</a>
+                <Link to="/writing/">Writing</Link>
+                <a href="#">Creating</a>
+                <a href="#">Sharing</a>
+                <Link to="/reading/">Reading</Link>
+                <Link to="/listening/">Listening</Link>
+                <Link to="/watching/">Watching</Link>
                 <a href="#">Training</a>
-                <a href="#">Producing</a>
-                <a href="#">Collecting</a>
                 <a href="#">About</a>
               </nav>
 
           </div>
         </header>
         <main>
-          <div className="content-wrapper">
-            <section className="personal-info">
-              <img className="helloImg" src={hello} alt="Hello!" />
-              <h1 className="introduction">
-                <span>I'm Brandon, a Design &amp; Web Development Educator </span>
-                <span>focused on making the health & fitness industries stronger </span>
-                <span>through meaningful and personalized technology solutions.</span>
-              </h1>
-              <h6>You will also find me on these networks:</h6>
-              <ul className="sociallinks">
-                <li>twitter <span>&mdash;</span> <a href="https://twitter.com/bybrandonbrown" title="Follow Brandon on twitter">@bybrandonbrown</a></li>
-                <li>dribbble <span>&mdash;</span> <a href="https://dribbble.com/brandonbrown" title="Follow Brandon on dribbble">@brandonbrown</a></li>
-                <li>medium <span>&mdash;</span> <a href="https://medium.com/@bybrandonbrown" title="Folow Brandon on Medium">@bybrandonbrown</a></li>
-                <li>github <span>&mdash;</span> <a href="http://github.com/brandonbrown" title="Follow Brandon on GitHub">@brandonbrown</a></li>
-                <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlaneXYZ <span className="comingsoon">Coming Soon</span></a></li>
-                <li>email <span>&mdash;</span> <a href="mailto:hey@bybrandonbrown.com">hey@bybrandonbrown.com</a></li>
-              </ul>
-            </section>
-          </div>
+          {children()}
         </main>
+        <Footer />
       </div>
 
     )

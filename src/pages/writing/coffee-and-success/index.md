@@ -1,6 +1,8 @@
 ---
 title: Coffee and Success
+path: coffee-and-success
 date: "2018-07-09T11:00:00"
+category: Motivation
 ---
 
 Mornings and I haven't seen much of each other for the better part of a decade. The only way I was getting up with the sun was to put in a round of 18 with my father and brothers at our favorite golf course. Living the 10 am to 3 am life had its perks, but that life has long passed. I'm still not an early riser by many standards, however, I've made the shift happen by using one simple trick: Be successful as soon as possible after waking.

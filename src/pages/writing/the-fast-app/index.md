@@ -1,5 +1,6 @@
 ---
 title: The Fast App
+path: the-fast-app
 date: "2019-07-21T23:00:00"
 category: Development
 ---

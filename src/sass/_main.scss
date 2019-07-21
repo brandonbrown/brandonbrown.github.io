@@ -1,0 +1,229 @@
+
+body {
+  color: $main-text-color;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(235deg, rgba(255,255,255,.5) 0%, rgba(239,237,252,.5) 84%);
+  background: -webkit-linear-gradient(235deg, rgba(255,255,255,.5) 0%, rgba(239,237,252,.5) 84%);
+  background: linear-gradient(235deg, rgba(255,255,255,.5) 0%, rgba(239,237,252,.5) 84%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f8ff",endColorstr="#efedfc",GradientType=1);
+
+  font-family: "Ilisarniq-Light", serif;
+
+  min-height: 100vh;
+}
+
+// layout
+
+main {
+  display: flex;
+  min-height: calc(100vh - 200px);
+  .content-wrapper {
+    flex: 1;
+    padding: 0 5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    @include breakpoint(medium) {
+      flex-direction: column;
+    }
+
+    .personal-info {
+      flex: 1;
+    }
+
+    .content-previews {
+      flex: 1;
+    }
+  }
+}
+
+.header {
+  color: #fff;
+  background: rgb(41,40,98);
+  background: -moz-linear-gradient(90deg, rgba(1,20,28,1) 0%, rgba(1,17,40,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(1,20,28,1) 0%, rgba(1,17,40,1) 100%);
+  background: linear-gradient(90deg, rgba(1,20,28,1) 0%, rgba(1,17,40,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292862",endColorstr="#1f1146",GradientType=1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+
+  .headerContent {
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+    h1 {
+      margin: 0 0 0px 0;
+      padding: 0 0 0 0px;
+      height: auto;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-family: 'Ilisarniq-Bold';
+      a {
+        color: white;
+        height: auto;
+        box-shadow: 0 0 0 0 currentColor;
+      }
+    }
+    span {
+      display: block;
+      font-size: .5rem;
+      font-family: 'Ilisarniq-Light';
+      text-transform: uppercase;
+      line-height: .5rem;
+      letter-spacing: 1px;
+      margin-left: 1px;
+    }
+  }
+
+  nav {
+
+    display: flex;
+    justify-content: space-around;
+    a {
+      text-decoration: none;
+      box-shadow: 0 0 0 0 currentColor;
+      font-family: 'Ilisarniq-Light';
+      text-transform: uppercase;
+      font-size: .75rem;
+      color: white;
+      // background: rgba(40,40,97,.5);
+      padding: 8px 12px;
+      &:hover {
+        background: rgba(60,60,107,.5);
+      }
+    }
+  }
+
+}
+
+.logo {
+  width: 32px;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  fill: yellow;
+}
+
+main {
+  h1 {
+    font-family: 'hk_grotesksemibold';
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    max-width: 60rem;
+    margin-top: 2rem;
+
+    @include breakpoint(medium) {
+      max-width: 98%;
+      margin-top: 1rem;
+    }
+
+    span {
+      display: block;
+      @include breakpoint(medium) {
+        display: inline;
+      }
+    }
+  }
+  h6 {
+    font-family: 'Ilisarniq-Light';
+    font-style: normal;
+    font-size: .75rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .helloImg {
+    max-width: 300px;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    margin-left: -20px;
+    @include breakpoint(medium) {
+      max-width: 200px;
+      margin-top: 2rem;
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+.sociallinks {
+  font-family: 'Ilisarniq-Light';
+  font-size: .75rem;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @include breakpoint(medium) {
+    max-width: 98%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  li {
+    margin: 0 0 1rem 0;
+    padding: 0;
+
+
+    @include breakpoint(medium) {
+      width: 50%;
+      max-width: 250px;
+    }
+    span {
+      font-family: 'hk_grotesklight';
+    }
+
+    a {
+      font-family: 'hk_grotesksemibold';
+      box-shadow: none;
+      text-decoration: none;
+      color: $blue;
+      display: block;
+      position: relative;
+      span.comingsoon {
+        position: absolute;
+        background: $light-gray;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Ilisarniq-Light';
+        font-size: .45rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+
+        @include breakpoint(medium) {
+          width: auto;
+          padding: 2px;
+          margin-top: 1px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 0 5%;
+  font-family: 'Ilisarniq-Light';
+  font-size: .75rem;
+  display: flex;
+  color: $mid-gray;
+  a {
+    color: $mid-gray;
+    text-decoration: none;
+    box-shadow: none;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  p {
+    margin-right: 5px;
+  }
+}

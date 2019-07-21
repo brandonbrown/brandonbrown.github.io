@@ -1,6 +1,8 @@
 ---
 title: First Steps Towards Your Best Self Part 1- Sleep
+path: yourfirststeps-part1
 date: "2018-07-04T12:00:00"
+category: Health
 ---
 
 Where to start learning how to live your life to its full potential. Google? Let’s try “How to start working out.”

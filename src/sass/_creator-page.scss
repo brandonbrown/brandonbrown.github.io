@@ -1,0 +1,63 @@
+.creator-page {
+  font-family: 'hk_grotesksemibold';
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'hk_groteskbold';
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: 'Ilisarniq-Black'
+  }
+
+  flex-direction: column;
+
+  article:not(:first-child) {
+    border-top: 1px solid $light-gray;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+
+    h1, h4 {
+      margin: 0;
+    }
+
+    .post-meta {
+      width: 20%;
+    }
+
+    .post-title {
+      width: 30%;
+      line-height: 1.5rem;
+      a {
+        color: $dark-gray;
+        box-shadow: none;
+        font-size: 1.25rem;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+
+    .post-excerpt {
+      width: 30%;
+    }
+
+    h4 {
+      font-size: .65rem;
+      margin-top: 7px;
+
+      span {
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

@@ -1,6 +1,8 @@
 ---
 title: First Steps Towards Your Best Self Part 3- Eat
+path: yourfirststeps-part3
 date: "2018-07-04T12:30:00"
+category: Health
 ---
 
 >This is Part 3 of a small series on how to improve your life

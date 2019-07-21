@@ -1,65 +1,64 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import get from 'lodash/get'
-import Helmet from 'react-helmet'
 
-import Bio from '../components/Bio'
-import { rhythm } from '../utils/typography'
+import { rhythm, scale } from '../utils/typography'
 
-class BlogIndex extends React.Component {
-  render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+import '../sass/s.scss'
 
-    return (
-      <div>
-        <Helmet title={siteTitle} />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
-          )
-        })}
-      </div>
-    )
-  }
+import logo from '../assets/logo.svg'
+import square from '../assets/covers/square.jpg'
+
+export default function Writing({ data }) {
+  const { edges: posts } = data.allMarkdownRemark;
+  return (
+    <div className="content-wrapper creator-page">
+    { posts.filter(post => post.node.frontmatter.title.length > 0)
+           .map(({ node: post }) => {
+             return (
+               <article className="blog-post-preview" key={post.id}>
+                 <h4 className="post-meta">
+                  <span>{post.frontmatter.category} </span>
+                  <span>{post.frontmatter.date} </span>
+                 </h4>
+                 <h1 className="post-title">
+                  <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                 </h1>
+
+                 <p className="post-excerpt">
+                  {post.excerpt}
+                 </p>
+               </article>
+             );
+           })}
+    </div>
+  );
 }
 
-export default BlogIndex
+// const Writing = ({ children }) => (
+//     <div className="content-wrapper consumer-page">
+//       <h1>Notes on the Audio Books &amp; Podcasts I've Listened To</h1>
+//       <section className="consumer-container">
+//         <h2>2019</h2>
+//
+//
+//       </section>
+//     </div>
+// )
 
 export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "DD MMMM, YYYY")
-            title
-          }
+query IndexQuery {
+  allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    edges {
+      node {
+        excerpt(pruneLength: 250)
+        id
+        frontmatter {
+          title
+          date(formatString: "MMMM Do, YYYY")
+          path
+          category
         }
       }
     }
   }
-`
+}`;
