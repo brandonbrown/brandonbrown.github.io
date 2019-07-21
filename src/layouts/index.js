@@ -51,13 +51,14 @@ class Template extends React.Component {
                 <span>focused on making the health & fitness industries stronger </span>
                 <span>through meaningful and personalized technology solutions.</span>
               </h1>
+              <h6>You will also find me on these networks:</h6>
               <ul className="sociallinks">
-                <li>twitter <span>&mdash;</span> <a href="#">@bybrandonbrown</a></li>
-                <li>dribbble <span>&mdash;</span> <a href="#">@brandonbrown</a></li>
-                <li>medium <span>&mdash;</span> <a href="#">@bybrandonbrown</a></li>
-                <li>github <span>&mdash;</span> <a href="#">@brandonbrown</a></li>
-                <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlane</a></li>
-                <li>email <span>&mdash;</span> <a href="#">hey@bybrandonbrown.com</a></li>
+                <li>twitter <span>&mdash;</span> <a href="https://twitter.com/bybrandonbrown" title="Follow Brandon on twitter">@bybrandonbrown</a></li>
+                <li>dribbble <span>&mdash;</span> <a href="https://dribbble.com/brandonbrown" title="Follow Brandon on dribbble">@brandonbrown</a></li>
+                <li>medium <span>&mdash;</span> <a href="https://medium.com/@bybrandonbrown" title="Folow Brandon on Medium">@bybrandonbrown</a></li>
+                <li>github <span>&mdash;</span> <a href="http://github.com/brandonbrown" title="Follow Brandon on GitHub">@brandonbrown</a></li>
+                <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlaneXYZ <span className="comingsoon">Coming Soon</span></a></li>
+                <li>email <span>&mdash;</span> <a href="mailto:hey@bybrandonbrown.com">hey@bybrandonbrown.com</a></li>
               </ul>
             </section>
           </div>
