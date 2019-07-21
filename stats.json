@@ -1,20 +1,36 @@
 {
   "assetsByChunkName": {
-    "path---athleanx": [
-      "path---athleanx-7344cd8fba895efa8202.js",
-      "path---athleanx-7344cd8fba895efa8202.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-c64f369f98302d08d75e.js",
-      "component---src-pages-index-js-c64f369f98302d08d75e.js.map"
+      "component---src-pages-index-js-f84a97fae302046e6285.js",
+      "component---src-pages-index-js-f84a97fae302046e6285.js.map"
     ],
     "component---src-pages-reading-js": [
-      "component---src-pages-reading-js-1eba75407d97dd9d5999.js",
-      "component---src-pages-reading-js-1eba75407d97dd9d5999.js.map"
+      "component---src-pages-reading-js-e1cbe2ac5b8c3d11a063.js",
+      "component---src-pages-reading-js-e1cbe2ac5b8c3d11a063.js.map"
+    ],
+    "path---writing-yourfirststeps-part-2": [
+      "path---writing-yourfirststeps-part-2-8171e3477517387bf5b7.js",
+      "path---writing-yourfirststeps-part-2-8171e3477517387bf5b7.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---writing-athleanx": [
+      "path---writing-athleanx-a443d3126da13924277a.js",
+      "path---writing-athleanx-a443d3126da13924277a.js.map"
+    ],
+    "path---writing-design-your-life": [
+      "path---writing-design-your-life-3412bd689616d61067a2.js",
+      "path---writing-design-your-life-3412bd689616d61067a2.js.map"
+    ],
+    "component---src-pages-listening-js": [
+      "component---src-pages-listening-js-17dd051097501cb6625e.js",
+      "component---src-pages-listening-js-17dd051097501cb6625e.js.map"
+    ],
+    "path---writing-coffee-and-success": [
+      "path---writing-coffee-and-success-763d832543dc82db809c.js",
+      "path---writing-coffee-and-success-763d832543dc82db809c.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -28,81 +44,81 @@
       "component---src-templates-blog-post-js-4a17f7662fb55a8b9331.js",
       "component---src-templates-blog-post-js-4a17f7662fb55a8b9331.js.map"
     ],
-    "path---design-your-life": [
-      "path---design-your-life-f0f4e2951cb27f550096.js",
-      "path---design-your-life-f0f4e2951cb27f550096.js.map"
-    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-91c0d7c4e890146fb1a4.js",
-      "component---src-layouts-index-js-91c0d7c4e890146fb1a4.js.map"
+      "component---src-layouts-index-js-5e69034d881da2a25113.js",
+      "component---src-layouts-index-js-5e69034d881da2a25113.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---writing-the-fast-app": [
+      "path---writing-the-fast-app-47906c8bbe14c1055c85.js",
+      "path---writing-the-fast-app-47906c8bbe14c1055c85.js.map"
+    ],
     "path---writing": [
-      "path---writing-97cbf2bdd807b3ba773e.js",
-      "path---writing-97cbf2bdd807b3ba773e.js.map"
+      "path---writing-40747d53d2cccc26a418.js",
+      "path---writing-40747d53d2cccc26a418.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
       "component---src-pages-404-js-7cef5e86477838756f05.js.map"
     ],
     "commons": [
-      "commons-9a7090a70e142e7139c6.js",
+      "commons-0035c1fc428374d6f7c3.js",
       "build-js-styles.css",
-      "commons-9a7090a70e142e7139c6.js.map",
+      "commons-0035c1fc428374d6f7c3.js.map",
       "build-js-styles.css.map"
     ],
-    "path---the-fast-app": [
-      "path---the-fast-app-4315ed7c55458a4fba87.js",
-      "path---the-fast-app-4315ed7c55458a4fba87.js.map"
+    "path---writing-yourfirststeps-part-3": [
+      "path---writing-yourfirststeps-part-3-a22f7bd8ffec8f1d0d91.js",
+      "path---writing-yourfirststeps-part-3-a22f7bd8ffec8f1d0d91.js.map"
     ],
     "component---src-pages-writing-js": [
-      "component---src-pages-writing-js-daef98831a89a2ff3891.js",
-      "component---src-pages-writing-js-daef98831a89a2ff3891.js.map"
+      "component---src-pages-writing-js-4294a933fdf5adbda4f1.js",
+      "component---src-pages-writing-js-4294a933fdf5adbda4f1.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---yourfirststeps-part-3": [
-      "path---yourfirststeps-part-3-decba176a38f0933d1a3.js",
-      "path---yourfirststeps-part-3-decba176a38f0933d1a3.js.map"
+    "path---listening": [
+      "path---listening-a0e39f21c11f6a62c5ab.js",
+      "path---listening-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---yourfirststeps-part-2": [
-      "path---yourfirststeps-part-2-923d647e560f8649eefc.js",
-      "path---yourfirststeps-part-2-923d647e560f8649eefc.js.map"
+    "component---src-pages-watching-js": [
+      "component---src-pages-watching-js-6906416bc0b328f7b30a.js",
+      "component---src-pages-watching-js-6906416bc0b328f7b30a.js.map"
+    ],
+    "path---writing-world-cup-fitness-inspiration": [
+      "path---writing-world-cup-fitness-inspiration-22ded8b7d866f6be0f69.js",
+      "path---writing-world-cup-fitness-inspiration-22ded8b7d866f6be0f69.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---yourfirststeps-part-1": [
-      "path---yourfirststeps-part-1-b99f0ec6717bebc9f12b.js",
-      "path---yourfirststeps-part-1-b99f0ec6717bebc9f12b.js.map"
+    "path---writing-personal-training": [
+      "path---writing-personal-training-3fef642a4fe06076a4d6.js",
+      "path---writing-personal-training-3fef642a4fe06076a4d6.js.map"
+    ],
+    "path---watching": [
+      "path---watching-a0e39f21c11f6a62c5ab.js",
+      "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-8c2d81c5798f21585230.js",
+      "app-34b96ebdc9eb95cf2cba.js",
       "build-js-styles.css",
-      "app-8c2d81c5798f21585230.js.map",
+      "app-34b96ebdc9eb95cf2cba.js.map",
       "build-js-styles.css.map"
     ],
-    "path---coffee-and-success": [
-      "path---coffee-and-success-7bb7b115381a5cee4be1.js",
-      "path---coffee-and-success-7bb7b115381a5cee4be1.js.map"
+    "path---writing-yourfirststeps-part-1": [
+      "path---writing-yourfirststeps-part-1-7b0e1080fde66e96429e.js",
+      "path---writing-yourfirststeps-part-1-7b0e1080fde66e96429e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---world-cup-fitness-inspiration": [
-      "path---world-cup-fitness-inspiration-0b0b6f3ad6825be884b6.js",
-      "path---world-cup-fitness-inspiration-0b0b6f3ad6825be884b6.js.map"
-    ],
-    "path---personal-training": [
-      "path---personal-training-f186526b97f753ee6ab2.js",
-      "path---personal-training-f186526b97f753ee6ab2.js.map"
     ]
   }
 }
