@@ -13,37 +13,20 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pathContext
     console.log(post)
     return (
-      <article>
+      <article className="content-wrapper creator-page post-page">
       <div className="post-title">
         <h1
             style={{
-              ...scale(1.25),
-              marginBottom: rhythm(6),
-              marginTop: rhythm(1.5),
-              fontFamily:'font-black'
+              ...scale(1.25)
             }}
-          >{post.frontmatter.title}<span
-            className="category"
-            >{post.frontmatter.category}</span></h1>
-        
-        </div>
+          >{post.frontmatter.title}
+        </h1>
+        <p className="category">Shared in {post.frontmatter.category} on {post.frontmatter.date}</p>
+      </div>
       <div className="post">
         <Helmet
-          title={`${post.frontmatter.title} | ${siteTitle}`} 
+          title={`${post.frontmatter.title} | ${siteTitle}`}
           />
-        
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-            color: 'hsla(0,0%,100%,.5)'
-          }}
-        >
-          {post.frontmatter.date}
-          
-        </p>
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
           style={{
@@ -51,16 +34,10 @@ class BlogPostTemplate extends React.Component {
 
           }}
           />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
         </div>
-        
-        
+
+
         <div>
-          <Bio />
 
           <ul
             className="postnav"
