@@ -1,22 +1,29 @@
 .consumer-page {
   font-family: 'hk_grotesksemibold';
 
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'hk_groteskbold';
     text-transform: uppercase;
   }
 
   h1 {
-    font-family: 'Ilisarniq-Black'
+    font-family: 'Ilisarniq-Black';
+    font-size: 1rem;
   }
 
   flex-direction: column;
 
   .consumer-container {
+    width: 100%;
     h2 {
       margin: 0;
       font-size: 1rem;
       font-family: 'Ilisarniq-Black'
+    }
+
+    &.consumer-container-lists {
+      justify-content: space-between;
     }
   }
 
@@ -75,6 +82,35 @@
         line-height: 1.25rem;
         font-size: .845rem;
       }
+    }
+  }
+
+  .resources-list-container {
+    min-width: 30%;
+    max-width: 400px;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+  }
+
+  .resources-list {
+    li {
+      margin-top: 1rem;
+      width: auto;
+      a {
+        h3 {
+          margin: 0;
+          color: $blue;
+        }
+        p {
+          margin-top: .5rem;
+          color: $dark-gray;
+        }
+
+        &:hover p {
+          color: $blue;
+        }
+      }
+
     }
   }
 }

@@ -16,6 +16,9 @@
   margin: 0 auto;
   .post {
     margin-bottom: 6rem;
+    ul, ol {
+      margin-left: 1.75rem !important;
+    }
     p {
       font-size: 1.5rem;
       font-family: 'hk_groteskregular';

@@ -34,7 +34,7 @@ class Template extends React.Component {
               <nav>
                 <Link to="/writing/">Writing</Link>
                 <a href="#">Creating</a>
-                <a href="#">Sharing</a>
+                <Link to="/sharing/">Sharing</Link>
                 <Link to="/reading/">Reading</Link>
                 <Link to="/listening/">Listening</Link>
                 <Link to="/watching/">Watching</Link>
