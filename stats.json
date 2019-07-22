@@ -45,8 +45,8 @@
       "component---src-templates-blog-post-js-663b3b1d1797b6503de4.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5e69034d881da2a25113.js",
-      "component---src-layouts-index-js-5e69034d881da2a25113.js.map"
+      "component---src-layouts-index-js-7cde96d760bbc2d7030f.js",
+      "component---src-layouts-index-js-7cde96d760bbc2d7030f.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -73,6 +73,10 @@
     "path---writing-yourfirststeps-part-3": [
       "path---writing-yourfirststeps-part-3-a22f7bd8ffec8f1d0d91.js",
       "path---writing-yourfirststeps-part-3-a22f7bd8ffec8f1d0d91.js.map"
+    ],
+    "component---src-pages-sharing-js": [
+      "component---src-pages-sharing-js-9d4442a0461ade63c832.js",
+      "component---src-pages-sharing-js-9d4442a0461ade63c832.js.map"
     ],
     "component---src-pages-writing-js": [
       "component---src-pages-writing-js-4294a933fdf5adbda4f1.js",
@@ -102,14 +106,18 @@
       "path---writing-personal-training-3fef642a4fe06076a4d6.js",
       "path---writing-personal-training-3fef642a4fe06076a4d6.js.map"
     ],
+    "path---sharing": [
+      "path---sharing-a0e39f21c11f6a62c5ab.js",
+      "path---sharing-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---watching": [
       "path---watching-a0e39f21c11f6a62c5ab.js",
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-34b96ebdc9eb95cf2cba.js",
+      "app-b2c2b8f3cb7b52ce833f.js",
       "build-js-styles.css",
-      "app-34b96ebdc9eb95cf2cba.js.map",
+      "app-b2c2b8f3cb7b52ce833f.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
