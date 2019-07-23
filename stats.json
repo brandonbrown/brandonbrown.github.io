@@ -32,6 +32,10 @@
       "path---writing-coffee-and-success-763d832543dc82db809c.js",
       "path---writing-coffee-and-success-763d832543dc82db809c.js.map"
     ],
+    "path---writing-web-people": [
+      "path---writing-web-people-79ed16a7f709d0e587b6.js",
+      "path---writing-web-people-79ed16a7f709d0e587b6.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -53,12 +57,12 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---writing-the-fast-app": [
-      "path---writing-the-fast-app-47906c8bbe14c1055c85.js",
-      "path---writing-the-fast-app-47906c8bbe14c1055c85.js.map"
+      "path---writing-the-fast-app-b45a82fe83bccb10672e.js",
+      "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
     ],
     "path---writing": [
-      "path---writing-40747d53d2cccc26a418.js",
-      "path---writing-40747d53d2cccc26a418.js.map"
+      "path---writing-547471be5ff385ab8a2c.js",
+      "path---writing-547471be5ff385ab8a2c.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -115,9 +119,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-b2c2b8f3cb7b52ce833f.js",
+      "app-3d9d60ca31c0c8c497ff.js",
       "build-js-styles.css",
-      "app-b2c2b8f3cb7b52ce833f.js.map",
+      "app-3d9d60ca31c0c8c497ff.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
