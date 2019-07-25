@@ -42,7 +42,7 @@ const Sharing = ({ children }) => (
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com/davidwalshblog" title="Wes Bos on twitter" target="_blank">
+                <a href="https://twitter.com/wesbos" title="Wes Bos on twitter" target="_blank">
                   <h3>Wes Bos</h3>
                   <p>Known for his incredible development courses, podcast, and teaching workshops on both sides of the USA & Canada border.</p>
                 </a>
