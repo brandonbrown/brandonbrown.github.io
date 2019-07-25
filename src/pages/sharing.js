@@ -41,6 +41,12 @@ const Sharing = ({ children }) => (
                   <p>Known for his long running blog on developing for the web and an amazing avatar that hasn't changed since <em>web 2.0</em>.</p>
                 </a>
             </li>
+            <li>
+                <a href="https://twitter.com/davidwalshblog" title="Wes Bos on twitter" target="_blank">
+                  <h3>Wes Bos</h3>
+                  <p>Known for his incredible development courses, podcast, and teaching workshops on both sides of the USA & Canada border.</p>
+                </a>
+            </li>
 
           </ul>
           </div>
