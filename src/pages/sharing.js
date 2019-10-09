@@ -10,7 +10,7 @@ import square from '../assets/covers/square.jpg'
 
 const Sharing = ({ children }) => (
     <div className="content-wrapper consumer-page">
-      <h1>A Collection of Resources and Other Lists of Items I Find Interesting</h1>
+      <h1>A Collection of Resources and Lists of Interest</h1>
       <section className="consumer-container consumer-container-lists">
 
         <div className="consumer-grid">
