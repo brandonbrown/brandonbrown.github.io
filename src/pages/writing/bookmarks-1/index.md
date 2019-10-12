@@ -21,5 +21,9 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [11 Reasons Why This Could Be The Best SaaS Cold Email You Have Ever Seen](https://saashacker.co/saas-cold-email)
 1. [Scott Galloway: Yogababble](https://www.profgalloway.com/yogababble)
 
+###Health
+1. [Yoga With Adriene](https://www.youtube.com/channel/UCFKE7WVJfvaHW5q283SxchA)
+1. [5 Training Mistakes Everyone Makes When They Start Lifting](https://www.youtube.com/watch?v=Dp3truKibtc)
+1. [How To Warm Up Your Squat](https://www.youtube.com/watch?v=ZocFmMrJz6I)
 ###General Learning
 1. [Information Theory](https://www.khanacademy.org/computing/computer-science/informationtheory)
