@@ -33,8 +33,8 @@
       "path---writing-coffee-and-success-763d832543dc82db809c.js.map"
     ],
     "path---writing-web-people": [
-      "path---writing-web-people-79ed16a7f709d0e587b6.js",
-      "path---writing-web-people-79ed16a7f709d0e587b6.js.map"
+      "path---writing-web-people-5415bd5997bf5d6efd8d.js",
+      "path---writing-web-people-5415bd5997bf5d6efd8d.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -52,6 +52,10 @@
       "component---src-layouts-index-js-7cde96d760bbc2d7030f.js",
       "component---src-layouts-index-js-7cde96d760bbc2d7030f.js.map"
     ],
+    "path---writing-bookmarks-1": [
+      "path---writing-bookmarks-1-864fdf0a03ab3fc9522b.js",
+      "path---writing-bookmarks-1-864fdf0a03ab3fc9522b.js.map"
+    ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
@@ -61,8 +65,8 @@
       "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
     ],
     "path---writing": [
-      "path---writing-547471be5ff385ab8a2c.js",
-      "path---writing-547471be5ff385ab8a2c.js.map"
+      "path---writing-2159007729d0d309eff8.js",
+      "path---writing-2159007729d0d309eff8.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -119,9 +123,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-3d9d60ca31c0c8c497ff.js",
+      "app-f0d0a72fe9c8e6686359.js",
       "build-js-styles.css",
-      "app-3d9d60ca31c0c8c497ff.js.map",
+      "app-f0d0a72fe9c8e6686359.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
