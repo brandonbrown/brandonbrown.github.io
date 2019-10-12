@@ -24,8 +24,8 @@ export default class IndexPage extends React.Component {
           <img className="helloImg" src={hello} alt="Hello!" />
           <h1 className="introduction">
             <span>I'm Brandon, a Design &amp; Web Development Educator </span>
-            <span>focused on making the health & fitness industries stronger </span>
-            <span>through meaningful and personalized technology solutions.</span>
+            <span>using technology to make the health & fitness industries stronger </span>
+            <span>through meaningful applications and personalized solutions.</span>
           </h1>
           <h6>You will also find me on these networks:</h6>
           <ul className="sociallinks">
