@@ -15,6 +15,7 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Design
 1. [LinkedIn's secret to designing great experiences (Hint: It's not data)](https://dribbble.com/stories/2019/09/27/the-secret-to-designing-great-user-experiences)
+1. [Public Type Works](https://www.publictype.works/)
 
 ###Business
 1. [The Most Powerful Person in Silicon Valley](https://www.fastcompany.com/90285552/the-most-powerful-person-in-silicon-valley)
