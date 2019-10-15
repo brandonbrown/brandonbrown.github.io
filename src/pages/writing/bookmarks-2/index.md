@@ -12,6 +12,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [jQuery to Vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/)
 1. [Automatically Add Subscribers to a Group at Signup](https://mailchimp.com/help/automatically-add-subscribers-to-a-group-at-signup/)
 1. [GitSheet (Git cheatsheet)](https://gitsheet.wtf)
+1. [The Odin Project](https://www.theodinproject.com)
 
 ###Design
 1. [Access to high quality illustrations from Glaze](https://www.producthunt.com/posts/glaze)
