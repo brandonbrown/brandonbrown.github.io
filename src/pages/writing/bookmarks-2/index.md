@@ -15,3 +15,4 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Design
 1. [Access to high quality illustrations from Glaze](https://www.producthunt.com/posts/glaze)
+1. [Design and Research 101](https://askalmanac.com/articles/910/design-and-research-101)
