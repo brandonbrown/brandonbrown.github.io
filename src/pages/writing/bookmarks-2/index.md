@@ -13,7 +13,11 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Automatically Add Subscribers to a Group at Signup](https://mailchimp.com/help/automatically-add-subscribers-to-a-group-at-signup/)
 1. [GitSheet (Git cheatsheet)](https://gitsheet.wtf)
 1. [The Odin Project](https://www.theodinproject.com)
+1. [Mozilla Developer YouTube](https://www.youtube.com/mozilladeveloper)
 
 ###Design
 1. [Access to high quality illustrations from Glaze](https://www.producthunt.com/posts/glaze)
 1. [Design and Research 101](https://askalmanac.com/articles/910/design-and-research-101)
+
+###Business
+1. [Holloway B2B Sales Syllabus](https://www.holloway.com/s/syllabus-b2b-sales)
