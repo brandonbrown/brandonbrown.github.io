@@ -14,10 +14,12 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [GitSheet (Git cheatsheet)](https://gitsheet.wtf)
 1. [The Odin Project](https://www.theodinproject.com)
 1. [Mozilla Developer YouTube](https://www.youtube.com/mozilladeveloper)
-
+1. [A Beginner's Guide To Flexbox and CSS grid](https://webflow.com/blog/flexbox-and-css-grid)
+1. [42 Questions About Git](https://dev.to/gonedark/42-git-questions-answered-3npa)
 ###Design
 1. [Access to high quality illustrations from Glaze](https://www.producthunt.com/posts/glaze)
 1. [Design and Research 101](https://askalmanac.com/articles/910/design-and-research-101)
 
 ###Business
 1. [Holloway B2B Sales Syllabus](https://www.holloway.com/s/syllabus-b2b-sales)
+1. [Scale With Ease](https://scalewithease.com/)
