@@ -15,3 +15,4 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Design
 1. [The Art of Web Design](https://www.youtube.com/watch?v=3iVVM_DgWY4)
+1. [11 Common Mistakes New UX Designers Make](https://www.uigoodies.com/blog/11-common-mistakes-new-ux-designers-make.html)
