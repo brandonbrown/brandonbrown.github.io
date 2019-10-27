@@ -14,6 +14,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Ionic React: Fist Look](https://dev.to/dabit3/ionic-react-first-look-104l)
 1. [Official Redux Starter Kit](https://github.com/reduxjs/redux-starter-kit/releases/tag/v1.0.0)
 1. [React Conf 2019 Day 1](https://www.youtube.com/watch?v=RCiccdQObpo)
+1. [9 Projects you can do to become a Frontend Master in 2020](https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h)
 
 ###Design
 1. [The Art of Web Design](https://www.youtube.com/watch?v=3iVVM_DgWY4)
