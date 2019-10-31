@@ -13,6 +13,7 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Development
 1. [How To GraphQL](https://www.howtographql.com/)
+1. [React Dashboard: an Ultimate Guide](https://react-dashboard.cube.dev/)
 
 ###Design
 1. [Instagram makes bad navigation good?](https://uxdesign.cc/instagram-makes-bad-navigation-good-174285d9e0bd)
