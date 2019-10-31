@@ -14,9 +14,15 @@ My browser's tab bar gets really messy through the work week between research, p
 ###Development
 1. [How To GraphQL](https://www.howtographql.com/)
 1. [React Dashboard: an Ultimate Guide](https://react-dashboard.cube.dev/)
+1. [Understanding This, Bind, Call, and Apply in JavaScript](https://dev.to/digitalocean/understanding-this-bind-call-and-apply-in-javascript-dla)
+1. [Top Tutoirals To Learn Web Development - 2018](https://medium.com/quick-code/top-tutorials-to-learn-web-development-for-beginners-4023595ebaa0)
 
 ###Design
 1. [Instagram makes bad navigation good?](https://uxdesign.cc/instagram-makes-bad-navigation-good-174285d9e0bd)
 
 ###Work
 1. [Notion](https://www.notion.so/)
+
+
+###Health
+1. [The Best Online Personal Training Software](https://www.theptdc.com/best-online-personal-training-software)
