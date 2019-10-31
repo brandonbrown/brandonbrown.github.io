@@ -17,3 +17,6 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Design
 1. [Instagram makes bad navigation good?](https://uxdesign.cc/instagram-makes-bad-navigation-good-174285d9e0bd)
+
+###Work
+1. [Notion](https://www.notion.so/)
