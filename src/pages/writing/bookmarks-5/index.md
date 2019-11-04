@@ -8,3 +8,4 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Development
 1. [Free Course with code NOV2019FREE](https://www.udemy.com/course/automate/)
+1. [How To Build A Booking System With Rails](https://medium.com/@TressaSanders/how-to-build-a-booking-system-with-ruby-on-rails-part-1-d9d57ed94d32)
