@@ -60,6 +60,10 @@
       "path---writing-bookmarks-1-52dd5b023154f93e0933.js",
       "path---writing-bookmarks-1-52dd5b023154f93e0933.js.map"
     ],
+    "path---writing-bookmarks-5": [
+      "path---writing-bookmarks-5-1e63bafdde0742f206d7.js",
+      "path---writing-bookmarks-5-1e63bafdde0742f206d7.js.map"
+    ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
@@ -69,8 +73,8 @@
       "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
     ],
     "path---writing": [
-      "path---writing-52b53b847938f2fcef73.js",
-      "path---writing-52b53b847938f2fcef73.js.map"
+      "path---writing-223d20ceec32639ed646.js",
+      "path---writing-223d20ceec32639ed646.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -127,17 +131,17 @@
       "path---sharing-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---writing-bookmarks-4": [
-      "path---writing-bookmarks-4-36a18d9c662cee5584f3.js",
-      "path---writing-bookmarks-4-36a18d9c662cee5584f3.js.map"
+      "path---writing-bookmarks-4-e6ec790b5c91995d305f.js",
+      "path---writing-bookmarks-4-e6ec790b5c91995d305f.js.map"
     ],
     "path---watching": [
       "path---watching-a0e39f21c11f6a62c5ab.js",
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-d6d69e06649639047c18.js",
+      "app-64763a3c33e652dbdf04.js",
       "build-js-styles.css",
-      "app-d6d69e06649639047c18.js.map",
+      "app-64763a3c33e652dbdf04.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
