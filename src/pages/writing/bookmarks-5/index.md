@@ -12,3 +12,4 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ##Business
 1. [Indiehackers](https://www.indiehackers.com/)
+1. [How An Art School Dropout Made $8k In A Day](https://www.youtube.com/watch?v=-JpBRdjffbQ&feature=youtu.be)
