@@ -178,7 +178,6 @@ const Listening = ({ children }) => (
             </div>
             <div className="book-info">
               <progress max="100" value="45"></progress>
-              <p className="book-progress in-progress">In Progress</p>
               <p className="book-progress">Recommended As Audio Book</p>
               <h3>Nudge: Improving Decisions About Health, Wealth, and Happiness</h3>
               <p>Required reading for anyone in the businesses of design, product, or consumer facing services.</p>
