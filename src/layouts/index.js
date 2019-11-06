@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { Helmet } from "react-helmet"
 
 import '../sass/s.scss'
 
@@ -21,6 +22,9 @@ class Template extends React.Component {
 
     return (
       <div>
+        <Helmet>
+          <meta name="google-site-verification" content="ScBT040CBhTA07b2L9L0eWw_J9XXLBD1TikZDHAxSZc" />
+        </Helmet>
         <header>
 
 
