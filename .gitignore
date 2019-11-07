@@ -6,3 +6,4 @@ public
 .cache/
 yarn.lock
 CNAME
+static/client_secret.json
