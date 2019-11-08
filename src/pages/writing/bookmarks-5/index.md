@@ -11,6 +11,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [How To Build A Booking System With Rails](https://medium.com/@TressaSanders/how-to-build-a-booking-system-with-ruby-on-rails-part-1-d9d57ed94d32)
 1. [CSS Only Art](https://diana-adrianne.com/purecss-lace/)
 1. [Proxy With CRA2](https://stackoverflow.com/questions/52605997/when-specified-proxy-in-package-json-must-be-a-string)
+1. [15 Podcasts Every Website Designer Should Be Listening To](https://line25.com/inspiration/best-web-design-podcasts)
 
 ##Business
 1. [Indiehackers](https://www.indiehackers.com/)
