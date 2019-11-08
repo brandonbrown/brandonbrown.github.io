@@ -13,6 +13,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Proxy With CRA2](https://stackoverflow.com/questions/52605997/when-specified-proxy-in-package-json-must-be-a-string)
 1. [15 Podcasts Every Website Designer Should Be Listening To](https://line25.com/inspiration/best-web-design-podcasts)
 1. [Breaking Stuff: CodePen Radio](https://blog.codepen.io/2019/11/06/243-breaking-stuff/)
+1. [October 2019 release of Visual Studio Code](https://code.visualstudio.com/updates/v1_40)
 
 ##Business
 1. [Indiehackers](https://www.indiehackers.com/)
