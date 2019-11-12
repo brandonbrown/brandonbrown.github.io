@@ -61,8 +61,8 @@
       "path---writing-bookmarks-1-52dd5b023154f93e0933.js.map"
     ],
     "path---writing-bookmarks-5": [
-      "path---writing-bookmarks-5-2dc3eb1822dc274aca20.js",
-      "path---writing-bookmarks-5-2dc3eb1822dc274aca20.js.map"
+      "path---writing-bookmarks-5-d180dcbef9616fd5ff98.js",
+      "path---writing-bookmarks-5-d180dcbef9616fd5ff98.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -73,17 +73,17 @@
       "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
     ],
     "path---writing": [
-      "path---writing-223d20ceec32639ed646.js",
-      "path---writing-223d20ceec32639ed646.js.map"
+      "path---writing-f743d11db306f25916cb.js",
+      "path---writing-f743d11db306f25916cb.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
       "component---src-pages-404-js-7cef5e86477838756f05.js.map"
     ],
     "commons": [
-      "commons-a6b1b8fa174887df3df8.js",
+      "commons-27bed49b4ac6849abeb4.js",
       "build-js-styles.css",
-      "commons-a6b1b8fa174887df3df8.js.map",
+      "commons-27bed49b4ac6849abeb4.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-3": [
@@ -118,6 +118,10 @@
       "path---writing-world-cup-fitness-inspiration-22ded8b7d866f6be0f69.js",
       "path---writing-world-cup-fitness-inspiration-22ded8b7d866f6be0f69.js.map"
     ],
+    "path---writing-bookmarks-6": [
+      "path---writing-bookmarks-6-d93d77bb94e0abd5a2ce.js",
+      "path---writing-bookmarks-6-d93d77bb94e0abd5a2ce.js.map"
+    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
@@ -139,9 +143,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-9ba25cef6d961c7be871.js",
+      "app-905da232b8e556d17d1c.js",
       "build-js-styles.css",
-      "app-9ba25cef6d961c7be871.js.map",
+      "app-905da232b8e556d17d1c.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
