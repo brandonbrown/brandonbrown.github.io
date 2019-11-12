@@ -9,6 +9,7 @@ My browser's tab bar gets really messy through the work week between research, p
 ###Business
 1. [Rework.fm](https://rework.fm/)
 1. [Bootstrapping Reality](https://justinjackson.ca/bootstrap)
+1. [How To Pitch So People Will Listen](https://stackingthebricks.com/shut-up-and-take-my-money-or-how-to-pitch-so-people-will-listen/)
 
 ###Thinking and Entertainment
 1. [The Hardest Easy Game](https://www.youtube.com/watch?v=64pA31_WJa0)
