@@ -19,3 +19,4 @@ My browser's tab bar gets really messy through the work week between research, p
 ###Development
 1. [Front-End Tooling Survey 2019](https://ashleynolan.co.uk/blog/frontend-tooling-survey-2019-results)
 1. [HTTP Archive's annual state of the web report](https://almanac.httparchive.org/en/2019/)
+1. [Redux Starter Kit is now Redux Toolkit](https://redux-toolkit.js.org/)
