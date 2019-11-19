@@ -13,7 +13,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Why You Should Know State Machines](https://www.youtube.com/watch?v=UAtaoVMFt7Y)
 1. [XState JavaScript State Machines and Statecharts](https://xstate.js.org/docs/)
 1. [Demystifying PWAs: How to Create Native-like Apps with JavaScript](https://www.youtube.com/watch?v=VOtUDGMa0KQ)
-
+1. [CSS Grid Changes EVERYTHING](https://www.youtube.com/watch?v=7kVeCqQCxlk)
 ###Design
 1. [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
 1. [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
