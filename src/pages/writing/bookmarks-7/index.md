@@ -9,7 +9,10 @@ My browser's tab bar gets really messy through the work week between research, p
 ###Development
 1. [The Power of Serverless For Front-end Developers](https://serverless.css-tricks.com/)
 1. [Oh Shit, Git!?!](https://ohshitgit.com/)
+1. [No, disabling a button is not app logic](https://dev.to/davidkpiano/no-disabling-a-button-is-not-app-logic-598i)
+1. [Why You Should Know State Machines](https://www.youtube.com/watch?v=UAtaoVMFt7Y)
 
 ###Design
 1. [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
 1. [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
+1. [Hero Patterns](https://www.heropatterns.com/)
