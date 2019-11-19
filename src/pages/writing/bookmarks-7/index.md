@@ -12,3 +12,4 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Design
 1. [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
+1. [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
