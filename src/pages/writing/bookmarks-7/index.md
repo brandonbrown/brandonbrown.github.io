@@ -8,6 +8,7 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Development
 1. [The Power of Serverless For Front-end Developers](https://serverless.css-tricks.com/)
+1. [Oh Shit, Git!?!](https://ohshitgit.com/)
 
 ###Design
 1. [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
