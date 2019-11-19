@@ -73,8 +73,8 @@
       "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
     ],
     "path---writing": [
-      "path---writing-7d06efc37aa66b32e4a6.js",
-      "path---writing-7d06efc37aa66b32e4a6.js.map"
+      "path---writing-ab74f3e8f171a5a4ab5c.js",
+      "path---writing-ab74f3e8f171a5a4ab5c.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -102,6 +102,10 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---writing-bookmarks-7": [
+      "path---writing-bookmarks-7-ae237e41bed903717df2.js",
+      "path---writing-bookmarks-7-ae237e41bed903717df2.js.map"
+    ],
     "path---listening": [
       "path---listening-a0e39f21c11f6a62c5ab.js",
       "path---listening-a0e39f21c11f6a62c5ab.js.map"
@@ -119,8 +123,8 @@
       "path---writing-world-cup-fitness-inspiration-22ded8b7d866f6be0f69.js.map"
     ],
     "path---writing-bookmarks-6": [
-      "path---writing-bookmarks-6-78386e20b83261a925d3.js",
-      "path---writing-bookmarks-6-78386e20b83261a925d3.js.map"
+      "path---writing-bookmarks-6-b2d2f12ef70f5dd56a4d.js",
+      "path---writing-bookmarks-6-b2d2f12ef70f5dd56a4d.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -143,9 +147,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-905da232b8e556d17d1c.js",
+      "app-b80065baeffb7644c77b.js",
       "build-js-styles.css",
-      "app-905da232b8e556d17d1c.js.map",
+      "app-b80065baeffb7644c77b.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
