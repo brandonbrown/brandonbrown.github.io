@@ -1,5 +1,5 @@
 ---
-title: Bookmarks of the Week for Nov 10 2019
+title: Bookmarks of the Week for Nov 17 2019
 path: bookmarks-7
 date: "2019-11-17T13:00:00"
 category: Resources
