@@ -20,3 +20,6 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)
 1. [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 1. [Hero Patterns](https://www.heropatterns.com/)
+
+###Business
+1. [How to Get Rich (without getting lucky):](https://twitter.com/naval/status/1002103360646823936)
