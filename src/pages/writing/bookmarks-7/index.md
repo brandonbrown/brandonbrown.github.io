@@ -23,6 +23,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Hero Patterns](https://www.heropatterns.com/)
 1. [Expressive Design Systems](https://abookapart.com/products/expressive-design-systems)
 1. [Google Venture's Guide To UX Research For Startups](https://library.gv.com/gv-guide-to-uxresearch-for-startups-b6d0c8ac81b3)
+1. [A UX Case Study With Ridiculously Lengthy Details: UX Process & Tools](https://medium.muz.li/a-ux-case-study-with-ridiculously-lengthy-details-ux-process-tools-4498d167b07a)
 
 ###Business
 1. [How to Get Rich (without getting lucky):](https://twitter.com/naval/status/1002103360646823936)
