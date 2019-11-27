@@ -1,5 +1,5 @@
 ---
-title: BKMKS for Nov 24 2019
+title: BKMKS8 Nov 24 2019
 path: bookmarks-8
 date: "2019-11-24T13:00:00"
 category: Resources
@@ -9,6 +9,7 @@ My browser's tab bar gets really messy through the work week between research, p
 ###Thinking
 1. [Paul Graham: Genius](http://paulgraham.com/genius.html)
 1. [Augmenting Long-term Memory](http://augmentingcognition.com/ltm.html)
+1. [Design APIs: The Evolution of Design Systems](https://matthewstrom.com/writing/design-apis/)
 
 ###Development
 1. [Why Isn't Functional Programming the Norm? – Richard Feldman](https://www.youtube.com/watch?v=QyJZzq0v7Z4)
