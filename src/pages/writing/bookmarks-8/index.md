@@ -12,3 +12,5 @@ My browser's tab bar gets really messy through the work week between research, p
 
 ###Development
 1. [Why Isn't Functional Programming the Norm? – Richard Feldman](https://www.youtube.com/watch?v=QyJZzq0v7Z4)
+1. [PWA and the installable web (Chrome Dev Summit 2019)](https://www.youtube.com/watch?v=Hp_dQvQyYEI)
+1. [The main thread is overworked & underpaid (Chrome Dev Summit 2019)](https://www.youtube.com/watch?v=7Rrv9qFMWNM)
