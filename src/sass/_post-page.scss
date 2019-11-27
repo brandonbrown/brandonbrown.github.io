@@ -12,17 +12,21 @@
 
   flex-direction: column;
 
-  max-width: 65rem;
+  max-width: 60rem;
   margin: 0 auto;
   .post {
-    margin-bottom: 6rem;
+    margin: 0 auto 6rem;
+    text-align: left;
+    // max-width: 65rem;
     ul, ol {
       margin-left: 1.75rem !important;
+      // max-width: 30rem;
     }
     p {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       font-family: 'hk_groteskregular';
-      line-height: 2.75rem;
+      line-height: 1.75rem;
+
     }
   }
 }
