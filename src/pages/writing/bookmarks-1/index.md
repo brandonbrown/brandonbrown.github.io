@@ -1,5 +1,5 @@
 ---
-title: Bookmarks of the Week for Oct 6 2019
+title: BKMKS1 Oct 6 2019
 path: bookmarks-1
 date: "2019-10-12T13:00:00"
 category: Resources
