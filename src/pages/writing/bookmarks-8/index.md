@@ -12,6 +12,7 @@ My browser's tab bar gets really messy through the work week between research, p
 ###Thinking
 1. [Paul Graham: Genius](http://paulgraham.com/genius.html)
 1. [Augmenting Long-term Memory](http://augmentingcognition.com/ltm.html)
+1. [The Silicon Valley Space Race: Elon Musk vs Jeff Bezos - BBC](youtube.com/watch?v=pyG54C48KLU)
 
 ###Development
 1. [Why Isn't Functional Programming the Norm? – Richard Feldman](https://www.youtube.com/watch?v=QyJZzq0v7Z4)
