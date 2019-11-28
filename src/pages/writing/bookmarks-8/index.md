@@ -6,6 +6,9 @@ category: Resources
 ---
 My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.
 
+###Learning
+1. [Watch the No Code Conf talks](https://webflow.com/blog/watch-the-no-code-conf-talks)
+
 ###Thinking
 1. [Paul Graham: Genius](http://paulgraham.com/genius.html)
 1. [Augmenting Long-term Memory](http://augmentingcognition.com/ltm.html)
