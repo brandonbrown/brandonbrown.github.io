@@ -19,6 +19,10 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [The main thread is overworked & underpaid (Chrome Dev Summit 2019)](https://www.youtube.com/watch?v=7Rrv9qFMWNM)
 1. [Wes Bos's Beginner JavaScript Course](https://beginnerjavascript.com/)
 1. [Things nobody ever taught me about CSS.](https://medium.com/@devdevcharlie/things-nobody-ever-taught-me-about-css-5d16be8d5d0e)
+1. [Understanding how reducers are used in Redux](https://linguinecode.com/post/understanding-redux-reducers)
 
 ###Design
 1. [Design APIs: The Evolution of Design Systems](https://matthewstrom.com/writing/design-apis/)
+
+###Business
+1. [How To Get 10k Followers On Instagram Per Week](https://www.youtube.com/watch?v=89bF5Dzh_F4&feature=youtu.be)
