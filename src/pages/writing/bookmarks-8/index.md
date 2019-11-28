@@ -18,6 +18,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [PWA and the installable web (Chrome Dev Summit 2019)](https://www.youtube.com/watch?v=Hp_dQvQyYEI)
 1. [The main thread is overworked & underpaid (Chrome Dev Summit 2019)](https://www.youtube.com/watch?v=7Rrv9qFMWNM)
 1. [Wes Bos's Beginner JavaScript Course](https://beginnerjavascript.com/)
+1. [Things nobody ever taught me about CSS.](https://medium.com/@devdevcharlie/things-nobody-ever-taught-me-about-css-5d16be8d5d0e)
 
 ###Design
 1. [Design APIs: The Evolution of Design Systems](https://matthewstrom.com/writing/design-apis/)
