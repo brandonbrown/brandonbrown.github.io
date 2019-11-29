@@ -21,6 +21,7 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Wes Bos's Beginner JavaScript Course](https://beginnerjavascript.com/)
 1. [Things nobody ever taught me about CSS.](https://medium.com/@devdevcharlie/things-nobody-ever-taught-me-about-css-5d16be8d5d0e)
 1. [Understanding how reducers are used in Redux](https://linguinecode.com/post/understanding-redux-reducers)
+1. [Advent of Code 2019](https://adventofcode.com/)
 
 ###Design
 1. [Design APIs: The Evolution of Design Systems](https://matthewstrom.com/writing/design-apis/)
