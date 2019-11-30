@@ -26,6 +26,7 @@ My browser's tab bar gets really messy through the work week between research, p
 ###Design
 1. [Design APIs: The Evolution of Design Systems](https://matthewstrom.com/writing/design-apis/)
 1. [Not a cure-all: UX research](https://uxdesign.cc/not-a-cure-all-ux-research-71bbd337a8da)
+1. [It's Blue Beanie Day!](https://bluebeanieday.tumblr.com/)
 
 ###Business
 1. [How To Get 10k Followers On Instagram Per Week](https://www.youtube.com/watch?v=89bF5Dzh_F4&feature=youtu.be)
