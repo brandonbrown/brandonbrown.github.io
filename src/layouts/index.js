@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import logo from '../assets/logo.svg'
 
 import exampleImage from '../assets/shape.svg'
+import Newsletter from '../components/Newsletter'
 
 class Template extends React.Component {
   render() {
@@ -27,7 +28,7 @@ class Template extends React.Component {
         </Helmet>
         <header>
 
-
+          
             <div className="header">
               <div className="headerContent">
 
