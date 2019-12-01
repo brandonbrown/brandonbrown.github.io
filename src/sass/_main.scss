@@ -14,6 +14,11 @@ body {
 
 // layout
 
+pre {
+  background: #2c3e4f;
+  color: #39ca74;
+}
+
 main {
   display: flex;
   min-height: calc(100vh - 200px);
