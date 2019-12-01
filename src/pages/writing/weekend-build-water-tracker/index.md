@@ -150,3 +150,36 @@ export { layout, buttons }
 ```
 
 In this example, every style that assists in layout will be contained within the `const layout` and styles for buttons will be contained to `const buttons`. Repeat as necessary.
+
+Let's move the contents of `App.js` into a better location. This will be `/app/views/Main.js`.
+
+```
+App.js
+
+import React from 'react';
+import Main from './app/views/Main'
+
+export default function App() {
+  return (
+    <Main />
+  );
+};
+```
+
+```
+Main.js
+
+import React from 'react';
+import { Text, View } from 'react-native';
+
+export default function Main() {
+  return (
+    <View>
+      <Text>Open up App.js to start working on your app!</Text>
+    </View>
+  );
+};
+
+```
+
+Great! Everything in our simulator should be nearly identical to how it was before! This move is going to be useful when we begin to add state management and routing into the application. More on routing soon.
