@@ -116,3 +116,7 @@ Oh and of course, we should be tracking with `git`
     git init
 
 I'll keep the rest of the git steps out of this, but just a reminder for anyone who may follow this!
+
+Since this is a UI focused workflow at the moment, one of the first things I want to do is create a global stylesheet.
+
+Let's create another directory under `assets` called `styles`. I'll create `global.js` within this directory.
