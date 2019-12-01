@@ -72,3 +72,25 @@ Screens prototyped so far by Sunday night:
 I hope I can finish the interface tomorrow. It is a busy day, but I can tell how positive this practice of *greasing the groove* is for me right now so I'll make sure to find time.
 
 One small thing I wish Figma had: Export Frames as images.
+
+*11/30: Anyone with kids who can still pull off a weekend project.. kudos. Massive kudos. 🙌*
+
+Okay, the interface is at a point where I'm happy to start building. You should be able to see the interface in its most recent state above.
+
+Okay, let's go:
+
+First, let's make sure Expo is up to date. Also handy if you haven't installed Expo for react native yet:
+
+    $ npm install -g expo-cli
+
+For more info, visit the official [React Native docs](https://facebook.github.io/react-native/docs/getting-started)
+
+Now, let's start the project:
+
+    $ expo init MinMaxHydrate
+
+I decided on the blank workflow with Yarn as my dependency tool.
+
+    $ cd MinMaxHydrate && yarn start
+
+> Late addition to scope (our favorite!) of having teams in the mix. It's a bold plan, let's see if it plays out.
