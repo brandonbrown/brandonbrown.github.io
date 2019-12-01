@@ -26,6 +26,7 @@ My browser's tab bar gets really messy through the work week between research, p
 ###React Native
 1. [Let’s write examples with Package by Feature approach on React Native](https://medium.com/react-native-training/lets-write-examples-with-package-by-feature-approach-on-react-native-7494b49e034c)
 1. [How to handle Background App Refresh with HealthKit in React Native](https://medium.com/react-native-training/how-to-handle-background-app-refresh-with-healthkit-in-react-native-3a32704461fe)
+1. [Building a Lightweight Speedometer in React Native](https://medium.com/react-native-training/building-a-lightweight-speedometer-in-react-native-1eedaa039a40)
 
 ###Design
 1. [Design APIs: The Evolution of Design Systems](https://matthewstrom.com/writing/design-apis/)
