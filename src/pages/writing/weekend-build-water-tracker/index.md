@@ -120,3 +120,33 @@ I'll keep the rest of the git steps out of this, but just a reminder for anyone 
 Since this is a UI focused workflow at the moment, one of the first things I want to do is create a global stylesheet.
 
 Let's create another directory under `assets` called `styles`. I'll create `global.js` within this directory.
+
+I'm going to structure this file into sections that will help to clarify the purpose of the styles. For example:
+
+```
+import { StyleSheet } from 'react-native'
+
+const layout = StyleSheet.create({   ❶
+  container: {                       ❷
+    marginTop: 150,
+    backgroundColor: '#ededed',
+    flexWrap: 'wrap'
+  }
+})
+
+const buttons = StyleSheet.create({  ❸
+  primary: {                         ❹
+    flex: 1,
+    height: 70,
+    backgroundColor: 'red',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 20,
+    marginRight: 20
+  }
+})
+
+export { layout, buttons }   
+```
+
+In this example, every style that assists in layout will be contained within the `const layout` and styles for buttons will be contained to `const buttons`. Repeat as necessary.
