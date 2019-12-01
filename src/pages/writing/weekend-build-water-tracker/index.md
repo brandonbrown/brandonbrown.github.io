@@ -126,16 +126,16 @@ I'm going to structure this file into sections that will help to clarify the pur
 ```
 import { StyleSheet } from 'react-native'
 
-const layout = StyleSheet.create({   ❶
-  container: {                       ❷
+const layout = StyleSheet.create({   
+  container: {                       
     marginTop: 150,
     backgroundColor: '#ededed',
     flexWrap: 'wrap'
   }
 })
 
-const buttons = StyleSheet.create({  ❸
-  primary: {                         ❹
+const buttons = StyleSheet.create({  
+  primary: {                         
     flex: 1,
     height: 70,
     backgroundColor: 'red',
