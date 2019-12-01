@@ -227,3 +227,86 @@ I've never forked an NPM package to use in a custom way within a project, this i
 1. Run `yarn` and `yarn start` and we're back in business with our own version of the module
 
 All of that so I can control the width, but also not lose the work in the case I need to pull the project back down and reinstall the dependencies.
+
+###Sliding
+
+Let's add the ability to swipe the stats behind the main form card. I'll add this package to handle this: `$ yarn add react-native-swiper@nightly`
+
+I quickly added the package to my `Main.js` to test if it brings the correct capabilities.. and it did. That was too easy. Should I be worried?
+
+Here is how this file looks right now:
+
+```
+Main.js
+
+import React from 'react';
+import { Dimensions, StyleSheet, Text, View  } from 'react-native';
+import { layout, buttons, card } from '../assets/styles/global'
+import Card from './Card'
+
+import Swiper from 'react-native-swiper'
+
+export default function Main() {
+
+  return (
+    <View style={layout.container}>
+      <View style={layout.header}>
+        <Text>Profile</Text>
+        <View style={layout.navigation}>
+            <Text>Teams</Text>
+            <Text>Tracker</Text>
+            <Text>Favorites</Text>
+            <Text>Settings</Text>
+        </View>
+      </View>
+
+      <View style={layout.content}>
+        <Swiper
+          style={styles.wrapper}
+          loop={false}
+          showsButtons={false}>
+          <View style={styles.slide1}>
+            <Text style={styles.text}>Hello Swiper</Text>
+          </View>
+          <View style={styles.slide2}>
+            <Text style={styles.text}>Beautiful</Text>
+          </View>
+          <View style={styles.slide3}>
+            <Text style={styles.text}>And simple</Text>
+          </View>
+        </Swiper>
+      </View>
+      <Card />
+
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  wrapper: {},
+  slide1: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#9DD6EB'
+  },
+  slide2: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#97CAE5'
+  },
+  slide3: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#92BBD9'
+  },
+  text: {
+    color: '#fff',
+    fontSize: 30,
+    fontWeight: 'bold'
+  }
+})
+
+```
