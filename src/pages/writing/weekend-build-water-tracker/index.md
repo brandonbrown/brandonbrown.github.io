@@ -214,3 +214,16 @@ const layout = StyleSheet.create({
 I didn't set out to make this a tutorial, but an example of my thought process and a record of me creating an application. This is going to be where jumps begin to happen.
 
 One jump is figuring out the swipe to show/hide the information behind the main entry form. [This looks promising to solve this](https://www.npmjs.com/package/rn-bottom-drawer).
+
+###New Thing!
+
+I've never forked an NPM package to use in a custom way within a project, this is how to do just that:
+
+1. Fork the original repo
+1. Remove original package from project
+1. In `package.json`, add the dependency with repo of your new package. For example, mine is now: `"rn-bottom-drawer": "https://github.com/brandonbrown/rn-bottom-drawer.git",`
+1. I also ran `$ yarn add https://github.com/brandonbrown/rn-bottom-drawer.git`
+1. In `package.json` of the npm module I removed `react` and `react-native` from `devDependencies` due to a name collision with libraries.
+1. Run `yarn` and `yarn start` and we're back in business with our own version of the module
+
+All of that so I can control the width, but also not lose the work in the case I need to pull the project back down and reinstall the dependencies.
