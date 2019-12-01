@@ -23,6 +23,10 @@ My browser's tab bar gets really messy through the work week between research, p
 1. [Understanding how reducers are used in Redux](https://linguinecode.com/post/understanding-redux-reducers)
 1. [Advent of Code 2019](https://adventofcode.com/)
 
+###React Native
+1. [Let’s write examples with Package by Feature approach on React Native](https://medium.com/react-native-training/lets-write-examples-with-package-by-feature-approach-on-react-native-7494b49e034c)
+1. [How to handle Background App Refresh with HealthKit in React Native](https://medium.com/react-native-training/how-to-handle-background-app-refresh-with-healthkit-in-react-native-3a32704461fe)
+
 ###Design
 1. [Design APIs: The Evolution of Design Systems](https://matthewstrom.com/writing/design-apis/)
 1. [Not a cure-all: UX research](https://uxdesign.cc/not-a-cure-all-ux-research-71bbd337a8da)
