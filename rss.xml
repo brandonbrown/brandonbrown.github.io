@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Personal Website of Brandon Brown]]></title><description><![CDATA[Brandon is a designer and developer focusing his work on creating better systems for education and health.]]></description><link>https://bybrandonbrown.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 01 Dec 2019 01:16:11 GMT</lastBuildDate><item><title><![CDATA[BKMKS8 Nov 24 2019]]></title><description><![CDATA[My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good…]]></description><link>https://bybrandonbrown.com/writing/bookmarks-8/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/bookmarks-8/</guid><pubDate>Sun, 24 Nov 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Personal Website of Brandon Brown]]></title><description><![CDATA[Brandon is a designer and developer focusing his work on creating better systems for education and health.]]></description><link>https://bybrandonbrown.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 01 Dec 2019 01:25:03 GMT</lastBuildDate><item><title><![CDATA[BKMKS8 Nov 24 2019]]></title><description><![CDATA[My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good…]]></description><link>https://bybrandonbrown.com/writing/bookmarks-8/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/bookmarks-8/</guid><pubDate>Sun, 24 Nov 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.&lt;/p&gt;
 &lt;h3&gt;Learning&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://webflow.com/blog/watch-the-no-code-conf-talks&quot;&gt;Watch the No Code Conf talks&lt;/a&gt;&lt;/li&gt;
@@ -150,7 +150,36 @@
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git init&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;I’ll keep the rest of the git steps out of this, but just a reminder for anyone who may follow this!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[BKMKS7 Nov 17 2019]]></title><description><![CDATA[My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good…]]></description><link>https://bybrandonbrown.com/writing/bookmarks-7/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/bookmarks-7/</guid><pubDate>Sun, 17 Nov 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.&lt;/p&gt;
+&lt;p&gt;I’ll keep the rest of the git steps out of this, but just a reminder for anyone who may follow this!&lt;/p&gt;
+&lt;p&gt;Since this is a UI focused workflow at the moment, one of the first things I want to do is create a global stylesheet.&lt;/p&gt;
+&lt;p&gt;Let’s create another directory under &lt;code class=&quot;language-text&quot;&gt;assets&lt;/code&gt; called &lt;code class=&quot;language-text&quot;&gt;styles&lt;/code&gt;. I’ll create &lt;code class=&quot;language-text&quot;&gt;global.js&lt;/code&gt; within this directory.&lt;/p&gt;
+&lt;p&gt;I’m going to structure this file into sections that will help to clarify the purpose of the styles. For example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import { StyleSheet } from &amp;#39;react-native&amp;#39;
+
+const layout = StyleSheet.create({   ❶
+  container: {                       ❷
+    marginTop: 150,
+    backgroundColor: &amp;#39;#ededed&amp;#39;,
+    flexWrap: &amp;#39;wrap&amp;#39;
+  }
+})
+
+const buttons = StyleSheet.create({  ❸
+  primary: {                         ❹
+    flex: 1,
+    height: 70,
+    backgroundColor: &amp;#39;red&amp;#39;,
+    justifyContent: &amp;#39;center&amp;#39;,
+    alignItems: &amp;#39;center&amp;#39;,
+    marginLeft: 20,
+    marginRight: 20
+  }
+})
+
+export { layout, buttons }   &lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;In this example, every style that assists in layout will be contained within the &lt;code class=&quot;language-text&quot;&gt;const layout&lt;/code&gt; and styles for buttons will be contained to &lt;code class=&quot;language-text&quot;&gt;const buttons&lt;/code&gt;. Repeat as necessary.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[BKMKS7 Nov 17 2019]]></title><description><![CDATA[My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good…]]></description><link>https://bybrandonbrown.com/writing/bookmarks-7/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/bookmarks-7/</guid><pubDate>Sun, 17 Nov 2019 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My browser’s tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.&lt;/p&gt;
 &lt;h3&gt;Development&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://serverless.css-tricks.com/&quot;&gt;The Power of Serverless For Front-end Developers&lt;/a&gt;&lt;/li&gt;
