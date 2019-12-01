@@ -183,3 +183,32 @@ export default function Main() {
 ```
 
 Great! Everything in our simulator should be nearly identical to how it was before! This move is going to be useful when we begin to add state management and routing into the application. More on routing soon.
+
+Okay, back to the matter at hand, styles. Let's start with colors. Keeping colors consistent throughout the UI is critical, let's set up some variables to help us with this:
+
+```
+global.js
+
+const colors = {
+    darkBlue: '#0A1C3F',
+    midBlue: '#227BCE',
+    brightBlue: '#59AFFF',
+    grayBlue: '#18294A',
+    yellow: '#E5D969',
+};
+
+const layout = StyleSheet.create({   
+  container: {                       
+    backgroundColor: colors.brightBlue,
+    flex: 1,
+    flexWrap: 'wrap'
+  }
+})
+
+```
+
+###Hol' up
+
+I didn't set out to make this a tutorial, but an example of my thought process and a record of me creating an application. This is going to be where jumps begin to happen.
+
+One jump is figuring out the swipe to show/hide the information behind the main entry form. [This looks promising to solve this](https://www.npmjs.com/package/rn-bottom-drawer)
