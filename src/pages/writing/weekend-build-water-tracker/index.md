@@ -5,6 +5,8 @@ date: "2019-11-23T17:15:00"
 category: Development
 ---
 
+> This is really not so much a weekend build as a when-I-find-time build. It'll be a running log of my overall thought process and the execution of creating an application with React Native.
+
 #Stay Hydrated, Friends
 
 Let's build a water tracking app. The focus is going to start with the front-end, user-oriented needs. So, what am I building:
@@ -211,4 +213,4 @@ const layout = StyleSheet.create({
 
 I didn't set out to make this a tutorial, but an example of my thought process and a record of me creating an application. This is going to be where jumps begin to happen.
 
-One jump is figuring out the swipe to show/hide the information behind the main entry form. [This looks promising to solve this](https://www.npmjs.com/package/rn-bottom-drawer)
+One jump is figuring out the swipe to show/hide the information behind the main entry form. [This looks promising to solve this](https://www.npmjs.com/package/rn-bottom-drawer).
