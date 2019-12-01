@@ -94,3 +94,25 @@ I decided on the blank workflow with Yarn as my dependency tool.
     $ cd MinMaxHydrate && yarn start
 
 > Late addition to scope (our favorite!) of having teams in the mix. It's a bold plan, let's see if it plays out.
+
+Now that we have our foundation, let's add some structure:
+
+- app
+  - actions
+  - assets
+    - fonts
+    - icons
+    - images
+  - components
+  - config
+  - modules
+  - reducers
+  - services
+  - store
+  - views
+
+Oh and of course, we should be tracking with `git`
+
+    git init
+
+I'll keep the rest of the git steps out of this, but just a reminder for anyone who may follow this!
