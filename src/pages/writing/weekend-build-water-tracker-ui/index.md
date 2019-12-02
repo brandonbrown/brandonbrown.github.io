@@ -324,3 +324,34 @@ I really like the contribution graph, I may install this and see how far you can
 This also needs a few adjustments to handle the styling I'm after. I also just learned that contributions don't count in forks unless merged into the parent repo. I'd like to track my work, so [duplicating the repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) may be necessary. I may add the contributions into the parent in the future.
 
 >Also, holding a new born slows the typing and the brain equally
+
+Phew! Messing with SVGs directly is a bit of a steep learning curve- but now I can control the radius of the bar chart ... bars ... independently. Need to sync the project to my custom version of this package now.
+
+A snippet of what I just accomplished:
+
+```
+// barchart.js
+...
+const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidth / 2
+      const barY = ((barHeight > 0 ? baseHeight - barHeight : baseHeight) / 4) * 3 + paddingTop
+      const barTopRadius = this.props.chartConfig.topRadius
+      console.log(`bar ${i} x: `, barX )
+      console.log(`bar ${i} y: `, barY )
+      return (
+        <Path
+          key={Math.random()}
+          fill={this.props.chartConfig.color(1)}
+          d={`
+          M${barX},${barY}
+          h${barWidth - barTopRadius}
+          q${barTopRadius},0 ${barTopRadius}, ${barTopRadius}
+          v${(Math.abs(barHeight) / 4) * 3}
+          h${(barWidth) * -1}
+          v${(Math.abs(barHeight) / 4) * -3}
+          q0,-${barTopRadius} ${barTopRadius},-${barTopRadius}
+          z`}
+        />
+      )
+...
+
+```
