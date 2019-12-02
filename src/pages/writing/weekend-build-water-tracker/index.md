@@ -310,3 +310,13 @@ const styles = StyleSheet.create({
 })
 
 ```
+
+Yeah that was *incredibly* easy.
+
+Well, onto something else. Let's bring some charts into this. I'm a big fan of [Victory Charts](https://formidable.com/open-source/victory/docs/victory-chart/) and most likely will use them, but I'll do a quick look to see if any new alternatives have shown up.
+
+This looks promising: [React Native Chart Kit](https://www.npmjs.com/package/react-native-chart-kit)
+I really like the contribution graph, I may install this and see how far you can push it.
+
+`$ yarn add react-native-chart-kit`
+`$ yarn add react-native-svg prop-types`
