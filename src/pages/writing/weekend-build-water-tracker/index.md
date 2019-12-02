@@ -320,3 +320,5 @@ I really like the contribution graph, I may install this and see how far you can
 
 `$ yarn add react-native-chart-kit`
 `$ yarn add react-native-svg prop-types`
+
+This also needs a few adjustments to handle the styling I'm after. I also just learned that contributions don't count in forks unless merged into the parent repo. I'd like to track my work, so [duplicating the repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) may be necessary. I may add the contributions into the parent in the future.
