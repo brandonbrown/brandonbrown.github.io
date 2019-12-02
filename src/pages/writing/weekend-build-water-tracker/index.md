@@ -1,6 +1,6 @@
 ---
-title: "Weekend Build: Water Tracker"
-path: weekend-build-water-tracker
+title: "Weekend Build: Water Tracker UI"
+path: weekend-build-water-tracker-ui
 date: "2019-11-23T17:15:00"
 category: Development
 ---
