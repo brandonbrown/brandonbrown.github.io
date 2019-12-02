@@ -221,8 +221,8 @@ I've never forked an NPM package to use in a custom way within a project, this i
 
 1. Fork the original repo
 1. Remove original package from project
-1. In `package.json`, add the dependency with repo of your new package. For example, mine is now: `"rn-bottom-drawer": "https://github.com/brandonbrown/rn-bottom-drawer.git",`
-1. I also ran `$ yarn add https://github.com/brandonbrown/rn-bottom-drawer.git`
+1. In `package.json`, add the dependency with repo of your new package. For example, mine is now: `"rn-bottom-drawer": "https://github.com/brandonbrown/mmf-rn-bottom-drawer.git",`
+1. I also ran `$ yarn add https://github.com/brandonbrown/mmf-rn-bottom-drawer.git`
 1. In `package.json` of the npm module I removed `react` and `react-native` from `devDependencies` due to a name collision with libraries.
 1. Run `yarn` and `yarn start` and we're back in business with our own version of the module
 
@@ -355,3 +355,7 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
 ...
 
 ```
+
+Alright! Customized repos so far if you'd like to take a look:
+[Custom react-native-chart-kit](https://github.com/brandonbrown/mmf-react-native-chart-kit)
+[Custom rn-bottom-drawer](https://github.com/brandonbrown/mmf-rn-bottom-drawer)
