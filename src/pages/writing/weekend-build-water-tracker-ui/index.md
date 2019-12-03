@@ -359,3 +359,7 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
 Alright! Customized repos so far if you'd like to take a look:
 [Custom react-native-chart-kit](https://github.com/brandonbrown/mmf-react-native-chart-kit)
 [Custom rn-bottom-drawer](https://github.com/brandonbrown/mmf-rn-bottom-drawer)
+
+###Chart Styles
+
+Wow, these really kicked me for one today! Finally have them looking close to what my design was- but the implementation could be stronger. For now, moving on to other things and will revisit later. Don't want to stop for the sake of tweaking things.
