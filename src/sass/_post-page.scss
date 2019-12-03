@@ -17,15 +17,19 @@
   .post {
     margin: 0 auto 6rem;
     text-align: left;
-    // max-width: 65rem;
+    max-width: 50rem;
     ul, ol {
       margin-left: 1.75rem !important;
-      // max-width: 30rem;
+      max-width: 40rem;
     }
     p {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
       font-family: 'hk_groteskregular';
       line-height: 1.75rem;
+
+      .code {
+        margin-bottom: -3px !important;
+      }
 
     }
   }
