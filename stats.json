@@ -65,8 +65,8 @@
       "path---writing-bookmarks-5-c1d0444d1ea5d070d1b7.js.map"
     ],
     "path---writing-bookmarks-8": [
-      "path---writing-bookmarks-8-3b6fbfc509fe05b47f8f.js",
-      "path---writing-bookmarks-8-3b6fbfc509fe05b47f8f.js.map"
+      "path---writing-bookmarks-8-d5ec3f40fcf786c90f7c.js",
+      "path---writing-bookmarks-8-d5ec3f40fcf786c90f7c.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -77,8 +77,8 @@
       "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
     ],
     "path---writing": [
-      "path---writing-4728da11c170d8f82294.js",
-      "path---writing-4728da11c170d8f82294.js.map"
+      "path---writing-b01320c70f9b2582c6cd.js",
+      "path---writing-b01320c70f9b2582c6cd.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -118,6 +118,10 @@
       "component---src-pages-watching-js-34013762edd9623d90ed.js",
       "component---src-pages-watching-js-34013762edd9623d90ed.js.map"
     ],
+    "path---writing-december-daily-design": [
+      "path---writing-december-daily-design-667bc9cdf5bd7dfdab03.js",
+      "path---writing-december-daily-design-667bc9cdf5bd7dfdab03.js.map"
+    ],
     "path---writing-bookmarks-2": [
       "path---writing-bookmarks-2-4153043a9d8d25b08308.js",
       "path---writing-bookmarks-2-4153043a9d8d25b08308.js.map"
@@ -151,9 +155,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-d4a65a79d2e1fc8c5dc5.js",
+      "app-600ec4df860e832c3340.js",
       "build-js-styles.css",
-      "app-d4a65a79d2e1fc8c5dc5.js.map",
+      "app-600ec4df860e832c3340.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
