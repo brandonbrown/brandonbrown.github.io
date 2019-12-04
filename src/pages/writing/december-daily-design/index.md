@@ -18,25 +18,14 @@ Something I'm going to experiment with are setting some type of constraints. The
 
 
 
-`1`
-**Golf Score Tracker with live updates and video/photo sharing for social interaction and honesty.**
+> 1: **Golf Score Tracker with live updates and video/photo sharing for social interaction and honesty. [Color scheme](https://coolors.co/4e0250-801a86-645986-8fe388-58bc82) [See it on Dribbble](https://dribbble.com/shots/8808609-UI-Practice-1)**
 
-**[Color scheme](https://coolors.co/4e0250-801a86-645986-8fe388-58bc82)**
+![December Daily Design 1](https://cdn.dribbble.com/users/32047/screenshots/8808609/media/95b3937bd9d8956ea90413d7d7b5021f.png)
 
-*Wow I lucked out with those greens!*
-
-*Design coming*
-
-`2`
-**Movie and show recommendations based on social-circle's tastes**
-
-**[Color scheme](https://coolors.co/8895b3-8e94f2-9fa0ff-bbadff-dab6fc)**
+> 2: **Movie and show recommendations based on social-circle's tastes. [Color scheme](https://coolors.co/8895b3-8e94f2-9fa0ff-bbadff-dab6fc)**
 
 *Design coming*
 
-`3`
-**Excelsior Outfit: Adult-men oriented mental health meetups based on various and inclusive activities**
-
-**[Color scheme](https://coolors.co/08415c-cc2936-6b818c-f1bf98-eee5e9)**
+> 3: **Excelsior Outfit: Adult-men oriented mental health meetups based on various and inclusive activities. [Color scheme](https://coolors.co/08415c-cc2936-6b818c-f1bf98-eee5e9)**
 
 *Design coming*
