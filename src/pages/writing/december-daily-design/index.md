@@ -20,6 +20,6 @@ Something I'm going to experiment with are setting some type of constraints. The
 
 > 1: **Profile for a Golf Score Tracker with live updates and video/photo sharing for social interaction and honesty. [Color scheme](https://coolors.co/4e0250-801a86-645986-8fe388-58bc82) [See it on Dribbble](https://dribbble.com/shots/8808609-UI-Practice-1)**
 
-![December Daily Design 1](https://cdn.dribbble.com/users/32047/screenshots/8808609/media/95b3937bd9d8956ea90413d7d7b5021f.png)
+[![December Daily Design 1](https://cdn.dribbble.com/users/32047/screenshots/8808609/media/95b3937bd9d8956ea90413d7d7b5021f.png)](https://dribbble.com/shots/8808609-UI-Practice-1)
 
 > 2: **Feed for a Golf Score Tracker with live updates and video/photo sharing for social interaction and honesty. [Color scheme](https://coolors.co/4e0250-801a86-645986-8fe388-58bc82)**
