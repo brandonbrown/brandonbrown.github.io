@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---writing-bookmarks-9": [
+      "path---writing-bookmarks-9-6b74d9adad7d8ea899ec.js",
+      "path---writing-bookmarks-9-6b74d9adad7d8ea899ec.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-f86664a4382f80a36846.js",
       "component---src-pages-index-js-f86664a4382f80a36846.js.map"
@@ -65,8 +69,8 @@
       "path---writing-bookmarks-5-c1d0444d1ea5d070d1b7.js.map"
     ],
     "path---writing-bookmarks-8": [
-      "path---writing-bookmarks-8-d5ec3f40fcf786c90f7c.js",
-      "path---writing-bookmarks-8-d5ec3f40fcf786c90f7c.js.map"
+      "path---writing-bookmarks-8-596aeaf758d5457917ac.js",
+      "path---writing-bookmarks-8-596aeaf758d5457917ac.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -77,8 +81,8 @@
       "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
     ],
     "path---writing": [
-      "path---writing-b01320c70f9b2582c6cd.js",
-      "path---writing-b01320c70f9b2582c6cd.js.map"
+      "path---writing-8302131f29f07159f23b.js",
+      "path---writing-8302131f29f07159f23b.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -119,8 +123,8 @@
       "component---src-pages-watching-js-34013762edd9623d90ed.js.map"
     ],
     "path---writing-december-daily-design": [
-      "path---writing-december-daily-design-5342059705b0351fceaa.js",
-      "path---writing-december-daily-design-5342059705b0351fceaa.js.map"
+      "path---writing-december-daily-design-042580ee03497647b1c2.js",
+      "path---writing-december-daily-design-042580ee03497647b1c2.js.map"
     ],
     "path---writing-bookmarks-2": [
       "path---writing-bookmarks-2-4153043a9d8d25b08308.js",
@@ -155,9 +159,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-600ec4df860e832c3340.js",
+      "app-5ff38e2d2203cbcc3f70.js",
       "build-js-styles.css",
-      "app-600ec4df860e832c3340.js.map",
+      "app-5ff38e2d2203cbcc3f70.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-1": [
