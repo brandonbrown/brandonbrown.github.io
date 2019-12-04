@@ -1,5 +1,5 @@
 ---
-title: BKMKS9 Nov 24 2019
+title: BKMKS9 Dec 1 2019
 path: bookmarks-9
 date: "2019-12-04T9:00:00"
 category: Resources
