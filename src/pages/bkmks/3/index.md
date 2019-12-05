@@ -1,13 +1,11 @@
 ---
 posttype: "bkmk"
-title: BKMKS3 Oct 20 2019
-path: bookmarks-3
+title: BKMKS3
+path: "3"
 date: "2019-10-20T13:00:00"
+updated: "2019-10-26T13:00:00"
 category: Resources
 ---
-My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.
-
-
 ###Development
 1. [Choosing Ruby on Rails for web development project in 2019](https://news.ycombinator.com/item?id=20039589)
 1. [Web Development in 2019](https://www.youtube.com/watch?v=UnTQVlqmDQ0)

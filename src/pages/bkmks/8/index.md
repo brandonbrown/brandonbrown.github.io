@@ -1,12 +1,11 @@
 ---
 posttype: "bkmk"
-title: BKMKS8 Nov 24 2019
-path: bookmarks-8
+title: BKMKS8
+path: "8"
 date: "2019-11-24T13:00:00"
+updated: "2019-11-30T13:00:00"
 category: Resources
 ---
-My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.
-
 ###Learning
 1. [Watch the No Code Conf talks](https://webflow.com/blog/watch-the-no-code-conf-talks)
 

@@ -1,12 +1,11 @@
 ---
 posttype: "bkmk"
-title: BKMKS7 Nov 17 2019
-path: bookmarks-7
+title: BKMKS7
+path: "7"
 date: "2019-11-17T13:00:00"
+updated: "2019-11-23T13:00:00"
 category: Resources
 ---
-My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.
-
 ###Development
 1. [The Power of Serverless For Front-end Developers](https://serverless.css-tricks.com/)
 1. [Oh Shit, Git!?!](https://ohshitgit.com/)

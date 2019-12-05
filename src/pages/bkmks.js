@@ -11,22 +11,22 @@ import square from '../assets/covers/square.jpg'
 export default function Bkmks({ data }) {
   const { edges: bkmks } = data.allMarkdownRemark;
   return (
-    <div className="content-wrapper creator-page">
+    <div className="content-wrapper creator-page bkmk-list">
     { bkmks.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {
              return (
-               <article className="blog-post-preview" key={post.id}>
-                 <h4 className="post-meta">
-                  <span>{post.frontmatter.category} </span>
-                  <span>{post.frontmatter.date} </span>
-                 </h4>
+               <article className="blog-post-preview bkmk-item" key={post.id}>
                  <h1 className="post-title">
                   <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                  </h1>
+                 <h4 className="post-meta">
+                  <span>For the week of {post.frontmatter.date}</span>
+                  <span>Last updated on {post.frontmatter.updated}</span>
+                 </h4>
+                 <section dangerouslySetInnerHTML={{ __html: post.html }}>
 
-                 <p className="post-excerpt">
-                  {post.excerpt}
-                 </p>
+                 </section>
+
                </article>
              );
            })}
@@ -53,13 +53,14 @@ query BkmkQuery {
   ) {
     edges {
       node {
-        excerpt(pruneLength: 250)
         id
+        html
         frontmatter {
           title
           date(formatString: "MMMM Do, YYYY")
           path
           category
+          updated(formatString: "MMMM DD, YYYY")
         }
       }
     }

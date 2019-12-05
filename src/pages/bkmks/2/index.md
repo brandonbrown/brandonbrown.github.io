@@ -1,13 +1,11 @@
 ---
 posttype: "bkmk"
-title: BKMKS2 Oct 13 2019
-path: bookmarks-2
+title: BKMKS2
+path: "2"
 date: "2019-10-13T13:00:00"
+updated: "2019-10-19T13:00:00"
 category: Resources
 ---
-My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.
-
-
 ###Development
 1. [Introduction to React Hooks](https://howchoo.com/g/njy1njc2yzk/introduction-to-react-hooks)
 1. [jQuery to Vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/)

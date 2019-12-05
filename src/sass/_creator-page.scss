@@ -60,4 +60,29 @@
       }
     }
   }
+
+  &.content-wrapper.creator-page.bkmk-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    article {
+
+      width: 48%;
+      &.bkmk-item {
+        flex-direction: column;
+
+        h1 {
+          width: 100%;
+        }
+        h3 {
+          font-size: 1rem;
+          margin-top: 1.5rem;
+          margin-bottom: .75rem;
+        }
+        h4 {
+          width: 100%;
+        }
+      }
+    }
+  }
 }

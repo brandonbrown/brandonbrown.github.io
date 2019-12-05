@@ -1,13 +1,11 @@
 ---
 posttype: "bkmk"
-title: BKMKS1 Oct 6 2019
-path: bookmarks-1
+title: BKMKS1
+path: "1"
 date: "2019-10-12T13:00:00"
+updated: "2019-10-18T13:00:00"
 category: Resources
 ---
-My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from the explosion of information this past week.
-
-
 ###Development
 1. [Making Instagram.com Faster: Part 1](https://instagram-engineering.com/making-instagram-com-faster-part-1-62cc0c327538)
 1. [Making Instagram.com Faster: Part 2](https://instagram-engineering.com/making-instagram-com-faster-part-2-f350c8fba0d4)
