@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
-    "path---bkmks-bookmarks-7": [
-      "path---bkmks-bookmarks-7-5fa3e080bdf0b037ca7e.js",
-      "path---bkmks-bookmarks-7-5fa3e080bdf0b037ca7e.js.map"
+    "path---bkmks-2": [
+      "path---bkmks-2-5757cd68ffe7243efe94.js",
+      "path---bkmks-2-5757cd68ffe7243efe94.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-f86664a4382f80a36846.js",
       "component---src-pages-index-js-f86664a4382f80a36846.js.map"
     ],
-    "path---bkmks-bookmarks-3": [
-      "path---bkmks-bookmarks-3-02812bf8e8b64f713ac8.js",
-      "path---bkmks-bookmarks-3-02812bf8e8b64f713ac8.js.map"
+    "path---bkmks-9": [
+      "path---bkmks-9-390f95f1559fd9cdbfcf.js",
+      "path---bkmks-9-390f95f1559fd9cdbfcf.js.map"
     ],
     "component---src-pages-reading-js": [
       "component---src-pages-reading-js-69bb33a3737a456e4e22.js",
@@ -20,9 +20,17 @@
       "path---writing-yourfirststeps-part-2-9e94689c2a970b28975c.js",
       "path---writing-yourfirststeps-part-2-9e94689c2a970b28975c.js.map"
     ],
+    "path---bkmks-8": [
+      "path---bkmks-8-48bd726f152173c93821.js",
+      "path---bkmks-8-48bd726f152173c93821.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---bkmks-1": [
+      "path---bkmks-1-e6ae9f2b553956bdfece.js",
+      "path---bkmks-1-e6ae9f2b553956bdfece.js.map"
     ],
     "path---writing-athleanx": [
       "path---writing-athleanx-55afb244c2740e2bc49b.js",
@@ -32,9 +40,9 @@
       "path---writing-design-your-life-10cd606fd3b7d8129ecd.js",
       "path---writing-design-your-life-10cd606fd3b7d8129ecd.js.map"
     ],
-    "path---bkmks-bookmarks-4": [
-      "path---bkmks-bookmarks-4-54c9be77bb8493ac4983.js",
-      "path---bkmks-bookmarks-4-54c9be77bb8493ac4983.js.map"
+    "path---bkmks-5": [
+      "path---bkmks-5-f10eb5de5a63de97e62f.js",
+      "path---bkmks-5-f10eb5de5a63de97e62f.js.map"
     ],
     "component---src-pages-listening-js": [
       "component---src-pages-listening-js-d961ec0836578108181b.js",
@@ -44,17 +52,9 @@
       "path---writing-coffee-and-success-6475e2cf87480477d02a.js",
       "path---writing-coffee-and-success-6475e2cf87480477d02a.js.map"
     ],
-    "path---bkmks-bookmarks-8": [
-      "path---bkmks-bookmarks-8-31452e9441780157f3fe.js",
-      "path---bkmks-bookmarks-8-31452e9441780157f3fe.js.map"
-    ],
     "path---writing-web-people": [
-      "path---writing-web-people-5d5d5eeda79daa8dc231.js",
-      "path---writing-web-people-5d5d5eeda79daa8dc231.js.map"
-    ],
-    "path---bkmks-bookmarks-2": [
-      "path---bkmks-bookmarks-2-254f0c7a9dffc793036e.js",
-      "path---bkmks-bookmarks-2-254f0c7a9dffc793036e.js.map"
+      "path---writing-web-people-2f5f6ff3733d43c373c8.js",
+      "path---writing-web-people-2f5f6ff3733d43c373c8.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -64,13 +64,13 @@
       "path---reading-a0e39f21c11f6a62c5ab.js",
       "path---reading-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---bkmks-bookmarks-6": [
-      "path---bkmks-bookmarks-6-46bf7142099a406d11c8.js",
-      "path---bkmks-bookmarks-6-46bf7142099a406d11c8.js.map"
-    ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-75df91e100c58b4f879d.js",
       "component---src-templates-blog-post-js-75df91e100c58b4f879d.js.map"
+    ],
+    "path---bkmks-7": [
+      "path---bkmks-7-2fb2e30e31dfba965960.js",
+      "path---bkmks-7-2fb2e30e31dfba965960.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-0dac8aff808d8ba88853.js",
@@ -85,8 +85,8 @@
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
     ],
     "path---bkmks": [
-      "path---bkmks-78045f304aec943a07b4.js",
-      "path---bkmks-78045f304aec943a07b4.js.map"
+      "path---bkmks-50cd62e3107245290f6a.js",
+      "path---bkmks-50cd62e3107245290f6a.js.map"
     ],
     "path---writing": [
       "path---writing-750194accc61ce2ac797.js",
@@ -95,6 +95,10 @@
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
       "component---src-pages-404-js-7cef5e86477838756f05.js.map"
+    ],
+    "path---bkmks-4": [
+      "path---bkmks-4-ff5c500b091e05998508.js",
+      "path---bkmks-4-ff5c500b091e05998508.js.map"
     ],
     "commons": [
       "commons-27bed49b4ac6849abeb4.js",
@@ -114,13 +118,13 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-bkmks-js": [
-      "component---src-pages-bkmks-js-842dbbd4e84fad801a6b.js",
-      "component---src-pages-bkmks-js-842dbbd4e84fad801a6b.js.map"
+    "path---bkmks-3": [
+      "path---bkmks-3-b5f4bc1256085e93d6d5.js",
+      "path---bkmks-3-b5f4bc1256085e93d6d5.js.map"
     ],
-    "path---bkmks-bookmarks-1": [
-      "path---bkmks-bookmarks-1-fca285903bed9497fed1.js",
-      "path---bkmks-bookmarks-1-fca285903bed9497fed1.js.map"
+    "component---src-pages-bkmks-js": [
+      "component---src-pages-bkmks-js-58485720f97d990990ae.js",
+      "component---src-pages-bkmks-js-58485720f97d990990ae.js.map"
     ],
     "path---listening": [
       "path---listening-a0e39f21c11f6a62c5ab.js",
@@ -131,20 +135,12 @@
       "component---src-pages-watching-js-34013762edd9623d90ed.js.map"
     ],
     "path---writing-december-daily-design": [
-      "path---writing-december-daily-design-aa61a81825cae9f90d4d.js",
-      "path---writing-december-daily-design-aa61a81825cae9f90d4d.js.map"
-    ],
-    "path---bkmks-bookmarks-5": [
-      "path---bkmks-bookmarks-5-98db2caa7b75dd2bc1a6.js",
-      "path---bkmks-bookmarks-5-98db2caa7b75dd2bc1a6.js.map"
+      "path---writing-december-daily-design-4664a206a9d143060979.js",
+      "path---writing-december-daily-design-4664a206a9d143060979.js.map"
     ],
     "path---writing-world-cup-fitness-inspiration": [
       "path---writing-world-cup-fitness-inspiration-bc547b65bff43382ef79.js",
       "path---writing-world-cup-fitness-inspiration-bc547b65bff43382ef79.js.map"
-    ],
-    "path---bkmks-bookmarks-9": [
-      "path---bkmks-bookmarks-9-e636f8d99461d308d585.js",
-      "path---bkmks-bookmarks-9-e636f8d99461d308d585.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -159,10 +155,14 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-293d4e0770a07c8e3468.js",
+      "app-dd32d47814f29cfd437d.js",
       "build-js-styles.css",
-      "app-293d4e0770a07c8e3468.js.map",
+      "app-dd32d47814f29cfd437d.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---bkmks-6": [
+      "path---bkmks-6-a4594cdfb52add89856d.js",
+      "path---bkmks-6-a4594cdfb52add89856d.js.map"
     ],
     "component---src-templates-bkmk-post-js": [
       "component---src-templates-bkmk-post-js-186dac1ade17b8a5ab3a.js",
@@ -177,8 +177,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---writing-weekend-build-water-tracker-ui": [
-      "path---writing-weekend-build-water-tracker-ui-f85170073e79467cf64e.js",
-      "path---writing-weekend-build-water-tracker-ui-f85170073e79467cf64e.js.map"
+      "path---writing-weekend-build-water-tracker-ui-2e907b9caa14dc3d5960.js",
+      "path---writing-weekend-build-water-tracker-ui-2e907b9caa14dc3d5960.js.map"
     ]
   }
 }
