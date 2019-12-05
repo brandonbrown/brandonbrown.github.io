@@ -115,6 +115,9 @@ main {
       color: white;
       // background: rgba(40,40,97,.5);
       padding: 8px 12px;
+      &.imagelink {
+          box-shadow: none;
+      }
       &:hover {
         background: rgba(60,60,107,.5);
       }
