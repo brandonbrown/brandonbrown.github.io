@@ -15,3 +15,4 @@ category: Resources
 ###Business
 
 1. [Emotional Baggage: Away](https://www.theverge.com/2019/12/5/20995453/away-luggage-ceo-steph-korey-toxic-work-environment-travel-inclusion)
+1. [The Basecamp Handbook](basecamp.com/handbook)
