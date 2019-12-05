@@ -1,44 +1,60 @@
 {
   "assetsByChunkName": {
-    "path---writing-bookmarks-9": [
-      "path---writing-bookmarks-9-7e6992492f99531a3540.js",
-      "path---writing-bookmarks-9-7e6992492f99531a3540.js.map"
+    "path---bkmks-bookmarks-7": [
+      "path---bkmks-bookmarks-7-5fa3e080bdf0b037ca7e.js",
+      "path---bkmks-bookmarks-7-5fa3e080bdf0b037ca7e.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-f86664a4382f80a36846.js",
       "component---src-pages-index-js-f86664a4382f80a36846.js.map"
+    ],
+    "path---bkmks-bookmarks-3": [
+      "path---bkmks-bookmarks-3-02812bf8e8b64f713ac8.js",
+      "path---bkmks-bookmarks-3-02812bf8e8b64f713ac8.js.map"
     ],
     "component---src-pages-reading-js": [
       "component---src-pages-reading-js-69bb33a3737a456e4e22.js",
       "component---src-pages-reading-js-69bb33a3737a456e4e22.js.map"
     ],
     "path---writing-yourfirststeps-part-2": [
-      "path---writing-yourfirststeps-part-2-8171e3477517387bf5b7.js",
-      "path---writing-yourfirststeps-part-2-8171e3477517387bf5b7.js.map"
+      "path---writing-yourfirststeps-part-2-9e94689c2a970b28975c.js",
+      "path---writing-yourfirststeps-part-2-9e94689c2a970b28975c.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---writing-athleanx": [
-      "path---writing-athleanx-a443d3126da13924277a.js",
-      "path---writing-athleanx-a443d3126da13924277a.js.map"
+      "path---writing-athleanx-55afb244c2740e2bc49b.js",
+      "path---writing-athleanx-55afb244c2740e2bc49b.js.map"
     ],
     "path---writing-design-your-life": [
-      "path---writing-design-your-life-3412bd689616d61067a2.js",
-      "path---writing-design-your-life-3412bd689616d61067a2.js.map"
+      "path---writing-design-your-life-10cd606fd3b7d8129ecd.js",
+      "path---writing-design-your-life-10cd606fd3b7d8129ecd.js.map"
+    ],
+    "path---bkmks-bookmarks-4": [
+      "path---bkmks-bookmarks-4-54c9be77bb8493ac4983.js",
+      "path---bkmks-bookmarks-4-54c9be77bb8493ac4983.js.map"
     ],
     "component---src-pages-listening-js": [
       "component---src-pages-listening-js-d961ec0836578108181b.js",
       "component---src-pages-listening-js-d961ec0836578108181b.js.map"
     ],
     "path---writing-coffee-and-success": [
-      "path---writing-coffee-and-success-763d832543dc82db809c.js",
-      "path---writing-coffee-and-success-763d832543dc82db809c.js.map"
+      "path---writing-coffee-and-success-6475e2cf87480477d02a.js",
+      "path---writing-coffee-and-success-6475e2cf87480477d02a.js.map"
+    ],
+    "path---bkmks-bookmarks-8": [
+      "path---bkmks-bookmarks-8-27eae5e47a4c97fbd56e.js",
+      "path---bkmks-bookmarks-8-27eae5e47a4c97fbd56e.js.map"
     ],
     "path---writing-web-people": [
-      "path---writing-web-people-a8072cb6aeafc69d1f1c.js",
-      "path---writing-web-people-a8072cb6aeafc69d1f1c.js.map"
+      "path---writing-web-people-5d5d5eeda79daa8dc231.js",
+      "path---writing-web-people-5d5d5eeda79daa8dc231.js.map"
+    ],
+    "path---bkmks-bookmarks-2": [
+      "path---bkmks-bookmarks-2-254f0c7a9dffc793036e.js",
+      "path---bkmks-bookmarks-2-254f0c7a9dffc793036e.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -48,41 +64,33 @@
       "path---reading-a0e39f21c11f6a62c5ab.js",
       "path---reading-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---bkmks-bookmarks-6": [
+      "path---bkmks-bookmarks-6-46bf7142099a406d11c8.js",
+      "path---bkmks-bookmarks-6-46bf7142099a406d11c8.js.map"
+    ],
     "component---src-templates-blog-post-js": [
       "component---src-templates-blog-post-js-75df91e100c58b4f879d.js",
       "component---src-templates-blog-post-js-75df91e100c58b4f879d.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-6972fd00f604825deaa6.js",
-      "component---src-layouts-index-js-6972fd00f604825deaa6.js.map"
-    ],
-    "path---writing-bookmarks-3": [
-      "path---writing-bookmarks-3-a623d5e68d1486f13bcc.js",
-      "path---writing-bookmarks-3-a623d5e68d1486f13bcc.js.map"
-    ],
-    "path---writing-bookmarks-1": [
-      "path---writing-bookmarks-1-ff519b58d252892e29f6.js",
-      "path---writing-bookmarks-1-ff519b58d252892e29f6.js.map"
-    ],
-    "path---writing-bookmarks-5": [
-      "path---writing-bookmarks-5-c1d0444d1ea5d070d1b7.js",
-      "path---writing-bookmarks-5-c1d0444d1ea5d070d1b7.js.map"
-    ],
-    "path---writing-bookmarks-8": [
-      "path---writing-bookmarks-8-8d669b4ec5d941fc4c37.js",
-      "path---writing-bookmarks-8-8d669b4ec5d941fc4c37.js.map"
+      "component---src-layouts-index-js-0dac8aff808d8ba88853.js",
+      "component---src-layouts-index-js-0dac8aff808d8ba88853.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---writing-the-fast-app": [
-      "path---writing-the-fast-app-b45a82fe83bccb10672e.js",
-      "path---writing-the-fast-app-b45a82fe83bccb10672e.js.map"
+      "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js",
+      "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
+    ],
+    "path---bkmks": [
+      "path---bkmks-78045f304aec943a07b4.js",
+      "path---bkmks-78045f304aec943a07b4.js.map"
     ],
     "path---writing": [
-      "path---writing-9e67e19324a7516faf82.js",
-      "path---writing-9e67e19324a7516faf82.js.map"
+      "path---writing-3e092227aa2d1f10bf05.js",
+      "path---writing-3e092227aa2d1f10bf05.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -95,24 +103,24 @@
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-3": [
-      "path---writing-yourfirststeps-part-3-a22f7bd8ffec8f1d0d91.js",
-      "path---writing-yourfirststeps-part-3-a22f7bd8ffec8f1d0d91.js.map"
-    ],
-    "component---src-pages-sharing-js": [
-      "component---src-pages-sharing-js-8b43d8096ffb453f81d8.js",
-      "component---src-pages-sharing-js-8b43d8096ffb453f81d8.js.map"
+      "path---writing-yourfirststeps-part-3-16d985f800f9c666eee8.js",
+      "path---writing-yourfirststeps-part-3-16d985f800f9c666eee8.js.map"
     ],
     "component---src-pages-writing-js": [
-      "component---src-pages-writing-js-4294a933fdf5adbda4f1.js",
-      "component---src-pages-writing-js-4294a933fdf5adbda4f1.js.map"
+      "component---src-pages-writing-js-f4b9b1f7495275bf0cfa.js",
+      "component---src-pages-writing-js-f4b9b1f7495275bf0cfa.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---writing-bookmarks-7": [
-      "path---writing-bookmarks-7-a264d81a2b2540c58444.js",
-      "path---writing-bookmarks-7-a264d81a2b2540c58444.js.map"
+    "component---src-pages-bkmks-js": [
+      "component---src-pages-bkmks-js-842dbbd4e84fad801a6b.js",
+      "component---src-pages-bkmks-js-842dbbd4e84fad801a6b.js.map"
+    ],
+    "path---bkmks-bookmarks-1": [
+      "path---bkmks-bookmarks-1-fca285903bed9497fed1.js",
+      "path---bkmks-bookmarks-1-fca285903bed9497fed1.js.map"
     ],
     "path---listening": [
       "path---listening-a0e39f21c11f6a62c5ab.js",
@@ -123,58 +131,54 @@
       "component---src-pages-watching-js-34013762edd9623d90ed.js.map"
     ],
     "path---writing-december-daily-design": [
-      "path---writing-december-daily-design-840e2e79f000d800845d.js",
-      "path---writing-december-daily-design-840e2e79f000d800845d.js.map"
+      "path---writing-december-daily-design-8127a372c0faabac6f90.js",
+      "path---writing-december-daily-design-8127a372c0faabac6f90.js.map"
     ],
-    "path---writing-bookmarks-2": [
-      "path---writing-bookmarks-2-4153043a9d8d25b08308.js",
-      "path---writing-bookmarks-2-4153043a9d8d25b08308.js.map"
+    "path---bkmks-bookmarks-5": [
+      "path---bkmks-bookmarks-5-98db2caa7b75dd2bc1a6.js",
+      "path---bkmks-bookmarks-5-98db2caa7b75dd2bc1a6.js.map"
     ],
     "path---writing-world-cup-fitness-inspiration": [
-      "path---writing-world-cup-fitness-inspiration-22ded8b7d866f6be0f69.js",
-      "path---writing-world-cup-fitness-inspiration-22ded8b7d866f6be0f69.js.map"
+      "path---writing-world-cup-fitness-inspiration-bc547b65bff43382ef79.js",
+      "path---writing-world-cup-fitness-inspiration-bc547b65bff43382ef79.js.map"
     ],
-    "path---writing-bookmarks-6": [
-      "path---writing-bookmarks-6-1dc62ffb5bbbf78875f1.js",
-      "path---writing-bookmarks-6-1dc62ffb5bbbf78875f1.js.map"
+    "path---bkmks-bookmarks-9": [
+      "path---bkmks-bookmarks-9-ea5e18832d8f4f15328a.js",
+      "path---bkmks-bookmarks-9-ea5e18832d8f4f15328a.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---writing-personal-training": [
-      "path---writing-personal-training-3fef642a4fe06076a4d6.js",
-      "path---writing-personal-training-3fef642a4fe06076a4d6.js.map"
-    ],
-    "path---sharing": [
-      "path---sharing-a0e39f21c11f6a62c5ab.js",
-      "path---sharing-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---writing-bookmarks-4": [
-      "path---writing-bookmarks-4-0da5fca71126703f9d92.js",
-      "path---writing-bookmarks-4-0da5fca71126703f9d92.js.map"
+      "path---writing-personal-training-9d5ea2c49c550558965d.js",
+      "path---writing-personal-training-9d5ea2c49c550558965d.js.map"
     ],
     "path---watching": [
       "path---watching-a0e39f21c11f6a62c5ab.js",
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-5ff38e2d2203cbcc3f70.js",
+      "app-293d4e0770a07c8e3468.js",
       "build-js-styles.css",
-      "app-5ff38e2d2203cbcc3f70.js.map",
+      "app-293d4e0770a07c8e3468.js.map",
       "build-js-styles.css.map"
     ],
+    "component---src-templates-bkmk-post-js": [
+      "component---src-templates-bkmk-post-js-186dac1ade17b8a5ab3a.js",
+      "component---src-templates-bkmk-post-js-186dac1ade17b8a5ab3a.js.map"
+    ],
     "path---writing-yourfirststeps-part-1": [
-      "path---writing-yourfirststeps-part-1-7b0e1080fde66e96429e.js",
-      "path---writing-yourfirststeps-part-1-7b0e1080fde66e96429e.js.map"
+      "path---writing-yourfirststeps-part-1-758023a8c2fc2a4f8684.js",
+      "path---writing-yourfirststeps-part-1-758023a8c2fc2a4f8684.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---writing-weekend-build-water-tracker-ui": [
-      "path---writing-weekend-build-water-tracker-ui-8cd4153cb5ceb15890f5.js",
-      "path---writing-weekend-build-water-tracker-ui-8cd4153cb5ceb15890f5.js.map"
+      "path---writing-weekend-build-water-tracker-ui-f85170073e79467cf64e.js",
+      "path---writing-weekend-build-water-tracker-ui-f85170073e79467cf64e.js.map"
     ]
   }
 }
