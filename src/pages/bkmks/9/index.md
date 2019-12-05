@@ -11,3 +11,7 @@ category: Resources
 
 ###Design
 1. [Cracking the Code to Mobile Productivity](https://medium.com/microsoft-design/microsoft365mobile-3b5b7782152c)
+
+###Business
+
+1. [Emotional Baggage: Away](https://www.theverge.com/2019/12/5/20995453/away-luggage-ceo-steph-korey-toxic-work-environment-travel-inclusion)
