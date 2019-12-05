@@ -73,6 +73,36 @@
     > a {
 
     }
+    header {
+      width: 30%;
+      padding: 3rem 1.75rem 1.75rem;
+      color: white;
+      background: $red;
+      height: 448px;
+
+      @include breakpoint(bold) {
+        width: 48%;
+      }
+      @include breakpoint(regular) {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 5px;
+          background: #fff;
+          bottom: -1rem;
+          left: 0;
+        }
+      }
+    }
     article {
       height: 400px;
       overflow: hidden;
@@ -87,14 +117,24 @@
         flex-direction: column;
         width: 100%;
       }
-      color: #292862;
+      color: #011220;
       background: white;
       padding: 1.75rem;
       margin-top: 3rem;
-      box-shadow: none;
+
       box-sizing: border-box;
-      border: 5px solid #292862;
-      transition: border .14s;
+      border: 5px solid #011220;
+      transition: all .14s;
+      transform: scale(1);
+
+      &:hover {
+        border: 5px solid #fff;
+        transform: scale(1.05);
+        cursor: pointer;
+        -webkit-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.10);
+           -moz-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.10);
+                box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.10);
+      }
 
 
       &:before {
@@ -111,13 +151,13 @@
       .post-title {
         margin-bottom: 2rem;
         position: relative;
-        a { color: #292862; }
+        a { color: #011220; }
         &:after {
           content: "";
           position: absolute;
           width: 20px;
           height: 5px;
-          background: #292862;
+          background: #011220;
           bottom: -1rem;
           left: 0;
         }
@@ -147,6 +187,7 @@
           width: 100%;
           margin-top: 0;
         }
+
       }
     }
   }

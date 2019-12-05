@@ -12,10 +12,20 @@ export default function Bkmks({ data }) {
   const { edges: bkmks } = data.allMarkdownRemark;
   return (
     <div className="content-wrapper creator-page bkmk-list">
+    <header>
+      <h1>BKMKS</h1>
+      <p>My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information.</p>
+    </header>
     { bkmks.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {
              return (
-                 <article className="blog-post-preview bkmk-item" key={post.id}>
+                 <article
+                  className="blog-post-preview bkmk-item"
+                  key={post.id}
+                  onClick={
+                    () => window.location.pathname =
+                    `bkmks/${post.frontmatter.path}`
+                  }>
                    <h1 className="post-title">
                     <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                    </h1>
