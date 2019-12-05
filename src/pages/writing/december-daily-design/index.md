@@ -18,8 +18,14 @@ Something I'm going to experiment with are setting some type of constraints. The
 
 
 
-> 1: **Profile for a Golf Score Tracker with live updates and video/photo sharing for social interaction and honesty. [Color scheme](https://coolors.co/4e0250-801a86-645986-8fe388-58bc82) [See it on Dribbble](https://dribbble.com/shots/8808609-UI-Practice-1)**
+> Warm Up: **Profile for a Golf Score Tracker with live updates and video/photo sharing for social interaction and honesty. [Color scheme](https://coolors.co/4e0250-801a86-645986-8fe388-58bc82) [See it on Dribbble](https://dribbble.com/shots/8808609-UI-Practice-1)**
 
 [![December Daily Design 1](https://cdn.dribbble.com/users/32047/screenshots/8808609/media/95b3937bd9d8956ea90413d7d7b5021f.png)](https://dribbble.com/shots/8808609-UI-Practice-1)
 
-> 2: **Feed for a Golf Score Tracker with live updates and video/photo sharing for social interaction and honesty. [Color scheme](https://coolors.co/4e0250-801a86-645986-8fe388-58bc82)**
+#####Change of method..
+
+I decided here to go out and find a DailyUI challenge to help with ideas and concepts each day. I found myself either lacking on an idea or bouncing too much between them, wasting time I'd rather not waste. Enter [dailyui.co](https://www.dailyui.co/).
+
+> 1: **Sign Up [Color scheme](https://coolors.co/fb3640-0a2463-247ba0-605f5e-e2e2e2)**
+
+[![DailyUI Challenge 1](https://cdn.dribbble.com/users/32047/screenshots/8813867/media/2b7018e06cbf3ab51d5f7bfa1d23f659.png)](https://dribbble.com/shots/8813867-DailyUI-Challenge-1)
