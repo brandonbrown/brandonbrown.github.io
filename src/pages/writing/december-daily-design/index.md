@@ -30,3 +30,6 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
 > 1: **Sign Up [Color scheme](https://coolors.co/fb3640-0a2463-247ba0-605f5e-e2e2e2)**
 
 [![DailyUI Challenge 1](https://cdn.dribbble.com/users/32047/screenshots/8813867/media/2b7018e06cbf3ab51d5f7bfa1d23f659.png)](https://dribbble.com/shots/8813867-DailyUI-Challenge-1)
+
+> 2: Design a credit card checkout form or page. **[Color scheme](https://coolors.co/757761-f4e76e-f7fe72-8ff7a7-51bbfe)**
+[![DailyUI Challenge 2](https://cdn.dribbble.com/users/32047/screenshots/8835765/media/1b49d4307261acdaf05517fde1c0a0fb.png)](https://dribbble.com/shots/8835765-DailyUI-Challenge-2)
