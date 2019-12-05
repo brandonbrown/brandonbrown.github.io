@@ -62,7 +62,7 @@ query BkmkQuery {
           date(formatString: "MMMM Do, YYYY")
           path
           category
-          updated(formatString: "MMMM DD, YYYY")
+          updated(formatString: "MMMM Do, YYYY")
         }
       }
     }
