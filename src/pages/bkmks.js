@@ -15,6 +15,7 @@ export default function Bkmks({ data }) {
     { bkmks.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {
              return (
+               <Link to={post.frontmatter.path}>
                <article className="blog-post-preview bkmk-item" key={post.id}>
                  <h1 className="post-title">
                   <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -28,6 +29,7 @@ export default function Bkmks({ data }) {
                  </section>
 
                </article>
+               </Link>
              );
            })}
     </div>
