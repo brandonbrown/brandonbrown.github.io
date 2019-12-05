@@ -3,7 +3,7 @@ posttype: "writing"
 title: "December Daily Design"
 path: december-daily-design
 date: "2019-12-03T09:00:00"
-category: Development
+category: Design
 ---
 
 #Much Code, Wow Design
