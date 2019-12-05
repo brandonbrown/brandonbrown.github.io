@@ -66,8 +66,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 6rem;
+
+    @include breakpoint(regular) {
+      flex-direction: column;
+    }
     > a {
-      width: 48%;
+      width: 30%;
+      @include breakpoint(bold) {
+        width: 48%;
+      }
+      @include breakpoint(regular) {
+        flex-direction: column;
+        width: 100%;
+      }
       color: $dark-gray;
       background: white;
       padding: 1.75rem;
