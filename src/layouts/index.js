@@ -28,7 +28,7 @@ class Template extends React.Component {
         </Helmet>
         <header>
 
-          
+
             <div className="header">
               <div className="headerContent">
 
@@ -39,7 +39,7 @@ class Template extends React.Component {
               <nav>
                 <Link to="/writing/">Writing</Link>
                 <a href="#">Creating</a>
-                <Link to="/sharing/">Sharing</Link>
+                <Link to="/bkmks/">BKMKS</Link>
                 <Link to="/reading/">Reading</Link>
                 <Link to="/listening/">Listening</Link>
                 <Link to="/watching/">Watching</Link>

@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: Coffee and Success
 path: coffee-and-success
 date: "2018-07-09T11:00:00"

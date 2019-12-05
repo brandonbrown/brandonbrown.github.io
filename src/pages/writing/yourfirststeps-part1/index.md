@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: First Steps Towards Your Best Self Part 1- Sleep
 path: yourfirststeps-part1
 date: "2018-07-04T12:00:00"

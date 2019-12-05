@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: Design Your Life
 path: design-your-life
 date: "2018-07-05T12:30:00"

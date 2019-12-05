@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: First Steps Towards Your Best Self Part 2- Move
 path: yourfirststeps-part2
 date: "2018-07-04T12:15:00"

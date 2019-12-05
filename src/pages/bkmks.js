@@ -8,12 +8,11 @@ import '../sass/s.scss'
 import logo from '../assets/logo.svg'
 import square from '../assets/covers/square.jpg'
 
-export default function Writing({ data }) {
-  console.log("data: ", data)
-  const { edges: writing } = data.allMarkdownRemark;
+export default function Bkmks({ data }) {
+  const { edges: bkmks } = data.allMarkdownRemark;
   return (
     <div className="content-wrapper creator-page">
-    { writing.filter(post => post.node.frontmatter.title.length > 0)
+    { bkmks.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {
              return (
                <article className="blog-post-preview" key={post.id}>
@@ -47,10 +46,10 @@ export default function Writing({ data }) {
 // )
 
 export const pageQuery = graphql`
-query WritingQuery {
+query BkmkQuery {
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] },
-    filter: {fileAbsolutePath: {regex: "/writing/.*\\.md$/"}}
+    filter: {fileAbsolutePath: {regex: "/bkmks/.*\\.md$/"}}
   ) {
     edges {
       node {

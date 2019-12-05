@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: First Steps Towards Your Best Self Part 3- Eat
 path: yourfirststeps-part3
 date: "2018-07-04T12:30:00"

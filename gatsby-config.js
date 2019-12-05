@@ -14,7 +14,20 @@ module.exports = {
         name: 'pages',
       },
     },
-    
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/writing`,
+        name: 'writing'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages/bkmks`,
+        name: 'bkmk'
+      }
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

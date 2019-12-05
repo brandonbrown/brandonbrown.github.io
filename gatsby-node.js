@@ -8,6 +8,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
+    const bkmkPost = path.resolve('./src/templates/bkmk-post.js')
     resolve(
       graphql(
         `
@@ -21,6 +22,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   frontmatter {
                     title
                     category
+                    posttype
                   }
                 }
               }
@@ -40,15 +42,38 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           const previous = index === posts.length - 1 ? null : posts[index + 1].node;
           const next = index === 0 ? null : posts[index - 1].node;
 
-          createPage({
-            path: post.node.fields.slug,
-            component: blogPost,
-            context: {
-              slug: post.node.fields.slug,
-              previous,
-              next,
-            },
-          })
+          // createPage({
+          //   path: post.node.fields.slug,
+          //   component: blogPost,
+          //   context: {
+          //     slug: post.node.fields.slug,
+          //     previous,
+          //     next,
+          //   },
+          // })
+          if (post.node.frontmatter.posttype === 'bkmk') {
+            createPage({
+              path: post.node.fields.slug,
+              component: bkmkPost,
+              context: {
+                slug:  post.node.fields.slug,
+                category: post.node.frontmatter.category,
+                previous,
+                    next,
+              }
+            });
+          } else { // blog post
+            createPage({
+              path: post.node.fields.slug,
+              component: blogPost,
+              context: {
+                slug: post.node.fields.slug,
+                category: post.node.frontmatter.category,
+                previous,
+                    next,
+              }
+            });
+          }
         })
       })
     )

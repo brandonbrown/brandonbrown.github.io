@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: World Cup Fitness Inspiration
 path: world-cup-fitness-inspiration
 date: "2018-07-08T11:00:00"

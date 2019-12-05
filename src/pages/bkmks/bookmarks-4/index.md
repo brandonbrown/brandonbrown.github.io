@@ -1,4 +1,5 @@
 ---
+posttype: "bkmk"
 title: BKMKS4 Oct 27 2019
 path: bookmarks-4
 date: "2019-10-27T13:00:00"

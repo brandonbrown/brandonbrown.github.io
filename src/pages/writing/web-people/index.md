@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: Web People Rock
 path: web-people
 date: "2019-07-22T17:00:00"

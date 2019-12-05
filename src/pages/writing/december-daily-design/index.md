@@ -1,7 +1,8 @@
 ---
+posttype: "writing"
 title: "December Daily Design"
 path: december-daily-design
-date: "2019-12-3T09:00:00"
+date: "2019-12-03T09:00:00"
 category: Development
 ---
 

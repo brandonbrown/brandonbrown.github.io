@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: Studying the Human Body
 path: personal-training
 date: "2018-11-29T11:00:00"

@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: Athlean-X and Supporting The Honest Givers
 path: athleanx
 date: "2018-07-13T11:00:00"

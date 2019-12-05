@@ -1,4 +1,5 @@
 ---
+posttype: "writing"
 title: "Weekend Build: Water Tracker UI"
 path: weekend-build-water-tracker-ui
 date: "2019-11-23T17:15:00"
