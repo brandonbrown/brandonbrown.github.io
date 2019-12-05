@@ -15,21 +15,19 @@ export default function Bkmks({ data }) {
     { bkmks.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {
              return (
-               <Link to={post.frontmatter.path}>
-               <article className="blog-post-preview bkmk-item" key={post.id}>
-                 <h1 className="post-title">
-                  <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                 </h1>
-                 <h4 className="post-meta">
-                  <span>For the week of {post.frontmatter.date}</span>
-                  <span>Last updated on {post.frontmatter.updated}</span>
-                 </h4>
-                 <section dangerouslySetInnerHTML={{ __html: post.html }}>
+                 <article className="blog-post-preview bkmk-item" key={post.id}>
+                   <h1 className="post-title">
+                    <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                   </h1>
+                   <h4 className="post-meta">
+                    <span>For the week of {post.frontmatter.date}</span>
+                    <span>Last updated on {post.frontmatter.updated}</span>
+                   </h4>
+                   <section dangerouslySetInnerHTML={{ __html: post.html }}>
 
-                 </section>
+                   </section>
 
-               </article>
-               </Link>
+                 </article>
              );
            })}
     </div>
