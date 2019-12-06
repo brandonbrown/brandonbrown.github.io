@@ -15,6 +15,7 @@ category: Resources
 
 ###Design
 1. [Cracking the Code to Mobile Productivity](https://medium.com/microsoft-design/microsoft365mobile-3b5b7782152c)
+1. [Cuberto UI Design Course #1: Liquid Animation in After Effects (2019)](https://www.youtube.com/watch?v=KRDKQnGUsTg&t=337s)
 
 ###Business
 
