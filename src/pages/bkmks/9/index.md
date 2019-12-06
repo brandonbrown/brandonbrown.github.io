@@ -8,6 +8,7 @@ category: Resources
 ---
 ###Development
 1. [Testing JavaScript](https://testingjavascript.com/)
+1. [Live Video With React Native](https://medium.com/syntx-io/video-live-streaming-with-react-native-98a0f6354077)
 
 ###Design
 1. [Cracking the Code to Mobile Productivity](https://medium.com/microsoft-design/microsoft365mobile-3b5b7782152c)
