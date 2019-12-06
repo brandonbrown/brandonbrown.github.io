@@ -46,3 +46,9 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
 <a href="https://dribbble.com/shots/8847978-Social-Concert-Broadcasts" class="imagelink" >
   <img src="https://cdn.dribbble.com/users/32047/screenshots/8847978/media/9efff9bf29f70e938a682154ee435247.png" alt="December Daily Design Bonus 2" />
 </a>
+
+> 3: Design a landing page. **[Color scheme](https://coolors.co/595959-7f7f7f-a5a5a5-cccccc-f2f2f2)**
+
+<!-- <a href="https://dribbble.com/shots/8874470-DailyUI-Challenge-3" class="imagelink" >
+  <img src="https://cdn.dribbble.com/users/32047/screenshots/8874470/media/3db5886a41aebc6a8c52411fa71742d3.png" alt="December Daily Design Bonus 2" />
+</a> -->
