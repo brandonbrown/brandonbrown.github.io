@@ -8,3 +8,7 @@ category: Resources
 ---
 ###Design
 1. [A Trip Down Web Design Memory Lane](https://www.flickr.com/photos/splat/sets/981332/)
+
+
+###Thinking
+1. [The Lesson To Unlearn by Paul Graham](http://paulgraham.com/lesson.html)
