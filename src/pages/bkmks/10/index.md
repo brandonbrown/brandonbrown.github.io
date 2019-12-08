@@ -12,3 +12,7 @@ category: Resources
 
 ###Thinking
 1. [The Lesson To Unlearn by Paul Graham](http://paulgraham.com/lesson.html)
+1. [An Antidote to Dissatisfaction by Kurzgesagt](https://www.youtube.com/watch?v=WPPPFqsECz0)
+
+###Helpful
+1. [Return Audible Books for Credits](https://audible.custhelp.com/app/answers/detail/a_id/4592/~/can-i-return%2Fexchange-my-book%3F)
