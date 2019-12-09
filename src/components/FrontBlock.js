@@ -28,7 +28,7 @@ export default class FrontBlock extends React.Component {
                     <Link style={{
                       color: `${this.props.textColor}`,
                       textTransform: 'uppercase'
-                    }} to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                    }} to={`writing/${post.frontmatter.path}`}>{post.frontmatter.title}</Link>
                     <br /><br />
 
                     <span style={{
