@@ -52,3 +52,9 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
 <a href="https://dribbble.com/shots/8874470-DailyUI-Challenge-3" class="imagelink" >
   <img src="https://cdn.dribbble.com/users/32047/screenshots/8874470/media/3db5886a41aebc6a8c52411fa71742d3.png" alt="December Daily Design Bonus 2" />
 </a>
+
+> 4: Calculator **[Color Scheme](https://coolors.co/dce0d9-31081f-6b0f1a-595959-808f85)**
+
+<a href="https://dribbble.com/shots/8937007-DailyUI-Challenge-4" class="imagelink" >
+  <img src="https://cdn.dribbble.com/users/32047/screenshots/8937007/media/4de424204230ce3f4e35c0a2428666db.png" alt="December Daily Design Challenge 4" />
+</a>
