@@ -198,6 +198,9 @@ main {
 
     @include breakpoint(semibold) {
       width: 50%;
+      &:nth-of-type(3){
+        order: 1
+      }
     }
     @include breakpoint(roman) {
       width: 100%;
@@ -206,6 +209,7 @@ main {
         content: "";
         padding-bottom: 0;
       }
+
     }
 
     main {
