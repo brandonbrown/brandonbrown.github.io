@@ -234,15 +234,21 @@ main {
         font-family: 'hk_groteskbold';
         margin-left: 1.75rem;
         position: absolute;
-        top: 70%;
+        top: 80%;
         text-transform: uppercase;
         font-size: .65rem;
         letter-spacing: 1px;
         padding: 8px 13px;
+
+        @include breakpoint(semibold) {
+          bottom: auto;
+          top: 80%;
+        }
         @include breakpoint(roman) {
           bottom: 10%;
           top: auto;
         }
+
       }
 
       header {
