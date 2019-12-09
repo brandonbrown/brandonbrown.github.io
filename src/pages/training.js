@@ -11,7 +11,7 @@ import square from '../assets/covers/square.jpg'
 export default function Training() {
   return (
     <div className="content-wrapper creator-page">
-      <h1>Training</h1>
+      <h1>Personal Training</h1>
     </div>
   );
 }
