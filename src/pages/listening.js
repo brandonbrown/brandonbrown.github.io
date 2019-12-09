@@ -21,7 +21,7 @@ import dad from '../assets/covers/dad.jpg'
 import capitalist from '../assets/covers/capitalist.jpg'
 import coach from '../assets/covers/coach.jpg'
 import nudge from '../assets/covers/nudge.jpg'
-
+import body from '../assets/covers/body.jpg'
 
 const Listening = ({ children }) => (
     <div className="content-wrapper consumer-page">
@@ -29,6 +29,17 @@ const Listening = ({ children }) => (
       <section className="consumer-container">
         <h2>2019</h2>
         <ul className="consumer-grid">
+          <li>
+            <div className="cover">
+              <img src={body} alt="cover" />
+            </div>
+            <div className="book-info">
+              <progress max="100" value="1"></progress>
+              <p className="book-progress in-progress">In Progress</p>
+              <h3>The Body: A Guide for Occupants</h3>
+              <p>Written and narrated by Bill Bryson</p>
+            </div>
+          </li>
           <li>
             <div className="cover">
               <img src={infinitegame} alt="cover" />

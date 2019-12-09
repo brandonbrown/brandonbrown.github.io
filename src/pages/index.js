@@ -23,7 +23,7 @@ export default class IndexPage extends React.Component {
         <section className="personal-info">
           <img className="helloImg" src={hello} alt="Hello!" />
           <h1 className="introduction">
-            <span>I'm Brandon, a Design &amp; Web Development Educator </span>
+            <span>I'm Brandon, a Design &amp; Web Development Educator highly interested in</span>
             <span>using technology to make the health & fitness industries stronger </span>
             <span>through meaningful applications and personalized solutions.</span>
           </h1>
