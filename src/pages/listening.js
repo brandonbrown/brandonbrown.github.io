@@ -101,7 +101,7 @@ const Listening = ({ children }) => (
             </div>
             <div className="book-info">
               <progress max="100" value="10"></progress>
-              <p className="book-progress in-progress">In Progress</p>
+              <p className="book-progress abandoned">Abandoned</p>
               <h3>The Dream Machine</h3>
               <p>A look back at how the way we use computers today was envisioned by the people involved with the digital revolution.</p>
             </div>
