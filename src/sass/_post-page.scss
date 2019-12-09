@@ -7,17 +7,24 @@
   }
 
   h1 {
-    font-family: 'Ilisarniq-Black'
+    font-family: 'Ilisarniq-Black';
+    line-height: 3rem;
+    margin-top: 5rem;
   }
 
   flex-direction: column;
 
-  max-width: 60rem;
+  max-width: 50rem;
   margin: 0 auto;
   .post {
     margin: 0 auto 6rem;
     text-align: left;
     max-width: 50rem;
+    .post-title {
+      margin: 0 auto 6rem;
+      text-align: left;
+      max-width: 50rem;
+    }
     ul, ol {
       margin-left: 1.75rem !important;
       max-width: 40rem;
@@ -26,7 +33,7 @@
       font-size: 1.15rem;
       font-family: 'hk_groteskregular';
       line-height: 1.75rem;
-      
+
     }
   }
 }

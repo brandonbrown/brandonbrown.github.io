@@ -36,6 +36,9 @@
     .post-title {
       width: 30%;
       line-height: 1.5rem;
+      margin: 0 auto 6rem;
+      text-align: left;
+      max-width: 50rem;
       a {
         color: $dark-gray;
         box-shadow: none;
