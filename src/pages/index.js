@@ -19,7 +19,17 @@ export default class IndexPage extends React.Component {
     }
 
     return (
+      <div>
+      <section className="featuredContent">
+        <div>content 1</div>
+        <div>content 2</div>
+        <div>content 3</div>
+        <div>content 4</div>
+        <div>content 5</div>
+        <div>content 6</div>
+      </section>
       <div className="content-wrapper">
+
         <section className="personal-info">
           <img className="helloImg" src={hello} alt="Hello!" />
           <h1 className="introduction">
@@ -39,7 +49,7 @@ export default class IndexPage extends React.Component {
           </ul>
         </section>
       </div>
-
+      </div>
     )
   }
 }
