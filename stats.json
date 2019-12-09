@@ -1,8 +1,16 @@
 {
   "assetsByChunkName": {
+    "component---src-pages-training-js": [
+      "component---src-pages-training-js-1406f3dacd61fc5ad868.js",
+      "component---src-pages-training-js-1406f3dacd61fc5ad868.js.map"
+    ],
     "path---bkmks-2": [
       "path---bkmks-2-5757cd68ffe7243efe94.js",
       "path---bkmks-2-5757cd68ffe7243efe94.js.map"
+    ],
+    "path---training": [
+      "path---training-a0e39f21c11f6a62c5ab.js",
+      "path---training-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-7c4df07714a74167c2ee.js",
@@ -27,6 +35,10 @@
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-teaching-js": [
+      "component---src-pages-teaching-js-a3c7607694d005620293.js",
+      "component---src-pages-teaching-js-a3c7607694d005620293.js.map"
     ],
     "path---bkmks-1": [
       "path---bkmks-1-e6ae9f2b553956bdfece.js",
@@ -77,8 +89,8 @@
       "path---bkmks-10-f6ec4b7a8cd68b7daabd.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8600789c31cb796832a6.js",
-      "component---src-layouts-index-js-8600789c31cb796832a6.js.map"
+      "component---src-layouts-index-js-d430e6909b5b6d1145a5.js",
+      "component---src-layouts-index-js-d430e6909b5b6d1145a5.js.map"
     ],
     "path---index": [
       "path---index-83fccf75bcf5a871f6b2.js",
@@ -109,6 +121,10 @@
       "build-js-styles.css",
       "commons-413e1c3fde9b2556f9b0.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---teaching": [
+      "path---teaching-a0e39f21c11f6a62c5ab.js",
+      "path---teaching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---writing-yourfirststeps-part-3": [
       "path---writing-yourfirststeps-part-3-16d985f800f9c666eee8.js",
@@ -154,14 +170,18 @@
       "path---writing-personal-training-9d5ea2c49c550558965d.js",
       "path---writing-personal-training-9d5ea2c49c550558965d.js.map"
     ],
+    "path---creating": [
+      "path---creating-a0e39f21c11f6a62c5ab.js",
+      "path---creating-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---watching": [
       "path---watching-a0e39f21c11f6a62c5ab.js",
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-3709362dde7af8460f71.js",
+      "app-fb189f3a574792cc27af.js",
       "build-js-styles.css",
-      "app-3709362dde7af8460f71.js.map",
+      "app-fb189f3a574792cc27af.js.map",
       "build-js-styles.css.map"
     ],
     "path---bkmks-6": [
@@ -187,6 +207,10 @@
     "component---src-pages-about-js": [
       "component---src-pages-about-js-58e6c1299e1a8a0d4520.js",
       "component---src-pages-about-js-58e6c1299e1a8a0d4520.js.map"
+    ],
+    "component---src-pages-creating-js": [
+      "component---src-pages-creating-js-415076de3b315d56cbad.js",
+      "component---src-pages-creating-js-415076de3b315d56cbad.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
