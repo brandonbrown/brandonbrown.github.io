@@ -5,8 +5,8 @@
       "path---bkmks-2-5757cd68ffe7243efe94.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f8ff6bcfd3749846102f.js",
-      "component---src-pages-index-js-f8ff6bcfd3749846102f.js.map"
+      "component---src-pages-index-js-8be3ab40d1c3e8dd9201.js",
+      "component---src-pages-index-js-8be3ab40d1c3e8dd9201.js.map"
     ],
     "path---bkmks-9": [
       "path---bkmks-9-a4c21e110a0f5d4d08e4.js",
@@ -45,8 +45,8 @@
       "path---bkmks-5-f10eb5de5a63de97e62f.js.map"
     ],
     "component---src-pages-listening-js": [
-      "component---src-pages-listening-js-9a44ed0bcc4a29ba9f0d.js",
-      "component---src-pages-listening-js-9a44ed0bcc4a29ba9f0d.js.map"
+      "component---src-pages-listening-js-92c3e77d58b8745335c9.js",
+      "component---src-pages-listening-js-92c3e77d58b8745335c9.js.map"
     ],
     "path---writing-coffee-and-success": [
       "path---writing-coffee-and-success-6475e2cf87480477d02a.js",
@@ -73,24 +73,24 @@
       "path---bkmks-7-2fb2e30e31dfba965960.js.map"
     ],
     "path---bkmks-10": [
-      "path---bkmks-10-ac78bab0b347ac3acfc4.js",
-      "path---bkmks-10-ac78bab0b347ac3acfc4.js.map"
+      "path---bkmks-10-f6ec4b7a8cd68b7daabd.js",
+      "path---bkmks-10-f6ec4b7a8cd68b7daabd.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d92e9219fef718a76409.js",
-      "component---src-layouts-index-js-d92e9219fef718a76409.js.map"
+      "component---src-layouts-index-js-8600789c31cb796832a6.js",
+      "component---src-layouts-index-js-8600789c31cb796832a6.js.map"
     ],
     "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
+      "path---index-83fccf75bcf5a871f6b2.js",
+      "path---index-83fccf75bcf5a871f6b2.js.map"
     ],
     "path---writing-the-fast-app": [
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js",
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
     ],
     "path---bkmks": [
-      "path---bkmks-18ec2faac1df2befb1c9.js",
-      "path---bkmks-18ec2faac1df2befb1c9.js.map"
+      "path---bkmks-f2d75c3fd626e04c6798.js",
+      "path---bkmks-f2d75c3fd626e04c6798.js.map"
     ],
     "path---writing": [
       "path---writing-750194accc61ce2ac797.js",
@@ -105,9 +105,9 @@
       "path---bkmks-4-ff5c500b091e05998508.js.map"
     ],
     "commons": [
-      "commons-27bed49b4ac6849abeb4.js",
+      "commons-413e1c3fde9b2556f9b0.js",
       "build-js-styles.css",
-      "commons-27bed49b4ac6849abeb4.js.map",
+      "commons-413e1c3fde9b2556f9b0.js.map",
       "build-js-styles.css.map"
     ],
     "path---writing-yourfirststeps-part-3": [
@@ -115,8 +115,8 @@
       "path---writing-yourfirststeps-part-3-16d985f800f9c666eee8.js.map"
     ],
     "component---src-pages-writing-js": [
-      "component---src-pages-writing-js-f4b9b1f7495275bf0cfa.js",
-      "component---src-pages-writing-js-f4b9b1f7495275bf0cfa.js.map"
+      "component---src-pages-writing-js-2afa41c345095bb5b241.js",
+      "component---src-pages-writing-js-2afa41c345095bb5b241.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -127,8 +127,8 @@
       "path---bkmks-3-b5f4bc1256085e93d6d5.js.map"
     ],
     "component---src-pages-bkmks-js": [
-      "component---src-pages-bkmks-js-0344851ba845a105360e.js",
-      "component---src-pages-bkmks-js-0344851ba845a105360e.js.map"
+      "component---src-pages-bkmks-js-10901995b77319ffd9b4.js",
+      "component---src-pages-bkmks-js-10901995b77319ffd9b4.js.map"
     ],
     "path---listening": [
       "path---listening-a0e39f21c11f6a62c5ab.js",
@@ -159,9 +159,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-a9a5fbfc320fb9901251.js",
+      "app-3709362dde7af8460f71.js",
       "build-js-styles.css",
-      "app-a9a5fbfc320fb9901251.js.map",
+      "app-3709362dde7af8460f71.js.map",
       "build-js-styles.css.map"
     ],
     "path---bkmks-6": [
@@ -183,6 +183,14 @@
     "path---writing-weekend-build-water-tracker-ui": [
       "path---writing-weekend-build-water-tracker-ui-2e907b9caa14dc3d5960.js",
       "path---writing-weekend-build-water-tracker-ui-2e907b9caa14dc3d5960.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-58e6c1299e1a8a0d4520.js",
+      "component---src-pages-about-js-58e6c1299e1a8a0d4520.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
