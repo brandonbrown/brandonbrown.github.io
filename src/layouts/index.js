@@ -44,7 +44,7 @@ class Template extends React.Component {
                 <Link to="/listening/">Listening</Link>
                 <Link to="/watching/">Watching</Link>
                 <a href="https://minmaxfit.com">Training</a>
-                <a href="#">About</a>
+                <a href="/about/">About</a>
               </nav>
 
           </div>

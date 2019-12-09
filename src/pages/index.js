@@ -1,32 +1,101 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
+import FrontBlock from '../components/FrontBlock'
 import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-import hello from '../assets/hello.gif'
+import hello from '../assets/indexImages/hello.gif'
+import profile from '../assets/indexImages/profile.jpg'
+import calendar from '../assets/indexImages/31.svg'
+import mmf from '../assets/indexImages/mmf-logo-white-mark.svg'
+import bkmks from '../assets/indexImages/bkmks.svg'
+import plp from '../assets/indexImages/plp.svg'
+import work from '../assets/indexImages/portfolio.svg'
 
 
-export default class IndexPage extends React.Component {
-  render() {
-    const { location, children } = this.props
-    let header
-
-    let rootPath = `/`
-    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
-      rootPath = __PATH_PREFIX__ + `/`
-    }
+export default function Writing({ data }) {
+  console.log("data: ", data)
+  const { edges: writing } = data.allMarkdownRemark;
 
     return (
-      <div>
+      <div className="pageWrapper">
       <section className="featuredContent">
-        <div>content 1</div>
-        <div>content 2</div>
-        <div>content 3</div>
-        <div>content 4</div>
-        <div>content 5</div>
-        <div>content 6</div>
+        <FrontBlock
+          title="Introduction"
+          cornerImage={profile}
+          imgWidth={100}
+          imgHeight={100}
+          imgTop={'1.75rem'}
+          imgLeft={'1.75rem'}
+          mainContent={"I'm Brandon, a Design & Web Development Educator highly interested in using technology to make the health & fitness industries stronger through meaningful applications and personalized solutions."}
+          category={"Introduction"}
+          backgroundColor={'transparent'}
+          textColor={'#150d2b'}
+
+        />
+        <FrontBlock
+          title="Writing"
+          cornerImage={calendar}
+          imgWidth={50}
+          imgHeight={50}
+          imgTop={'1.75rem'}
+          imgLeft={'1.75rem'}
+          mainContent={"Writing."}
+          category={"Sharing"}
+          backgroundColor={'#00B9F0'}
+          textColor={'#fff'}
+          writingContent={writing}
+        />
+        <FrontBlock
+          title="Training"
+          cornerImage={mmf}
+          imgWidth={50}
+          // imgHeight={100}
+          imgTop={'0'}
+          imgLeft={'1.65rem'}
+          mainContent={"My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information."}
+          category={"Training"}
+          backgroundColor={'#382154'}
+          textColor={'#fff'}
+        />
+        <FrontBlock
+          title="BKMKS"
+          cornerImage={bkmks}
+          imgWidth={60}
+          imgHeight={60}
+          imgTop={'1.75rem'}
+          imgLeft={'1.75rem'}
+          mainContent={"My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information."}
+          category={"Curating"}
+          backgroundColor={'#DA291C'}
+          textColor={'#fff'}
+        />
+        <FrontBlock
+          title="Teaching"
+          cornerImage={plp}
+          imgWidth={60}
+          imgHeight={50}
+          imgTop={'1.25rem'}
+          imgLeft={'1.75rem'}
+          mainContent={"My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information."}
+          category={"Teaching"}
+          backgroundColor={'#011128'}
+          textColor={'#fff'}
+        />
+        <FrontBlock
+          title="Creating"
+          cornerImage={work}
+          imgWidth={60}
+          imgHeight={60}
+          imgTop={'1.75rem'}
+          imgLeft={'1.5rem'}
+          mainContent={"My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information."}
+          category={"Creating"}
+          backgroundColor={'#292862'}
+          textColor={'#fff'}
+        />
+
       </section>
       <div className="content-wrapper">
 
@@ -51,5 +120,26 @@ export default class IndexPage extends React.Component {
       </div>
       </div>
     )
-  }
 }
+
+export const pageQuery = graphql`
+query IndexWritingQuery {
+  allMarkdownRemark(
+    sort: { order: DESC, fields: [frontmatter___date] },
+    filter: {fileAbsolutePath: {regex: "/writing/.*\\.md$/"}},
+    limit: 1
+  ) {
+    edges {
+      node {
+        excerpt(pruneLength: 250)
+        id
+        frontmatter {
+          title
+          date(formatString: "MMMM Do, YYYY")
+          path
+          category
+        }
+      }
+    }
+  }
+}`;
