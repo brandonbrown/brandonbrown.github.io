@@ -12,6 +12,7 @@ category: Resources
 
 ###Development
 1. [A brief look at async-await](https://javascript.christmas/2019/9)
+1. [React Spring](https://www.react-spring.io/)
 
 ###Thinking
 1. [The Lesson To Unlearn by Paul Graham](http://paulgraham.com/lesson.html)
