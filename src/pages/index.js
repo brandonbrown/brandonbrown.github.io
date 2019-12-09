@@ -41,7 +41,6 @@ export default function Writing({ data }) {
           imgHeight={50}
           imgTop={'1.75rem'}
           imgLeft={'1.75rem'}
-          mainContent={"Writing."}
           category={"Sharing"}
           backgroundColor={'#00B9F0'}
           textColor={'#fff'}
@@ -54,7 +53,7 @@ export default function Writing({ data }) {
           // imgHeight={100}
           imgTop={'0'}
           imgLeft={'1.65rem'}
-          mainContent={"My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information."}
+          mainContent={"Fitness gave me a strong foundation for every aspect of my life to be better. I help others find the ability to form the same solid ground beneath themselves with a combination of traditional personal training, gaming influences, and my background in human centered design."}
           category={"Training"}
           backgroundColor={'#382154'}
           textColor={'#fff'}
@@ -78,7 +77,7 @@ export default function Writing({ data }) {
           imgHeight={50}
           imgTop={'1.25rem'}
           imgLeft={'1.75rem'}
-          mainContent={"My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information."}
+          mainContent={"I've been teaching in the university setting for 10 years. With this experience and a keen eye towards the shifting expectations of online education, I'm moving my teaching to new platforms to help more people find the spark for design and use it to better all of our lives."}
           category={"Teaching"}
           backgroundColor={'#011128'}
           textColor={'#fff'}
@@ -90,7 +89,7 @@ export default function Writing({ data }) {
           imgHeight={60}
           imgTop={'1.75rem'}
           imgLeft={'1.5rem'}
-          mainContent={"My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information."}
+          mainContent={"My focus at this time is in the area of Mobile User Interface Development utilizing React Native. This type of product development allows me to utilize all of my past experiences as a designer, developer, manager, and content producer. "}
           category={"Creating"}
           backgroundColor={'#292862'}
           textColor={'#fff'}
