@@ -58,7 +58,7 @@ export default function Writing({ data }) {
           imgTop={'1.65rem'}
           imgLeft={'1.65rem'}
           mainContent={"Fitness gives me a strong foundation for every aspect of my life to be better. I help others find the ability to form the same solid ground beneath themselves with a combination of traditional personal training, gaming influences, and my background in human centered design."}
-          category={"Training"}
+          category={"Personal Training"}
           backgroundColor={'#382154'}
           textColor={'#fff'}
           link="https://minmaxfit.com"

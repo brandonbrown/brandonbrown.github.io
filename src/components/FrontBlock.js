@@ -50,7 +50,7 @@ export default class FrontBlock extends React.Component {
         backgroundColor: `${this.props.linkBackground}`
       }} to={this.props.link}>{this.props.linkText}</Link>
 
-    if(this.props.category === "Training"){
+    if(this.props.category === "Personal Training"){
       linkContent =
         <a className="frontBlockLink" style={{
           color: `${textColor}`,

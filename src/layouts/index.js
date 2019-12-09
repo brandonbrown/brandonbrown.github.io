@@ -39,7 +39,7 @@ class Template extends React.Component {
               <nav>
                 <Link to="/writing/">Writing</Link>
                 <Link to="/teaching/">Teaching</Link>
-                <Link to="/training/">Training</Link>
+                <Link to="/training/">Personal Training</Link>
                 <Link to="/creating/">Creating</Link>
                 <Link to="/bkmks/">BKMKS</Link>
                 <Link to="/reading/">Reading</Link>
