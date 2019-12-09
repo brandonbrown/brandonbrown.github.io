@@ -109,12 +109,14 @@ main {
     a {
       text-decoration: none;
       box-shadow: 0 0 0 0 currentColor;
-      font-family: 'Ilisarniq-Light';
+      font-family: 'hk_groteskbold';
       text-transform: uppercase;
-      font-size: .75rem;
+      font-size: .65rem;
+      letter-spacing: 1px;
       color: white;
       // background: rgba(40,40,97,.5);
       padding: 8px 12px;
+      transition: all .15s;
       &:hover {
         background: rgba(60,60,107,.5);
       }
@@ -203,6 +205,17 @@ main {
       box-sizing: border-box;
       // padding: .75rem 1.5rem;
 
+      a.frontBlockLink {
+        box-shadow: none;
+        font-family: 'hk_groteskbold';
+        margin-left: 1.75rem;
+        position: absolute;
+        top: 70%;
+        text-transform: uppercase;
+        font-size: .65rem;
+        letter-spacing: 1px;
+        padding: 8px 13px;
+      }
 
       header {
         flex-direction: row;
@@ -217,6 +230,7 @@ main {
           position: absolute;
           z-index: 1;
         }
+
         h5 {
           width: auto;
           display: inline-block;

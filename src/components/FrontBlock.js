@@ -11,7 +11,9 @@ export default class FrontBlock extends React.Component {
     const writingContent = this.props.writingContent
     let h2Content =
       <h2 style={{
-        color: `${this.props.textColor}`
+        color: `${this.props.textColor}`,
+        fontFamily: 'hk_groteskregular',
+        lineHeight: '1.45rem'
       }}>{this.props.mainContent}</h2>
 
     if(writingContent){
@@ -20,7 +22,8 @@ export default class FrontBlock extends React.Component {
                return (
                  <h2 style={{
                    color: `${this.props.textColor}`,
-                   marginTop: '5.45rem'
+                   marginTop: '5.45rem',
+                   fontFamily: 'hk_groteskbold'
                  }}>
                     <Link style={{
                       color: `${this.props.textColor}`,
@@ -28,13 +31,32 @@ export default class FrontBlock extends React.Component {
                     }} to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                     <br /><br />
 
-                    {post.excerpt}
+                    <span style={{
+                      color: `${this.props.textColor}`,
+                      fontFamily: 'hk_groteskregular',
+                      lineHeight: '1.45rem'
+                    }}>{post.excerpt}</span>
 
                  </h2>
                );
              })
     }
 
+    const textColor = this.props.linkTextColor ? this.props.linkTextColor : this.props.textColor
+
+    let linkContent =
+      <Link className="frontBlockLink" style={{
+        color: `${textColor}`,
+        backgroundColor: `${this.props.linkBackground}`
+      }} to={this.props.link}>{this.props.linkText}</Link>
+
+    if(this.props.category === "Training"){
+      linkContent =
+        <a className="frontBlockLink" style={{
+          color: `${textColor}`,
+          backgroundColor: `${this.props.linkBackground}`
+        }} href="https://minmaxfit.com">{this.props.linkText}</a>
+    }
     return (
       <section
         className="featuredSection"
@@ -61,6 +83,7 @@ export default class FrontBlock extends React.Component {
             }}>{this.props.category}</h5>
           </header>
           {h2Content}
+          {linkContent}
         </main>
       </section>
     )
