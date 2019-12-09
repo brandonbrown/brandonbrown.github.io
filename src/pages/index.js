@@ -131,7 +131,7 @@ export default function Writing({ data }) {
             <li>medium <span>&mdash;</span> <a href="https://medium.com/@bybrandonbrown" title="Folow Brandon on Medium">@bybrandonbrown</a></li>
             <li>github <span>&mdash;</span> <a href="http://github.com/brandonbrown" title="Follow Brandon on GitHub">@brandonbrown</a></li>
             <li>instagram <span>&mdash;</span> <a href="https://instagram.com/heyinstructor" title="Follow Brandon on instagram">@heyinstructor</a></li>
-            <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlaneXYZ <span className="comingsoon">Coming Soon</span></a></li>
+            <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlaneXYZ</a></li>
             <li>email <span>&mdash;</span> <a href="mailto:hey@bybrandonbrown.com">hey@bybrandonbrown.com</a></li>
           </ul>
         </section>

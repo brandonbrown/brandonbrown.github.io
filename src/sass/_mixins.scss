@@ -5,8 +5,14 @@
     @else if $point == bold {
       @media (max-width: 1250px) { @content; }
     }
+    @else if $point == semibold {
+      @media (max-width: 1200px) { @content; }
+    }
     @else if $point == medium {
       @media (max-width: 1000px)  { @content; }
+    }
+    @else if $point == roman {
+      @media (max-width: 850px)  { @content; }
     }
     @else if $point == regular {
       @media (max-width: 700px)  { @content; }
