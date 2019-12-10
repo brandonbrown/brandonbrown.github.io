@@ -50,13 +50,6 @@ export default class FrontBlock extends React.Component {
         backgroundColor: `${this.props.linkBackground}`
       }} to={this.props.link}>{this.props.linkText}</Link>
 
-    if(this.props.category === "Personal Training"){
-      linkContent =
-        <a className="frontBlockLink" style={{
-          color: `${textColor}`,
-          backgroundColor: `${this.props.linkBackground}`
-        }} href="https://minmaxfit.com">{this.props.linkText}</a>
-    }
     return (
       <section
         className="featuredSection"

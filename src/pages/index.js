@@ -61,8 +61,8 @@ export default function Writing({ data }) {
           category={"Personal Training"}
           backgroundColor={'#382154'}
           textColor={'#fff'}
-          link="https://minmaxfit.com"
-          linkText="Visit MinMaxFit.com"
+          link="/training/"
+          linkText="How can I help you achieve more?"
           linkBackground={'#ED1849'}
         />
         <FrontBlock
