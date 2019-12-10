@@ -83,7 +83,7 @@ export default function Teaching() {
                 <h3><a href="https://medium.com/@bybrandonbrown" title="brandon on medium">Medium</a></h3>
               </li>
             </ol>
-            <h3>The Best Way To Learn&mdash;Is To Teach</h3>
+            <h3>The Best Way To Learn&mdash;Is To Teach!</h3>
             <blockquote>
               Course Previews Coming Soon!
             </blockquote>

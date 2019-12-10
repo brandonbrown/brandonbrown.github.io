@@ -51,11 +51,16 @@
         margin-bottom: 3rem;
         padding-bottom: 2.5rem;
         border-bottom: 5px solid $light-gray;
+        @include breakpoint(regular){
+          flex-direction: column;
+        }
         li {
           flex: 1;
           margin-right: 20px;
           // background: $red;
-
+          @include breakpoint(regular){
+            margin-right: 0;
+          }
           &:nth-of-type(1){
             background: $red;
           }
