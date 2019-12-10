@@ -230,7 +230,10 @@ main {
         font-size: .65rem;
         letter-spacing: 1px;
         padding: 8px 13px;
-
+        &:hover {
+          background: #292862 !important;
+          color: #fff !important;
+        }
         @include breakpoint(semibold) {
           bottom: auto;
           top: 80%;
@@ -239,6 +242,13 @@ main {
           bottom: 10%;
           top: auto;
         }
+        @include breakpoint(light){
+          position: relative;
+          top: auto;
+          bottom: auto;
+          margin-right: auto;
+        }
+
 
       }
 
@@ -277,12 +287,18 @@ main {
       h2 {
         font-size: 1rem;
         font-family: 'hk_grotesksemibold';
-        line-height: 1.25rem;
+        line-height: 1.6rem;
         position: relative;
         z-index: 5;
         margin-top: 8rem;
         margin-left: 1.75rem;
         margin-right: 1.75rem;
+        @include breakpoint(light){
+          color: rgb(255, 255, 255);
+          // margin-top: 4rem !important;
+          font-family: 'hk_groteskbold';
+          margin-bottom: 1rem;
+        }
       }
     }
 
@@ -375,6 +391,10 @@ footer {
         @include breakpoint(medium) {
           display: inline;
         }
+        @include breakpoint(light) {
+          font-size: 1.25rem;
+          line-height: 0;
+        }
       }
     }
     h6 {
@@ -393,10 +413,7 @@ footer {
         margin-top: 2rem;
         margin-bottom: .5rem;
       }
-      @include breakpoint(regular) {
-        max-width: 95%;
-        margin: 2rem auto .5rem;
-      }
+
     }
   }
   .footerDetails {

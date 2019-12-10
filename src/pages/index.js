@@ -95,7 +95,7 @@ export default function Writing({ data }) {
           link="/teaching/"
           linkText="See what you can learn with me"
           linkTextColor={`#011128`}
-          linkBackground={`#D3BD24`}
+          linkBackground={`rgb(241, 229, 106)`}
         />
         <FrontBlock
           title="Creating"

@@ -22,7 +22,7 @@ export default class FrontBlock extends React.Component {
                return (
                  <h2 style={{
                    color: `${this.props.textColor}`,
-                   marginTop: '5.45rem',
+                   marginTop: '4.9rem',
                    fontFamily: 'hk_groteskbold'
                  }}>
                     <Link style={{
