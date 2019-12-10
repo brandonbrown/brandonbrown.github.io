@@ -17,7 +17,7 @@ export default function Teaching() {
         <div className="article-wrapper">
           <header>
             <h1>I help designers think deeper, developers comprehend further, and support people on their journey to better health and greater self-autonomy.</h1>
-            <h2>To be an effective teacher, you must meet people where they are naturally comfortable, personally safe, happy, and energized to learn. This is why you'll find me on these platforms:</h2>
+            <h2>To be an effective teacher, you must meet people where they are naturally comfortable, personally safe, happy, and energized to learn. This is why you'll find me on various platforms:</h2>
 
             <Particles
               params={{
@@ -66,13 +66,31 @@ export default function Teaching() {
               5. React Native Course
             */}
             <section>
-            <ol>
-              <li>YouTube: </li>
-              <li>Instagram: </li>
-              <li>Slack: </li>
-              <li>Twitter: </li>
+            <ol className="platforms">
+              <li>
+                <h3><a href="https://youtube.com/" title="heyinstructor on Youtube">YouTube</a></h3>
+              </li>
+              <li>
+                <h3><a href="https://www.instagram.com/heyinstructor/" title="@heyinstructor on Instagram">Instagram</a></h3>
+              </li>
+              <li>
+                <h3><a href="https://www.twitter.com/heyinstructor/" title="@heyinstructor on twitter">Twitter</a></h3>
+              </li>
+              <li>
+                <h3><a href="https://Facebook.com/" title="heyinstructor on Facebook">Facebook</a></h3>
+              </li>
+              <li>
+                <h3><a href="https://medium.com/@bybrandonbrown" title="brandon on medium">Medium</a></h3>
+              </li>
             </ol>
-            <p>The internet is finally fulfilling a long-held promise: Teach the masses. </p>
+            <div className="article-right">
+              <p>With platforms like these, the internet is finally fulfilling a long-held promise: Teach the masses. Education is no longer withheld behind expensive doors and years of life. The information, connections, and answers are avilable to anyone who has the will to seek them out.</p>
+              <p>Everyone is a student for life in the future of education.</p>
+            </div>
+            <div className="article-left">
+              <p></p>
+            </div>
+
             </section>
           </main>
 
