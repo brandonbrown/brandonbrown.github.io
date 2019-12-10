@@ -13,10 +13,17 @@ import plp from '../assets/indexImages/plp.svg'
 import work from '../assets/indexImages/portfolio.svg'
 
 
-export default function Writing({ data }) {
+export default function Writing({ data, location, children }) {
   console.log("data: ", data)
   const { edges: writing } = data.allMarkdownRemark;
+  // const { location, children } = this.props
+    let header
 
+
+    let rootPath = `/`
+    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+      rootPath = __PATH_PREFIX__ + `/`
+    }
     return (
       <div className="pageWrapper">
       <section className="featuredContent">
