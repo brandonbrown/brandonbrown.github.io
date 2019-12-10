@@ -87,7 +87,7 @@ export default function Teaching() {
             </ol>
             <h3>The Best Way To Learn&mdash;Is To Teach!</h3>
             <blockquote>
-              Course Previews Coming Soon!
+              New Courses Coming 2020!
             </blockquote>
 
             </section>
