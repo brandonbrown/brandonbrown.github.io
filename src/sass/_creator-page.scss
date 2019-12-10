@@ -1,6 +1,11 @@
 .creator-page {
   font-family: 'hk_grotesksemibold';
+  @include breakpoint(roman){
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 
+  }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'hk_groteskbold';
     text-transform: uppercase;
@@ -24,6 +29,8 @@
     padding-top: 3rem;
     padding-bottom: 5rem;
     justify-content: space-between;
+
+
 
     h1, h4 {
       margin: 0;
@@ -61,6 +68,22 @@
       span {
         display: block;
         margin-bottom: 5px;
+      }
+    }
+    @include breakpoint(roman){
+      flex-direction: column;
+      width: 47%;
+      .post-title {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      .post-excerpt {
+        width: 100%;
+      }
+
+      h4.post-meta {
+        width: 100%;
       }
     }
   }
