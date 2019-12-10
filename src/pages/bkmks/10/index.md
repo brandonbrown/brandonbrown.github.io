@@ -18,6 +18,7 @@ category: Resources
 1. [The Lesson To Unlearn by Paul Graham](http://paulgraham.com/lesson.html)
 1. [An Antidote to Dissatisfaction by Kurzgesagt](https://www.youtube.com/watch?v=WPPPFqsECz0)
 1. [Silicon Valley’s psychedelic wonder drug is almost here](https://www.fastcompany.com/90436824/silicon-valleys-psychedelic-wonder-drug-is-almost-here)
+1. [Taking GRAPHENE out of the Lab - The Current State](https://www.youtube.com/watch?v=dxcz_tsUBYg)
 
 ###Helpful
 1. [Return Audible Books for Credits](https://audible.custhelp.com/app/answers/detail/a_id/4592/~/can-i-return%2Fexchange-my-book%3F)
