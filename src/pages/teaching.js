@@ -16,7 +16,7 @@ export default function Teaching() {
       <section className="myTeaching">
         <div className="article-wrapper">
           <header>
-            <h1>I help designers think deeper, developers comprehend further, and support people on their journey to better health and greater self-autonomy.</h1>
+            <h1>I help designers think deeper, developers comprehend further, and support people on their journey to satisfying careers and professional fulfillment.</h1>
             <h2>To be an effective teacher, you must meet people where they are naturally comfortable, personally safe, happy, and energized to learn. This is why you'll find me on various platforms:</h2>
 
             <Particles
