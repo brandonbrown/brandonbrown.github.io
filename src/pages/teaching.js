@@ -83,13 +83,10 @@ export default function Teaching() {
                 <h3><a href="https://medium.com/@bybrandonbrown" title="brandon on medium">Medium</a></h3>
               </li>
             </ol>
-            <div className="article-right">
-              <p>With platforms like these, the internet is finally fulfilling a long-held promise: Teach the masses. Education is no longer withheld behind expensive doors and years of life. The information, connections, and answers are avilable to anyone who has the will to seek them out.</p>
-              <p>Everyone is a student for life in the future of education.</p>
-            </div>
-            <div className="article-left">
-              <p></p>
-            </div>
+            <h3>The Best Way To Learn&mdash;Is To Teach</h3>
+            <blockquote>
+              Course Previews Coming Soon!
+            </blockquote>
 
             </section>
           </main>
@@ -97,13 +94,20 @@ export default function Teaching() {
 
         </div>
       </section>
-      <section className="education">
+      {/*<section className="education">
         <article>
           <header>
             <h1><span>Education Is</span> Falling Behind</h1>
             <h2>How we should all play a part in its next evolution</h2>
           </header>
           <main>
+          <div className="article-right">
+            <p>With platforms like these, the internet is finally fulfilling a long-held promise: Teach the masses. Education is no longer withheld behind expensive doors and years of life. The information, connections, and answers are avilable to anyone who has the will to seek them out.</p>
+            <p>Everyone is a student for life in the future of education.</p>
+          </div>
+          <div className="article-left">
+            <p></p>
+          </div>
             <ol>
               <li>
                 <h3>Meet people where they are comfortable happy</h3>
@@ -124,7 +128,7 @@ export default function Teaching() {
           </main>
         </article>
       </section>
-
+      */}
     </div>
   );
 }
