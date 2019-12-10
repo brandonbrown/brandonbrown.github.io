@@ -13,6 +13,7 @@ category: Resources
 ###Development
 1. [A brief look at async-await](https://javascript.christmas/2019/9)
 1. [React Spring](https://www.react-spring.io/)
+1. [Multiple H1 Elements in HTML5(YES!)](https://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824)
 
 ###Thinking
 1. [The Lesson To Unlearn by Paul Graham](http://paulgraham.com/lesson.html)
