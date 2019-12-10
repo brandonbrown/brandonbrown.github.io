@@ -20,6 +20,8 @@ export default function Teaching() {
             <h2>To be an effective teacher, you must meet people where they are naturally comfortable, personally safe, happy, and energized to learn. This is why you'll find me on various platforms:</h2>
 
             <Particles
+              width="100%"
+              height="100%"
               params={{
           	    "particles": {
           	        "number": {
