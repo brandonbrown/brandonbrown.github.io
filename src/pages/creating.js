@@ -30,7 +30,7 @@ export default function Creating() {
             <section>
 
             <blockquote>
-              New Courses Coming 2020!
+              Work is still being selected. This page is under-construction.
             </blockquote>
 
             </section>
