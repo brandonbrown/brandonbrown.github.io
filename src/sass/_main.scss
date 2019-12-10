@@ -41,6 +41,16 @@ main {
   min-height: calc(100vh - 200px);
 
 }
+
+.article-wrapper {
+  flex: 1;
+  padding: 0 1.75rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
   .content-wrapper {
     flex: 1;
     padding: 0 5%;
