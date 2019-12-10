@@ -62,6 +62,9 @@ export default function Training() {
               <p>Personal health is one of the most important endeavours you can strive for during your lifetime.</p>
             </div>
             */}
+            <blockquote>
+              More information coming soon&mdash;this page is under-construction.
+            </blockquote>
           </main>
         </div>
       </section>
