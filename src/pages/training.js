@@ -57,10 +57,11 @@ export default function Training() {
           </div>
           <main>
 
-            // <div className="article-left">
-            //   <p>Over at <a href="https://minmaxfit.com">MinMaxFit</a>, I'm helping people to better their lives and meet goals that they can be proud of.</p>
-            //   <p>Personal health is one of the most important endeavours you can strive for during your lifetime.</p>
-            // </div>
+            {/*<div className="article-left">
+              <p>Over at <a href="https://minmaxfit.com">MinMaxFit</a>, I'm helping people to better their lives and meet goals that they can be proud of.</p>
+              <p>Personal health is one of the most important endeavours you can strive for during your lifetime.</p>
+            </div>
+            */}
           </main>
         </div>
       </section>
