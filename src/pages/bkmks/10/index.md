@@ -24,6 +24,7 @@ category: Resources
 1. [React Spring](https://www.react-spring.io/)
 1. [Multiple H1 Elements in HTML5(YES!)](https://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824)
 1. [How to deploy a Ruby on Rails application to AWS](https://www.codewithjason.com/how-to-deploy-a-ruby-on-rails-application-to-aws/)
+1. [Public APIs repo](https://github.com/public-apis/public-apis)
 
 ###Thinking
 1. [The Lesson To Unlearn by Paul Graham](http://paulgraham.com/lesson.html)
