@@ -9,6 +9,11 @@ category: Resources
 ###Business
 1. [The Angel J-Curve](https://wfh.substack.com/p/the-angel-j-curve)
 
+###Fitness
+1. [Workout Volume is Killing Your Gains!](https://www.youtube.com/watch?v=IgGwA5Jm-Ig)
+1. [Is Workout Volume Actually Killing Your Gains? (Athlean-X Response)](https://www.youtube.com/watch?v=Mja2fDwYA5s)
+1. [Mike Israetel vs Greg Doucette: Volume Killing Your Gains?](https://www.youtube.com/watch?v=Ke1z1NXUBG0&feature=youtu.be)
+
 ###Design
 1. [A Trip Down Web Design Memory Lane](https://www.flickr.com/photos/splat/sets/981332/)
 1. [Typography for Glanceable Reading: Bigger Is Better](https://www.nngroup.com/articles/glanceable-fonts/)
