@@ -6,6 +6,8 @@ date: "2019-12-08T09:00:00"
 updated: "2019-12-08T09:00:00"
 category: Resources
 ---
+###Business
+1. [The Angel J-Curve](https://wfh.substack.com/p/the-angel-j-curve)
 ###Design
 1. [A Trip Down Web Design Memory Lane](https://www.flickr.com/photos/splat/sets/981332/)
 1. [Typography for Glanceable Reading: Bigger Is Better](https://www.nngroup.com/articles/glanceable-fonts/)
