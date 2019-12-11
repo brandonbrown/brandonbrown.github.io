@@ -11,6 +11,7 @@ category: Resources
 ###Design
 1. [A Trip Down Web Design Memory Lane](https://www.flickr.com/photos/splat/sets/981332/)
 1. [Typography for Glanceable Reading: Bigger Is Better](https://www.nngroup.com/articles/glanceable-fonts/)
+1. [Meet for milkshakes?](https://medium.com/swlh/how-milkshakes-helped-get-me-30-more-investor-and-customer-meetings-63873e12bdfb)
 
 ###Development
 1. [A brief look at async-await](https://javascript.christmas/2019/9)
