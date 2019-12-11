@@ -8,6 +8,7 @@ category: Resources
 ---
 ###Business
 1. [The Angel J-Curve](https://wfh.substack.com/p/the-angel-j-curve)
+
 ###Design
 1. [A Trip Down Web Design Memory Lane](https://www.flickr.com/photos/splat/sets/981332/)
 1. [Typography for Glanceable Reading: Bigger Is Better](https://www.nngroup.com/articles/glanceable-fonts/)
@@ -24,6 +25,7 @@ category: Resources
 1. [An Antidote to Dissatisfaction by Kurzgesagt](https://www.youtube.com/watch?v=WPPPFqsECz0)
 1. [Silicon Valley’s psychedelic wonder drug is almost here](https://www.fastcompany.com/90436824/silicon-valleys-psychedelic-wonder-drug-is-almost-here)
 1. [Taking GRAPHENE out of the Lab - The Current State](https://www.youtube.com/watch?v=dxcz_tsUBYg)
+1. [Protocols, Not Platforms: A Technological Approach to Free Speech](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech)
 
 ###Helpful
 1. [Return Audible Books for Credits](https://audible.custhelp.com/app/answers/detail/a_id/4592/~/can-i-return%2Fexchange-my-book%3F)
