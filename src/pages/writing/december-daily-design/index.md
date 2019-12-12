@@ -64,3 +64,9 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
 <a href="https://dribbble.com/shots/8959648-Daily-UI-Challenge-5" class="imagelink" >
   <img src="https://cdn.dribbble.com/users/32047/screenshots/8959648/media/e5a209cd8fab2e017cb85b7f9d93f232.png" alt="December Daily Design Challenge 5" />
 </a>
+
+> 6: User Profile **[Color Scheme](https://coolors.co/acadbc-9b9ece-6665dd-473bf0-000500)**
+
+<a href="https://dribbble.com/shots/8959648-Daily-UI-Challenge-6" class="imagelink" >
+  <img src="https://cdn.dribbble.com/users/32047/screenshots/8994496/media/4210cba180abfb643b112acb61b236b5.png" alt="December Daily Design Challenge 6" />
+</a>
