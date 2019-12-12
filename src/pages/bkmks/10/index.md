@@ -8,6 +8,7 @@ category: Resources
 ---
 ###Business
 1. [The Angel J-Curve](https://wfh.substack.com/p/the-angel-j-curve)
+1. [Spotify Is Getting the Netflix Treatment](https://gizmodo.com/spotify-is-getting-the-netflix-treatment-1840366790)
 
 ###Fitness
 1. [Workout Volume is Killing Your Gains!](https://www.youtube.com/watch?v=IgGwA5Jm-Ig)
