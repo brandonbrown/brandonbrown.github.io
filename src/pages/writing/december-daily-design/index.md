@@ -70,3 +70,9 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
 <a href="https://dribbble.com/shots/8959648-Daily-UI-Challenge-6" class="imagelink" >
   <img src="https://cdn.dribbble.com/users/32047/screenshots/8994496/media/4210cba180abfb643b112acb61b236b5.png" alt="December Daily Design Challenge 6" />
 </a>
+
+> 7: Settings **[Color Scheme](https://coolors.co/8d5a97-907f9f-a4a5ae-b0c7bd-b8ebd0)**
+
+<a href="https://dribbble.com/shots/8959648-Daily-UI-Challenge-7" class="imagelink" >
+  <img src="https://cdn.dribbble.com/users/32047/screenshots/9019583/media/76210496e02a8a12974ebefba46d56c7.png" alt="December Daily Design Challenge 7" />
+</a>
