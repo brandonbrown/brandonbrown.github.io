@@ -22,6 +22,7 @@ category: Resources
 1. [Meet for milkshakes?](https://medium.com/swlh/how-milkshakes-helped-get-me-30-more-investor-and-customer-meetings-63873e12bdfb)
 1. [Root Wireframe Kit](https://rootwireframekit.com/)
 1. [State of UX 2020](https://trends.uxdesign.cc/)
+1. [Design Census 2019](https://designcensus.org/)
 
 ###Development
 1. [A brief look at async-await](https://javascript.christmas/2019/9)
