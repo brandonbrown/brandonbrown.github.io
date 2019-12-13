@@ -10,6 +10,7 @@ category: Resources
 1. [The Angel J-Curve](https://wfh.substack.com/p/the-angel-j-curve)
 1. [Spotify Is Getting the Netflix Treatment](https://gizmodo.com/spotify-is-getting-the-netflix-treatment-1840366790)
 1. [SoftBank Group's $108 billion Vision Fund 2 draws in Microsoft, Apple -- July 2019](https://mobile.reuters.com/article/amp/idUSKCN1UL01F)
+1. [How do we decide what to work on: Notion](https://www.notion.so/How-do-we-decide-what-to-work-on-f2064b8ab16c4cbcac1077e16c8cf33b)
 
 ###Fitness
 1. [Workout Volume is Killing Your Gains!](https://www.youtube.com/watch?v=IgGwA5Jm-Ig)
