@@ -11,6 +11,7 @@ category: Resources
 1. [Spotify Is Getting the Netflix Treatment](https://gizmodo.com/spotify-is-getting-the-netflix-treatment-1840366790)
 1. [SoftBank Group's $108 billion Vision Fund 2 draws in Microsoft, Apple -- July 2019](https://mobile.reuters.com/article/amp/idUSKCN1UL01F)
 1. [How do we decide what to work on: Notion](https://www.notion.so/How-do-we-decide-what-to-work-on-f2064b8ab16c4cbcac1077e16c8cf33b)
+1. [The psychology of selling](https://nesslabs.com/but-wait-theres-more)
 
 ###Fitness
 1. [Workout Volume is Killing Your Gains!](https://www.youtube.com/watch?v=IgGwA5Jm-Ig)
@@ -39,6 +40,7 @@ category: Resources
 1. [Taking GRAPHENE out of the Lab - The Current State](https://www.youtube.com/watch?v=dxcz_tsUBYg)
 1. [Protocols, Not Platforms: A Technological Approach to Free Speech](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech)
 1. [MLB, union agree to opioid testing; marijuana removed as 'drug of abuse'](https://www.espn.com/mlb/story/_/id/28283499/mlb-union-agree-opioid-testing-marijuana-removed-drug-abuse)
+1. [An introduction to metamodernism: the cultural philosophy of the digital age](https://nesslabs.com/metamodernism)
 
 ###Helpful
 1. [Return Audible Books for Credits](https://audible.custhelp.com/app/answers/detail/a_id/4592/~/can-i-return%2Fexchange-my-book%3F)
