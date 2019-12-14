@@ -26,6 +26,8 @@ category: Resources
 1. [Root Wireframe Kit](https://rootwireframekit.com/)
 1. [State of UX 2020](https://trends.uxdesign.cc/)
 1. [Design Census 2019](https://designcensus.org/)
+1. [How to Become UX Designer — Step by Step Guide](https://blog.prototypr.io/how-to-become-ux-designer-step-by-step-guide-5a49e9e17318)
+1. [Interview with designer and tech founder Cat Noone](https://medium.com/the-mission/interview-with-designer-and-tech-founder-cat-noone-36fc2d2cd4c6)
 
 ###Development
 1. [A brief look at async-await](https://javascript.christmas/2019/9)
