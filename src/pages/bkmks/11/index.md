@@ -8,3 +8,10 @@ category: Resources
 ---
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
+
+###Development
+1. [React Drag and Drop](https://react-dnd.github.io/)
+1. [React Native for Web](https://necolas.github.io/react-native-web)
+
+###Reviews
+1. [Notes on 4-Hour Workweek by Tim Ferriss](https://www.reddit.com/r/digitalnomad/comments/e8ygyp/the_4hour_work_week_by_timothy_ferriss_my_full/)
