@@ -46,6 +46,7 @@ category: Resources
 1. [Protocols, Not Platforms: A Technological Approach to Free Speech](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech)
 1. [MLB, union agree to opioid testing; marijuana removed as 'drug of abuse'](https://www.espn.com/mlb/story/_/id/28283499/mlb-union-agree-opioid-testing-marijuana-removed-drug-abuse)
 1. [An introduction to metamodernism: the cultural philosophy of the digital age](https://nesslabs.com/metamodernism)
+1. [Kid](http://paulgraham.com/kids.html)
 
 ###Helpful
 1. [Return Audible Books for Credits](https://audible.custhelp.com/app/answers/detail/a_id/4592/~/can-i-return%2Fexchange-my-book%3F)
