@@ -13,5 +13,8 @@ category: Resources
 1. [React Drag and Drop](https://react-dnd.github.io/)
 1. [React Native for Web](https://necolas.github.io/react-native-web)
 
+###Podcasts
+1. [Interview with Brianne Kimmel](https://anchor.fm/square-one-conversations-with-the-best-in-business/episodes/E39-Brianne-Kimmel--Network-Leader-at-Village-Global-e33ut2)
+
 ###Reviews
 1. [Notes on 4-Hour Workweek by Tim Ferriss](https://www.reddit.com/r/digitalnomad/comments/e8ygyp/the_4hour_work_week_by_timothy_ferriss_my_full/)
