@@ -3,6 +3,16 @@ import addToMailchimp from 'gatsby-plugin-mailchimp'
 // Import typefaces
 
 export default class Newsletter extends React.Component {
+  state = {
+    name: null,
+    email: null,
+  }
+
+  _handleChange = e => {
+    this.setState({
+      [`${e.target.name}`]: e.target.value,
+    })
+  }
   // Since `addToMailchimp` returns a promise, you
   // can handle the response in two different ways:
 
@@ -11,33 +21,42 @@ export default class Newsletter extends React.Component {
   // or wherever.  (Personally, I recommend storing in state).
 
   // 1. via `.then`
-  _handleSubmit = e => {
-    e.preventDefault();
-    addToMailchimp(email, listFields) // listFields are optional if you are only capturing the email address.
-    .then(data => {
-      // I recommend setting data to React state
-      // but you can do whatever you want (including ignoring this `then()` altogether)
-      console.log(data)
-    })
-    .catch(() => {
-      // unnecessary because Mailchimp only ever
-      // returns a 200 status code
-      // see below for how to handle errors
-    })
-  }
+  // _handleSubmit = e => {
+  //   e.preventDefault();
+  //   addToMailchimp(email, listFields)
+  //   .then(data => {
+  //
+  //     console.log(data)
+  //   })
+  //   .catch(() => {
+  //     // unnecessary because Mailchimp only ever
+  //     // returns a 200 status code
+  //     // see below for how to handle errors
+  //   })
+  // }
 
   // 2. via `async/await`
-  _handleSubmit = async (e) => {
+  _handleSubmit = e => {
     e.preventDefault();
-    const result = await addToMailchimp(email, listFields)
-    // I recommend setting `result` to React state
-    // but you can do whatever you want
+    addToMailchimp(this.state.email, {name: this.state.name})
+    .then(({msg, result}) => {
+      console.log('msg', `${result}: ${msg}`);
+      if (result !== 'success') {
+        throw msg;
+      }
+      alert(msg);
+    })
+    .catch(err => {
+      console.log('err', err);
+      alert(err);
+    });
   }
 
   render () {
     return (
-      <form onSubmit={this._handleSubmit(email, {listFields})}>
-
+      <form onSubmit={this._handleSubmit}>
+        <input type="email" onChange={this._handleChange} placeholder="email" name="email" />
+        <input type="submit" />
       </form>
     )
   }
