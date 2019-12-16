@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { Helmet } from "react-helmet"
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -8,6 +9,7 @@ import '../sass/s.scss'
 import logo from '../assets/logo.svg'
 import square from '../assets/covers/square.jpg'
 
+
 export default function Bkmks({ data }) {
   const { edges: bkmks } = data.allMarkdownRemark;
   return (
@@ -15,6 +17,7 @@ export default function Bkmks({ data }) {
     <header>
       <h1>BKMKS</h1>
       <p>My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information.</p>
+
     </header>
     { bkmks.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {

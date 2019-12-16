@@ -29,6 +29,12 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://bybrandonbrown.us4.list-manage.com/subscribe/post?u=f45bedd886bea1513fe97f2cd&amp;id=3ca21fd695', // add your MC list endpoint here; see instructions below
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

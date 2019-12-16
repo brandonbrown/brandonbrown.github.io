@@ -444,3 +444,16 @@ footer {
     margin-right: 5px;
   }
 }
+
+#mc_embed_signup {
+  input {
+    height: 3rem !important;
+    &.email {
+      padding: 0 1rem;
+    }
+  }
+  .button {
+    background-color: #000500 !important;
+    border-radius: 0 !important;
+  }
+}
