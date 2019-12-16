@@ -444,3 +444,58 @@ footer {
     margin-right: 5px;
   }
 }
+
+.about {
+  display: flex;
+  flex-direction: row !important;
+
+  .myTeaching {
+    flex: 4;
+    h1 {
+      text-transform: none;
+
+      a {
+        color: $blue;
+        text-decoration: none;
+        box-shadow: none;
+      }
+
+    }
+  }
+  .myExperience{
+    flex: 2;
+
+    h2 {
+      width: 80%;
+      margin-left: auto;
+      margin-top: 2.25rem;
+      font-size: 1rem;
+      font-weight: 900;
+      font-family: 'Ilisarniq-Black';
+    }
+    ul {
+      width: 80%;
+      margin-left: auto;
+      list-style: none;
+      font-weight: 400;
+      li {
+        margin: 0;
+        span {
+          color: $light-gray;
+          font-style: italic;
+        }
+
+        a {
+          color: $blue;
+          text-decoration: none;
+          box-shadow: none;
+        }
+      }
+      &:first-of-type {
+        li:last-of-type {
+          margin-top: .5rem;
+        }
+      }
+    }
+  }
+}
