@@ -8,6 +8,7 @@ category: Resources
 ---
 ###Design
 1. [The Best 5 Figma Plug-Ins for New Designers](https://www.rooki.design/articles/the-best-5-figma-plug-ins-for-new-designers)
+1. [Building Socially-Inclusive Design Systems by Tatiana Mac | CSSCAMP 2019](https://www.youtube.com/watch?v=KxT0EwGrXWU)
 
 ###Development
 1. [React Drag and Drop](https://react-dnd.github.io/)
