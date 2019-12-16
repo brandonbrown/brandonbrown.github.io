@@ -6,9 +6,6 @@ date: "2019-12-15T09:00:00"
 updated: "2019-12-15T09:00:00"
 category: Resources
 ---
-###Health
-1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
-
 ###Design
 1. [The Best 5 Figma Plug-Ins for New Designers](https://www.rooki.design/articles/the-best-5-figma-plug-ins-for-new-designers)
 
@@ -16,6 +13,9 @@ category: Resources
 1. [React Drag and Drop](https://react-dnd.github.io/)
 1. [React Native for Web](https://necolas.github.io/react-native-web)
 1. [24-Ways - the advent calendar for web geeks](https://24ways.org/)
+
+###Health
+1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
 
 ###Podcasts
 1. [Interview with Brianne Kimmel](https://anchor.fm/square-one-conversations-with-the-best-in-business/episodes/E39-Brianne-Kimmel--Network-Leader-at-Village-Global-e33ut2)
