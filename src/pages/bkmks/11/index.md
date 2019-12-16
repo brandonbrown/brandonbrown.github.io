@@ -9,6 +9,9 @@ category: Resources
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
 
+###Design
+1. [The Best 5 Figma Plug-Ins for New Designers](https://www.rooki.design/articles/the-best-5-figma-plug-ins-for-new-designers)
+
 ###Development
 1. [React Drag and Drop](https://react-dnd.github.io/)
 1. [React Native for Web](https://necolas.github.io/react-native-web)
