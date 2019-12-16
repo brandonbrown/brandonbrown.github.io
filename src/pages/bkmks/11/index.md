@@ -13,6 +13,7 @@ category: Resources
 1. [React Drag and Drop](https://react-dnd.github.io/)
 1. [React Native for Web](https://necolas.github.io/react-native-web)
 1. [24-Ways - the advent calendar for web geeks](https://24ways.org/)
+1. [Learn GatsbyJS by creating a tourism site](https://dev.to/nabendu82/learn-gatsbyjs-by-creating-a-tourism-site-10-bce)
 
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
