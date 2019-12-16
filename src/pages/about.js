@@ -29,7 +29,7 @@ export default function About() {
         </ul>
         <h2>Contact</h2>
         <ul>
-          <li><a href="mailto:brandon@bybrandonbrown.com">brandon@bybrandonbrown.com</a></li>
+          <li><a href="mailto:hey@bybrandonbrown.com">hey@bybrandonbrown.com</a></li>
           <li><a href="https://twitter.com/bybrandonbrown">twitter: @bybrandonbrown.com</a></li>
           <li><a href="https://www.dropbox.com/s/o1h1uw3wcwp30en/brandonbrown-resume-2019.pdf?dl=0">download resume</a></li>
 
