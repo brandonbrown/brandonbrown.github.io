@@ -16,9 +16,10 @@ category: Resources
 1. [24-Ways - the advent calendar for web geeks](https://24ways.org/)
 1. [Learn GatsbyJS by creating a tourism site](https://dev.to/nabendu82/learn-gatsbyjs-by-creating-a-tourism-site-10-bce)
 
-###Personal Growth
+###Business
 1. [WIP: the case for sharing your work in public](https://nesslabs.com/work-in-public)
 1. [How to read a book](https://nesslabs.com/how-to-read-a-book)
+1. [Everything I Know About Remote Work](https://daverupert.com/2019/12/remote-work/)
 
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
