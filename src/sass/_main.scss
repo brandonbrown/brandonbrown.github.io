@@ -453,6 +453,11 @@ footer {
     flex: 4;
     h1 {
       text-transform: none;
+      text-transform: none;
+      font-size: 2.5rem;
+      line-height: 1.2;
+      font-weight: 200;
+      font-family: Ilisarniq-Light;
 
       a {
         color: $blue;
@@ -468,16 +473,18 @@ footer {
     h2 {
       width: 80%;
       margin-left: auto;
-      margin-top: 2.25rem;
-      font-size: 1rem;
+      margin-top: 2.5rem;
+      font-size: .75rem;
       font-weight: 900;
       font-family: 'Ilisarniq-Black';
+      margin-bottom: .5rem;
     }
     ul {
       width: 80%;
       margin-left: auto;
       list-style: none;
       font-weight: 400;
+      font-size: .75rem;
       li {
         margin: 0;
         span {
