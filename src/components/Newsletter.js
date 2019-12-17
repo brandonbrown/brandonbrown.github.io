@@ -64,6 +64,7 @@ export default class Newsletter extends React.Component {
   render () {
     return (
       <div>
+        <p>Like to receive a once-a-week email with the standout items I've found? Sign Up below.</p>
         <form onSubmit={this._handleSubmit}>
           <input type="email" onChange={this._handleChange} placeholder="email" name="email" />
           <input type="submit" className="button"/>

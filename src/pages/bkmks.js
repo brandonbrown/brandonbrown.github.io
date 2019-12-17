@@ -17,7 +17,7 @@ export default function Bkmks({ data }) {
     <div className="content-wrapper creator-page bkmk-list">
     <header>
       <h1>BKMKS</h1>
-      <p>My browser's tab bar gets really messy through the work week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination. These are the important bits from each week's explosion of information.</p>
+      <p>What I find each week between research, problem solving, podcast references, reddit links, and good old fashioned procrastination.</p>
       <Newsletter />
     </header>
     { bkmks.filter(post => post.node.frontmatter.title.length > 0)
