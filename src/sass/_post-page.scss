@@ -14,7 +14,7 @@
   }
 
   flex-direction: column;
-
+  width: 100%;
   max-width: 60rem;
   margin: 0 auto 2rem;
 
@@ -24,7 +24,8 @@
 
   .post {
     text-align: left;
-    width: 60rem;
+    width: 100%;
+    max-width: 60rem;
     margin: 0 auto 6rem;
     .post-title {
       margin: 0 auto 6rem;
