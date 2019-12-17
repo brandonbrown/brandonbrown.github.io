@@ -1,11 +1,13 @@
 import React from 'react'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 // Import typefaces
+import ReactHtmlParser from 'react-html-parser';
 
 export default class Newsletter extends React.Component {
   state = {
     name: null,
     email: null,
+    message: null,
   }
 
   _handleChange = e => {
@@ -44,20 +46,30 @@ export default class Newsletter extends React.Component {
       if (result !== 'success') {
         throw msg;
       }
-      alert(msg);
+
+      // alert(msg);
+      this.setState({
+        message: msg
+      });
     })
     .catch(err => {
       console.log('err', err);
-      alert(err);
+      // alert(err);
+      this.setState({
+        message: err
+      });
     });
   }
 
   render () {
     return (
-      <form onSubmit={this._handleSubmit}>
-        <input type="email" onChange={this._handleChange} placeholder="email" name="email" />
-        <input type="submit" />
-      </form>
+      <div>
+        <form onSubmit={this._handleSubmit}>
+          <input type="email" onChange={this._handleChange} placeholder="email" name="email" />
+          <input type="submit" className="button"/>
+        </form>
+        { ReactHtmlParser (this.state.message) }
+      </div>
     )
   }
 }

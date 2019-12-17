@@ -28,6 +28,7 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5",
     "particlesjs": "^2.2.3",
+    "react-html-parser": "^2.0.2",
     "react-particles-js": "^2.7.0",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",

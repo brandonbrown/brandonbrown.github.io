@@ -129,6 +129,30 @@
           left: 0;
         }
       }
+
+      form {
+        display: flex;
+        input {
+          height: 3rem;
+          &[type="email"]{
+            width: auto;
+            flex: 5;
+            padding: 15px;
+          }
+          &.button {
+            color: white;
+            background: $main-text-color;
+            border: none;
+            margin: 0;
+            padding: 0 30px;
+            flex: 1;
+          }
+      }
+
+
+      }
+
+
     }
     article {
       height: 400px;
