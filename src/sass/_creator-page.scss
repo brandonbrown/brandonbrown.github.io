@@ -96,6 +96,8 @@
 
     @include breakpoint(regular) {
       flex-direction: column;
+      width: 100%;
+      box-sizing: border-box;
     }
     > a {
 
@@ -141,14 +143,14 @@
           &[type="email"]{
             width: auto;
             flex: 5;
-            padding: 15px;
+            padding: 5px;
           }
           &.button {
             color: white;
             background: $main-text-color;
             border: none;
             margin: 0;
-            padding: 0 30px;
+            padding: 0 15px;
             flex: 1;
           }
       }
