@@ -22,13 +22,14 @@ category: Resources
 1. [Loading web pages fast on a $20 feature phone](https://dev.to/addyosmani/loading-web-pages-fast-on-a-20-feature-phone-8h6)
 1. [Free ebook: Are you learning to code?](https://ebook.welearncode.com/)
 1. [r/WatchPeopleCode/](https://www.reddit.com/r/WatchPeopleCode/)
+1. [git switch and git restore in git2.23](https://github.com/git/git/blob/master/Documentation/RelNotes/2.23.0.txt)
 
 ###Business
 1. [WIP: the case for sharing your work in public](https://nesslabs.com/work-in-public)
 1. [How to read a book](https://nesslabs.com/how-to-read-a-book)
 1. [Everything I Know About Remote Work](https://daverupert.com/2019/12/remote-work/)
 1. [Open source workflow tool](https://n8n.io/)
-1. [p=Public and open source frameworks and career pathways](https://www.progression.fyi/)
+1. [Public and open source frameworks and career pathways](https://www.progression.fyi/)
 
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
