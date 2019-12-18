@@ -12,6 +12,9 @@ category: Resources
 1. [Cadillac teases new Escalade dash as giant screen](https://twitter.com/Cadillac/status/1206580232003751936)
 1. [Web Design Museum YouTube Channel](https://www.youtube.com/channel/UCLdCQ9kNutdT7rCF6ZOrFNg/videos)
 1. [Reimagining Design Systems at Spotify](https://spotify.design/articles/2019-12-16/reimagining-design-systems-at-spotify/)
+1. [24a11y](http://www.24a11y.com/)
+1. [Made In Figma 2019](https://www.figma.com/blog/made-in-figma-2019/)
+1. [Marty Neumeier on The Futur](https://www.youtube.com/watch?v=dpZfNNYUZEc)
 
 ###Development
 1. [React Drag and Drop](https://react-dnd.github.io/)
@@ -23,6 +26,7 @@ category: Resources
 1. [Free ebook: Are you learning to code?](https://ebook.welearncode.com/)
 1. [r/WatchPeopleCode/](https://www.reddit.com/r/WatchPeopleCode/)
 1. [git switch and git restore in git2.23](https://github.com/git/git/blob/master/Documentation/RelNotes/2.23.0.txt)
+1. [The Future of JavaScript - New Features and Disruptive Trends in 2020](https://www.youtube.com/watch?v=f0DrPLKf6Ro)
 
 ###Business
 1. [WIP: the case for sharing your work in public](https://nesslabs.com/work-in-public)
@@ -30,6 +34,7 @@ category: Resources
 1. [Everything I Know About Remote Work](https://daverupert.com/2019/12/remote-work/)
 1. [Open source workflow tool](https://n8n.io/)
 1. [Public and open source frameworks and career pathways](https://www.progression.fyi/)
+1. [State of Startups 2019](https://stateofstartups2019.firstround.com/)
 
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
