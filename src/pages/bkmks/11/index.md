@@ -11,6 +11,7 @@ category: Resources
 1. [Building Socially-Inclusive Design Systems by Tatiana Mac | CSSCAMP 2019](https://www.youtube.com/watch?v=KxT0EwGrXWU)
 1. [Cadillac teases new Escalade dash as giant screen](https://twitter.com/Cadillac/status/1206580232003751936)
 1. [Web Design Museum YouTube Channel](https://www.youtube.com/channel/UCLdCQ9kNutdT7rCF6ZOrFNg/videos)
+1. [Reimagining Design Systems at Spotify](https://spotify.design/articles/2019-12-16/reimagining-design-systems-at-spotify/)
 
 ###Development
 1. [React Drag and Drop](https://react-dnd.github.io/)
