@@ -89,7 +89,7 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
   <img src="https://cdn.dribbble.com/users/32047/screenshots/9075275/media/4b562eedace291a51f3decd6ca00a3e0.png" alt="December Daily Design Challenge 9" />
 </a>
 
-> 11: Social Share **[Color Scheme](https://coolors.co/ed1c24-fdfffc-235789-f1d302-020100)**
+> 10: Social Share **[Color Scheme](https://coolors.co/ed1c24-fdfffc-235789-f1d302-020100)**
 
 <a href="https://dribbble.com/shots/9084443-Daily-UI-Challenge-010" class="imagelink" >
   <img src="https://cdn.dribbble.com/users/32047/screenshots/9084443/media/e84f08888c11a97d82d38abb762db87e.png" alt="December Daily Design Challenge 10" />
