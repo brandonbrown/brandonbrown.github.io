@@ -28,6 +28,7 @@ category: Resources
 1. [How to read a book](https://nesslabs.com/how-to-read-a-book)
 1. [Everything I Know About Remote Work](https://daverupert.com/2019/12/remote-work/)
 1. [Open source workflow tool](https://n8n.io/)
+1. [p=Public and open source frameworks and career pathways](https://www.progression.fyi/)
 
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
