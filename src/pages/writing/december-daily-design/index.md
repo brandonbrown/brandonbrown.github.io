@@ -82,3 +82,9 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
 <a href="https://dribbble.com/shots/9075112-Daily-UI-Challenge-8" class="imagelink" >
   <img src="https://cdn.dribbble.com/users/32047/screenshots/9075112/media/765d68d83b98ec1118349c1ac214f5c2.png" alt="December Daily Design Challenge 8" />
 </a>
+
+> 9: Music Player **[Color Scheme](https://coolors.co/000500-362417-92817a-f1dabf-fffbff)**
+
+<a href="https://dribbble.com/shots/9075275-Daily-UI-Challenge-9" class="imagelink" >
+  <img src="https://cdn.dribbble.com/users/32047/screenshots/9075275/media/4b562eedace291a51f3decd6ca00a3e0.png" alt="December Daily Design Challenge 9" />
+</a>
