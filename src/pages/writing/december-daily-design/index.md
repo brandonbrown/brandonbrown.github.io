@@ -76,3 +76,9 @@ I decided here to go out and find a DailyUI challenge to help with ideas and con
 <a href="https://dribbble.com/shots/8959648-Daily-UI-Challenge-7" class="imagelink" >
   <img src="https://cdn.dribbble.com/users/32047/screenshots/9019583/media/76210496e02a8a12974ebefba46d56c7.png" alt="December Daily Design Challenge 7" />
 </a>
+
+> 8: 404 **[Color Scheme](https://coolors.co/334139-1e2d24-c52184-e574bc-f9b4ed)**
+
+<a href="https://dribbble.com/shots/9075112-Daily-UI-Challenge-8" class="imagelink" >
+  <img src="https://cdn.dribbble.com/users/32047/screenshots/9075112/media/765d68d83b98ec1118349c1ac214f5c2.png" alt="December Daily Design Challenge 8" />
+</a>
