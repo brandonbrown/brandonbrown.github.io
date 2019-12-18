@@ -21,6 +21,7 @@ category: Resources
 1. [Bulma CSS Framework](https://bulma.io/)
 1. [Loading web pages fast on a $20 feature phone](https://dev.to/addyosmani/loading-web-pages-fast-on-a-20-feature-phone-8h6)
 1. [Free ebook: Are you learning to code?](https://ebook.welearncode.com/)
+1. [r/WatchPeopleCode/](https://www.reddit.com/r/WatchPeopleCode/)
 
 ###Business
 1. [WIP: the case for sharing your work in public](https://nesslabs.com/work-in-public)
