@@ -38,6 +38,8 @@ category: Resources
 1. [Open source workflow tool](https://n8n.io/)
 1. [Public and open source frameworks and career pathways](https://www.progression.fyi/)
 1. [State of Startups 2019](https://stateofstartups2019.firstround.com/)
+1. [rowing a Tech Interview Prep Business from $0 to $300K in 1 year](https://www.indiehackers.com/interview/09d52744a4)
+1. [Managing Remote Teams - A Crash Course](https://klinger.io/post/180989912140/managing-remote-teams-a-crash-course)
 
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
