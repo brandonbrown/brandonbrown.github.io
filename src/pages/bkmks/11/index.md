@@ -30,6 +30,7 @@ category: Resources
 1. [The Future of JavaScript - New Features and Disruptive Trends in 2020](https://www.youtube.com/watch?v=f0DrPLKf6Ro)
 1. [the odin project](https://www.theodinproject.com/)
 1. [connected home ip](https://www.connectedhomeip.com/)
+1. [2019 State of JS](https://2019.stateofjs.com/)
 
 ###Business
 1. [WIP: the case for sharing your work in public](https://nesslabs.com/work-in-public)
