@@ -41,6 +41,7 @@ category: Resources
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
 1. [Digital Wellbeing Experiments by Google](https://www.producthunt.com/posts/digital-wellbeing-experiments-by-google)
+1. [Burnout Prevention and Recovery](https://www.youtube.com/playlist?list=PLinI31g4OKHja8K71v4p-HW15HDVN4lXN)
 
 ###Podcasts
 1. [Interview with Brianne Kimmel](https://anchor.fm/square-one-conversations-with-the-best-in-business/episodes/E39-Brianne-Kimmel--Network-Leader-at-Village-Global-e33ut2)
