@@ -27,6 +27,8 @@ category: Resources
 1. [r/WatchPeopleCode/](https://www.reddit.com/r/WatchPeopleCode/)
 1. [git switch and git restore in git2.23](https://github.com/git/git/blob/master/Documentation/RelNotes/2.23.0.txt)
 1. [The Future of JavaScript - New Features and Disruptive Trends in 2020](https://www.youtube.com/watch?v=f0DrPLKf6Ro)
+1. [the odin project](https://www.theodinproject.com/)
+1. [connected home ip](https://www.connectedhomeip.com/)
 
 ###Business
 1. [WIP: the case for sharing your work in public](https://nesslabs.com/work-in-public)
