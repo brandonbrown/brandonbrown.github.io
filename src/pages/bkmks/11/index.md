@@ -15,6 +15,7 @@ category: Resources
 1. [24a11y](http://www.24a11y.com/)
 1. [Made In Figma 2019](https://www.figma.com/blog/made-in-figma-2019/)
 1. [Marty Neumeier on The Futur](https://www.youtube.com/watch?v=dpZfNNYUZEc)
+1. [Neumorphism in user interfaces](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
 
 ###Development
 1. [React Drag and Drop](https://react-dnd.github.io/)
