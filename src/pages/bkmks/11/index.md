@@ -16,6 +16,7 @@ category: Resources
 1. [Made In Figma 2019](https://www.figma.com/blog/made-in-figma-2019/)
 1. [Marty Neumeier on The Futur](https://www.youtube.com/watch?v=dpZfNNYUZEc)
 1. [Neumorphism in user interfaces](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
+1. [Portfolio Tips – Reviewing YOUR Design Work](https://www.youtube.com/watch?v=VFAkgNpAVSo)
 
 ###Development
 1. [React Drag and Drop](https://react-dnd.github.io/)
@@ -31,6 +32,8 @@ category: Resources
 1. [the odin project](https://www.theodinproject.com/)
 1. [connected home ip](https://www.connectedhomeip.com/)
 1. [2019 State of JS](https://2019.stateofjs.com/)
+1. [Functional, Procedural & Object-oriented Programming - An Overview](https://www.youtube.com/watch?v=aoE-92Ac4zE)
+1. [The best web feature of 2019](https://www.youtube.com/watch?v=Xtmp2HbSreQ)
 
 ###Business
 1. [WIP: the case for sharing your work in public](https://nesslabs.com/work-in-public)
@@ -41,6 +44,11 @@ category: Resources
 1. [State of Startups 2019](https://stateofstartups2019.firstround.com/)
 1. [rowing a Tech Interview Prep Business from $0 to $300K in 1 year](https://www.indiehackers.com/interview/09d52744a4)
 1. [Managing Remote Teams - A Crash Course](https://klinger.io/post/180989912140/managing-remote-teams-a-crash-course)
+1. [Inside Ikea’s big bet on smart home tech](https://www.youtube.com/watch?v=L23JPc9h3nc)
+1. [Using Notion as a Resonance Calendar](https://www.youtube.com/watch?v=lKYBB-Uw1IM)
+1. [The Most Powerful Productivity App I Use - Notion](https://www.youtube.com/watch?v=m9S5I3pWz94)
+1. [How to Create a Startup Pitch Deck](https://www.youtube.com/watch?v=Sgr9m8qxl5Q)
+
 
 ###Health
 1. [There is no cure for burnout](https://elladawson.com/2019/11/18/there-is-no-cure-for-burnout/)
