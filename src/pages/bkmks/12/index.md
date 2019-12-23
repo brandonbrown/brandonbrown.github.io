@@ -16,3 +16,4 @@ category: Resources
 
 ###Development
 1. [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
+1. [SwiftUI Official Docs](https://developer.apple.com/documentation/swiftui)
