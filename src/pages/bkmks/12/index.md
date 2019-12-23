@@ -9,3 +9,6 @@ category: Resources
 
 ###Business
 1. [The Obvious, the Easy, and the Possible](https://m.signalvnoise.com/the-obvious-the-easy-and-the-possible/)
+
+###Design
+1. [55 of the most actionable ways to scale design](https://www.abstract.com/blog/55-ways-to-scale-design/)
