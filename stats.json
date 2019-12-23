@@ -21,8 +21,8 @@
       "path---bkmks-9-a4c21e110a0f5d4d08e4.js.map"
     ],
     "path---bkmks-11": [
-      "path---bkmks-11-dab17a983aa705fcb9cc.js",
-      "path---bkmks-11-dab17a983aa705fcb9cc.js.map"
+      "path---bkmks-11-7735549015c80db9bdd0.js",
+      "path---bkmks-11-7735549015c80db9bdd0.js.map"
     ],
     "component---src-pages-reading-js": [
       "component---src-pages-reading-js-69bb33a3737a456e4e22.js",
@@ -96,10 +96,6 @@
       "component---src-layouts-index-js-3b44e269d970e67e840c.js",
       "component---src-layouts-index-js-3b44e269d970e67e840c.js.map"
     ],
-    "path---bkmks-12": [
-      "path---bkmks-12-157864b085165b2ec741.js",
-      "path---bkmks-12-157864b085165b2ec741.js.map"
-    ],
     "path---index": [
       "path---index-83fccf75bcf5a871f6b2.js",
       "path---index-83fccf75bcf5a871f6b2.js.map"
@@ -109,8 +105,8 @@
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
     ],
     "path---bkmks": [
-      "path---bkmks-6143d517f67af9d4a8a5.js",
-      "path---bkmks-6143d517f67af9d4a8a5.js.map"
+      "path---bkmks-6c4f83f483b8646d5a24.js",
+      "path---bkmks-6c4f83f483b8646d5a24.js.map"
     ],
     "path---writing": [
       "path---writing-750194accc61ce2ac797.js",
@@ -137,6 +133,10 @@
     "path---writing-yourfirststeps-part-3": [
       "path---writing-yourfirststeps-part-3-16d985f800f9c666eee8.js",
       "path---writing-yourfirststeps-part-3-16d985f800f9c666eee8.js.map"
+    ],
+    "path---12": [
+      "path---12-b68bc91d55a6fcbb4ec0.js",
+      "path---12-b68bc91d55a6fcbb4ec0.js.map"
     ],
     "component---src-pages-writing-js": [
       "component---src-pages-writing-js-2afa41c345095bb5b241.js",
@@ -187,9 +187,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-36fed569793637f69ca0.js",
+      "app-c6263b38c5998cd29239.js",
       "build-js-styles.css",
-      "app-36fed569793637f69ca0.js.map",
+      "app-c6263b38c5998cd29239.js.map",
       "build-js-styles.css.map"
     ],
     "path---bkmks-6": [
