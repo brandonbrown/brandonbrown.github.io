@@ -1,0 +1,2 @@
+webpackJsonp([0x9f22a22cacaa],{500:function(e,t){e.exports={data:{site:{siteMetadata:{title:"The Personal Website of Brandon Brown",author:"Brandon Brown"}},markdownRemark:null},pathContext:{slug:"/12/",category:"Resources",previous:{fields:{slug:"/bkmks/11/"},frontmatter:{title:"BKMKS11",category:"Resources",posttype:"bkmk"}},next:null}}}});
+//# sourceMappingURL=path---12-03b992968e8362d1b31c.js.map
