@@ -12,6 +12,9 @@ category: Resources
 1. [ICANN Key Ceremony](https://www.youtube.com/watch?v=b9j-sfP9GUU)
 1. [A History of Apple Computers](https://www.thoughtco.com/the-history-of-apple-computers-1991454)
 1. [General Magic The Movie](https://www.generalmagicthemovie.com/)
+1. [Fitness App Market Size Worth $2.4 Billion In 2018](https://www.grandviewresearch.com/industry-analysis/fitness-app-market)
+1. [Fitness App Market Size Worth $10.9 Billion By 2026](https://www.prnewswire.com/news-releases/fitness-app-market-size-worth-10-9-billion-by-2026--cagr-21-1-grand-view-research-inc-300910138.html)
+
 
 ###Design
 1. [55 of the most actionable ways to scale design](https://www.abstract.com/blog/55-ways-to-scale-design/)
