@@ -24,7 +24,7 @@ class Footer extends React.Component {
               <li>github <span>&mdash;</span> <a href="http://github.com/brandonbrown" title="Follow Brandon on GitHub">@brandonbrown</a></li>
               <li>instagram <span>&mdash;</span> <a href="https://instagram.com/heyinstructor" title="Follow Brandon on instagram">@heyinstructor</a></li>
               <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlaneXYZ</a></li>
-              <li>email <span>&mdash;</span> <a href="mailto:hey@bybrandonbrown.com">hey@bybrandonbrown.com</a></li>
+              <li>email <span>&mdash;</span> <a href="mailto:hello@bybrandonbrown.com">hello@bybrandonbrown.com</a></li>
             </ul>
           </section>
           <section className="footerDetails">
