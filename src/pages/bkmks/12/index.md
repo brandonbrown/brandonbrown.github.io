@@ -3,7 +3,7 @@ posttype: "bkmk"
 title: BKMKS12
 path: "12"
 date: "2019-12-23T09:00:00"
-updated: "2019-12-24T09:00:00"
+updated: "2019-12-28T09:00:00"
 category: Resources
 ---
 
@@ -24,3 +24,6 @@ category: Resources
 ###Development
 1. [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 1. [SwiftUI Official Docs](https://developer.apple.com/documentation/swiftui)
+
+###Health
+1.[How to make stress your friend | Kelly McGonigal](https://www.youtube.com/watch?v=RcGyVTAoXEU)
