@@ -3,7 +3,7 @@ posttype: "bkmk"
 title: BKMKS12
 path: "12"
 date: "2019-12-23T09:00:00"
-updated: "2019-12-30T09:00:00"
+updated: "2019-12-31T09:00:00"
 category: Resources
 ---
 
@@ -23,6 +23,8 @@ category: Resources
 ###Design
 1. [55 of the most actionable ways to scale design](https://www.abstract.com/blog/55-ways-to-scale-design/)
 1. [Tony Fadell TED2015 - The first secret of design is ... noticing](https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing)
+1. [a design system governance process](https://bradfrost.com/blog/post/a-design-system-governance-process/)
+1. [rontend design, react, and a bridge over the great divide](https://bradfrost.com/blog/post/frontend-design-react-and-a-bridge-over-the-great-divide/)
 
 ###Development
 1. [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
