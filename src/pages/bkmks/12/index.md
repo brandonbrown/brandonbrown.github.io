@@ -3,7 +3,7 @@ posttype: "bkmk"
 title: BKMKS12
 path: "12"
 date: "2019-12-23T09:00:00"
-updated: "2019-12-31T09:00:00"
+updated: "2020-01-01T09:00:00"
 category: Resources
 ---
 
@@ -19,6 +19,7 @@ category: Resources
 1. [Fitness App Market Size Worth $10.9 Billion By 2026](https://www.prnewswire.com/news-releases/fitness-app-market-size-worth-10-9-billion-by-2026--cagr-21-1-grand-view-research-inc-300910138.html)
 1. [make](https://makebook.io/)
 1. [What we can learn from a decade of dead Google projects](https://www.theverge.com/2019/12/12/21012505/google-decade-failed-projects-discontinued-wave-glass-daydream-vr)
+1. [Naval Ravikant fan site](https://theangelphilosopher.com/)
 
 ###Design
 1. [55 of the most actionable ways to scale design](https://www.abstract.com/blog/55-ways-to-scale-design/)
