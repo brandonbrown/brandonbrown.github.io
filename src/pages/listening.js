@@ -90,7 +90,7 @@ const Listening = ({ children }) => (
             </div>
             <div className="book-info">
               <progress max="100" value="10"></progress>
-              <p className="book-progress in-progress">In Progress</p>
+              <p className="book-progress abandoned">Abandoned</p>
               <h3>Man's Search For Meaning</h3>
               <p>So far, as an audibook this is hard to digest. May be more enjoyable as a hard copy book.</p>
             </div>
