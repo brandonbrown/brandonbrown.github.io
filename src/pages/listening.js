@@ -34,7 +34,7 @@ const Listening = ({ children }) => (
               <img src={body} alt="cover" />
             </div>
             <div className="book-info">
-              <progress max="100" value="1"></progress>
+              <progress max="100" value="45"></progress>
               <p className="book-progress in-progress">In Progress</p>
               <h3>The Body: A Guide for Occupants</h3>
               <p>Written and narrated by Bill Bryson</p>
