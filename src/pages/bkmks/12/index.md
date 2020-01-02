@@ -26,6 +26,7 @@ category: Resources
 1. [Tony Fadell TED2015 - The first secret of design is ... noticing](https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing)
 1. [a design system governance process](https://bradfrost.com/blog/post/a-design-system-governance-process/)
 1. [rontend design, react, and a bridge over the great divide](https://bradfrost.com/blog/post/frontend-design-react-and-a-bridge-over-the-great-divide/)
+1. [2020 Color Trends from shutterstock: See the Spectrum](https://www.shutterstock.com/blog/trends/2020-color-trends)
 
 ###Development
 1. [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
