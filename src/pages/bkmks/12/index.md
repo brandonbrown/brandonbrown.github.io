@@ -36,6 +36,7 @@ category: Resources
 1. [SwiftUI Official Docs](https://developer.apple.com/documentation/swiftui)
 1. [Grow Your Technical Skills with Google](https://techdevguide.withgoogle.com/)
 1. [Statecharts: xstate](https://xstate.js.org/viz/)
+1. [CSS-Tricks Thank You 2019](https://css-tricks.com/thank-you-2019-edition/)
 
 ###Health
 1.[How to make stress your friend | Kelly McGonigal](https://www.youtube.com/watch?v=RcGyVTAoXEU)
