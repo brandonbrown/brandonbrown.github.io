@@ -38,6 +38,7 @@ category: Resources
 
 ###Health
 1.[How to make stress your friend | Kelly McGonigal](https://www.youtube.com/watch?v=RcGyVTAoXEU)
+1. [Ganbaru Method](https://ganbarumethod.com/)
 
 ###Podcats
 1. [Joe Rogan Experience #1309 - Naval Ravikant](https://www.youtube.com/watch?v=3qHkcs3kG44)
