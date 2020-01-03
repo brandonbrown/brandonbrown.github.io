@@ -20,6 +20,7 @@ category: Resources
 1. [make](https://makebook.io/)
 1. [What we can learn from a decade of dead Google projects](https://www.theverge.com/2019/12/12/21012505/google-decade-failed-projects-discontinued-wave-glass-daydream-vr)
 1. [Naval Ravikant fan site](https://theangelphilosopher.com/)
+1. [The Best Way to Answer “Sell Me This Pen” Right Now](https://www.yesware.com/blog/sell-me-this-pen/)
 
 ###Design
 1. [55 of the most actionable ways to scale design](https://www.abstract.com/blog/55-ways-to-scale-design/)
