@@ -27,6 +27,7 @@ category: Resources
 1. [a design system governance process](https://bradfrost.com/blog/post/a-design-system-governance-process/)
 1. [rontend design, react, and a bridge over the great divide](https://bradfrost.com/blog/post/frontend-design-react-and-a-bridge-over-the-great-divide/)
 1. [2020 Color Trends from shutterstock: See the Spectrum](https://www.shutterstock.com/blog/trends/2020-color-trends)
+1. [Systems, Mistakes, and the Sea](https://www.robinrendle.com/essays/systems-mistakes-and-the-sea)
 
 ###Development
 1. [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
