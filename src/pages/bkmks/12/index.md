@@ -30,6 +30,7 @@ category: Resources
 1. [rontend design, react, and a bridge over the great divide](https://bradfrost.com/blog/post/frontend-design-react-and-a-bridge-over-the-great-divide/)
 1. [2020 Color Trends from shutterstock: See the Spectrum](https://www.shutterstock.com/blog/trends/2020-color-trends)
 1. [Systems, Mistakes, and the Sea](https://www.robinrendle.com/essays/systems-mistakes-and-the-sea)
+1. [A Curated List of Personal Websites](https://www.notion.so/A-curated-list-of-personal-website-inspiration-2019-65270708af6541d2a60cc109999f41cf?v=9db8ec3ac6f44f3490db272b2c3ade5d)
 
 ###Development
 1. [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
@@ -39,7 +40,7 @@ category: Resources
 1. [CSS-Tricks Thank You 2019](https://css-tricks.com/thank-you-2019-edition/)
 
 ###Health
-1.[How to make stress your friend | Kelly McGonigal](https://www.youtube.com/watch?v=RcGyVTAoXEU)
+1. [How to make stress your friend Kelly McGonigal](https://www.youtube.com/watch?v=RcGyVTAoXEU)
 1. [Ganbaru Method](https://ganbarumethod.com/)
 
 ###Podcats
