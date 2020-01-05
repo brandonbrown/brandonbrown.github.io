@@ -1,3 +1,6 @@
+### Requirements: 
+node v8.11.3
+
 # gatsby-starter-blog
 Gatsby starter for creating a blog
 
