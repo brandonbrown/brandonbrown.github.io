@@ -9,6 +9,7 @@ category: Resources
 
 ###Business
 1. [Google and Amazon are now in the oil business](https://www.youtube.com/watch?v=v3n8txX3144)
+1. [Snap acquires AI Factory](https://www.producthunt.com/newsletter/3756)
 
 ###Health
 1. [20 Fitness Standards](https://www.bobbymaximus.com/20-fitness-standards/)
