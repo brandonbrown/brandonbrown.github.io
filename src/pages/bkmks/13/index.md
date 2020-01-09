@@ -11,6 +11,8 @@ category: Resources
 1. [Best tweet-sized programming career lessons](https://dev.to/tlakomy/best-tweet-sized-programming-career-lessons-1de7)
 1. [Why My Teenage Code Was Terrible: Sorting Algorithms and Big O Notation](https://www.youtube.com/watch?v=RGuJga2Gl_k)
 1. [New Next.js Documentation](https://nextjs.org/blog/new-documentation)
+1. [frontend design](https://bradfrost.com/blog/post/frontend-design/)
+1. [Design Engineering](https://snook.ca/archives/opinion/design-engineering)
 
 ###Business
 1. [Google and Amazon are now in the oil business](https://www.youtube.com/watch?v=v3n8txX3144)
