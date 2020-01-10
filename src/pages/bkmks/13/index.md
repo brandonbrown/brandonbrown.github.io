@@ -22,3 +22,4 @@ category: Resources
 ###Health
 1. [20 Fitness Standards](https://www.bobbymaximus.com/20-fitness-standards/)
 1. [30 life lessons I learned before turning 30](https://nesslabs.com/30-life-lessons)
+1. [exrx.net](https://exrx.net/)
