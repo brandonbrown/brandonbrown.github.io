@@ -3,7 +3,7 @@ posttype: "bkmk"
 title: BKMKS13
 path: "13"
 date: "2020-01-05T09:00:00"
-updated: "2020-01-05T09:00:00"
+updated: "2020-01-11T09:00:00"
 category: Resources
 ---
 
@@ -13,6 +13,9 @@ category: Resources
 1. [New Next.js Documentation](https://nextjs.org/blog/new-documentation)
 1. [frontend design](https://bradfrost.com/blog/post/frontend-design/)
 1. [Design Engineering](https://snook.ca/archives/opinion/design-engineering)
+
+###Design
+1. [Calculate colors. Share palettes.](https://calcolor.co/a61236)
 
 ###Business
 1. [Google and Amazon are now in the oil business](https://www.youtube.com/watch?v=v3n8txX3144)
