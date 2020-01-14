@@ -9,6 +9,7 @@ category: Resources
 
 ###Development
 1. [Tiny Online Tools For Developers](https://tiny-helpers.dev/)
+1. [How to Animate on the Web With Greensock](https://css-tricks.com/how-to-animate-on-the-web-with-greensock/)
 
 ###Health
 1. [Back On My Feet](https://www.backonmyfeet.org/)
