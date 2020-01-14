@@ -105,20 +105,20 @@
       "path---bkmks-13-a75ec11a8e6e8920f166.js.map"
     ],
     "path---index": [
-      "path---index-83fccf75bcf5a871f6b2.js",
-      "path---index-83fccf75bcf5a871f6b2.js.map"
+      "path---index-a0ee01ee22f94d02301a.js",
+      "path---index-a0ee01ee22f94d02301a.js.map"
     ],
     "path---writing-the-fast-app": [
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js",
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
     ],
     "path---bkmks": [
-      "path---bkmks-65f0f54b091ca16f8908.js",
-      "path---bkmks-65f0f54b091ca16f8908.js.map"
+      "path---bkmks-93dfad0d4749bf2d8f65.js",
+      "path---bkmks-93dfad0d4749bf2d8f65.js.map"
     ],
     "path---writing": [
-      "path---writing-750194accc61ce2ac797.js",
-      "path---writing-750194accc61ce2ac797.js.map"
+      "path---writing-64bb4e3212fed2532ed5.js",
+      "path---writing-64bb4e3212fed2532ed5.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-7cef5e86477838756f05.js",
@@ -174,9 +174,13 @@
       "path---writing-world-cup-fitness-inspiration-bc547b65bff43382ef79.js",
       "path---writing-world-cup-fitness-inspiration-bc547b65bff43382ef79.js.map"
     ],
+    "path---writing-5-basics-for-beginners": [
+      "path---writing-5-basics-for-beginners-13ff6a82c682502acdae.js",
+      "path---writing-5-basics-for-beginners-13ff6a82c682502acdae.js.map"
+    ],
     "path---bkmks-14": [
-      "path---bkmks-14-24033ba71c13f1d011dd.js",
-      "path---bkmks-14-24033ba71c13f1d011dd.js.map"
+      "path---bkmks-14-60d9d29d5d56072989bb.js",
+      "path---bkmks-14-60d9d29d5d56072989bb.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -195,9 +199,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-e5376a262b6019db478d.js",
+      "app-d1a5f4bc6ce12c9a04da.js",
       "build-js-styles.css",
-      "app-e5376a262b6019db478d.js.map",
+      "app-d1a5f4bc6ce12c9a04da.js.map",
       "build-js-styles.css.map"
     ],
     "path---bkmks-6": [
