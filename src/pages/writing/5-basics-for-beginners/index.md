@@ -1,7 +1,7 @@
 ---
 posttype: "writing"
 title: Five Basics Every Exercise Beginner Should Start With
-path: 5-basic-for-beginners
+path: 5-basics-for-beginners
 date: "2020-01-13T11:00:00"
 category: Fitness
 ---
