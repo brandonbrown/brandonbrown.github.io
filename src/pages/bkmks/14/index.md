@@ -15,3 +15,6 @@ category: Resources
 1. [Back On My Feet](https://www.backonmyfeet.org/)
 1. [Avoiding Burnout As An Ambitious Developer](https://stackoverflow.blog/2020/01/13/avoiding-burnout-as-an-ambitious-developer/)
 1. [The Brain Changing Benefits Of Exercise](https://www.youtube.com/watch?v=BHY0FxzoKZE)
+
+###Business
+1. [Why You Have To Play The Game At Work - Jocko Willink](https://www.youtube.com/watch?v=jDCUPvrLmgI)
