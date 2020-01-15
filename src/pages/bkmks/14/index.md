@@ -21,3 +21,4 @@ category: Resources
 
 ###Business
 1. [Why You Have To Play The Game At Work - Jocko Willink](https://www.youtube.com/watch?v=jDCUPvrLmgI)
+1. [Kano Model](https://en.wikipedia.org/wiki/Kano_model)
