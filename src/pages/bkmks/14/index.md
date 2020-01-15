@@ -11,6 +11,7 @@ category: Resources
 1. [Tiny Online Tools For Developers](https://tiny-helpers.dev/)
 1. [How to Animate on the Web With Greensock](https://css-tricks.com/how-to-animate-on-the-web-with-greensock/)
 1. [JavaScript in 5 minutes](https://youtu.be/c-I5S_zTwAc)
+1. [Goodbye Clean Code](https://overreacted.io/goodbye-clean-code/)
 
 ###Health
 1. [Back On My Feet](https://www.backonmyfeet.org/)
