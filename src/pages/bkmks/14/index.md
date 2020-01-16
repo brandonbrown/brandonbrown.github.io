@@ -11,7 +11,10 @@ category: Resources
 1. [Tiny Online Tools For Developers](https://tiny-helpers.dev/)
 1. [How to Animate on the Web With Greensock](https://css-tricks.com/how-to-animate-on-the-web-with-greensock/)
 1. [JavaScript in 5 minutes](https://youtu.be/c-I5S_zTwAc)
+1. [React in 5 minutes](https://www.youtube.com/watch?v=MRIMT0xPXFI)
 1. [Goodbye Clean Code](https://overreacted.io/goodbye-clean-code/)
+1. [Mozilla Lay Offs 70](https://techcrunch.com/2020/01/15/mozilla-lays-off-70-as-it-waits-for-subscription-products-to-generate-revenue/)
+1. [Microsoft Edge Ships With Chromium Engine](https://arstechnica.com/gadgets/2020/01/goodbye-microsoft-edge-welcome-microsoft-chromium-edge/)
 
 ###Health
 1. [Back On My Feet](https://www.backonmyfeet.org/)
