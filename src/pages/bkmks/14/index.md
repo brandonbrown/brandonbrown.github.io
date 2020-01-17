@@ -31,3 +31,4 @@ category: Resources
 ###Business
 1. [Why You Have To Play The Game At Work - Jocko Willink](https://www.youtube.com/watch?v=jDCUPvrLmgI)
 1. [Kano Model](https://en.wikipedia.org/wiki/Kano_model)
+1. [DHH Testimony before the House Antitrust Subcommittee](https://m.signalvnoise.com/testimony-before-the-house-antitrust-subcommittee/)
