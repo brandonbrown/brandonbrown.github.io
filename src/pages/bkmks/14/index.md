@@ -3,9 +3,12 @@ posttype: "bkmk"
 title: BKMKS14
 path: "14"
 date: "2020-01-13T09:00:00"
-updated: "2020-01-15T09:00:00"
+updated: "2020-01-16T09:00:00"
 category: Resources
 ---
+
+###Something Great
+1. [Be My Eyes](https://www.bemyeyes.com/)
 
 ###Development
 1. [Tiny Online Tools For Developers](https://tiny-helpers.dev/)
@@ -15,6 +18,9 @@ category: Resources
 1. [Goodbye Clean Code](https://overreacted.io/goodbye-clean-code/)
 1. [Mozilla Lay Offs 70](https://techcrunch.com/2020/01/15/mozilla-lays-off-70-as-it-waits-for-subscription-products-to-generate-revenue/)
 1. [Microsoft Edge Ships With Chromium Engine](https://arstechnica.com/gadgets/2020/01/goodbye-microsoft-edge-welcome-microsoft-chromium-edge/)
+1. [What is Snowpack](https://css-tricks.com/snowpack/)
+1. [Snowpack](https://www.snowpack.dev/)
+1. [cors-anywhere](https://cors-anywhere.herokuapp.com/)
 
 ###Health
 1. [Back On My Feet](https://www.backonmyfeet.org/)
