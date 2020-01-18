@@ -21,6 +21,7 @@ category: Resources
 1. [What is Snowpack](https://css-tricks.com/snowpack/)
 1. [Snowpack](https://www.snowpack.dev/)
 1. [cors-anywhere](https://cors-anywhere.herokuapp.com/)
+1. [Compendium of common javascript tips](https://github.com/nas5w/javascript-tips-and-tidbits)
 
 ###Health
 1. [Back On My Feet](https://www.backonmyfeet.org/)
