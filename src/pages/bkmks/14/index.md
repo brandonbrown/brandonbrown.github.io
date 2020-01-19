@@ -39,7 +39,7 @@ category: Resources
 1. [DHH Testimony before the House Antitrust Subcommittee](https://m.signalvnoise.com/testimony-before-the-house-antitrust-subcommittee/)
 1. [Common PM Problem Areas](https://blog.gitprime.com/engineering-impact-product-management-problem-areas/)
 1. [20 Management and coaching best practices](https://medium.com/@djpardis/management-and-coaching-best-practices-as-a-list-of-n-things-7a6d9c7f0fa5)
-
+1. [How Tesla Kills It With Branding](https://www.youtube.com/watch?v=1Fndo-WPrQw)
 
 ###Learning
 1. [Why the Many-Worlds Interpretation Has Many Problems](https://www.quantamagazine.org/why-the-many-worlds-interpretation-of-quantum-mechanics-has-many-problems-20181018/)
