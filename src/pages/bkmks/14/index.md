@@ -22,6 +22,10 @@ category: Resources
 1. [Snowpack](https://www.snowpack.dev/)
 1. [cors-anywhere](https://cors-anywhere.herokuapp.com/)
 1. [Compendium of common javascript tips](https://github.com/nas5w/javascript-tips-and-tidbits)
+1. [Master the JavaScript Interview: What is Functional Programming?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+
+###Design
+1. [How to run a research session if you’re not a design researcher](https://medium.com/dropbox-design/how-to-run-a-research-session-if-youre-not-a-design-researcher-2d6c1c769557)
 
 ###Health
 1. [Back On My Feet](https://www.backonmyfeet.org/)
@@ -33,3 +37,13 @@ category: Resources
 1. [Why You Have To Play The Game At Work - Jocko Willink](https://www.youtube.com/watch?v=jDCUPvrLmgI)
 1. [Kano Model](https://en.wikipedia.org/wiki/Kano_model)
 1. [DHH Testimony before the House Antitrust Subcommittee](https://m.signalvnoise.com/testimony-before-the-house-antitrust-subcommittee/)
+1. [Common PM Problem Areas](https://blog.gitprime.com/engineering-impact-product-management-problem-areas/)
+1. [20 Management and coaching best practices](https://medium.com/@djpardis/management-and-coaching-best-practices-as-a-list-of-n-things-7a6d9c7f0fa5)
+
+
+###Learning
+1. [Why the Many-Worlds Interpretation Has Many Problems](https://www.quantamagazine.org/why-the-many-worlds-interpretation-of-quantum-mechanics-has-many-problems-20181018/)
+1. [So You Want To Learn Physics](https://www.susanjfowler.com/blog/2016/8/13/so-you-want-to-learn-physics)
+1. [The Simulation Hypothesis](https://www.youtube.com/watch?v=BG-E6WJNeEE)
+1. [Rizwan Virk: "The Simulation Hypothesis" | Talks at Google](https://www.youtube.com/watch?v=UHlfe2HE_gQ)
+1. [Ethos, Pathos, Logos: how to persuade people](https://nesslabs.com/ethos-pathos-logos)
