@@ -12,6 +12,10 @@
       "path---training-a0e39f21c11f6a62c5ab.js",
       "path---training-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---bkmks-15": [
+      "path---bkmks-15-0dd531f57300f4d914d5.js",
+      "path---bkmks-15-0dd531f57300f4d914d5.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-e71e09b52b9e73a1b33b.js",
       "component---src-pages-index-js-e71e09b52b9e73a1b33b.js.map"
@@ -113,8 +117,8 @@
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
     ],
     "path---bkmks": [
-      "path---bkmks-e92b7a5008c0a44b7507.js",
-      "path---bkmks-e92b7a5008c0a44b7507.js.map"
+      "path---bkmks-783dbc7bb48093b498e0.js",
+      "path---bkmks-783dbc7bb48093b498e0.js.map"
     ],
     "path---writing": [
       "path---writing-b6eb4d8edacf2db53e53.js",
@@ -175,8 +179,8 @@
       "path---writing-world-cup-fitness-inspiration-bc547b65bff43382ef79.js.map"
     ],
     "path---writing-5-basics-for-beginners": [
-      "path---writing-5-basics-for-beginners-13ff6a82c682502acdae.js",
-      "path---writing-5-basics-for-beginners-13ff6a82c682502acdae.js.map"
+      "path---writing-5-basics-for-beginners-af8ed915a811e1031049.js",
+      "path---writing-5-basics-for-beginners-af8ed915a811e1031049.js.map"
     ],
     "path---bkmks-14": [
       "path---bkmks-14-f19b3f43bd48276150b7.js",
@@ -199,9 +203,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-d1a5f4bc6ce12c9a04da.js",
+      "app-00be61812b92188d3615.js",
       "build-js-styles.css",
-      "app-d1a5f4bc6ce12c9a04da.js.map",
+      "app-00be61812b92188d3615.js.map",
       "build-js-styles.css.map"
     ],
     "path---bkmks-6": [
