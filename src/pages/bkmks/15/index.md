@@ -10,3 +10,4 @@ category: Resources
 ###Business
 
 1. [a16z Why You Should Be Optimistic About the Future](https://www.youtube.com/watch?v=UnU5Dikdr2U)
+1. [The Story of TikTok](https://www.acquired.fm/episodes/tiktok)
