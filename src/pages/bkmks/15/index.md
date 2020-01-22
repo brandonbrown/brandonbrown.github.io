@@ -15,3 +15,4 @@ category: Resources
 ###Design
 
 1. [A design system for the federal government](https://designsystem.digital.gov/)
+1. [Design Sprint Case Study](https://www.youtube.com/watch?v=AIpjJxDbAx0)
