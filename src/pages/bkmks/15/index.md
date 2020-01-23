@@ -17,3 +17,7 @@ category: Resources
 1. [A design system for the federal government](https://designsystem.digital.gov/)
 1. [Design Sprint Case Study](https://www.youtube.com/watch?v=AIpjJxDbAx0)
 1. [Joker Cinematographer Explains The Impact of Color in Film | Vanity Fair](https://www.youtube.com/watch?v=th9pG9Q6Kuo)
+
+
+###Health
+1. [“CrossFit is my church”](https://www.vox.com/the-goods/2018/9/10/17801164/crossfit-soulcycle-religion-church-millennials-casper-ter-kuile)
