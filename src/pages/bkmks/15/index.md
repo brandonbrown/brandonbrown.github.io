@@ -21,3 +21,6 @@ category: Resources
 
 ###Health
 1. [“CrossFit is my church”](https://www.vox.com/the-goods/2018/9/10/17801164/crossfit-soulcycle-religion-church-millennials-casper-ter-kuile)
+
+###Learning
+1. [How Does the Internet Work? - Glad You Asked S1](https://www.youtube.com/watch?v=TNQsmPf24go)
