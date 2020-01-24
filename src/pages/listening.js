@@ -23,6 +23,7 @@ import coach from '../assets/covers/coach.jpg'
 import nudge from '../assets/covers/nudge.jpg'
 import body from '../assets/covers/body.jpg'
 import radical from '../assets/covers/radical.jpg'
+import theprogram from '../assets/covers/theprogram.jpg'
 
 
 const Listening = ({ children }) => (
@@ -33,12 +34,34 @@ const Listening = ({ children }) => (
         <ul className="consumer-grid">
           <li>
             <div className="cover">
+              <img src={theprogram} alt="cover" />
+            </div>
+            <div className="book-info">
+              <progress max="5" value="100"></progress>
+              <p className="book-progress in-progress">In Progress</p>
+              <h3>The Program: Lessons from Elite Military Units for Creating and Sustaining High-Performance Leaders and Teams</h3>
+              <p>Written by Eric Kapitulik and Jake MacDonald and narrated by Shawn Compton</p>
+            </div>
+          </li>
+          <li>
+            <div className="cover">
+              <img src={peak} alt="cover" />
+            </div>
+            <div className="book-info">
+              <progress max="5" value="100"></progress>
+              <p className="book-progress complete">Returned</p>
+              <h3>Peak: Secrets From The New Science Of Expertise</h3>
+              <p>Written by Robert Pool and Anders Ericsson and narrated by Sean Runnette</p>
+            </div>
+          </li>
+          <li>
+            <div className="cover">
               <img src={radical} alt="cover" />
             </div>
             <div className="book-info">
               <progress max="100" value="100"></progress>
               <p className="book-progress complete">Best paired with hard-copy</p>
-              <h3>Radical Candor: </h3>
+              <h3>Radical Candor: Fully Revised & Updated Edition: Be a Kick-Ass Boss Without Losing Your Humanity</h3>
               <p>Written by Kim Scott and narrated by Teri Schnaubelt</p>
             </div>
           </li>
