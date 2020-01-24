@@ -5,6 +5,7 @@ import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
+// eventually import from listeningCovers, but I'm being lazy
 import logo from '../assets/logo.svg'
 import square from '../assets/covers/square.jpg'
 import infinitegame from '../assets/covers/infinitegame.jpg'
@@ -38,7 +39,7 @@ const Listening = ({ children }) => (
               <img src={theprogram} alt="cover" />
             </div>
             <div className="book-info">
-              <progress max="5" value="100"></progress>
+              <progress max="100" value="5"></progress>
               <p className="book-progress in-progress">In Progress</p>
               <h3>The Program: Lessons from Elite Military Units for Creating and Sustaining High-Performance Leaders and Teams</h3>
               <p>Written by Eric Kapitulik and Jake MacDonald and narrated by Shawn Compton</p>
@@ -49,7 +50,7 @@ const Listening = ({ children }) => (
               <img src={peak} alt="cover" />
             </div>
             <div className="book-info">
-              <progress max="5" value="100"></progress>
+              <progress max="100" value="5"></progress>
               <p className="book-progress complete">Returned</p>
               <h3>Peak: Secrets From The New Science Of Expertise</h3>
               <p>Written by Robert Pool and Anders Ericsson and narrated by Sean Runnette</p>
