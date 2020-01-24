@@ -23,6 +23,7 @@ import coach from '../assets/covers/coach.jpg'
 import nudge from '../assets/covers/nudge.jpg'
 import body from '../assets/covers/body.jpg'
 import radical from '../assets/covers/radical.jpg'
+import peak from '../assets/covers/peak.jpg'
 import theprogram from '../assets/covers/theprogram.jpg'
 
 
