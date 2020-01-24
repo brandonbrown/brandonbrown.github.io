@@ -11,6 +11,7 @@ category: Resources
 
 1. [a16z Why You Should Be Optimistic About the Future](https://www.youtube.com/watch?v=UnU5Dikdr2U)
 1. [The Story of TikTok](https://www.acquired.fm/episodes/tiktok)
+1. [Superhuman's Founder on How to Move Beyond Gamification](https://www.youtube.com/watch?v=zaxAdRlyZQ8)
 
 ###Design
 
