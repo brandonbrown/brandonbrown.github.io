@@ -5,7 +5,6 @@ import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-// eventually import from listeningCovers, but I'm being lazy
 import logo from '../assets/logo.svg'
 import square from '../assets/covers/square.jpg'
 import infinitegame from '../assets/covers/infinitegame.jpg'

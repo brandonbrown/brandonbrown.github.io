@@ -13,6 +13,7 @@ category: Resources
 1. [The Story of TikTok](https://www.acquired.fm/episodes/tiktok)
 1. [Superhuman's Founder on How to Move Beyond Gamification](https://www.youtube.com/watch?v=zaxAdRlyZQ8)
 1. [How to Make Passive Income (Actually a good marketing read)](https://www.nateliason.com/blog/passive-income)
+1. [The SaaS Marketing Bible [41+ Strategies & Case-Studies]](https://apollodigital.io/blog/saas-marketing)
 
 ###Design
 
