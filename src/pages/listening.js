@@ -37,7 +37,7 @@ const Listening = ({ children }) => (
             </div>
             <div className="book-info">
               <progress max="100" value="100"></progress>
-              <p className="book-progress complete">Audio Book best paired with hard-copy</p>
+              <p className="book-progress complete">Best paired with hard-copy</p>
               <h3>Radical Candor: </h3>
               <p>Written by Kim Scott and narrated by Teri Schnaubelt</p>
             </div>
