@@ -12,8 +12,8 @@ category: Resources
 1. [a16z Why You Should Be Optimistic About the Future](https://www.youtube.com/watch?v=UnU5Dikdr2U)
 1. [The Story of TikTok](https://www.acquired.fm/episodes/tiktok)
 1. [Superhuman's Founder on How to Move Beyond Gamification](https://www.youtube.com/watch?v=zaxAdRlyZQ8)
-1. [How to Make Passive Income (Actually a good marketing read)](https://www.nateliason.com/blog/passive-income)
-1. [The SaaS Marketing Bible [41+ Strategies & Case-Studies]](https://apollodigital.io/blog/saas-marketing)
+1. [How to Make Passive Income - Actually a good marketing read](https://www.nateliason.com/blog/passive-income)
+1. [The SaaS Marketing Bible -41+ Strategies & Case-Studies](https://apollodigital.io/blog/saas-marketing)
 
 ###Design
 
