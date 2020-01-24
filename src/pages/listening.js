@@ -27,6 +27,20 @@ const Listening = ({ children }) => (
     <div className="content-wrapper consumer-page">
       <h1>Notes on the Audio Books &amp; Podcasts I've Listened To</h1>
       <section className="consumer-container">
+        <h2>2020</h2>
+        <ul className="consumer-grid">
+          <li>
+            <div className="cover">
+              <img src={body} alt="cover" />
+            </div>
+            <div className="book-info">
+              <progress max="100" value="100"></progress>
+              <p className="book-progress complete">Audio Book best paired with hard-copy</p>
+              <h3>Radical Candor: </h3>
+              <p>Written by Kim Scott and narrated by Teri Schnaubelt</p>
+            </div>
+          </li>
+        </ul>
         <h2>2019</h2>
         <ul className="consumer-grid">
           <li>
