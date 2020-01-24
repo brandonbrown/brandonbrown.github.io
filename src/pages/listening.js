@@ -22,6 +22,8 @@ import capitalist from '../assets/covers/capitalist.jpg'
 import coach from '../assets/covers/coach.jpg'
 import nudge from '../assets/covers/nudge.jpg'
 import body from '../assets/covers/body.jpg'
+import radical from '../assets/covers/radical.jpg'
+
 
 const Listening = ({ children }) => (
     <div className="content-wrapper consumer-page">
@@ -31,7 +33,7 @@ const Listening = ({ children }) => (
         <ul className="consumer-grid">
           <li>
             <div className="cover">
-              <img src={body} alt="cover" />
+              <img src={radical} alt="cover" />
             </div>
             <div className="book-info">
               <progress max="100" value="100"></progress>
