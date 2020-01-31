@@ -10,3 +10,4 @@ category: Resources
 ###Development
 
 1. [React Native is the Future of Mobile at Shopify](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify)
+1. [https://ihateregex.io/](https://ihateregex.io/)
