@@ -15,6 +15,7 @@ category: Resources
 
 ###Business
 1. [Steve Jobs’s real talent wasn’t design—it was seduction](https://www.fastcompany.com/90458207/steve-jobss-real-talent-wasnt-design-it-was-seduction)
+1. [Zero To Sold](https://thebootstrappedfounder.com/zero-to-sold/)
 
 ###Health
 1. [83 Evidence Based Answers to Fitness and Nutrition FAQs](https://threestormfitness.com/evidence-based-answers-to-fitness-and-nutrition-faqs/)
