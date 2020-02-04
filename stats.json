@@ -13,8 +13,8 @@
       "path---training-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---bkmks-16": [
-      "path---bkmks-16-b02454ac4f4734d30fcc.js",
-      "path---bkmks-16-b02454ac4f4734d30fcc.js.map"
+      "path---bkmks-16-2d46e9669ac98a6099e3.js",
+      "path---bkmks-16-2d46e9669ac98a6099e3.js.map"
     ],
     "path---bkmks-15": [
       "path---bkmks-15-4a0727b2570e7249c78a.js",
@@ -121,8 +121,8 @@
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
     ],
     "path---bkmks": [
-      "path---bkmks-7aa38e2b1611c16dbb7d.js",
-      "path---bkmks-7aa38e2b1611c16dbb7d.js.map"
+      "path---bkmks-70e67bb68a54e555f19a.js",
+      "path---bkmks-70e67bb68a54e555f19a.js.map"
     ],
     "path---writing": [
       "path---writing-b6eb4d8edacf2db53e53.js",
@@ -207,9 +207,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-69718dabc24ef4b7b9c9.js",
+      "app-454b36a41ffa124efd6b.js",
       "build-js-styles.css",
-      "app-69718dabc24ef4b7b9c9.js.map",
+      "app-454b36a41ffa124efd6b.js.map",
       "build-js-styles.css.map"
     ],
     "path---bkmks-6": [
@@ -243,6 +243,10 @@
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---bkmks-17": [
+      "path---bkmks-17-9e3766a1fab6bd1d3dc2.js",
+      "path---bkmks-17-9e3766a1fab6bd1d3dc2.js.map"
     ]
   }
 }
