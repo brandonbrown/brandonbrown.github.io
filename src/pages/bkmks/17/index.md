@@ -17,5 +17,7 @@ category: Resources
 1. [Tinder: Going Gold](https://www.youtube.com/watch?v=Ob8pB9JdQNA)
 
 ###Tech History
-
 1. [Google's Garage Office 1998](https://twitter.com/JonErlichman/status/1225947209230798850)
+
+###Learning
+1. [Learning how to learn](https://nesslabs.com/learning-how-to-learn)
