@@ -9,3 +9,6 @@ category: Resources
 
 ###Learning
 1. [WTF Is Game Theory](https://www.andrewaskins.com/wtf-is-game-theory/)
+
+###Jobs
+1. [remoteleaf.com/whoishiring](https://remoteleaf.com/whoishiring)
