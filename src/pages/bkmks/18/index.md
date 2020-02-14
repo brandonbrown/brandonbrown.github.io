@@ -9,6 +9,7 @@ category: Resources
 
 ###Development
 1. [Native Lazy-Loading ships in Chromium](https://web.dev/native-lazy-loading/)
+1. [Why React Hooks](https://tylermcginnis.com/why-react-hooks/)
 
 ###Learning
 1. [WTF Is Game Theory](https://www.andrewaskins.com/wtf-is-game-theory/)
