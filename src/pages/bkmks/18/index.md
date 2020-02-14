@@ -9,8 +9,10 @@ category: Resources
 
 ###Development
 1. [Native Lazy-Loading ships in Chromium](https://web.dev/native-lazy-loading/)
+
 ###Learning
 1. [WTF Is Game Theory](https://www.andrewaskins.com/wtf-is-game-theory/)
 
-###Jobs
+###Work
 1. [remoteleaf.com/whoishiring](https://remoteleaf.com/whoishiring)
+1. [How to decide what to work on next](https://nesslabs.com/decide-what-to-work-on-next)
