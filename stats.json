@@ -8,6 +8,10 @@
       "path---bkmks-2-5757cd68ffe7243efe94.js",
       "path---bkmks-2-5757cd68ffe7243efe94.js.map"
     ],
+    "path---bkmks-19": [
+      "path---bkmks-19-4173a7a6cd3b817ae705.js",
+      "path---bkmks-19-4173a7a6cd3b817ae705.js.map"
+    ],
     "path---training": [
       "path---training-a0e39f21c11f6a62c5ab.js",
       "path---training-a0e39f21c11f6a62c5ab.js.map"
@@ -29,8 +33,8 @@
       "path---bkmks-9-a4c21e110a0f5d4d08e4.js.map"
     ],
     "path---bkmks-18": [
-      "path---bkmks-18-585e59915cea21a3dba9.js",
-      "path---bkmks-18-585e59915cea21a3dba9.js.map"
+      "path---bkmks-18-e1e8f01af513a9cb84bf.js",
+      "path---bkmks-18-e1e8f01af513a9cb84bf.js.map"
     ],
     "path---bkmks-11": [
       "path---bkmks-11-dab17a983aa705fcb9cc.js",
@@ -125,8 +129,8 @@
       "path---writing-the-fast-app-a52fc20f3ad2db72ec31.js.map"
     ],
     "path---bkmks": [
-      "path---bkmks-41d7f4b941c29c073f95.js",
-      "path---bkmks-41d7f4b941c29c073f95.js.map"
+      "path---bkmks-d497744be849299e91b0.js",
+      "path---bkmks-d497744be849299e91b0.js.map"
     ],
     "path---writing": [
       "path---writing-b6eb4d8edacf2db53e53.js",
@@ -211,9 +215,9 @@
       "path---watching-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-66d229db6470e7efbf89.js",
+      "app-995ca60542cccbf4e2f8.js",
       "build-js-styles.css",
-      "app-66d229db6470e7efbf89.js.map",
+      "app-995ca60542cccbf4e2f8.js.map",
       "build-js-styles.css.map"
     ],
     "path---bkmks-6": [
