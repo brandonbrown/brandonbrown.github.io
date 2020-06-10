@@ -7,11 +7,13 @@ import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-import logo from '../assets/logo.svg'
-import square from '../assets/covers/square.jpg'
+// import logo from '../assets/logo.svg'
+// import square from '../assets/covers/square.jpg'
+import Layout from "../components/layout"
 
 export default function Teaching() {
   return (
+    <Layout>
     <div className="creator-page teaching">
       <section className="myTeaching">
         <div className="article-wrapper">
@@ -132,6 +134,7 @@ export default function Teaching() {
       </section>
       */}
     </div>
+    </Layout>
   );
 }
 

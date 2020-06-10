@@ -1,14 +1,16 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
-import { rhythm, scale } from '../utils/typography'
+// import Link from 'gatsby-link'
+//
+// import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-import logo from '../assets/logo.svg'
+// import logo from '../assets/logo.svg'
 import shelbyss2020 from '../assets/covers/shelbyss2020.png'
+import Layout from "../components/layout"
 
 const Watching = ({ children }) => (
+  <Layout>
     <div className="content-wrapper consumer-page">
       <h1>Notes on the Movies, Tutorials, Documentaries, and Shows I've Watched</h1>
       <section className="consumer-container">
@@ -30,6 +32,7 @@ const Watching = ({ children }) => (
 
       </section>
     </div>
+    </Layout>
 )
 
 export default Watching

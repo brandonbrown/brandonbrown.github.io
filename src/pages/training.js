@@ -5,11 +5,13 @@ import Particles from 'react-particles-js'
 
 import '../sass/s.scss'
 
-import logo from '../assets/logo.svg'
+// import logo from '../assets/logo.svg'
 import mmf from '../assets/training/mmf-logo-red.svg'
+import Layout from "../components/layout"
 
 export default function Training() {
   return (
+    <Layout>
     <div className="creator-page teaching">
       <section className="myTeaching">
         <div className="article-wrapper">
@@ -69,6 +71,7 @@ export default function Training() {
         </div>
       </section>
     </div>
+    </Layout>
   );
 }
 

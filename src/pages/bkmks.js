@@ -1,19 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Helmet } from "react-helmet"
-
-import { rhythm, scale } from '../utils/typography'
+// import { Helmet } from "react-helmet"
+import { graphql } from "gatsby"
+// import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-import logo from '../assets/logo.svg'
-import square from '../assets/covers/square.jpg'
+// import logo from '../assets/logo.svg'
+// import square from '../assets/covers/square.jpg'
+import Layout from "../components/layout"
 
 import Newsletter from '../components/Newsletter'
 
 export default function Bkmks({ data }) {
   const { edges: bkmks } = data.allMarkdownRemark;
   return (
+    <Layout>
     <div className="content-wrapper creator-page bkmk-list">
     <header>
       <h1>BKMKS</h1>
@@ -45,6 +47,7 @@ export default function Bkmks({ data }) {
              );
            })}
     </div>
+    </Layout>
   );
 }
 
@@ -63,12 +66,11 @@ export const pageQuery = graphql`
 query BkmkQuery {
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] },
-    filter: {fileAbsolutePath: {regex: "/bkmks/.*\\.md$/"}}
+    filter: {fileAbsolutePath: {regex: "/bkmks/.*.md$/"}}
   ) {
     edges {
       node {
         id
-        html
         frontmatter {
           title
           date(formatString: "MMMM Do, YYYY")

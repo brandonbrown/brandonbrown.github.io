@@ -1,14 +1,16 @@
 import React from 'react'
-import Link from 'gatsby-link'
+// import Link from 'gatsby-link'
 
-import { rhythm, scale } from '../utils/typography'
+// import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-import logo from '../assets/logo.svg'
+// import logo from '../assets/logo.svg'
 import cover from '../assets/covers/zerotoone.jpg'
+import Layout from "../components/layout"
 
 const Reading = ({ children }) => (
+  <Layout>
     <div className="content-wrapper consumer-page">
       <h1>Notes on the Books, Articles, and Blogs I've Read</h1>
       <section className="consumer-container">
@@ -29,6 +31,7 @@ const Reading = ({ children }) => (
 
       </section>
     </div>
+    </Layout>
 )
 
 export default Reading

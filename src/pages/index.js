@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
+// import { Link } from "gatsby"
 import FrontBlock from '../components/FrontBlock'
-import { rhythm, scale } from '../utils/typography'
-
+// import { rhythm, scale } from '../utils/typography'
+import { graphql } from "gatsby"
 import '../sass/s.scss'
 
 import profile from '../assets/indexImages/profile.jpg'
@@ -13,18 +13,23 @@ import plp from '../assets/indexImages/plp.svg'
 import work from '../assets/indexImages/portfolio.svg'
 
 
-export default function Writing({ data, location, children }) {
+// v2 updates
+
+import Layout from "../components/layout"
+
+const Writing = ({ data, location, children }) => {
   console.log("data: ", data)
   const { edges: writing } = data.allMarkdownRemark;
   // const { location, children } = this.props
-    let header
+    // let header
 
 
-    let rootPath = `/`
-    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
-      rootPath = __PATH_PREFIX__ + `/`
-    }
+    // let rootPath = `/`
+    // if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+    //   rootPath = __PATH_PREFIX__ + `/`
+    // }
     return (
+      <Layout>
       <div className="pageWrapper">
       <section className="featuredContent">
         <FrontBlock
@@ -123,6 +128,7 @@ export default function Writing({ data, location, children }) {
       </section>
 
       </div>
+      </Layout>
     )
 }
 
@@ -130,12 +136,11 @@ export const pageQuery = graphql`
 query IndexWritingQuery {
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] },
-    filter: {fileAbsolutePath: {regex: "/writing/.*\\.md$/"}},
+    filter: {fileAbsolutePath: {regex: "/writing/.*\\\\.md$/"}},
     limit: 1
   ) {
     edges {
       node {
-        excerpt(pruneLength: 250)
         id
         frontmatter {
           title
@@ -147,3 +152,5 @@ query IndexWritingQuery {
     }
   }
 }`;
+
+export default Writing

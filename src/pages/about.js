@@ -1,15 +1,18 @@
 import React from 'react'
-import Link from 'gatsby-link'
+// import Link from 'gatsby-link'
 
-import { rhythm, scale } from '../utils/typography'
+// import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-import logo from '../assets/logo.svg'
-import square from '../assets/covers/square.jpg'
+// import logo from '../assets/logo.svg'
+// import square from '../assets/covers/square.jpg'
+
+import Layout from "../components/layout"
 
 export default function About() {
   return (
+    <Layout>
     <div className="content-wrapper creator-page about">
       <section className="myTeaching">
         <h1>Brandon Brown is a multi-disciplinary designer, developer, and educator. He’s devoted to advancing the practice of design thinking across mediums and teaches strategic thinking through design and development at Full Sail University.</h1>
@@ -36,6 +39,7 @@ export default function About() {
         </ul>
       </section>
     </div>
+    </Layout>
   );
 }
 

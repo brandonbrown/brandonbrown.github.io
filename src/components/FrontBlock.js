@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 // Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
+// import 'typeface-montserrat'
+// import 'typeface-merriweather'
 
 import { rhythm } from '../utils/typography'
 
@@ -22,7 +22,7 @@ export default class FrontBlock extends React.Component {
                return (
                  <h2 style={{
                    color: `${this.props.textColor}`,
-                   marginTop: '4.9rem',
+                   marginTop: '8rem',
                    fontFamily: 'hk_groteskbold'
                  }}>
                     <Link style={{

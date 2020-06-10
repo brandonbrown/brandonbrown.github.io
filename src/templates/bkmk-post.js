@@ -5,21 +5,19 @@ import get from 'lodash/get'
 
 import Bio from '../components/Bio'
 import { rhythm, scale } from '../utils/typography'
+import Layout from "../components/layout"
 
 class BkmkPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const { previous, next } = this.props.pathContext
+    const { previous, next } = this.props.pageContext
     console.log(post)
     return (
+      <Layout>
       <article className="content-wrapper creator-page post-page">
       <div className="post-title">
-        <h1
-            style={{
-              ...scale(1.25)
-            }}
-          >{post.frontmatter.title}
+        <h1>{post.frontmatter.title}
         </h1>
         <p className="category">Shared in {post.frontmatter.category} on {post.frontmatter.date}</p>
       </div>
@@ -29,10 +27,6 @@ class BkmkPostTemplate extends React.Component {
           />
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
-          style={{
-            ...scale(.15),
-
-          }}
           />
         </div>
 
@@ -67,6 +61,7 @@ class BkmkPostTemplate extends React.Component {
           </ul>
       </div>
       </article>
+      </Layout>
     )
   }
 }
@@ -89,7 +84,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         category
       }
-      
+
     }
   }
 `

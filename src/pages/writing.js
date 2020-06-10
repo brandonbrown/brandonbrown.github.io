@@ -1,17 +1,19 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
-import { rhythm, scale } from '../utils/typography'
+// import Link from 'gatsby-link'
+import { graphql, Link } from "gatsby"
+// import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
-import logo from '../assets/logo.svg'
-import square from '../assets/covers/square.jpg'
+// import logo from '../assets/logo.svg'
+// import square from '../assets/covers/square.jpg'
+import Layout from "../components/layout"
 
 export default function Writing({ data }) {
   console.log("data: ", data)
   const { edges: writing } = data.allMarkdownRemark;
   return (
+    <Layout>
     <div className="content-wrapper creator-page">
     { writing.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {
@@ -32,6 +34,7 @@ export default function Writing({ data }) {
              );
            })}
     </div>
+    </Layout>
   );
 }
 
@@ -50,12 +53,12 @@ export const pageQuery = graphql`
 query WritingQuery {
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] },
-    filter: {fileAbsolutePath: {regex: "/writing/.*\\.md$/"}}
+    filter: {fileAbsolutePath: {regex: "/writing/.*\\\\.md$/"}}
   ) {
     edges {
       node {
-        excerpt(pruneLength: 250)
         id
+        excerpt
         frontmatter {
           title
           date(formatString: "MMMM Do, YYYY")

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import { rhythm, scale } from '../utils/typography'
+// import { rhythm, scale } from '../utils/typography'
 
 import '../sass/s.scss'
 
@@ -26,8 +26,10 @@ import radical from '../assets/covers/radical.jpg'
 import peak from '../assets/covers/peak.jpg'
 import theprogram from '../assets/covers/theprogram.jpg'
 
+import Layout from "../components/layout"
 
 const Listening = ({ children }) => (
+  <Layout>
     <div className="content-wrapper consumer-page">
       <h1>Notes on the Audio Books &amp; Podcasts I've Listened To</h1>
       <section className="consumer-container">
@@ -238,6 +240,7 @@ const Listening = ({ children }) => (
 
       </section>
     </div>
+    </Layout>
 )
 
 export default Listening

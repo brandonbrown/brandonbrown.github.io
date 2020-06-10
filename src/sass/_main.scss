@@ -270,10 +270,14 @@ main {
         position: relative;
         z-index: 0;
         img.frontBlockImg {
-          width: auto;
+          // width: auto;
+          width: 60px;
+          // max-height: 70px;
           top: 0;
           position: absolute;
           z-index: 1;
+          display: block;
+          text-align: left;
         }
 
         h5 {
