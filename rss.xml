@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Personal Website of Brandon Brown]]></title><description><![CDATA[Brandon is a designer and developer focusing his work on creating better systems for education and health.]]></description><link>https://bybrandonbrown.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 25 Feb 2020 15:24:44 GMT</lastBuildDate><item><title><![CDATA[BKMKS20]]></title><description><![CDATA[Development Productive Tools For Web Development Learning Learn how computers add numbers and build a 4 bit adder circuit Top 15 Space…]]></description><link>https://bybrandonbrown.com/bkmks/20/</link><guid isPermaLink="false">https://bybrandonbrown.com/bkmks/20/</guid><pubDate>Sun, 23 Feb 2020 14:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Development&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Personal Website of Brandon Brown]]></title><description><![CDATA[Brandon is a designer and developer focusing his work on creating better systems for education and health.]]></description><link>https://bybrandonbrown.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 10 Jun 2020 20:20:14 GMT</lastBuildDate><item><title><![CDATA[BKMKS20]]></title><description><![CDATA[Development Productive Tools For Web Development Learning Learn how computers add numbers and build a 4 bit adder circuit Top 15 Space…]]></description><link>https://bybrandonbrown.com/bkmks/20/</link><guid isPermaLink="false">https://bybrandonbrown.com/bkmks/20/</guid><pubDate>Sun, 23 Feb 2020 14:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Development&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://dev.to/akshay35c/productive-tools-for-web-development-4bd5&quot;&gt;Productive Tools For Web Development&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -416,7 +416,7 @@ The foundations of living a healthy life are shared between every human on this 
 &lt;/blockquote&gt;
 &lt;a href=&quot;https://dribbble.com/shots/9084443-Daily-UI-Challenge-010&quot; class=&quot;imagelink&quot;&gt;
   &lt;img src=&quot;https://cdn.dribbble.com/users/32047/screenshots/9084443/media/e84f08888c11a97d82d38abb762db87e.png&quot; alt=&quot;December Daily Design Challenge 10&quot;&gt;
-&lt;/a&gt;</content:encoded></item><item><title><![CDATA[BKMKS9]]></title><description><![CDATA[Development Testing JavaScript Live Video With React Native Podcasts 1. How Chris Do is Building a Multi-Million-Dollar Agency Design…]]></description><link>https://bybrandonbrown.com/bkmks/9/</link><guid isPermaLink="false">https://bybrandonbrown.com/bkmks/9/</guid><pubDate>Sun, 01 Dec 2019 14:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Development&lt;/h3&gt;
+&lt;/a&gt;</content:encoded></item><item><title><![CDATA[BKMKS9]]></title><description><![CDATA[Development Testing JavaScript Live Video With React Native Podcasts 1.How Chris Do is Building a Multi-Million-Dollar Agency Design…]]></description><link>https://bybrandonbrown.com/bkmks/9/</link><guid isPermaLink="false">https://bybrandonbrown.com/bkmks/9/</guid><pubDate>Sun, 01 Dec 2019 14:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Development&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://testingjavascript.com/&quot;&gt;Testing JavaScript&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/syntx-io/video-live-streaming-with-react-native-98a0f6354077&quot;&gt;Live Video With React Native&lt;/a&gt;&lt;/li&gt;
@@ -520,20 +520,7 @@ The foundations of living a healthy life are shared between every human on this 
 &lt;p&gt;Weekend builds, but with a family and newborn responsibilities, are not weekend builds! I’m going to build this in a ship-as-fast-as-possible, but let’s drop the weekend need.&lt;/p&gt;
 &lt;p&gt;Okay, back to the app.&lt;/p&gt;
 &lt;p&gt;I decided to give Figma a try for the prototype- and this is incredible. I’m still getting oriented to their interface, but this is quite possibly the perfect tool for fast prototyping. I’ve already become a big fan. They even offer embed code… let’s see what this is:&lt;/p&gt;
-&lt;div&gt;
-          &lt;div
-            class=&quot;gatsby-resp-iframe-wrapper&quot;
-            style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden;margin-bottom: 1.0725rem&quot;
-          &gt;
-            &lt;iframe style=&quot;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          &quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fb4mhtPcDaQ5F07AOohVK8O%2FMinMaxHydrate%3Fnode-id%3D6%253A6%26scaling%3Dscale-down&quot; allowfullscreen&gt;&lt;/iframe&gt;
-          &lt;/div&gt;
-          &lt;/div&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe style=&quot;border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fb4mhtPcDaQ5F07AOohVK8O%2FMinMaxHydrate%3Fnode-id%3D6%253A6%26scaling%3Dscale-down&quot; allowfullscreen&gt;&lt;/iframe&gt; &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;note: If you want to share your prototype, go to the prototype screen and share from there! You also get live updates. So if you want to lock in at a specific version, you may need to make a new document. The prototype shared here is updating as I create the interface.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I am very impressed with Figma! The only thing I’m struggling with is the animations of the prototype. Some of these connections do not make sense, however it may be my bias towards other systems I’m already familiar with.&lt;/p&gt;
 &lt;p&gt;Screens prototyped so far by Sunday night:&lt;/p&gt;
@@ -548,18 +535,12 @@ The foundations of living a healthy life are shared between every human on this 
 &lt;p&gt;Okay, the interface is at a point where I’m happy to start building. You should be able to see the interface in its most recent state above.&lt;/p&gt;
 &lt;p&gt;Okay, let’s go:&lt;/p&gt;
 &lt;p&gt;First, let’s make sure Expo is up to date. Also handy if you haven’t installed Expo for react native yet:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install -g expo-cli&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install -g expo-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For more info, visit the official &lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started&quot;&gt;React Native docs&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now, let’s start the project:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ expo init MinMaxHydrate&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ expo init MinMaxHydrate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;I decided on the blank workflow with Yarn as my dependency tool.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ cd MinMaxHydrate &amp;amp;&amp;amp; yarn start&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ cd MinMaxHydrate &amp;amp;&amp;amp; yarn start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Late addition to scope (our favorite!) of having teams in the mix. It’s a bold plan, let’s see if it plays out.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -584,15 +565,12 @@ The foundations of living a healthy life are shared between every human on this 
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Oh and of course, we should be tracking with &lt;code class=&quot;language-text&quot;&gt;git&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git init&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git init&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;I’ll keep the rest of the git steps out of this, but just a reminder for anyone who may follow this!&lt;/p&gt;
 &lt;p&gt;Since this is a UI focused workflow at the moment, one of the first things I want to do is create a global stylesheet.&lt;/p&gt;
 &lt;p&gt;Let’s create another directory under &lt;code class=&quot;language-text&quot;&gt;assets&lt;/code&gt; called &lt;code class=&quot;language-text&quot;&gt;styles&lt;/code&gt;. I’ll create &lt;code class=&quot;language-text&quot;&gt;global.js&lt;/code&gt; within this directory.&lt;/p&gt;
 &lt;p&gt;I’m going to structure this file into sections that will help to clarify the purpose of the styles. For example:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import { StyleSheet } from &amp;#39;react-native&amp;#39;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import { StyleSheet } from &amp;#39;react-native&amp;#39;
 
 const layout = StyleSheet.create({   
   container: {                       
@@ -614,12 +592,10 @@ const buttons = StyleSheet.create({
   }
 })
 
-export { layout, buttons }   &lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+export { layout, buttons }   &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In this example, every style that assists in layout will be contained within the &lt;code class=&quot;language-text&quot;&gt;const layout&lt;/code&gt; and styles for buttons will be contained to &lt;code class=&quot;language-text&quot;&gt;const buttons&lt;/code&gt;. Repeat as necessary.&lt;/p&gt;
 &lt;p&gt;Let’s move the contents of &lt;code class=&quot;language-text&quot;&gt;App.js&lt;/code&gt; into a better location. This will be &lt;code class=&quot;language-text&quot;&gt;/app/views/Main.js&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;App.js
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;App.js
 
 import React from &amp;#39;react&amp;#39;;
 import Main from &amp;#39;./app/views/Main&amp;#39;
@@ -628,10 +604,8 @@ export default function App() {
   return (
     &amp;lt;Main /&amp;gt;
   );
-};&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Main.js
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Main.js
 
 import React from &amp;#39;react&amp;#39;;
 import { Text, View } from &amp;#39;react-native&amp;#39;;
@@ -642,12 +616,10 @@ export default function Main() {
       &amp;lt;Text&amp;gt;Open up App.js to start working on your app!&amp;lt;/Text&amp;gt;
     &amp;lt;/View&amp;gt;
   );
-};&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Great! Everything in our simulator should be nearly identical to how it was before! This move is going to be useful when we begin to add state management and routing into the application. More on routing soon.&lt;/p&gt;
 &lt;p&gt;Okay, back to the matter at hand, styles. Let’s start with colors. Keeping colors consistent throughout the UI is critical, let’s set up some variables to help us with this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;global.js
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;global.js
 
 const colors = {
     darkBlue: &amp;#39;#0A1C3F&amp;#39;,
@@ -663,8 +635,7 @@ const layout = StyleSheet.create({
     flex: 1,
     flexWrap: &amp;#39;wrap&amp;#39;
   }
-})&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+})&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Hol’ up&lt;/h3&gt;
 &lt;p&gt;I didn’t set out to make this a tutorial, but an example of my thought process and a record of me creating an application. This is going to be where jumps begin to happen.&lt;/p&gt;
 &lt;p&gt;One jump is figuring out the swipe to show/hide the information behind the main entry form. &lt;a href=&quot;https://www.npmjs.com/package/rn-bottom-drawer&quot;&gt;This looks promising to solve this&lt;/a&gt;.&lt;/p&gt;
@@ -683,8 +654,7 @@ const layout = StyleSheet.create({
 &lt;p&gt;Let’s add the ability to swipe the stats behind the main form card. I’ll add this package to handle this: &lt;code class=&quot;language-text&quot;&gt;$ yarn add react-native-swiper@nightly&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;I quickly added the package to my &lt;code class=&quot;language-text&quot;&gt;Main.js&lt;/code&gt; to test if it brings the correct capabilities.. and it did. That was too easy. Should I be worried?&lt;/p&gt;
 &lt;p&gt;Here is how this file looks right now:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Main.js
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Main.js
 
 import React from &amp;#39;react&amp;#39;;
 import { Dimensions, StyleSheet, Text, View  } from &amp;#39;react-native&amp;#39;;
@@ -754,8 +724,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: &amp;#39;bold&amp;#39;
   }
-})&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+})&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Yeah that was &lt;em&gt;incredibly&lt;/em&gt; easy.&lt;/p&gt;
 &lt;p&gt;Well, onto something else. Let’s bring some charts into this. I’m a big fan of &lt;a href=&quot;https://formidable.com/open-source/victory/docs/victory-chart/&quot;&gt;Victory Charts&lt;/a&gt; and most likely will use them, but I’ll do a quick look to see if any new alternatives have shown up.&lt;/p&gt;
 &lt;p&gt;This looks promising: &lt;a href=&quot;https://www.npmjs.com/package/react-native-chart-kit&quot;&gt;React Native Chart Kit&lt;/a&gt;
@@ -768,8 +737,7 @@ I really like the contribution graph, I may install this and see how far you can
 &lt;/blockquote&gt;
 &lt;p&gt;Phew! Messing with SVGs directly is a bit of a steep learning curve- but now I can control the radius of the bar chart … bars … independently. Need to sync the project to my custom version of this package now.&lt;/p&gt;
 &lt;p&gt;A snippet of what I just accomplished:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// barchart.js
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// barchart.js
 ...
 const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidth / 2
       const barY = ((barHeight &amp;gt; 0 ? baseHeight - barHeight : baseHeight) / 4) * 3 + paddingTop
@@ -791,8 +759,7 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
           z`}
         /&amp;gt;
       )
-...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Alright! Customized repos so far if you’d like to take a look:
 &lt;a href=&quot;https://github.com/brandonbrown/mmf-react-native-chart-kit&quot;&gt;Custom react-native-chart-kit&lt;/a&gt;
 &lt;a href=&quot;https://github.com/brandonbrown/mmf-rn-bottom-drawer&quot;&gt;Custom rn-bottom-drawer&lt;/a&gt;&lt;/p&gt;
@@ -983,43 +950,38 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
 &lt;p&gt;The health space has so many players because there is a space for everyone’s approach. I’ve been sitting on MinMax for so long, and I really want to see it through. I’ve been fighting more of an ethical battle over the future of the concept, but I think it’s time to jump in and do it. The ethical problems are a long reach. Concern over the use of the math and structures I’ve been developing for the concept are what I’m worried about, but I think this is my cynical mind taking over- but most likely my mind looking for a way to validate why I haven’t built this yet. Version 1 of MinMax may just have to be the most basic of work out apps.&lt;/p&gt;
 &lt;h2&gt;Build In The Open&lt;/h2&gt;
 &lt;p&gt;Okay, It’s going to be MinMax. Workout tracking with a leveling system, with plans to build workout planning to help leveling along with machine learning magic to help individual users down their own paths. 1-week to get to a working app, with another week most likely to get to shipped and at a level of payment.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Studying the Human Body]]></title><description><![CDATA[The human body is far more incredible than I ever realized. I’ve recently begun studying personal training and just the first few chapters…]]></description><link>https://bybrandonbrown.com/writing/personal-training/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/personal-training/</guid><pubDate>Thu, 29 Nov 2018 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The human body is far more incredible than I ever realized. I’ve recently begun studying personal training and just the first few chapters on the body’s response to stress, such as exercise, is by all means mind-blowing.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-f3bb0.jpg&quot;
+    href=&quot;/static/74283406670582849e1ac917e66dd7bb/9b601/Photo-by-Edit-Sztazics-on-Unsplash.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAbNydyqKFf/EABsQAAMAAgMAAAAAAAAAAAAAAAABAgMSBBMh/9oACAEBAAEFAo5MW20Vl9cJGux1I//EABYRAQEBAAAAAAAAAAAAAAAAAAASAf/aAAgBAwEBPwGE4//EABcRAAMBAAAAAAAAAAAAAAAAAAABAxP/2gAIAQIBAT8BVTRn/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQAQESESIjH/2gAIAQEABj8CANI5VC1bpb//xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRYf/aAAgBAQABPyFJU3uaMiU0WK7Lp1hK10ej0M//2gAMAwEAAgADAAAAEAcP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oACAEDAQE/EEMEZf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QQ7KO63//xAAcEAEBAAMAAwEAAAAAAAAAAAABEQAhMUFRYdH/2gAIAQEAAT8Q4YvQa9XKzS0qE8NcIzR1p36YnAgOXOYAkay4qE5v9z//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAbNydyqKFf/EABsQAAMAAgMAAAAAAAAAAAAAAAABAgMSBBMh/9oACAEBAAEFAo5MW20Vl9cJGux1I//EABYRAQEBAAAAAAAAAAAAAAAAAAASAf/aAAgBAwEBPwGE4//EABcRAAMBAAAAAAAAAAAAAAAAAAABAxP/2gAIAQIBAT8BVTRn/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQAQESESIjH/2gAIAQEABj8CANI5VC1bpb//xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhMUFRYf/aAAgBAQABPyFJU3uaMiU0WK7Lp1hK10ej0M//2gAMAwEAAgADAAAAEAcP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oACAEDAQE/EEMEZf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QQ7KO63//xAAcEAEBAAMAAwEAAAAAAAAAAAABEQAhMUFRYdH/2gAIAQEAAT8Q4YvQa9XKzS0qE8NcIzR1p36YnAgOXOYAkay4qE5v9z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Photo by Edit Sztazics on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-e8976.jpg 148w,
-/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-63df2.jpg 295w,
-/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-f8fb9.jpg 590w,
-/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-85e3d.jpg 885w,
-/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-d1924.jpg 1180w,
-/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-9452e.jpg 1770w,
-/static/Photo-by-Edit-Sztazics-on-Unsplash-74283406670582849e1ac917e66dd7bb-f3bb0.jpg 5760w&quot;
+        title=&quot;Photo by Edit Sztazics on Unsplash&quot;
+        src=&quot;/static/74283406670582849e1ac917e66dd7bb/1c72d/Photo-by-Edit-Sztazics-on-Unsplash.jpg&quot;
+        srcset=&quot;/static/74283406670582849e1ac917e66dd7bb/a80bd/Photo-by-Edit-Sztazics-on-Unsplash.jpg 148w,
+/static/74283406670582849e1ac917e66dd7bb/1c91a/Photo-by-Edit-Sztazics-on-Unsplash.jpg 295w,
+/static/74283406670582849e1ac917e66dd7bb/1c72d/Photo-by-Edit-Sztazics-on-Unsplash.jpg 590w,
+/static/74283406670582849e1ac917e66dd7bb/a8a14/Photo-by-Edit-Sztazics-on-Unsplash.jpg 885w,
+/static/74283406670582849e1ac917e66dd7bb/fbd2c/Photo-by-Edit-Sztazics-on-Unsplash.jpg 1180w,
+/static/74283406670582849e1ac917e66dd7bb/9b601/Photo-by-Edit-Sztazics-on-Unsplash.jpg 5760w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;For example- I just learned that the heart wants to naturally beat about 100 times per minute. Your body actively slows this to what is your resting heart rate- 60 to 80 BPM for most people. Then as part of a response to stress does your body lower this slowing-signal and allow your heart to raise its beating pace.&lt;/p&gt;
 &lt;p&gt;Forever, I’ve always thought that the resting heart rate was the baseline your body ran at. Instead, the body essentially ‘keeps some in the tank’ for quick reaction to outside stress.&lt;/p&gt;
 &lt;p&gt;Which makes complete and total sense.&lt;/p&gt;
@@ -1032,40 +994,36 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
 &lt;h2&gt;Don’t Consume, Create!&lt;/h2&gt;
 &lt;p&gt;There’s a plague silently befalling the modern connected world. It happens across the country each morning causing the loss of precious time to live: The Social Media scroll. Many mornings today start with a roll-over, checking the time on a phone, and then time-travel 10 minutes, 20 minutes, an hour into the future after falling into the black hole of social media. Then, starting the day after this mind-numbing, unbeneficial activity is slow, groggy, and probably rushed because your addiction to the scroll took your brain away from time-awareness and you’re late for everything. No wonder so many people hate mornings more than ever.&lt;/p&gt;
 &lt;p&gt;The only thing we should be consuming in the morning is breakfast, water,  and coffee. Let’s use that coffee addiction to trick ourselves into better mornings. Many people are already queuing up their favorite morning excuse “I can’t do anything before I have my coffee.” Well, bullshit. If you’re that dependant on coffee to get moving in the morning, there are other areas of your life that need fixing, it’s not the coffee.&lt;/p&gt;
-&lt;p&gt;What can you do tomorrow morning that will take 5 minutes, maybe 10 minutes, that will earn you that coffee? Here’s a &lt;a href=&quot;https://itunes.apple.com/us/app/7-minute-workout/id650762525&quot;&gt;7-minute workout ios app&lt;/a&gt;. Run for 5 minutes in one direction, turn around and come back. Meditate. Journal or work on a small article. Work on that side-project you’ve been dreaming of for years. Don’t play video games, don’t read, don’t watch television, stay away from social media. You need to produce something of meaning. Something that will help you to feel accomplished before that perfect caffeinated elixir touches your lips. After a few days of this, you’ll own your mornings rather than your morning coffee owning you.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[World Cup Fitness Inspiration]]></title><description><![CDATA[The World Cup brings to my life an incredible joy every four years. It also offers an interesting moment to consider how life has changed…]]></description><link>https://bybrandonbrown.com/writing/world-cup-fitness-inspiration/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/world-cup-fitness-inspiration/</guid><pubDate>Sun, 08 Jul 2018 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
-  &lt;a
+&lt;p&gt;What can you do tomorrow morning that will take 5 minutes, maybe 10 minutes, that will earn you that coffee? Here’s a &lt;a href=&quot;https://itunes.apple.com/us/app/7-minute-workout/id650762525&quot;&gt;7-minute workout ios app&lt;/a&gt;. Run for 5 minutes in one direction, turn around and come back. Meditate. Journal or work on a small article. Work on that side-project you’ve been dreaming of for years. Don’t play video games, don’t read, don’t watch television, stay away from social media. You need to produce something of meaning. Something that will help you to feel accomplished before that perfect caffeinated elixir touches your lips. After a few days of this, you’ll own your mornings rather than your morning coffee owning you.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[World Cup Fitness Inspiration]]></title><description><![CDATA[The World Cup brings to my life an incredible joy every four years. It also offers an interesting moment to consider how life has changed…]]></description><link>https://bybrandonbrown.com/writing/world-cup-fitness-inspiration/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/world-cup-fitness-inspiration/</guid><pubDate>Sun, 08 Jul 2018 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-Fauzan-Saari-on-Unsplash-worldcup-093b37a1167b6ae678e8613c748e41bd-49927.jpg&quot;
+    href=&quot;/static/093b37a1167b6ae678e8613c748e41bd/29d31/Photo-by-Fauzan-Saari-on-Unsplash-worldcup.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABAv/EABYBAQEBAAAAAAAAAAAAAAAAAAECBP/aAAwDAQACEAMQAAAB61TvOkkn/8QAGRAAAwADAAAAAAAAAAAAAAAAAAIREDEy/9oACAEBAAEFAoLqYXo//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAIBESH/2gAIAQMBAT8BRcko/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQIQIf/aAAgBAgEBPwGTpX//xAAYEAACAwAAAAAAAAAAAAAAAAAAEAEhMf/aAAgBAQAGPwIvXK//xAAZEAEAAwEBAAAAAAAAAAAAAAABABAxESH/2gAIAQEAAT8hJOMPGhCdq//aAAwDAQACAAMAAAAQSD//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAIP//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCg1//EAB4QAQABAgcAAAAAAAAAAAAAAAEAESExQVGBkaGx/9oACAEBAAE/EDMorUC7QOHuFsBpHOL471TwIBP/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABAv/EABYBAQEBAAAAAAAAAAAAAAAAAAECBP/aAAwDAQACEAMQAAAB61TvOkkn/8QAGRAAAwADAAAAAAAAAAAAAAAAAAIREDEy/9oACAEBAAEFAoLqYXo//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAIBESH/2gAIAQMBAT8BRcko/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQIQIf/aAAgBAgEBPwGTpX//xAAYEAACAwAAAAAAAAAAAAAAAAAAEAEhMf/aAAgBAQAGPwIvXK//xAAZEAEAAwEBAAAAAAAAAAAAAAABABAxESH/2gAIAQEAAT8hJOMPGhCdq//aAAwDAQACAAMAAAAQSD//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxAIP//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCg1//EAB4QAQABAgcAAAAAAAAAAAAAAAEAESExQVGBkaGx/9oACAEBAAE/EDMorUC7QOHuFsBpHOL471TwIBP/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by Fauzan Saari on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-Fauzan-Saari-on-Unsplash-worldcup-093b37a1167b6ae678e8613c748e41bd-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-Fauzan-Saari-on-Unsplash-worldcup-093b37a1167b6ae678e8613c748e41bd-e8976.jpg 148w,
-/static/Photo-by-Fauzan-Saari-on-Unsplash-worldcup-093b37a1167b6ae678e8613c748e41bd-63df2.jpg 295w,
-/static/Photo-by-Fauzan-Saari-on-Unsplash-worldcup-093b37a1167b6ae678e8613c748e41bd-f8fb9.jpg 590w,
-/static/Photo-by-Fauzan-Saari-on-Unsplash-worldcup-093b37a1167b6ae678e8613c748e41bd-49927.jpg 700w&quot;
+        title=&quot;Original Photo by Fauzan Saari on Unsplash&quot;
+        src=&quot;/static/093b37a1167b6ae678e8613c748e41bd/1c72d/Photo-by-Fauzan-Saari-on-Unsplash-worldcup.jpg&quot;
+        srcset=&quot;/static/093b37a1167b6ae678e8613c748e41bd/a80bd/Photo-by-Fauzan-Saari-on-Unsplash-worldcup.jpg 148w,
+/static/093b37a1167b6ae678e8613c748e41bd/1c91a/Photo-by-Fauzan-Saari-on-Unsplash-worldcup.jpg 295w,
+/static/093b37a1167b6ae678e8613c748e41bd/1c72d/Photo-by-Fauzan-Saari-on-Unsplash-worldcup.jpg 590w,
+/static/093b37a1167b6ae678e8613c748e41bd/29d31/Photo-by-Fauzan-Saari-on-Unsplash-worldcup.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The World Cup brings to my life an incredible joy every four years. It also offers an interesting moment to consider how life has changed over the last cycle of international play. During the 2014 games, I was single and living in a pool house with all the time in the world to exercise, cook full &amp;#x26; healthy meals for myself, and enjoy athletic activities at my leisure. This time I’m a bonus dad to three girls negotiating levels of cheese covered carbs, balancing schedules, and in serious lack of real competitive sporting.&lt;/p&gt;
 &lt;p&gt;It’s taken some time to adapt, but I’m finally finding ways to bring fitness back into this frenetic life. It’s taken strong efforts in prioritization, compromise, and a bit of creativity to find the moments and the right activities to regain a sense of fun fitness in my lifestyle.&lt;/p&gt;
 &lt;h2&gt;I Love the World Cup&lt;/h2&gt;
@@ -1079,40 +1037,36 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
 &lt;p&gt;I wouldn’t hold it against any defender if they confuse Lukaku for Juggernaught when he’s bearing down on them at full sprint. To have that speed and power of someone his size is a testament to his determined work ethic and drive to be the best. &lt;a href=&quot;https://www.theplayerstribune.com/en-us/articles/romelu-lukaku-ive-got-some-things-to-say&quot;&gt;Read this article at The Players Tribune&lt;/a&gt; to really understand Lukaku’s mission.&lt;/p&gt;
 &lt;p&gt;Let’s take this colossal motivation and do something with it. Fitness to me needs to have three things to be effective: Fun, Purpose, and Practicality. These, combined with the inspirational work ethic of Lukaku, make my baseline for deciding what action I’ll take in my fitness routines.&lt;/p&gt;
 &lt;h3&gt;Running is Boring&lt;/h3&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/soccerplaytime-f5ce2c2d31cde090cfe1a27fae87a0cd-49927.jpg&quot;
+    href=&quot;/static/f5ce2c2d31cde090cfe1a27fae87a0cd/29d31/soccerplaytime.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAD/9oADAMBAAIQAxAAAAHJvnEKej//xAAZEAEAAgMAAAAAAAAAAAAAAAABAhESICH/2gAIAQEAAQUCpyDrBdP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGq/8QAGRAAAwADAAAAAAAAAAAAAAAAAAERIFFh/9oACAEBAAY/Am+Q2WYf/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFhwf/aAAgBAQABPyHsWU5tpTI7BeD2I//aAAwDAQACAAMAAAAQOA//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EJbb/8QAHBABAQADAAMBAAAAAAAAAAAAAREAITFBUXGB/9oACAEBAAE/EAF7Ax5Dz3uEoCiJZ9zTwocQM2tX9ZUFdHvKCCz7n//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAD/9oADAMBAAIQAxAAAAHJvnEKej//xAAZEAEAAgMAAAAAAAAAAAAAAAABAhESICH/2gAIAQEAAQUCpyDrBdP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwGq/8QAGRAAAwADAAAAAAAAAAAAAAAAAAERIFFh/9oACAEBAAY/Am+Q2WYf/8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITFhwf/aAAgBAQABPyHsWU5tpTI7BeD2I//aAAwDAQACAAMAAAAQOA//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EJbb/8QAHBABAQADAAMBAAAAAAAAAAAAAREAITFBUXGB/9oACAEBAAE/EAF7Ax5Dz3uEoCiJZ9zTwocQM2tX9ZUFdHvKCCz7n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Get Out and Play&quot;
-        title=&quot;&quot;
-        src=&quot;/static/soccerplaytime-f5ce2c2d31cde090cfe1a27fae87a0cd-f8fb9.jpg&quot;
-        srcset=&quot;/static/soccerplaytime-f5ce2c2d31cde090cfe1a27fae87a0cd-e8976.jpg 148w,
-/static/soccerplaytime-f5ce2c2d31cde090cfe1a27fae87a0cd-63df2.jpg 295w,
-/static/soccerplaytime-f5ce2c2d31cde090cfe1a27fae87a0cd-f8fb9.jpg 590w,
-/static/soccerplaytime-f5ce2c2d31cde090cfe1a27fae87a0cd-49927.jpg 700w&quot;
+        title=&quot;Get Out and Play&quot;
+        src=&quot;/static/f5ce2c2d31cde090cfe1a27fae87a0cd/1c72d/soccerplaytime.jpg&quot;
+        srcset=&quot;/static/f5ce2c2d31cde090cfe1a27fae87a0cd/a80bd/soccerplaytime.jpg 148w,
+/static/f5ce2c2d31cde090cfe1a27fae87a0cd/1c91a/soccerplaytime.jpg 295w,
+/static/f5ce2c2d31cde090cfe1a27fae87a0cd/1c72d/soccerplaytime.jpg 590w,
+/static/f5ce2c2d31cde090cfe1a27fae87a0cd/29d31/soccerplaytime.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I hate it. Running is monotonous, bordering on torturous work. Explains why I played Keeper and Central Defense when I played. Knowing this, it’s high on my list of priorities. Endurance and sustained energy are two of the most practical indicators of fitness for myself. I don’t need to run a marathon, but I’d like to be able to handle sprints after an hour of high-effort play. I’m about to drop all of my motivation-through-design knowledge on myself and get myself to this goal. Here’s my plan for beating the tedium of running:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;em&gt;Play with the kids&lt;/em&gt;&lt;/li&gt;
@@ -1201,188 +1155,168 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
 &lt;/ul&gt;
 &lt;p&gt;This schedule gives your body time to rest the areas you’ve worked while allowing you to stay active and consistent with your efforts. Don’t work through pain, don’t skip out on sleep and actual rest, and make sure to eat in a way that fits your energy requirements.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Design Your Life]]></title><description><![CDATA[Students are the best. They teach us more about ourselves than we could have ever presumed they could. I’ve been repeating a simple…]]></description><link>https://bybrandonbrown.com/writing/design-your-life/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/design-your-life/</guid><pubDate>Thu, 05 Jul 2018 16:30:00 GMT</pubDate><content:encoded>&lt;p&gt;Students are the best. They teach us more about ourselves than we could have ever presumed they could. I’ve been repeating a simple commentary to many enthusiastic but quietly disheartened early designers for a decade when asked to critique their self-branding. “You are your toughest client.” Websites, logos, flyers, business cards, resumes, and apps. Anything they’re developing to show the world why they’re different and better than their professional competition. All the while thinking that this self-directed branding will be what shapes their careers for the next 40 years. It’s commonly an enjoyable, sometimes uncomfortable discussion, but obviously necessary to their growth.&lt;/p&gt;
 &lt;p&gt;The discussion normally yields questions in the shape of “Who do you want to work with in the future,” “Where do you want to live and work in 10 years,” and “Why did you start down this career path” amongst other pointed directives. Yet, here I am, astonished at the fact I never considered to take the challenge of this thought process a giant step further: Why not design your life?&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-Old-Youth-on-Unsplash-iteration-a139e0ef3a2a94bcb39f85cee4d05619-49927.jpg&quot;
+    href=&quot;/static/a139e0ef3a2a94bcb39f85cee4d05619/29d31/Photo-by-Old-Youth-on-Unsplash-iteration.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAAGpRCvCsU//xAAaEAEAAgMBAAAAAAAAAAAAAAABAAIDERMh/9oACAEBAAEFAtWYoHEtMCst5ef/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQMBAT8Bjdf/xAAYEQACAwAAAAAAAAAAAAAAAAAAARESIf/aAAgBAgEBPwFqNKn/xAAYEAADAQEAAAAAAAAAAAAAAAAAAREhEP/aAAgBAQAGPwLSIo0zOf/EAB0QAQACAQUBAAAAAAAAAAAAAAEAETEQIUFRYYH/2gAIAQEAAT8hsAU9nwAtTPc9MtbYVVwiYb6f/9oADAMBAAIAAwAAABCo/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQMBAT8QVZmm/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/ECCzJf/EABwQAAICAgMAAAAAAAAAAAAAAAEhABExgRBBkf/aAAgBAQABPxCtBGRKEMGnCsDqZ1Wn4QoBUcDVK1Ildcf/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAAGpRCvCsU//xAAaEAEAAgMBAAAAAAAAAAAAAAABAAIDERMh/9oACAEBAAEFAtWYoHEtMCst5ef/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQMBAT8Bjdf/xAAYEQACAwAAAAAAAAAAAAAAAAAAARESIf/aAAgBAgEBPwFqNKn/xAAYEAADAQEAAAAAAAAAAAAAAAAAAREhEP/aAAgBAQAGPwLSIo0zOf/EAB0QAQACAQUBAAAAAAAAAAAAAAEAETEQIUFRYYH/2gAIAQEAAT8hsAU9nwAtTPc9MtbYVVwiYb6f/9oADAMBAAIAAwAAABCo/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQMBAT8QVZmm/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/ECCzJf/EABwQAAICAgMAAAAAAAAAAAAAAAEhABExgRBBkf/aAAgBAQABPxCtBGRKEMGnCsDqZ1Wn4QoBUcDVK1Ildcf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by Old Youth on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-Old-Youth-on-Unsplash-iteration-a139e0ef3a2a94bcb39f85cee4d05619-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-Old-Youth-on-Unsplash-iteration-a139e0ef3a2a94bcb39f85cee4d05619-e8976.jpg 148w,
-/static/Photo-by-Old-Youth-on-Unsplash-iteration-a139e0ef3a2a94bcb39f85cee4d05619-63df2.jpg 295w,
-/static/Photo-by-Old-Youth-on-Unsplash-iteration-a139e0ef3a2a94bcb39f85cee4d05619-f8fb9.jpg 590w,
-/static/Photo-by-Old-Youth-on-Unsplash-iteration-a139e0ef3a2a94bcb39f85cee4d05619-49927.jpg 700w&quot;
+        title=&quot;Original Photo by Old Youth on Unsplash&quot;
+        src=&quot;/static/a139e0ef3a2a94bcb39f85cee4d05619/1c72d/Photo-by-Old-Youth-on-Unsplash-iteration.jpg&quot;
+        srcset=&quot;/static/a139e0ef3a2a94bcb39f85cee4d05619/a80bd/Photo-by-Old-Youth-on-Unsplash-iteration.jpg 148w,
+/static/a139e0ef3a2a94bcb39f85cee4d05619/1c91a/Photo-by-Old-Youth-on-Unsplash-iteration.jpg 295w,
+/static/a139e0ef3a2a94bcb39f85cee4d05619/1c72d/Photo-by-Old-Youth-on-Unsplash-iteration.jpg 590w,
+/static/a139e0ef3a2a94bcb39f85cee4d05619/29d31/Photo-by-Old-Youth-on-Unsplash-iteration.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;The Toughest Client You Will Ever Have&lt;/h2&gt;
 &lt;p&gt;Working in an area of design for even a small amount of time, you will find that there are processes and guidelines for finding a solution or working with people that are not sure what they’re after. These standardized steps help to keep businesses moving efficiently and help to make the designer seem less like a magician and more like an architect.&lt;/p&gt;
 &lt;p&gt;There are different processes for various areas of design, diverse types of people and companies, and enough to fit a variety of timelines and budgets. A favorite of mine, which I’ve been fortunate to be able to research, teach, and employ for years is the Design Sprint. This process is what I’ll be working to implement directed and meaningful transformation in my life.&lt;/p&gt;
 &lt;p&gt;The Design Sprint’s power is wielded through two main factors: Iteration and Understanding. To use it effectively in the design profession, we rely on research and user interviews to attain understanding while creating disposable prototypes to allow for fast iteration. At its core, the entire design sprint follows a basic four-step process: Idea Generation, Prototype Creation, Testing, Analyze.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-rawpixel-on-Unsplash-plan-1b894148c912852dbacde383da8b68af-49927.jpg&quot;
+    href=&quot;/static/1b894148c912852dbacde383da8b68af/29d31/Photo-by-rawpixel-on-Unsplash-plan.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABj7MTjiKRf//EABoQAAMAAwEAAAAAAAAAAAAAAAECAxMhIjL/2gAIAQEAAQUCkAThVQx6GpQYss/P/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHhABAAECBwAAAAAAAAAAAAAAAQAREgIQISIxQWH/2gAIAQEABj8CL+Jt69jLgK0JjV1y/8QAGxABAQACAwEAAAAAAAAAAAAAAREAITFBUXH/2gAIAQEAAT8hjStmEIb4Xtidhv3IOB3T7jZmHd8w1LtWuf/aAAwDAQACAAMAAAAQ5w//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EMXsX//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8Q0OSl/8QAHBABAQACAgMAAAAAAAAAAAAAAREAITFBYYGx/9oACAEBAAE/EOuvtniszbySlANJv1k/YMnEjxgBhIixULJzo3j0/wBY7E+uHdroqquf/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABj7MTjiKRf//EABoQAAMAAwEAAAAAAAAAAAAAAAECAxMhIjL/2gAIAQEAAQUCkAThVQx6GpQYss/P/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHhABAAECBwAAAAAAAAAAAAAAAQAREgIQISIxQWH/2gAIAQEABj8CL+Jt69jLgK0JjV1y/8QAGxABAQACAwEAAAAAAAAAAAAAAREAITFBUXH/2gAIAQEAAT8hjStmEIb4Xtidhv3IOB3T7jZmHd8w1LtWuf/aAAwDAQACAAMAAAAQ5w//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EMXsX//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8Q0OSl/8QAHBABAQACAgMAAAAAAAAAAAAAAREAITFBYYGx/9oACAEBAAE/EOuvtniszbySlANJv1k/YMnEjxgBhIixULJzo3j0/wBY7E+uHdroqquf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by rawpixel on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-rawpixel-on-Unsplash-plan-1b894148c912852dbacde383da8b68af-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-rawpixel-on-Unsplash-plan-1b894148c912852dbacde383da8b68af-e8976.jpg 148w,
-/static/Photo-by-rawpixel-on-Unsplash-plan-1b894148c912852dbacde383da8b68af-63df2.jpg 295w,
-/static/Photo-by-rawpixel-on-Unsplash-plan-1b894148c912852dbacde383da8b68af-f8fb9.jpg 590w,
-/static/Photo-by-rawpixel-on-Unsplash-plan-1b894148c912852dbacde383da8b68af-49927.jpg 700w&quot;
+        title=&quot;Original Photo by rawpixel on Unsplash&quot;
+        src=&quot;/static/1b894148c912852dbacde383da8b68af/1c72d/Photo-by-rawpixel-on-Unsplash-plan.jpg&quot;
+        srcset=&quot;/static/1b894148c912852dbacde383da8b68af/a80bd/Photo-by-rawpixel-on-Unsplash-plan.jpg 148w,
+/static/1b894148c912852dbacde383da8b68af/1c91a/Photo-by-rawpixel-on-Unsplash-plan.jpg 295w,
+/static/1b894148c912852dbacde383da8b68af/1c72d/Photo-by-rawpixel-on-Unsplash-plan.jpg 590w,
+/static/1b894148c912852dbacde383da8b68af/29d31/Photo-by-rawpixel-on-Unsplash-plan.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Before a designer picks a single color, sets a mood, or gets excited about a typeface they’ll get to use (this new version of my site was made for the sole purpose using IBM Plex, but I digress), they need to ask questions to know they’re solving the right problems. Good design is the understanding and application of meaningful, pointed research. Step one, Idea Generation, is intended to find these questions by cultivating wild thinking and inventive problem-solving. At this stage, it’s impossible to have a bad idea or a meaningless concept. Every inch of your creative-prowess should be brought to bear without room for doubt or self-defeating reason.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-Markus-Spiske-on-Unsplash-cookies-563b4f8d48fd3b1ce28ddd8034ac434a-49927.jpg&quot;
+    href=&quot;/static/563b4f8d48fd3b1ce28ddd8034ac434a/29d31/Photo-by-Markus-Spiske-on-Unsplash-cookies.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAGrSLSMwg0j/8QAGhAAAgIDAAAAAAAAAAAAAAAAAgMAAQQTMf/aAAgBAQABBQJAhcesdUR3JKxqf//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAEDAQE/AYf/xAAWEQADAAAAAAAAAAAAAAAAAAAQEiH/2gAIAQIBAT8BrD//xAAaEAEAAgMBAAAAAAAAAAAAAAABEBEAISIx/9oACAEBAAY/Aut5YVUgeMf/xAAaEAABBQEAAAAAAAAAAAAAAAABABARITFR/9oACAEBAAE/Ib8CXFoFmGO4R640b//aAAwDAQACAAMAAAAQG/8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxCDS//EABYRAQEBAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxBcCf/EABsQAQADAQADAAAAAAAAAAAAAAEAESFREEGB/9oACAEBAAE/EOahwMciXGkM92S4nJjKhsyBv3x//9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAGrSLSMwg0j/8QAGhAAAgIDAAAAAAAAAAAAAAAAAgMAAQQTMf/aAAgBAQABBQJAhcesdUR3JKxqf//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAEDAQE/AYf/xAAWEQADAAAAAAAAAAAAAAAAAAAQEiH/2gAIAQIBAT8BrD//xAAaEAEAAgMBAAAAAAAAAAAAAAABEBEAISIx/9oACAEBAAY/Aut5YVUgeMf/xAAaEAABBQEAAAAAAAAAAAAAAAABABARITFR/9oACAEBAAE/Ib8CXFoFmGO4R640b//aAAwDAQACAAMAAAAQG/8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxCDS//EABYRAQEBAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxBcCf/EABsQAQADAQADAAAAAAAAAAAAAAEAESFREEGB/9oACAEBAAE/EOahwMciXGkM92S4nJjKhsyBv3x//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by Markus Spiske on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-Markus-Spiske-on-Unsplash-cookies-563b4f8d48fd3b1ce28ddd8034ac434a-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-Markus-Spiske-on-Unsplash-cookies-563b4f8d48fd3b1ce28ddd8034ac434a-e8976.jpg 148w,
-/static/Photo-by-Markus-Spiske-on-Unsplash-cookies-563b4f8d48fd3b1ce28ddd8034ac434a-63df2.jpg 295w,
-/static/Photo-by-Markus-Spiske-on-Unsplash-cookies-563b4f8d48fd3b1ce28ddd8034ac434a-f8fb9.jpg 590w,
-/static/Photo-by-Markus-Spiske-on-Unsplash-cookies-563b4f8d48fd3b1ce28ddd8034ac434a-49927.jpg 700w&quot;
+        title=&quot;Original Photo by Markus Spiske on Unsplash&quot;
+        src=&quot;/static/563b4f8d48fd3b1ce28ddd8034ac434a/1c72d/Photo-by-Markus-Spiske-on-Unsplash-cookies.jpg&quot;
+        srcset=&quot;/static/563b4f8d48fd3b1ce28ddd8034ac434a/a80bd/Photo-by-Markus-Spiske-on-Unsplash-cookies.jpg 148w,
+/static/563b4f8d48fd3b1ce28ddd8034ac434a/1c91a/Photo-by-Markus-Spiske-on-Unsplash-cookies.jpg 295w,
+/static/563b4f8d48fd3b1ce28ddd8034ac434a/1c72d/Photo-by-Markus-Spiske-on-Unsplash-cookies.jpg 590w,
+/static/563b4f8d48fd3b1ce28ddd8034ac434a/29d31/Photo-by-Markus-Spiske-on-Unsplash-cookies.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;After an idea is organized enough to move forward, the next step is the creation of a disposable prototype. Disposable being the key action to focus on. We’re not looking for the best, nor do we need it. This step of the process is where we’ll save both time and energy by doing the absolute bare minimum that will achieve a meaningful result. For example, you want to create a new brand of cookies to sell in hip all-natural grocery stores. You need a factory to meet the demands of these stores, but you wouldn’t build the factory first. You would bake a small batch, give them away to a few people, and watch for and listen to their feedback. Now, rather than creating the factory and hiring the workers to make the wrong type of cookie, you can scale your idea up in a smart and efficient way. You may even find out you’ve been making terrible cookies but the best dog-biscuits the world’s happiest beings have ever enjoyed. Wouldn’t that be wonderful?&lt;/p&gt;
 &lt;h2&gt;Where Do We Start&lt;/h2&gt;
 &lt;p&gt;I’ll save breaking down the Design Sprint in its entirety for another time. What’s important now is understanding how this style of thinking can help each of us to move forward in a satisfying, fulfilling, and productive way. What follows is my personal experience of moving through this process.&lt;/p&gt;
 &lt;h3&gt;The Starting Line&lt;/h3&gt;
 &lt;p&gt;To get moving, I decided to sit and consider what I think my values are at this point in time. Asking this question offers me a place to start as well as a way to gauge how any changes have affected me over the course of time. To do this, I grabbed a journal and a pen and got to writing words I feel I stand for. Nothing neat, just a list written as it came to mind. None of these could be wrong, it didn’t matter if there were duplicates, synonyms, or antonyms, and I didn’t set a time-limit.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-Aaron-Burden-on-Unsplash-write-afc018616f0049628b31f493b6b5624e-49927.jpg&quot;
+    href=&quot;/static/afc018616f0049628b31f493b6b5624e/29d31/Photo-by-Aaron-Burden-on-Unsplash-write.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAATICtN2pf//EABsQAAIBBQAAAAAAAAAAAAAAAAARAQIDEiEx/9oACAEBAAEFAoxahIuaKeH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFX/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BS//EABgQAAMBAQAAAAAAAAAAAAAAABARQQBR/9oACAEBAAY/AlwTOn//xAAbEAACAgMBAAAAAAAAAAAAAAABEQAhEDFBYf/aAAgBAQABPyFxJfEoW440ClCv04bDH//aAAwDAQACAAMAAAAQ6y//xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQMBAT8Quqf/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EFqIP//EABsQAQEBAAIDAAAAAAAAAAAAAAERACExQVGh/9oACAEBAAE/EIERorvDBFHk6wGDe2j8xigDxS5lLyhq7//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAATICtN2pf//EABsQAAIBBQAAAAAAAAAAAAAAAAARAQIDEiEx/9oACAEBAAEFAoxahIuaKeH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwFX/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BS//EABgQAAMBAQAAAAAAAAAAAAAAABARQQBR/9oACAEBAAY/AlwTOn//xAAbEAACAgMBAAAAAAAAAAAAAAABEQAhEDFBYf/aAAgBAQABPyFxJfEoW440ClCv04bDH//aAAwDAQACAAMAAAAQ6y//xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQMBAT8Quqf/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EFqIP//EABsQAQEBAAIDAAAAAAAAAAAAAAERACExQVGh/9oACAEBAAE/EIERorvDBFHk6wGDe2j8xigDxS5lLyhq7//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by Aaron Burden on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-Aaron-Burden-on-Unsplash-write-afc018616f0049628b31f493b6b5624e-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-Aaron-Burden-on-Unsplash-write-afc018616f0049628b31f493b6b5624e-e8976.jpg 148w,
-/static/Photo-by-Aaron-Burden-on-Unsplash-write-afc018616f0049628b31f493b6b5624e-63df2.jpg 295w,
-/static/Photo-by-Aaron-Burden-on-Unsplash-write-afc018616f0049628b31f493b6b5624e-f8fb9.jpg 590w,
-/static/Photo-by-Aaron-Burden-on-Unsplash-write-afc018616f0049628b31f493b6b5624e-49927.jpg 700w&quot;
+        title=&quot;Original Photo by Aaron Burden on Unsplash&quot;
+        src=&quot;/static/afc018616f0049628b31f493b6b5624e/1c72d/Photo-by-Aaron-Burden-on-Unsplash-write.jpg&quot;
+        srcset=&quot;/static/afc018616f0049628b31f493b6b5624e/a80bd/Photo-by-Aaron-Burden-on-Unsplash-write.jpg 148w,
+/static/afc018616f0049628b31f493b6b5624e/1c91a/Photo-by-Aaron-Burden-on-Unsplash-write.jpg 295w,
+/static/afc018616f0049628b31f493b6b5624e/1c72d/Photo-by-Aaron-Burden-on-Unsplash-write.jpg 590w,
+/static/afc018616f0049628b31f493b6b5624e/29d31/Photo-by-Aaron-Burden-on-Unsplash-write.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The only restrictions I gave myself for this process were when I performed it and that it had to be written, not typed.&lt;/p&gt;
 &lt;p&gt;I purposefully waited until I was in a happy, productive, and optimistic mindset to write this list. As part of who I currently am, I fight bouts of depression and overall melancholy. Understanding this about myself was a critical piece to making this first step a success. The perfect time came to fruition when I was able to swing into a great new coffee shop riding the optimistic highs of a successful meeting with new clients about potential work.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/valuenotes-6e1c7234c6bd2d33512ebebd30822aea-49927.jpg&quot;
+    href=&quot;/static/6e1c7234c6bd2d33512ebebd30822aea/29d31/valuenotes.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbGz95Vmjf/EABgQAQEBAQEAAAAAAAAAAAAAAAEAAgMh/9oACAEBAAEFAlht8saT3M3/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAEAAwEAAAAAAAAAAAAAAAABAhARIP/aAAgBAQAGPwKtYjx//8QAGhABAQEBAAMAAAAAAAAAAAAAAQARITFhcf/aAAgBAQABPyE8FH7cfVo0ZmsMBjheV//aAAwDAQACAAMAAAAQDM//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPxBH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EG1//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUExUf/aAAgBAQABPxArIZjlwMtqOwkLUWXXzIA2xCCgPCNMs//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbGz95Vmjf/EABgQAQEBAQEAAAAAAAAAAAAAAAEAAgMh/9oACAEBAAEFAlht8saT3M3/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAEAAwEAAAAAAAAAAAAAAAABAhARIP/aAAgBAQAGPwKtYjx//8QAGhABAQEBAAMAAAAAAAAAAAAAAQARITFhcf/aAAgBAQABPyE8FH7cfVo0ZmsMBjheV//aAAwDAQACAAMAAAAQDM//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPxBH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EG1//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIUExUf/aAAgBAQABPxArIZjlwMtqOwkLUWXXzIA2xCCgPCNMs//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Brandon&apos;s Value Brainstorm and Organized&quot;
-        title=&quot;&quot;
-        src=&quot;/static/valuenotes-6e1c7234c6bd2d33512ebebd30822aea-f8fb9.jpg&quot;
-        srcset=&quot;/static/valuenotes-6e1c7234c6bd2d33512ebebd30822aea-e8976.jpg 148w,
-/static/valuenotes-6e1c7234c6bd2d33512ebebd30822aea-63df2.jpg 295w,
-/static/valuenotes-6e1c7234c6bd2d33512ebebd30822aea-f8fb9.jpg 590w,
-/static/valuenotes-6e1c7234c6bd2d33512ebebd30822aea-49927.jpg 700w&quot;
+        alt=&quot;Brandon&amp;#39;s Value Brainstorm and Organized&quot;
+        title=&quot;Brandon&amp;#39;s Value Brainstorm and Organized&quot;
+        src=&quot;/static/6e1c7234c6bd2d33512ebebd30822aea/1c72d/valuenotes.jpg&quot;
+        srcset=&quot;/static/6e1c7234c6bd2d33512ebebd30822aea/a80bd/valuenotes.jpg 148w,
+/static/6e1c7234c6bd2d33512ebebd30822aea/1c91a/valuenotes.jpg 295w,
+/static/6e1c7234c6bd2d33512ebebd30822aea/1c72d/valuenotes.jpg 590w,
+/static/6e1c7234c6bd2d33512ebebd30822aea/29d31/valuenotes.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Writing these values down in a journal allowed for a large number of positives to contribute to the process. Keeping the computer closed meant no distractions, no unexpected social-media scroll pits, and the inability to delete. There is also a fat stack of research showing that writing causes deeper connections in memory and thought which clearly made it the right tool for this step.&lt;/p&gt;
 &lt;p&gt;Taking this step alone was generously therapeutic. Having a clear understanding of how my present-day self considers himself was a strong cornerstone to lay. After a free-flowing, vanilla-caramel cold-brew fueled brainstorm, I decided to organize the list into five categories that seemed to be connections through the list:&lt;/p&gt;
 &lt;ol&gt;
@@ -1394,82 +1328,74 @@ const barX = paddingRight + (i * (width - paddingRight)) / data.length + barWidt
 &lt;/ol&gt;
 &lt;h3&gt;Time to Dream&lt;/h3&gt;
 &lt;p&gt;This is my favorite part of practicing the design sprint. Letting the mind wander into the craziest futures unhindered by real-world practicality is reinvigorating to the once boundless optimism I carried. What dreams from the teenage years are still lingering? What am I missing out on in this world? What will my biggest regrets be? What type of lives am I capable of living? Who could be in my life? I can feel typing these questions has my subconscious going wild, causing a visceral feeling of hopefulness with a potential for untold amounts of joy and delight.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-Alex-Perz-on-Unsplash-rally-d9d8a42ea18f589dd1be8172d952829f-49927.jpg&quot;
+    href=&quot;/static/d9d8a42ea18f589dd1be8172d952829f/29d31/Photo-by-Alex-Perz-on-Unsplash-rally.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAD/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABlkRE4f/EABoQAQACAwEAAAAAAAAAAAAAAAEAAgQTMUH/2gAIAQEAAQUCrjBNFFaE85ACf//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAADAAMBAAAAAAAAAAAAAAAAARECECEx/9oACAEBAAY/Ark6VcPUS7//xAAdEAACAgEFAAAAAAAAAAAAAAABEQAhUTFBgZGx/9oACAEBAAE/IWqPAqAtwjHvK4CdQsOLY+4EoT//2gAMAwEAAgADAAAAEKQf/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiH//xAAWEQEBAQAAAAAAAAAAAAAAAAAAIXH/2gAIAQIBAT8Q1X//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAxUZEhYaH/2gAIAQEAAT8QLg5q8vuDJQcROT1lfsUdmW2rIpuSGhs2xgQFuf/Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAD/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABlkRE4f/EABoQAQACAwEAAAAAAAAAAAAAAAEAAgQTMUH/2gAIAQEAAQUCrjBNFFaE85ACf//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AUf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAADAAMBAAAAAAAAAAAAAAAAARECECEx/9oACAEBAAY/Ark6VcPUS7//xAAdEAACAgEFAAAAAAAAAAAAAAABEQAhUTFBgZGx/9oACAEBAAE/IWqPAqAtwjHvK4CdQsOLY+4EoT//2gAMAwEAAgADAAAAEKQf/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiH//xAAWEQEBAQAAAAAAAAAAAAAAAAAAIXH/2gAIAQIBAT8Q1X//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAxUZEhYaH/2gAIAQEAAT8QLg5q8vuDJQcROT1lfsUdmW2rIpuSGhs2xgQFuf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by Alex Perz on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-Alex-Perz-on-Unsplash-rally-d9d8a42ea18f589dd1be8172d952829f-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-Alex-Perz-on-Unsplash-rally-d9d8a42ea18f589dd1be8172d952829f-e8976.jpg 148w,
-/static/Photo-by-Alex-Perz-on-Unsplash-rally-d9d8a42ea18f589dd1be8172d952829f-63df2.jpg 295w,
-/static/Photo-by-Alex-Perz-on-Unsplash-rally-d9d8a42ea18f589dd1be8172d952829f-f8fb9.jpg 590w,
-/static/Photo-by-Alex-Perz-on-Unsplash-rally-d9d8a42ea18f589dd1be8172d952829f-49927.jpg 700w&quot;
+        title=&quot;Original Photo by Alex Perz on Unsplash&quot;
+        src=&quot;/static/d9d8a42ea18f589dd1be8172d952829f/1c72d/Photo-by-Alex-Perz-on-Unsplash-rally.jpg&quot;
+        srcset=&quot;/static/d9d8a42ea18f589dd1be8172d952829f/a80bd/Photo-by-Alex-Perz-on-Unsplash-rally.jpg 148w,
+/static/d9d8a42ea18f589dd1be8172d952829f/1c91a/Photo-by-Alex-Perz-on-Unsplash-rally.jpg 295w,
+/static/d9d8a42ea18f589dd1be8172d952829f/1c72d/Photo-by-Alex-Perz-on-Unsplash-rally.jpg 590w,
+/static/d9d8a42ea18f589dd1be8172d952829f/29d31/Photo-by-Alex-Perz-on-Unsplash-rally.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;A future to fit what many of you would consider wild and unrealistic but always at the top of my list- rally driving. I’ve always loved the elements that rally driving has the ability to merge together. Traveling the world to see many of the most secluded, beautiful, emotionally engrossing areas humankind has the privilege to surround themselves within. The adrenaline-fueled, focused courage balanced by practiced skill and painstaking preparations. The sounds, smells, and trust of engineering contrasted by the solitude and merciless brutality of nature. The deep-bonded brotherhood between a driver, co-driver, and the engineers. Rally driving sounds like the most complete human experience possible in the modern world.&lt;/p&gt;
 &lt;h3&gt;Ready, Steady, Go&lt;/h3&gt;
 &lt;p&gt;Let’s take a pause here and begin the process. Make a plan for when and where you may be able to best reflect on yourself. You may thrive on the impulsiveness of trying this now, or you may require the same careful planning and considerations I did to ensure you’re doing this in the best way for you.&lt;/p&gt;
 &lt;p&gt;Write one list: What do you value in the present, and what would you like to value in the future. Mix the two together. Don’t worry about what’s filling the page, just write it down if you think it truly matters to you. Write it down if you think it will positively shape who you want to become in the future. Write it down if it crossed your thought more than once.&lt;/p&gt;
 &lt;p&gt;Then, within a week of creating this list write down the wildest versions of your future that you would fight to have true. There are no right or wrong answers here. Nothing too practical or unrealistic. Challenge yourself to dream up five versions of what your future can be, but if you can think of 50 that’s all the better.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone-9bedc77843fadd05c5de55af4f5df13c-49927.jpg&quot;
+    href=&quot;/static/9bedc77843fadd05c5de55af4f5df13c/29d31/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAZLuY2HBBv/EABkQAAIDAQAAAAAAAAAAAAAAAAIRAAEhQf/aAAgBAQABBQLUJ0IWnyKf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BZ//EABURAQEAAAAAAAAAAAAAAAAAAAIQ/9oACAECAQE/ATP/xAAaEAABBQEAAAAAAAAAAAAAAAAAAQIRIDFh/9oACAEBAAY/AuCtgyn/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVGh/9oACAEBAAE/IafiLiOXkvx9QV17AF0iL5P/2gAMAwEAAgADAAAAEIzv/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qk//EABURAQEAAAAAAAAAAAAAAAAAABEA/9oACAECAQE/EEzf/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUcH/2gAIAQEAAT8Qbo2Bqo3LVJVt+gy5UDxT8jm14clIBxOcn//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAZLuY2HBBv/EABkQAAIDAQAAAAAAAAAAAAAAAAIRAAEhQf/aAAgBAQABBQLUJ0IWnyKf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BZ//EABURAQEAAAAAAAAAAAAAAAAAAAIQ/9oACAECAQE/ATP/xAAaEAABBQEAAAAAAAAAAAAAAAAAAQIRIDFh/9oACAEBAAY/AuCtgyn/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMVGh/9oACAEBAAE/IafiLiOXkvx9QV17AF0iL5P/2gAMAwEAAgADAAAAEIzv/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qk//EABURAQEAAAAAAAAAAAAAAAAAABEA/9oACAECAQE/EEzf/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUcH/2gAIAQEAAT8Qbo2Bqo3LVJVt+gy5UDxT8jm14clIBxOcn//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by Jeremy Bishop on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone-9bedc77843fadd05c5de55af4f5df13c-f8fb9.jpg&quot;
-        srcset=&quot;/static/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone-9bedc77843fadd05c5de55af4f5df13c-e8976.jpg 148w,
-/static/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone-9bedc77843fadd05c5de55af4f5df13c-63df2.jpg 295w,
-/static/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone-9bedc77843fadd05c5de55af4f5df13c-f8fb9.jpg 590w,
-/static/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone-9bedc77843fadd05c5de55af4f5df13c-49927.jpg 700w&quot;
+        title=&quot;Original Photo by Jeremy Bishop on Unsplash&quot;
+        src=&quot;/static/9bedc77843fadd05c5de55af4f5df13c/1c72d/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone.jpg&quot;
+        srcset=&quot;/static/9bedc77843fadd05c5de55af4f5df13c/a80bd/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone.jpg 148w,
+/static/9bedc77843fadd05c5de55af4f5df13c/1c91a/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone.jpg 295w,
+/static/9bedc77843fadd05c5de55af4f5df13c/1c72d/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone.jpg 590w,
+/static/9bedc77843fadd05c5de55af4f5df13c/29d31/Photo-by-Jeremy-Bishop-on-Unsplash-Yellowstone.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;This series of posts will be following my own experience throughout this process. I’ll be sharing my thoughts on employing design thinking to your life, the outcomes of each stage of the process, and the ways I think you can practice it for yourself. Staying true to the design sprint concept, there will be many ideas and concepts that are shared, tried, then ultimately discarded. This will force a lifestyle of new experiences, learned knowledge, and growth in character. Which, I suppose, makes it a guaranteed success.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Steps Towards Your Best Self Part 3- Eat]]></title><description><![CDATA[This is Part 3 of a small series on how to improve your life
 with only a few small changes.
- Read Part 1-Sleep here  and  Read Part 2-Move…]]></description><link>https://bybrandonbrown.com/writing/yourfirststeps-part3/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/yourfirststeps-part3/</guid><pubDate>Wed, 04 Jul 2018 16:30:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+Read Part 1-Sleep here and Read Part 2-Move here…]]></description><link>https://bybrandonbrown.com/writing/yourfirststeps-part3/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/yourfirststeps-part3/</guid><pubDate>Wed, 04 Jul 2018 16:30:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;This is Part 3 of a small series on how to improve your life
 with only a few small changes.
 &lt;a href=&quot;../yourfirststeps-part1/&quot;&gt;Read Part 1-Sleep here&lt;/a&gt; and &lt;a href=&quot;../yourfirststeps-part2/&quot;&gt;Read Part 2-Move here&lt;/a&gt;&lt;/p&gt;
@@ -1500,47 +1426,43 @@ with only a few small changes.
 &lt;p&gt;For anything as important as your health, starting simple is the best foundation. You have one body, one chance. You don’t have to live a monk’s life but giving your body the best chances to operate the way it’s meant to will give you the best chances to live the life you want to.&lt;/p&gt;
 &lt;p&gt;Don’t stress over your macros, don’t worry if your workout split is allowing enough recovery time, don’t get stuck in information paralysis. Fall back on the basics, on your natural foundations, and you’ll be set up to succeed brilliantly in the near future.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Steps Towards Your Best Self Part 2- Move]]></title><description><![CDATA[This is Part 2 of a small series on how to improve your life
 with only a few small changes.
- Read Part 1-Sleep here Get Up and Move Now that…]]></description><link>https://bybrandonbrown.com/writing/yourfirststeps-part2/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/yourfirststeps-part2/</guid><pubDate>Wed, 04 Jul 2018 16:15:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+Read Part 1-Sleep here Get Up and Move Now that…]]></description><link>https://bybrandonbrown.com/writing/yourfirststeps-part2/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/yourfirststeps-part2/</guid><pubDate>Wed, 04 Jul 2018 16:15:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;This is Part 2 of a small series on how to improve your life
 with only a few small changes.
 &lt;a href=&quot;../yourfirststeps-part1/&quot;&gt;Read Part 1-Sleep here&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Get Up and Move&lt;/h2&gt;
 &lt;p&gt;Now that you’re rested, it’s time to use all of that new found energy. Let’s take a look at where you most likely stand on the activity scale right now. Well, that’s odd, it says you’re sitting.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/volkan-olmez-101863-unsplash-modified-5fef2dfaf930a8fe3a5af9948de0012c-49927.jpg&quot;
+    href=&quot;/static/5fef2dfaf930a8fe3a5af9948de0012c/29d31/volkan-olmez-101863-unsplash-modified.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 45.714285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFtOBgqJNCv/8QAGBAAAwEBAAAAAAAAAAAAAAAAAQIRABD/2gAIAQEAAQUCJiW4MoHf/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQMBAT8BU//EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAECAQE/AUv/xAAZEAABBQAAAAAAAAAAAAAAAAAAASAxMkH/2gAIAQEABj8CTSxLP//EABkQAQEBAAMAAAAAAAAAAAAAAAERABAhQf/aAAgBAQABPyEexZ5cSFFmPk3HP//aAAwDAQACAAMAAAAQv/8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREA/9oACAEDAQE/EFrhhJv/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EDQnXb//xAAaEAEAAwEBAQAAAAAAAAAAAAABABExQWEh/9oACAEBAAE/EK2L1rb5wvyGHHanTyOGtra2zJDkdn//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFtOBgqJNCv/8QAGBAAAwEBAAAAAAAAAAAAAAAAAQIRABD/2gAIAQEAAQUCJiW4MoHf/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQMBAT8BU//EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAECAQE/AUv/xAAZEAABBQAAAAAAAAAAAAAAAAAAASAxMkH/2gAIAQEABj8CTSxLP//EABkQAQEBAAMAAAAAAAAAAAAAAAERABAhQf/aAAgBAQABPyEexZ5cSFFmPk3HP//aAAwDAQACAAMAAAAQv/8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREA/9oACAEDAQE/EFrhhJv/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EDQnXb//xAAaEAEAAwEBAQAAAAAAAAAAAAABABExQWEh/9oACAEBAAE/EK2L1rb5wvyGHHanTyOGtra2zJDkdn//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Original Photo by Volkan Olmez on Unsplash&quot;
-        title=&quot;&quot;
-        src=&quot;/static/volkan-olmez-101863-unsplash-modified-5fef2dfaf930a8fe3a5af9948de0012c-f8fb9.jpg&quot;
-        srcset=&quot;/static/volkan-olmez-101863-unsplash-modified-5fef2dfaf930a8fe3a5af9948de0012c-e8976.jpg 148w,
-/static/volkan-olmez-101863-unsplash-modified-5fef2dfaf930a8fe3a5af9948de0012c-63df2.jpg 295w,
-/static/volkan-olmez-101863-unsplash-modified-5fef2dfaf930a8fe3a5af9948de0012c-f8fb9.jpg 590w,
-/static/volkan-olmez-101863-unsplash-modified-5fef2dfaf930a8fe3a5af9948de0012c-49927.jpg 700w&quot;
+        title=&quot;Original Photo by Volkan Olmez on Unsplash&quot;
+        src=&quot;/static/5fef2dfaf930a8fe3a5af9948de0012c/1c72d/volkan-olmez-101863-unsplash-modified.jpg&quot;
+        srcset=&quot;/static/5fef2dfaf930a8fe3a5af9948de0012c/a80bd/volkan-olmez-101863-unsplash-modified.jpg 148w,
+/static/5fef2dfaf930a8fe3a5af9948de0012c/1c91a/volkan-olmez-101863-unsplash-modified.jpg 295w,
+/static/5fef2dfaf930a8fe3a5af9948de0012c/1c72d/volkan-olmez-101863-unsplash-modified.jpg 590w,
+/static/5fef2dfaf930a8fe3a5af9948de0012c/29d31/volkan-olmez-101863-unsplash-modified.jpg 700w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Did you know that most Americans will walk less than 1 mile per day? Think about this, in roughly 16 hours of conscious time you have managed to not sit at a desk, in a car, or otherwise be stationary for more than 1 mile. Starting to see why your body doesn’t feel great?&lt;/p&gt;
 &lt;p&gt;Moving is what our bodies are made to do. Everything we have evolved to overcome and specialize in has been in the name of movement. In our modern culture, there isn’t the same impetus as chasing down your family’s next meal while carrying your world on your back.&lt;/p&gt;
 &lt;h2&gt;It Takes Moves to Solve Problems&lt;/h2&gt;
@@ -1556,43 +1478,39 @@ with only a few small changes.
 &lt;li&gt;Build it in: Fit movement into your busy day. Many people skip the elevator and take the stairs. If you’re able, walk to the local coffee shop in the afternoon instead of reaching for your office or home-brewed cup. Take the kids outside and play a game of soccer with them, but actually play with them!&lt;/li&gt;
 &lt;li&gt;Get addicted: After every session, no matter how hard, easy, or sweat inducing, tell yourself it was worth it. Mentally train your body to love movement. Be proud of your accomplishments, no matter how big or small they are. They’re your accomplishments to use as fuel to power the next. Your brain is magic, but it can still be tricked.&lt;/li&gt;
 &lt;li&gt;Hydrate: Drink your water, and lots of it. Don’t reach for sugar-filled juices and sports drinks. Straight, plain-ol’ water is the treat your body wants after any workout. However, there are many studies showing that your body craves minerals after losing them to sweat and energy creation for workouts, so grab some mineral water if you can!&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[First Steps Towards Your Best Self Part 1- Sleep]]></title><description><![CDATA[Where to start learning how to live your life to its full potential. Google? Let’s try “How to start working out.” Is learning how to better…]]></description><link>https://bybrandonbrown.com/writing/yourfirststeps-part1/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/yourfirststeps-part1/</guid><pubDate>Wed, 04 Jul 2018 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Where to start learning how to live your life to its full potential. Google? Let’s try “How to start working out.”&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[First Steps Towards Your Best Self Part 1- Sleep]]></title><description><![CDATA[Where to start learning how to live your life to its full potential. Google? Let’s try “How to start working out.”  Is learning how to…]]></description><link>https://bybrandonbrown.com/writing/yourfirststeps-part1/</link><guid isPermaLink="false">https://bybrandonbrown.com/writing/yourfirststeps-part1/</guid><pubDate>Wed, 04 Jul 2018 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Where to start learning how to live your life to its full potential. Google? Let’s try “How to start working out.”&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-3920a.jpg&quot;
+    href=&quot;/static/e051bbbe1a107c7612b61f139ff1a62a/3bf57/googlesearch.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 25.652841781874038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3aAD/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFhAAAwAAAAAAAAAAAAAAAAAAABAR/9oACAEBAAE/IVD/2gAMAwEAAgADAAAAEAAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRAAAwADAAAAAAAAAAAAAAAAAAERQVFx/9oACAEBAAE/EJHciT2dH//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.675675675675674%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAFABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3aAD/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFxAAAwEAAAAAAAAAAAAAAAAAABARQf/aAAgBAQABPyHVD//aAAwDAQACAAMAAAAQAA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAACAgMAAAAAAAAAAAAAAAAAARExQVFx/9oACAEBAAE/EKlkSezo/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Google Search How To Start Working Out&quot;
-        title=&quot;&quot;
-        src=&quot;/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-f8fb9.jpg&quot;
-        srcset=&quot;/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-e8976.jpg 148w,
-/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-63df2.jpg 295w,
-/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-f8fb9.jpg 590w,
-/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-85e3d.jpg 885w,
-/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-d1924.jpg 1180w,
-/static/googlesearch-e051bbbe1a107c7612b61f139ff1a62a-3920a.jpg 1302w&quot;
+        title=&quot;Google Search How To Start Working Out&quot;
+        src=&quot;/static/e051bbbe1a107c7612b61f139ff1a62a/1c72d/googlesearch.jpg&quot;
+        srcset=&quot;/static/e051bbbe1a107c7612b61f139ff1a62a/a80bd/googlesearch.jpg 148w,
+/static/e051bbbe1a107c7612b61f139ff1a62a/1c91a/googlesearch.jpg 295w,
+/static/e051bbbe1a107c7612b61f139ff1a62a/1c72d/googlesearch.jpg 590w,
+/static/e051bbbe1a107c7612b61f139ff1a62a/a8a14/googlesearch.jpg 885w,
+/static/e051bbbe1a107c7612b61f139ff1a62a/fbd2c/googlesearch.jpg 1180w,
+/static/e051bbbe1a107c7612b61f139ff1a62a/3bf57/googlesearch.jpg 1302w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Is learning how to better yourself really so complicated, that we need to cipher through millions of pieces of results? How do you even know that any of those articles, papers, blog posts, podcasts, or videos will be the right method for you to achieve your goals?&lt;/p&gt;
 &lt;p&gt;Splits, HIIT, keto, 3x8, push-pull, anabolic, CrossFit- what is all this? Guess you’ll need to pay an expert to help you get started. Maybe the gym down the road can help, but you don’t feel comfortable working out with others. Oh boy, there it is again: Where do you start?&lt;/p&gt;
 &lt;h2&gt;Keep It Simple&lt;/h2&gt;
