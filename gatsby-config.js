@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: 'The Personal Website of Brandon Brown',
+    author: 'Brandon Brown',
+    description: 'Brandon is a designer and developer focusing his work on creating better systems for education and health.',
+    siteUrl: 'https://bybrandonbrown.com',
   },
+  pathPrefix: '/brandonbrown.github.io',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -26,35 +28,11 @@ module.exports = {
         name: 'bkmk'
       }
     },
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-plugin-mailchimp',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        cssLoaderOptions: {
-          camelCase: false,
-        },
-      },
+          endpoint: 'https://bybrandonbrown.us4.list-manage.com/subscribe/post?u=f45bedd886bea1513fe97f2cd&amp;id=3ca21fd695', // add your MC list endpoint here; see instructions below
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -78,9 +56,28 @@ module.exports = {
         ],
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        precision: 8,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-46993813-1`,
+      },
+    },
+    `gatsby-plugin-feed`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography',
+      },
+    },
   ],
 }
