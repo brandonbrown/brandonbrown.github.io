@@ -5,6 +5,7 @@ import Link from 'gatsby-link'
 // import 'typeface-merriweather'
 
 import { rhythm } from '../utils/typography'
+import link from '../assets/link.svg'
 
 export default class FrontBlock extends React.Component {
   render() {
@@ -26,9 +27,8 @@ export default class FrontBlock extends React.Component {
                    fontFamily: 'hk_groteskbold'
                  }}>
                     <Link style={{
-                      color: `${this.props.textColor}`,
-                      textTransform: 'uppercase'
-                    }} to={`writing/${post.frontmatter.path}`}>{post.frontmatter.title}</Link>
+                      color: `${this.props.textColor}`
+                    }} to={`writing/${post.frontmatter.path}`}><img className="linkIcon" src={link} />{post.frontmatter.title}</Link>
                     <br /><br />
 
                     <span style={{

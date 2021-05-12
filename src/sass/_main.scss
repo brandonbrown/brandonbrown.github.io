@@ -229,7 +229,6 @@ main {
       flex-direction: column;
       box-sizing: border-box;
       // padding: .75rem 1.5rem;
-
       a.frontBlockLink {
         box-shadow: none;
         font-family: 'hk_groteskbold';
@@ -298,6 +297,7 @@ main {
         }
 
       }
+      
       h2 {
         font-size: 1rem;
         font-family: 'hk_grotesksemibold';
@@ -313,6 +313,28 @@ main {
           font-family: 'hk_groteskbold';
           margin-bottom: 1rem;
         }
+
+        a {
+          color: white;
+          height: auto;
+          box-shadow: none;
+          text-decoration: none;
+          text-transform: unset;
+          font-weight: 900;
+          font-family: 'hk_groteskregular';
+
+          img {
+            height: .65rem;
+            display: inline;
+            margin-bottom: .0rem;
+            margin-right: .5rem;
+          }
+
+          &:hover {
+            box-shadow: 0 3px 0 5px rgba(255,255,255,1);
+          }
+        }
+
       }
     }
 

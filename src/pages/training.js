@@ -7,6 +7,8 @@ import '../sass/s.scss'
 
 // import logo from '../assets/logo.svg'
 import mmf from '../assets/training/mmf-logo-red.svg'
+import hdf from '../assets/training/hdf-logo.png'
+
 import Layout from "../components/layout"
 
 export default function Training() {
@@ -17,7 +19,7 @@ export default function Training() {
         <div className="article-wrapper">
           <header>
             <h1>Self-autonomy and personal achievement are the secret-sauce to long-term health and fitness success.</h1>
-            <h2>Everyday, people make small sacrifices to their personal well-being due to a lack of self-autonomy. Not being able to reach a shelf, unable to climb the stairs, knee-pain keeping them on the couch, or a lack of energy to get out of bed and do&mdash;anything. This is where personal trainers change lives and why I have a life goal of creating a new way to show people their full potential and help them to reach it: MinMaxFit.</h2>
+            <h2>Everyday, people make small sacrifices to their personal well-being due to a lack of self-autonomy or life and its responsibilites getting in the way. Not being able to reach a shelf, unable to climb the stairs, knee-pain keeping them on the couch, or a lack of energy to get out of bed and do&mdash;anything are a hard way to fell you're giving life your all. This is where personal trainers and health &amp; fitness professionals change lives and enabling people to know their full potential. Two personal projects of mine aim to help people overcome many of these everday hurdles: MinMaxFit and Happy Dad Fitness.</h2>
           </header>
           <div className="fullWidthImage">
             <span>
@@ -59,13 +61,67 @@ export default function Training() {
           </div>
           <main>
 
-            {/*<div className="article-left">
-              <p>Over at <a href="https://minmaxfit.com">MinMaxFit</a>, I'm helping people to better their lives and meet goals that they can be proud of.</p>
-              <p>Personal health is one of the most important endeavours you can strive for during your lifetime.</p>
+            <div className="article-left">
+              <p>Over at <a href="https://minmaxfit.com">MinMaxFit</a>, I'm helping people to better their lives and meet the health &amp; fitness goals they've been chasing without success until now. MinMaxFit is a suite of tools combining all aspects of my backgrounds in Personal Training, Development, Design, and User Behavior Change.</p>
+              <p>Additionally, MinMaxFit will further the development of an engaging system of motivators and fitness indicators eventually supported by AI technologies. Overtime, the technology behind MinMaxFit will become one of the premier smart-services of the health, fitness, and sports industries.</p>
             </div>
-            */}
+           
             <blockquote>
-              More information coming soon&mdash;this page is under-construction.
+              More from minmaxfit.com coming soon&mdash;this project has entered a new phase of construction.
+            </blockquote>
+          </main>
+        </div>
+        <div className="article-wrapper">
+          <header>
+            {/* <h2>Happy wife, happy life.</h2> */}
+          </header>
+          <div className="fullWidthImage hdf">
+            <span>
+              <img src={hdf} alt="HappyDadFitness Logo" />
+              <a href="https://happydadfitness.com/">Visit HappyDadFitness.com to learn more</a>
+            </span>
+            <Particles
+            params={{
+              "particles": {
+                  "number": {
+                      "value": 860,
+                      "density": {
+                          "enable": true
+                      }
+                  },
+                  "color":{
+                      "value": "#fff",
+                      "opacity": .7
+                  },
+                  "size": {
+                      "value": 1,
+                      "random": false,
+                      "anim": {
+                          "speed": 10,
+                          "size_min": 0.25
+                      }
+                  },
+                  "line_linked": {
+                      "enable": false
+                  },
+                  "move": {
+                      "random": true,
+                      "speed": .001,
+                      "direction": "top",
+                      "out_mode": "out"
+                  }
+              }
+          	}} />
+          </div>
+          <main>
+
+            <div className="article-left">
+              <p>Sometimes Dad needs time to focus on himself. At <a href="https://happydadfitness.com">HappyDadFitness</a> I share tools, thoughts, strategies and other information with those who find themselves in the role of fatherhood. As a person always being looked to as a guide, it's important for dad to be a model of consistently striving to better themselves. To be the person showing all the kids in their life what happens when determination, hard work, and caring come together in one person.</p>
+              <p>The mission of HappyDadFitness is to give dads the tools they need to grow their personal happiness, self-satisfaction, and joy of the world so they may raise children that will mirror the positivity and opportunity that comes with growing up in an environment filled with these feelings.</p>
+            </div>
+           
+            <blockquote>
+              <a href="https://twitter.com/happydadfit">Read more from HappyDadFitness</a> on twitter!
             </blockquote>
           </main>
         </div>
@@ -74,14 +130,3 @@ export default function Training() {
     </Layout>
   );
 }
-
-// const Writing = ({ children }) => (
-//     <div className="content-wrapper consumer-page">
-//       <h1>Notes on the Audio Books &amp; Podcasts I've Listened To</h1>
-//       <section className="consumer-container">
-//         <h2>2019</h2>
-//
-//
-//       </section>
-//     </div>
-// )

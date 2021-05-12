@@ -20,9 +20,9 @@ class Footer extends React.Component {
             <ul className="sociallinks">
               <li>twitter <span>&mdash;</span> <a href="https://twitter.com/bybrandonbrown" title="Follow Brandon on twitter">@bybrandonbrown</a></li>
               <li>dribbble <span>&mdash;</span> <a href="https://dribbble.com/brandonbrown" title="Follow Brandon on dribbble">@brandonbrown</a></li>
-              <li>medium <span>&mdash;</span> <a href="https://medium.com/@bybrandonbrown" title="Folow Brandon on Medium">@bybrandonbrown</a></li>
+              <li>linkedin <span>&mdash;</span> <a href="https://www.linkedin.com/in/bybrandonbrown/" title="Meet Brandon on LinkedIn">@bybrandonbrown</a></li>
               <li>github <span>&mdash;</span> <a href="http://github.com/brandonbrown" title="Follow Brandon on GitHub">@brandonbrown</a></li>
-              <li>instagram <span>&mdash;</span> <a href="https://instagram.com/heyinstructor" title="Follow Brandon on instagram">@heyinstructor</a></li>
+              <li>instagram <span>&mdash;</span> <a href="https://instagram.com/heyinstructor" title="Follow Brandon at heyinstructor on instagram">@heyinstructor</a></li>
               <li>youtube <span>&mdash;</span> <a href="#">@PointLinePlaneXYZ</a></li>
               <li>email <span>&mdash;</span> <a href="mailto:hello@bybrandonbrown.com">hello@bybrandonbrown.com</a></li>
             </ul>

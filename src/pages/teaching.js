@@ -18,8 +18,8 @@ export default function Teaching() {
       <section className="myTeaching">
         <div className="article-wrapper">
           <header>
-            <h1>I help designers think deeper, developers comprehend further, and support people on their journey to satisfying careers and professional fulfillment.</h1>
-            <h2>To be an effective teacher, you must meet people where they are naturally comfortable, personally safe, happy, and energized to learn. This is why you'll find me on various platforms:</h2>
+            <h1>I help designers think deeper, developers comprehend further, shift business perspectives, and support people on their journey to satisfying careers and professional fulfillment.</h1>
+            <h2>Find me and the <em>free</em> learning content I've shared across these platforms:</h2>
 
             <Particles
               width="100%"
@@ -81,17 +81,48 @@ export default function Teaching() {
                 <h3><a href="https://www.twitter.com/heyinstructor/" title="@heyinstructor on twitter">Twitter</a></h3>
               </li>
               <li>
-                <h3><a href="https://Facebook.com/" title="heyinstructor on Facebook">Facebook</a></h3>
+                <h3><a href="https://facebook.com/" title="heyinstructor on Facebook">Facebook</a></h3>
               </li>
               <li>
-                <h3><a href="https://medium.com/@bybrandonbrown" title="brandon on medium">Medium</a></h3>
+                <h3><a href="https://github.com/brandonbrown" title="Brandon on Github ">Github</a></h3>
               </li>
             </ol>
-            <h3>The Best Way To Learn&mdash;Is To Teach!</h3>
+            <h1>Modern Technology Courses Designed For Your Individual Learning Needs</h1>
+
+            <p>As you start to learn more about the technology behind today's always-growing digital worlds, you also start to see how much you don't know.</p>
+            <p>For many, that feeling becomes so overwhelming that they stop before finding that special combination of powerful skill-sets and their own unique life experience and worldviews coming together.</p>
+            <p>My goal is to help you through that sense of overwhelm and to give you the tools to continue growing in a meaningful and professional direction.</p>
+            <p>We'll achieve this growth together, understanding there are different needs for individual learners. It will never be your fault or short-coming if you can't comprehend a topic. Through the use of different types of content, communication, and 1-on-1 mentoring I will help you to bring your skills up to a fulfilling level and get you heading towards new successes.</p>
+
+            <h4>Upcoming Courses</h4>
+            <h3>People Centered Design</h3>
+            <p>Great design helps people you'll never meet to solve problems, to simplify the complex, and give them the ability to enjoy life just a little bit more than they otherwise would in a world without your design. This course is designed to show you how to seek out these opportunities to ease people's day to day lives. We'll explore solutions in both the physical and digital worlds and how solutions between the two are becoming more and more common. Most importantly, you'll learn to empathize and understand the lives of different types of people and how asking the right questions may empower more people than you could have ever imagined.</p>
             <blockquote>
-              New Courses Coming 2020!
+              Get a dose of design foundations starting summer 2021. <a href="https://www.twitter.com/heyinstructor/" title="@heyinstructor on twitter">Let me know you're interested in this course!</a>
             </blockquote>
 
+            <h3>An Introduction to Web Development</h3>
+            <p>The foundations of the web haven't changed in decades, but they have evolved. In this course we'll discuss the basics of building with web technologies, also known as Front-End Development. We will work directly with HTML, CSS, JavaScript, databases, and servers. We will also examine common problems unique to web design and development such as debugging code, managing code, creating sites that work for different types of devices, and how important standards such as WCAG and security protocols will impact your work. By the end you'll have just enough knowledge to build a simple website and have the ability to share it, too! Additionally, included are lessons on how to use modern workflow helpers to give you a few more tricks for your sleeves.</p>
+            <blockquote>
+              Learn what it takes to create hand-made websites late 2021. <a href="https://www.twitter.com/heyinstructor/" title="@heyinstructor on twitter">Let me know you're interested in this course!</a>
+            </blockquote>
+
+            <h3>User-Experience Design</h3>
+            <p>Before you started down the path of learning design, you may have thought it was only making things look <em>"nice"</em>. Quickly you will have learned that most of your time is spent planning, understanding, and wondering why people still love to use <em>"ugly"</em> websites and apps. User Experience Design gives you the tools and systems to build the right features, with the right appearance, for the right people, and at the right time. This course will cover the foundational aspects of research, data analysis, design thinking, how to build prototypes, and how to share this information with stakeholders and other key decision makers.</p>
+            <blockquote>
+              Learn UX Design with me starting late 2021. <a href="https://www.twitter.com/heyinstructor/" title="@heyinstructor on twitter">Let me know you're interested in this course!</a>
+            </blockquote>
+
+            </section>
+            <section>
+              <h4>Upcoming Micro-Courses</h4>
+              <ul>
+                <li><h3>Figma And Prototyping Applications</h3></li>
+                <li><h3>Building Sites With Webflow</h3></li>
+                <li><h3>Basics of Shopify Theme Development</h3></li>
+                <li><h3>Run An Empowering Design Sprint</h3></li>
+                <li><h3>Make Your Clients' Winners With Brand Strategy</h3></li>
+              </ul>
             </section>
           </main>
 
