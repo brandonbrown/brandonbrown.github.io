@@ -30,6 +30,14 @@ export default function About() {
           <li>Multimedia Designer <span>EarthCam</span></li>
           <li><a href="https://www.linkedin.com/in/bybrandonbrown/" title="Brandon's LinkedIn Profile">Visit LinkedIn Profile</a></li>
         </ul>
+        <h2>Recent Launches</h2>
+        <ul>
+          <li><a href="https://integrativepeptides.com/" target="_blank" rel="noopener">Integrative Peptides</a></li>
+          <li><a href="https://lumaandleaf.com/" target="_blank" rel="noopener">Luma &amp; Leaf</a></li>
+          <li><a href="https://holtraceuticals.com/" target="_blank" rel="noopener">Holtraceuticals</a></li>
+          <li><a href="https://www.venueedgepro.com/" target="_blank" rel="noopener">Venue Edge</a></li>
+          <li><a href="https://www.shopstands.com/" target="_blank" rel="noopener">Stands</a></li>
+        </ul>
         <h2>Contact</h2>
         <ul>
           <li><a href="mailto:hello@bybrandonbrown.com">hello@bybrandonbrown.com</a></li>
