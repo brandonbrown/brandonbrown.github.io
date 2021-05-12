@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{394:function(t,e){t.exports={data:{site:{siteMetadata:{title:"The Personal Website of Brandon Brown"}},allMarkdownRemark:{edges:[{node:{excerpt:"Where to start learning how to live your life to its full potential. Google? Let’s try “How to start working out.” Is learning how to better…",fields:{slug:"/yourfirststeps-part1/"},frontmatter:{date:"04 July, 2018",title:"First Steps Towards Your Best Self Part 1- Sleep"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-e24d32a1c3cd2dab3d6f.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0xf8736f258178],{265:function(e,t,a){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function r(){return l.default.createElement("div",{className:"content-wrapper creator-page"},l.default.createElement("h1",null,"Creating"))}t.__esModule=!0,t.default=r;var u=a(1),l=n(u),c=a(11);n(c),a(9);a(14);var f=a(20),o=(n(f),a(57));n(o);e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-creating-js-415076de3b315d56cbad.js.map

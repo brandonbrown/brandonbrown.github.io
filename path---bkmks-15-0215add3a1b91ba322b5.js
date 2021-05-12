@@ -1,2 +1,0 @@
-webpackJsonp([31947339502611],{513:function(e,t){e.exports={data:{site:{siteMetadata:{title:"The Personal Website of Brandon Brown",author:"Brandon Brown"}},markdownRemark:null},pathContext:{slug:"/bkmks/15/",category:"Resources",previous:{fields:{slug:"/writing/5-basics-for-beginners/"},frontmatter:{title:"Five Basics Every Exercise Beginner Should Start With",category:"Fitness",posttype:"writing"}},next:null}}}});
-//# sourceMappingURL=path---bkmks-15-0215add3a1b91ba322b5.js.map
