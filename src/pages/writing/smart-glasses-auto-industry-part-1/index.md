@@ -2,7 +2,7 @@
 posttype: "writing"
 title: Smart Glasses And The Auto Industry Part 1
 path: smart-glasses-auto-industry-part-1
-date: "2020-06-15T20:00:00"
+date: "2020-06-15T21:00:00"
 category: Explorations
 ---
 
@@ -63,9 +63,11 @@ Volkswagen AG, or VAG, brings within it a list of brands that when combined brin
 
 Then I learned more about Zhejiang Geely Holding Group, also known as Geely, and I started to wonder. Could they actually pull this off? At first I dismissed them with my first research only pointing to Volvo, Polestar, and Lotus as their autobrands. That’s where I nearly went wrong- deeper research shows their reach into many industries but there are two other things that really got my attention: The Chinese ownership and their self-identified focus on becoming a Global Mobility Technology Enterprise. There’s a lot of grey area in that goal but combined with their other focuses in technological innovation and talent cultivation- they sound like they’re ready to shift the world of transportation into the future. They would be positioned well to reach mass-market appeal with new glasses technology as a safety feature with their ability to put their technology directly into the brand known worldwide for their focus on safety: Volvo. One more item of note while we’re on the topic of brands and resources, Geely also has a 9.7% stake in Daimler AG. Now Geely is really making this future competition very interesting. We can’t ignore the world political influence at play here, too. If China could position themselves as the innovator and provider of true next generation technology around the world, they would land a huge economic hit on their cross-pacific rival, the United States.
 
-Now that we have our main entrants VAG, Geely, Tesla, GM, and Daimler AG- who’s buying?
+## The Right Stuff
 
-Up Next: The Right Stuff
+Now that we have our main entrants VAG, Geely, Tesla, GM, and Daimler AG- who’s buying? In the next part of this thought exploration I'll paint a picture of who the early adopters and smart-glasses-in-my-car-is-the-coolest-thing-ever brand ambassadors will be. What problems are they hoping this technology will solve or what value will they add to their lives at both the best and worst of moments. 
+
+Coming soon: The Right Stuff
 
 
 
