@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from "react-helmet"
+
 // import Link from 'gatsby-link'
 //
 // import { rhythm, scale } from '../utils/typography'
@@ -11,6 +13,11 @@ import Layout from "../components/layout"
 
 const Watching = ({ children }) => (
   <Layout>
+  <Helmet>
+          <meta charSet="utf-8" />
+          <title>Watching</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/watching" />
+    </Helmet>
     <div className="content-wrapper consumer-page">
       <h1>Notes on the Movies, Tutorials, Documentaries, and Shows I've Watched</h1>
       <section className="consumer-container">

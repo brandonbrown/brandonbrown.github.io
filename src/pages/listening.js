@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { Helmet } from "react-helmet"
 
 // import { rhythm, scale } from '../utils/typography'
 
@@ -30,6 +31,11 @@ import Layout from "../components/layout"
 
 const Listening = ({ children }) => (
   <Layout>
+  <Helmet>
+          <meta charSet="utf-8" />
+          <title>Listening</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/listening" />
+    </Helmet>
     <div className="content-wrapper consumer-page">
       <h1>Notes on the Audio Books &amp; Podcasts I've Listened To</h1>
       <section className="consumer-container">

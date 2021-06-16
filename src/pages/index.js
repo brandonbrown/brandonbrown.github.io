@@ -1,5 +1,7 @@
 import React from 'react'
 // import { Link } from "gatsby"
+import Helmet from 'react-helmet'
+
 import FrontBlock from '../components/FrontBlock'
 // import { rhythm, scale } from '../utils/typography'
 import { graphql } from "gatsby"
@@ -30,6 +32,11 @@ const Writing = ({ data, location, children }) => {
     // }
     return (
       <Layout>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>Home</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/home" />
+    </Helmet>
       <div className="pageWrapper">
       <section className="featuredContent">
         <FrontBlock

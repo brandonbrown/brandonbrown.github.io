@@ -1,5 +1,7 @@
 import React from 'react'
-// import Link from 'gatsby-link'
+import { Helmet } from "react-helmet"
+
+import Link from 'gatsby-link'
 
 // import { rhythm, scale } from '../utils/typography'
 
@@ -13,12 +15,18 @@ import Layout from "../components/layout"
 export default function About() {
   return (
     <Layout>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>About</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/about" />
+    </Helmet>
     <div className="content-wrapper creator-page about">
       <section className="myTeaching">
         <h1>Brandon Brown is a multi-disciplinary designer, developer, and educator. He’s devoted to advancing the practice of design thinking across mediums and teaches strategic thinking through design and development at Full Sail University.</h1>
-        <h1>Currently he's working on creating a <a href="https://elitemusicaccess.com" title="Elite Music Access">better platform for creators</a>, <a href="https://minmaxfit.com">helping people celebrate their well-being</a>, and is taking on freelance projects.</h1>
+        <h1>Currently he's working on creating a <Link to="/teaching" title="Teaching">set of new design &amp; development courses</Link>, <Link to="/training">helping people celebrate their well-being</Link>, and is taking on new freelance projects &amp; User Experience oriented contracts.</h1>
       </section>
       <section className="myExperience">
+        <div>
         <h2>Experience</h2>
         <ul>
           <li>Course Director <span>Full Sail University</span></li>
@@ -30,6 +38,8 @@ export default function About() {
           <li>Multimedia Designer <span>EarthCam</span></li>
           <li><a href="https://www.linkedin.com/in/bybrandonbrown/" title="Brandon's LinkedIn Profile">Visit LinkedIn Profile</a></li>
         </ul>
+        </div>
+        <div>
         <h2>Recent Launches</h2>
         <ul>
           <li><a href="https://integrativepeptides.com/" target="_blank" rel="noopener">Integrative Peptides</a></li>
@@ -38,6 +48,8 @@ export default function About() {
           <li><a href="https://www.venueedgepro.com/" target="_blank" rel="noopener">Venue Edge</a></li>
           <li><a href="https://www.shopstands.com/" target="_blank" rel="noopener">Stands</a></li>
         </ul>
+        </div>
+        <div>
         <h2>Contact</h2>
         <ul>
           <li><a href="mailto:hello@bybrandonbrown.com">hello@bybrandonbrown.com</a></li>
@@ -45,6 +57,7 @@ export default function About() {
           <li><a href="https://www.dropbox.com/s/o1h1uw3wcwp30en/brandonbrown-resume-2019.pdf?dl=0">download resume</a></li>
 
         </ul>
+        </div>
       </section>
     </div>
     </Layout>

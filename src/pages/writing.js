@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from "react-helmet"
+
 // import Link from 'gatsby-link'
 import { graphql, Link } from "gatsby"
 // import { rhythm, scale } from '../utils/typography'
@@ -14,6 +16,11 @@ export default function Writing({ data }) {
   const { edges: writing } = data.allMarkdownRemark;
   return (
     <Layout>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>Writing</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/writing" />
+    </Helmet>
     <div className="content-wrapper creator-page">
     { writing.filter(post => post.node.frontmatter.title.length > 0)
            .map(({ node: post }) => {

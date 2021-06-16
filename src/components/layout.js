@@ -49,16 +49,16 @@ const Layout = ({ location, children }) => {
               </h1>
             </div>
             <nav>
-              <Link to="/writing/">Writing</Link>
-              <Link to="/teaching/">Teaching</Link>
-              <Link to="/training/">Personal Training</Link>
-              <Link to="/creating/">Creating</Link>
-              <Link to="/bkmks/">BKMKS</Link>
-              <Link to="/reading/">Reading</Link>
-              <Link to="/listening/">Listening</Link>
-              <Link to="/watching/">Watching</Link>
-
-              <a href="/about/">About</a>
+              <Link to="/writing/" activeClassName="active" partiallyActive={true}>Writing</Link>
+              <Link to="/teaching/" activeClassName="active" partiallyActive={true}>Teaching</Link>
+              <Link to="/training/" activeClassName="active" partiallyActive={true}>Personal Training</Link>
+              <Link to="/creating/" activeClassName="active" partiallyActive={true}>Creating</Link>
+              <Link to="/bkmks/" activeClassName="active" partiallyActive={true}>BKMKS</Link>
+              <Link to="/reading/" activeClassName="active" partiallyActive={true}>Reading</Link>
+              <Link to="/listening/" activeClassName="active" partiallyActive={true}>Listening</Link>
+              <Link to="/watching/" activeClassName="active" partiallyActive={true}>Watching</Link>
+              <Link to="/about/" activeClassName="active" partiallyActive={true}>About</Link>
+              {/* <a href="/about/">About</a> */}
             </nav>
 
         </div>

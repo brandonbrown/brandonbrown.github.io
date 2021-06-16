@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { rhythm, scale } from '../utils/typography'
 import Particles from 'react-particles-js'
+import { Helmet } from "react-helmet"
 
 import '../sass/s.scss'
 
@@ -14,6 +15,11 @@ import Layout from "../components/layout"
 export default function Training() {
   return (
     <Layout>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>Personal Training</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/training" />
+    </Helmet>
     <div className="creator-page teaching">
       <section className="myTeaching">
         <div className="article-wrapper">

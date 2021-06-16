@@ -101,6 +101,8 @@ main {
         color: white;
         height: auto;
         box-shadow: 0 0 0 0 currentColor;
+
+        
       }
     }
     span {
@@ -133,11 +135,20 @@ main {
       font-size: .65rem;
       letter-spacing: 1px;
       color: white;
+      border: 2px solid rgba(60,60,107,0);
       // background: rgba(40,40,97,.5);
       padding: 8px 12px;
       transition: all .15s;
       &:hover {
         background: rgba(60,60,107,.5);
+      }
+      &.active {
+        // color: #d92e27;
+        // background: rgba(60,60,107,.25);
+        border: 2px solid rgba(60,60,107,.75);
+        &:hover {
+          background: rgba(60,60,107,.25);
+        }
       }
     }
   }
@@ -476,8 +487,12 @@ footer {
   display: flex;
   flex-direction: row !important;
 
+  @include breakpoint(medium){
+    flex-direction: column !important;
+  }
   .myTeaching {
     flex: 4;
+    padding-top: 4rem;
     h1 {
       text-transform: none;
       text-transform: none;
@@ -492,11 +507,23 @@ footer {
         box-shadow: none;
       }
 
+      @include breakpoint(roman){
+        font-size: 1.5rem;
+      line-height: 1.4;
+      }
+
     }
   }
   .myExperience{
     flex: 1;
-
+    padding-top: 4rem;
+    @include breakpoint(medium){
+      flex-direction: row !important;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+    }
     h2 {
       width: 80%;
       margin-left: auto;
@@ -505,6 +532,9 @@ footer {
       font-weight: 900;
       font-family: 'Ilisarniq-Black';
       margin-bottom: .5rem;
+      @include breakpoint(medium){
+        width: 100%;
+      }
     }
     ul {
       width: 80%;
@@ -512,6 +542,9 @@ footer {
       list-style: none;
       font-weight: 400;
       font-size: .75rem;
+      @include breakpoint(medium){
+        width: 100%;
+      }
       li {
         margin: 0;
         span {
@@ -525,10 +558,22 @@ footer {
           box-shadow: none;
         }
       }
-      &:first-of-type {
-        li:last-of-type {
-          margin-top: .5rem;
+
+      
+      // &:first-of-type {
+      //   li:last-of-type {
+      //     margin-top: .5rem;
+      //   }
+      // }
+    }
+    > div {
+      @include breakpoint(medium){
+        width: 28%;
+        min-width: 125px;
+        &:first-of-type {
+          min-width: 250px;
         }
+        // flex: 1;
       }
     }
   }

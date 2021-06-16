@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-// import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 // import { rhythm, scale } from '../utils/typography'
 
@@ -16,6 +16,11 @@ export default function Bkmks({ data }) {
   const { edges: bkmks } = data.allMarkdownRemark;
   return (
     <Layout>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>BKMKS</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/bkmks" />
+    </Helmet>
     <div className="content-wrapper creator-page bkmk-list">
     <header>
       <h1>BKMKS</h1>

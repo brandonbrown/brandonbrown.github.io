@@ -14,6 +14,11 @@ import Layout from "../components/layout"
 export default function Teaching() {
   return (
     <Layout>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>Teaching</title>
+          <link rel="canonical" href="https://bybrandonbrown.com/teaching" />
+    </Helmet>
     <div className="creator-page teaching">
       <section className="myTeaching">
         <div className="article-wrapper">
