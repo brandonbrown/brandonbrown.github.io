@@ -2,7 +2,7 @@
 posttype: "writing"
 title: Smart Glasses And The Auto Industry Part 1
 path: smart-glasses-auto-industry-part-1
-date: "2020-06-15T21:00:00"
+date: "2021-06-15T21:00:00"
 category: Explorations
 ---
 
