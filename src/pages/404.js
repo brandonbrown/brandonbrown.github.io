@@ -1,33 +1,18 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from 'react'
+import { Link } from 'gatsby'
+import { Layout } from '../components/common'
 
 const NotFoundPage = () => (
-  <Layout>
-    <Helmet>
-          <meta charSet="utf-8" />
-          <title>Page Not Found</title>
-          <link rel="canonical" href="https://bybrandonbrown.com/404" />
-    </Helmet>
-    <div className="content-wrapper" style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center'
-    }}>
-      <SEO title="404: Not found" />
-      <h1 style={{
-      textAlign: 'center',
-      padding: '5rem'
-    }}>There is nothing of importance here. <span style={{
-      textAlign: 'center',
-      fontSize: '1rem',
-      display: 'block'
-    }}>Except for you, you are important. ☺️</span></h1>
-    </div>
-    
-  </Layout>
+    <Layout>
+        <div className="container">
+            <article className="content" style={{ textAlign: `center` }}>
+                <h1 className="content-title">Error 404</h1>
+                <section className="content-body">
+                    Page not found, <Link to="/">return home</Link> to start over
+                </section>
+            </article>
+        </div>
+    </Layout>
 )
 
 export default NotFoundPage
