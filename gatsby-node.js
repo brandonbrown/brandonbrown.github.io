@@ -64,6 +64,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const authorTemplate = path.resolve(`./src/templates/author.js`)
     const pageTemplate = path.resolve(`./src/templates/page.js`)
     const postTemplate = path.resolve(`./src/templates/post.js`)
+    const articlesTemplate = path.resolve(`./src/templates/articles.js`)
 
     // Create tag pages
     tags.forEach(({ node }) => {
@@ -116,23 +117,40 @@ exports.createPages = async ({ graphql, actions }) => {
         // This part here defines, that our pages will use
         // a `/:slug/` permalink.
         node.url = `/${node.slug}/`
-
-        createPage({
-            path: node.url,
-            component: pageTemplate,
-            context: {
-                // Data passed to context is available
-                // in page queries as GraphQL variables.
-                slug: node.slug,
-            },
-        })
+        console.log("node slug", node.slug)
+        if (node.slug === `blog`){
+            // Create pagination
+            paginate({
+                createPage,
+                items: posts,
+                itemsPerPage: postsPerPage,
+                component: articlesTemplate,
+                pathPrefix: ({ pageNumber }) => {
+                    if (pageNumber === 0) {
+                        return `/blog`
+                    } else {
+                        return `/blog/page`
+                    }
+                },
+            })
+        } else {
+            createPage({
+                path: node.url,
+                component: pageTemplate,
+                context: {
+                    // Data passed to context is available
+                    // in page queries as GraphQL variables.
+                    slug: node.slug,
+                },
+            })
+        }
     })
 
     // Create post pages
     posts.forEach(({ node }) => {
         // This part here defines, that our posts will use
         // a `/:slug/` permalink.
-        node.url = `/${node.slug}/`
+        node.url = `/blog/${node.slug}/`
 
         createPage({
             path: node.url,
@@ -145,18 +163,13 @@ exports.createPages = async ({ graphql, actions }) => {
         })
     })
 
-    // Create pagination
-    paginate({
-        createPage,
-        items: posts,
-        itemsPerPage: postsPerPage,
+    createPage({
+        path: '/',
         component: indexTemplate,
-        pathPrefix: ({ pageNumber }) => {
-            if (pageNumber === 0) {
-                return `/`
-            } else {
-                return `/page`
-            }
+        context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: '/',
         },
     })
 }
