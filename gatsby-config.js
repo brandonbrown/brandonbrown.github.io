@@ -48,6 +48,7 @@ module.exports = {
                 name: `pages`,
             },
         },
+        'gatsby-plugin-postcss',
         // Setup for optimised images.
         // See https://www.gatsbyjs.org/packages/gatsby-image/
         {
