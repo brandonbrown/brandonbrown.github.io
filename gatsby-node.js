@@ -65,6 +65,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const pageTemplate = path.resolve(`./src/templates/page.js`)
     const postTemplate = path.resolve(`./src/templates/post.js`)
     const articlesTemplate = path.resolve(`./src/templates/articles.js`)
+    const bkmksTemplate = path.resolve(`./src/templates/bkmks.js`)
+    const workTemplate = path.resolve(`./src/templates/work.js`)
 
     // Create tag pages
     tags.forEach(({ node }) => {
@@ -133,7 +135,37 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 },
             })
-        } else {
+        } else if (node.slug === `bkmks`){
+            // Create pagination
+            paginate({
+                createPage,
+                items: posts,
+                itemsPerPage: postsPerPage,
+                component: bkmksTemplate,
+                pathPrefix: ({ pageNumber }) => {
+                    if (pageNumber === 0) {
+                        return `/bkmks`
+                    } else {
+                        return `/bkmks/page`
+                    }
+                },
+            })
+        } else if (node.slug === `work`){
+            // Create pagination
+            paginate({
+                createPage,
+                items: posts,
+                itemsPerPage: postsPerPage,
+                component: workTemplate,
+                pathPrefix: ({ pageNumber }) => {
+                    if (pageNumber === 0) {
+                        return `/work`
+                    } else {
+                        return `/work/page`
+                    }
+                },
+            })
+        }else {
             createPage({
                 path: node.url,
                 component: pageTemplate,

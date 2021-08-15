@@ -13,31 +13,25 @@ import { MetaData } from '../components/common/meta'
 * in /utils/siteConfig.js under `postsPerPage`.
 *
 */
-const Articles = ({ data, location, pageContext }) => {
+const Work = ({ data, location, pageContext }) => {
     const posts = data.allGhostPost.edges
-    console.log({data})
-    console.log({posts})
-    // const onlyPosts = posts.filter(({node}) => !node.tags.includes('bkmk'));
     const displayPosts = []
+    console.log("work posts: ", posts)
     posts.map(({node}) => {
         // console.log("test run: ", node.tags.map(tag => tag.name.includes('bkmk')))
         const bkmkCheck = node.tags.map(tag => {
-            if (!tag.name.includes('bkmk' || 'portfolio')) {
+            if (tag.name.includes('portfolio')) {
                 return displayPosts.push(node)
             }
             
         })
-        // return bkmkCheck
-        // if(!bkmkCheck.includes(true)) return node
-        // return bkmkCheck[0] === false ? node : null
-        // return node.tags.map(tag => tag.name != 'bkmk') ? node : null 
     })
     return (
         <>
             <MetaData location={location} />
             <Layout>
                 <div className="container">
-                    <h1>Articles test</h1>
+                    <h1>Work test</h1>
                     <section className="post-feed">
                         {displayPosts.map((post) => (
                             // The tag below includes the markup for each post - components/common/PostCard.js
@@ -51,7 +45,7 @@ const Articles = ({ data, location, pageContext }) => {
     )
 }
 
-Articles.propTypes = {
+Work.propTypes = {
     data: PropTypes.shape({
         allGhostPost: PropTypes.object.isRequired,
     }).isRequired,
@@ -61,12 +55,12 @@ Articles.propTypes = {
     pageContext: PropTypes.object,
 }
 
-export default Articles
+export default Work
 
 // This page query loads all posts sorted descending by published date
 // The `limit` and `skip` values are used for pagination
 export const pageQuery = graphql`
-  query GhostPostQuery($limit: Int!, $skip: Int!) {
+  query GhostWorkQuery($limit: Int!, $skip: Int!) {
     allGhostPost(
         sort: { order: DESC, fields: [published_at] },
         limit: $limit,
