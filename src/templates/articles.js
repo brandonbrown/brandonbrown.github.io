@@ -15,22 +15,17 @@ import { MetaData } from '../components/common/meta'
 */
 const Articles = ({ data, location, pageContext }) => {
     const posts = data.allGhostPost.edges
-    console.log({data})
-    console.log({posts})
-    // const onlyPosts = posts.filter(({node}) => !node.tags.includes('bkmk'));
     const displayPosts = []
     posts.map(({node}) => {
-        // console.log("test run: ", node.tags.map(tag => tag.name.includes('bkmk')))
-        const bkmkCheck = node.tags.map(tag => {
-            if (!tag.name.includes('bkmk' || 'portfolio')) {
-                return displayPosts.push(node)
+        let bkmkCheck = false;
+        bkmkCheck = node.tags.map(tag => {
+            if (tag.name.includes('bkmk') || tag.name.includes('portfolio')) {
+                return true
             }
-            
         })
-        // return bkmkCheck
-        // if(!bkmkCheck.includes(true)) return node
-        // return bkmkCheck[0] === false ? node : null
-        // return node.tags.map(tag => tag.name != 'bkmk') ? node : null 
+        if (bkmkCheck[0] != true){
+            return displayPosts.push(node)
+        }
     })
     return (
         <>
