@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import { Layout, PostCard, Pagination } from '../components/common'
+import { Hero, Layout, PostCard, Pagination } from '../components/common'
 import { MetaData } from '../components/common/meta'
+import HomeIcon from '../images/bbb-home-icon.svg'
 
 /**
 * Main index page (home page)
@@ -16,12 +17,14 @@ import { MetaData } from '../components/common/meta'
 const Index = ({ data, location, pageContext }) => {
     // const posts = data.allGhostPost.edges
 
+    const heroText = `I Help You Find Heart-Racing Ideas And Plan, Strategize, Brand, Design, and Build Them <span>Together With You</span>`;
+
     return (
         <>
             <MetaData location={location} />
             <Layout isHome={true}>
                 <div className="container">
-                    <h2 className="uppercase text-blue">Hello, static</h2>
+                    <Hero text={heroText} icon={HomeIcon} />
                 </div>
             </Layout>
         </>

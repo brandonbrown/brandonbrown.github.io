@@ -6,6 +6,8 @@ module.exports = {
     theme: {
         colors: {
             gray: colors.coolGray,
+            lightblue: `hsl(180,100%,97%)`,
+            midblue: `hsl(180,35%,85%)`,
             blue: `rgba(52, 180, 235, .5)`,
             main: `hsl(205,94%,6%)`,
             red: `hsl(2,70%,50%)`,

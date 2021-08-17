@@ -137,6 +137,42 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-Light.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('./assets/fonts/FractulAlt-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('./assets/fonts/FractulAlt-Light.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* App.css
 /* ---------------------------------------------------------- /*
 
@@ -456,13 +492,12 @@ body {
     font-style: normal;
     letter-spacing: 0;
     text-rendering: optimizeLegibility;
-    background: #fff;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga" on;
 
-    @apply font-regular;
+    @apply font-regular bg-lightblue;
 }
 
 ::selection {
@@ -618,12 +653,27 @@ h1 {
 
 h2 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2rem;
+    font-size: 4.8rem;
+    font-weight: 300;
+
+    @apply text-center;
 }
 @media (max-width: 500px) {
     h2 {
         font-size: 1.8rem;
+        font-weight: 300;
     }
+}
+
+h2 span {
+    background: linear-gradient(120deg, theme('colors.midblue') 0%, theme('colors.midblue') 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 64%;
+    background-position: 0 63%;
+    padding: 0 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    /* @apply border-midblue border-b-4 border-solid; */
 }
 
 h3 {
@@ -670,6 +720,18 @@ h6 {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 4vw;
+}
+
+.hero {
+    @apply text-center pt-28;
+}
+
+.hero img {
+    @apply m-auto;
+}
+
+.hero h2 {
+    @apply mt-4;
 }
 
 .content {
