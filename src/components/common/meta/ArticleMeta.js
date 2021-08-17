@@ -9,6 +9,8 @@ import getAuthorProperties from './getAuthorProperties'
 import ImageMeta from './ImageMeta'
 import config from '../../../utils/siteConfig'
 
+import Logo from '../../../images/bbb-logo-m21.svg'
+
 import { tags as tagsHelper } from '@tryghost/helpers'
 
 const ArticleMetaGhost = ({ data, settings, canonical }) => {

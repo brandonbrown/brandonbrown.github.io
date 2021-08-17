@@ -663,6 +663,7 @@ h6 {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    padding-top: 5rem;
 }
 
 .container {
@@ -811,18 +812,58 @@ h6 {
     background: var(--color-base);
     background-position: center;
     background-size: cover;
+    position: fixed;
+    width: calc(100% - 4rem);
+
+    box-shadow: -10px -20px 65px 12px rgba(255,255,255,1);
+    -webkit-box-shadow: -10px -20px 65px 12px rgba(255,255,255,1);
+    -moz-box-shadow: -10px -20px 65px 12px rgba(255,255,255,1);
+
+    @apply bg-main text-white font-alt font-bold px-8 m-8;
+}
+
+.site-head nav {
+    /* @apply mx-20 */
 }
 
 .site-nav-item {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0px 10px;
     color: #fff;
-    opacity: 0.7;
+    position: relative;
+    /* opacity: 0.7; */
+}
+
+.site-nav-item:after {
+    position: absolute;
+    content: '';
+
+    top: 0.35ch;
+    right: 2px;
+
+    width: 6px;
+    height: 6px;
+
+    transition: background-color .05s, transform .09s ease-in-out;
+
+    transform: scale(.25);
+
+    @apply bg-transparent rounded-full;
 }
 
 .site-nav-item:hover {
     text-decoration: none;
-    opacity: 1;
+    /* opacity: 1; */
+}
+
+.site-nav-item:hover:after {
+    transform: scale(1);
+    @apply bg-white;
+}
+
+.site-nav-item[aria-current="page"]:after {
+    transform: scale(1);
+    @apply bg-red;
 }
 
 .site-nav-icon {
@@ -838,6 +879,11 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.site-mast nav a {
+    @apply mx-2;
 }
 
 .site-mast-right {
@@ -846,7 +892,8 @@ h6 {
 }
 
 .site-mast-right .site-nav-item:last-child {
-    padding-right: 0;
+    /* padding-right: 0; */
+    @apply ml-2;
 }
 
 .site-banner {

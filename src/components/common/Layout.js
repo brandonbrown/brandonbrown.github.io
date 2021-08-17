@@ -10,6 +10,9 @@ import config from '../../utils/siteConfig'
 // Styles
 import '../../styles/app.css'
 
+//Assets
+import Logo from '../../images/bbb-logo-m21.svg'
+
 /**
 * Main layout component
 *
@@ -31,29 +34,27 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <body className={bodyClass} />
             </Helmet>
 
+            {/* The main header section on top of the screen */}
+            <header className="site-head" >
+                <div className="site-mast">
+                    <div className="site-mast-left">
+                        <Link to="/">
+                            {Logo ?
+                                <img className="site-logo" src={Logo} alt={site.title} />
+                                : site.title
+                            }
+                        </Link>
+                    </div>
+                    <Navigation data={site.navigation} navClass="site-nav-item" />
+                    <div className="site-mast-right">
+                        <Link className="site-nav-item" to="/contact">Contact</Link>
+                    </div>
+                </div>  
+            </header>
             <div className="viewport">
 
                 <div className="viewport-top">
-                    {/* The main header section on top of the screen */}
-                    <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
-                        <div className="container">
-                            <div className="site-mast">
-                                <div className="site-mast-left">
-                                    <Link to="/">
-                                        {site.logo ?
-                                            <img className="site-logo" src={site.logo} alt={site.title} />
-                                            : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
-                                        }
-                                    </Link>
-                                </div>
-                                <Navigation data={site.navigation} navClass="site-nav-item" />
-                                <div className="site-mast-right">
-                                    <Link className="site-nav-button" to="/contact">Contact</Link>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </header>
+                    
 
                     <main className="site-main">
                         {/* All the main content gets inserted here, index.js, post.js */}
