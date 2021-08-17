@@ -1,5 +1,12 @@
+export { default as ContentLargeBlock } from './ContentLargeBlock'
+export { default as ContentMediumBlock } from './ContentMediumBlock'
+export { default as ContentSmallBlock } from './ContentSmallBlock'
 export { default as Hero } from './Hero'
 export { default as Layout } from './Layout'
 export { default as PostCard } from './PostCard'
 export { default as Pagination } from './Pagination'
+export { default as PersonalIntro } from './PersonalIntro'
+export { default as TextParagraphBlock } from './TextParagraphBlock'
 export { default as Navigation } from './Navigation'
+export { default as WorkCTA } from './WorkCTA'
+

@@ -951,7 +951,14 @@ h6 {
 .site-mast-right {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
+
+.site-mast-right,
+.site-mast-left {
+    min-width: 20%;
+}
+
 
 .site-mast-right .site-nav-item:last-child {
     /* padding-right: 0; */
