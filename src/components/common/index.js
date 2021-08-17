@@ -1,6 +1,7 @@
 export { default as ContentLargeBlock } from './ContentLargeBlock'
 export { default as ContentMediumBlock } from './ContentMediumBlock'
 export { default as ContentSmallBlock } from './ContentSmallBlock'
+export { default as ContentPortfolioBlock } from './ContentPortfolioBlock'
 export { default as Hero } from './Hero'
 export { default as Layout } from './Layout'
 export { default as PostCard } from './PostCard'
