@@ -15,6 +15,10 @@ exports.createPages = async ({ graphql, actions }) => {
                 edges {
                     node {
                         slug
+                        tags {
+                            name
+                            visibility
+                        }
                     }
                 }
             }
@@ -194,17 +198,49 @@ exports.createPages = async ({ graphql, actions }) => {
     posts.forEach(({ node }) => {
         // This part here defines, that our posts will use
         // a `/:slug/` permalink.
-        node.url = `/blog/${node.slug}/`
+        // console.log("post node: ", node);
+        
 
-        createPage({
-            path: node.url,
-            component: postTemplate,
-            context: {
-                // Data passed to context is available
-                // in page queries as GraphQL variables.
-                slug: node.slug,
-            },
-        })
+        const taglist = node.tags.map(tag => tag.name)
+        console.log("post taglist: ", taglist);
+// node.url = `/blog/${node.slug}/`
+        
+        
+        console.log("CREATE BLOG PAGE: ")
+        if (taglist.includes(`bkmk`)) {
+            
+            createPage({
+                path: `/bkmks/${node.slug}/`,
+                component: postTemplate,
+                context: {
+                    // Data passed to context is available
+                    // in page queries as GraphQL variables.
+                    slug: node.slug,
+                },
+            })
+        } else if (taglist.includes(`portfolio`)) {
+            console.log("CREATE PORTFOLIO PAGE: ", taglist.includes(`portfolio`))
+            createPage({
+                path: `/work/${node.slug}/`,
+                component: postTemplate,
+                context: {
+                    // Data passed to context is available
+                    // in page queries as GraphQL variables.
+                    slug: node.slug,
+                },
+            })
+        } else {
+            console.log("CREATE BKMK PAGE: ", taglist.includes(`bkmk`))
+            createPage({
+                path: `/blog/${node.slug}/`,
+                component: postTemplate,
+                context: {
+                    // Data passed to context is available
+                    // in page queries as GraphQL variables.
+                    slug: node.slug,
+                },
+            })
+        }
     })
 
     createPage({

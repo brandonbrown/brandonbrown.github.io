@@ -35,7 +35,7 @@ const Work = ({ data, location, pageContext }) => {
             id: 0,
             title: `Title of 0`,
             intro: <div><p>Breakdown Intro and Excerpt</p></div>,
-            link: `/link-to-breakdown`,
+            link: `./portfolio-piece-test`,
             roles: [`Strategy`,`User Experience`,`Branding`,`Visual Design`],
             coverImage: `/link/to/coverimage`,
             images: [
@@ -60,7 +60,7 @@ const Work = ({ data, location, pageContext }) => {
             id: 1,
             title: `Title of 1`,
             intro: <div><p>Breakdown Intro and Excerpt</p></div>,
-            link: `/link-to-breakdown`,
+            link: `./portfolio-piece-test`,
             roles: [`Strategy`,`User Experience`,`Branding`,`Visual Design`],
             coverImage: `/link/to/coverimage`,
             images: [
@@ -85,7 +85,7 @@ const Work = ({ data, location, pageContext }) => {
             id: 2,
             title: `Title of 2`,
             intro: <div><p>Breakdown Intro and Excerpt</p></div>,
-            link: `/link-to-breakdown`,
+            link: `./portfolio-piece-test`,
             roles: [`Strategy`,`User Experience`,`Branding`,`Visual Design`],
             coverImage: `/link/to/coverimage`,
             images: [
@@ -116,11 +116,9 @@ const Work = ({ data, location, pageContext }) => {
                 </div>
                 <section className="portfolio-feed">
                     {
-                        portfolioImages.map((portfolio) => {
-                            return <ContentPortfolioBlock key={portfolio.id} portfolio={portfolio} />
-                        })
+                        portfolioImages.map(portfolio => <ContentPortfolioBlock key={portfolio.id} portfolio={portfolio} />)
                     }
-                    {displayPosts.map((post) => (
+                    {displayPosts.map(post => (
                         // The tag below includes the markup for each post - components/common/PostCard.js
                         <PostCard key={post.id} post={post} />
                     ))}
