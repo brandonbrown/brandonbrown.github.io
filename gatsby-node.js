@@ -67,6 +67,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const articlesTemplate = path.resolve(`./src/templates/articles.js`)
     const bkmksTemplate = path.resolve(`./src/templates/bkmks.js`)
     const workTemplate = path.resolve(`./src/templates/work.js`)
+    const aboutTemplate = path.resolve(`./src/templates/about.js`)
+
 
     // Create tag pages
     tags.forEach(({ node }) => {
@@ -165,7 +167,17 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 },
             })
-        }else {
+        } else if (node.slug === `about`){
+            createPage({
+                path: node.url,
+                component: aboutTemplate,
+                context: {
+                    // Data passed to context is available
+                    // in page queries as GraphQL variables.
+                    slug: node.slug,
+                },
+            })
+        } else {
             createPage({
                 path: node.url,
                 component: pageTemplate,

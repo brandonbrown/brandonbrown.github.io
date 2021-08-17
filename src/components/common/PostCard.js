@@ -17,7 +17,7 @@ const PostCard = ({ post, parentRoute }) => {
                     }}></div>}
                 {post.tags && <div className="post-card-tags"> <Tags post={post} visibility="public" autolink={false} /></div>}
                 {post.featured && <span>Featured</span>}
-                <h2 className="post-card-title">{post.title}</h2>
+                <h3 className="post-card-title">{post.title}</h3>
             </header>
             <section className="post-card-excerpt">{post.excerpt}</section>
             <footer className="post-card-footer">
