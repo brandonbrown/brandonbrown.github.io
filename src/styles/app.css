@@ -2,6 +2,141 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-Black.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-ExtraBold.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-Italic.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-Medium.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-Black.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul';
+    src: url('./assets/fonts/Fractul-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/Fractul-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-Bold.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-ExtraBold.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-Italic.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-Medium.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-MediumItalic.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FractulAlt';
+    src: url('./assets/fonts/FractulAlt-Regular.woff2') format('woff2'),
+        url('./assets/fonts/FractulAlt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* App.css
 /* ---------------------------------------------------------- /*
 
@@ -33,7 +168,8 @@ what's here to work the way you'd like it to.
     --color-bg: #f5f5f5;
 
     /* Fonts */
-    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-sans-serif: font-regular;
+    --font-alt: font-alt;
     --font-serif: Georgia, Times, serif;
     --font-mono: Menlo, Courier, monospace;
     --font-light: 100;
@@ -314,7 +450,6 @@ html {
 body {
     overflow-x: hidden;
     color: #3c484e;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.5rem;
     line-height: 1.6em;
     font-weight: 400;
@@ -326,6 +461,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga" on;
+
+    @apply font-regular;
 }
 
 ::selection {
@@ -543,7 +680,9 @@ h6 {
 .content-body {
     display: flex;
     flex-direction: column;
-    font-family: var(--font-serif);
+    /* font-family: var(--font-serif); */
+
+    @apply font-regular;
 }
 
 .post-full-content {
@@ -565,7 +704,8 @@ h6 {
 .content-body h4,
 .content-body h5,
 .content-body h6 {
-    font-family: var(--font-sans-serif);
+    /* font-family: var(--font-sans-serif); */
+    @apply font-alt;
 }
 
 .content-body h1 {
@@ -631,7 +771,6 @@ h6 {
     margin: 0.5em 0;
     padding: 1em 0 1.5em;
     border: 0;
-    font-family: Georgia,serif;
     color: var(--color-primary);
     font-style: italic;
     font-size: 3.2rem;
