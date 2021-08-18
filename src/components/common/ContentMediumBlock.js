@@ -16,7 +16,7 @@ const ContentMediumBlock = ({ text, altText, header, headerType, icon, mainImage
         }
         <TextParagraphBlock
             header={header}
-            headerType={`h4`}
+            headerType={headerType}
             text={text}
         />
     </figure>

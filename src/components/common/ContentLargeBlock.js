@@ -27,7 +27,7 @@ ContentLargeBlock.defaultProps = {
     header: `ContentLargeBlock Header Text`,
     icon: `ContentLargeBlock Hero Icon`,
     mainImage: `ContentLargeBlock Avatar`,
-    buttonText: `ContentLargeBlock buttonText`,
+    buttonText: null,
     buttonTarget: `ContentLargeBlock buttonTarget`,
     phoneText: `ContentLargeBlock phoneText`,
     phoneTarget: `ContentLargeBlock phoneTarget`,

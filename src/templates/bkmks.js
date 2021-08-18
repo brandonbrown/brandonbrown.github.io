@@ -3,16 +3,11 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import {
-    ContentLargeBlock,
-    ContentMediumBlock,
-    ContentSmallBlock,
     Hero,
     Layout,
     PostCard,
     Pagination,
-    PersonalIntro,
-    TextParagraphBlock,
-    WorkCTA } from '../components/common'
+} from '../components/common'
 import { MetaData } from '../components/common/meta'
 import HomeIcon from '../images/bbb-home-icon.svg'
 

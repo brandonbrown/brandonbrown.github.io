@@ -7,7 +7,6 @@ import { Link } from 'gatsby'
 *
 */
 const TextParagraphBlock = ({ text, header, headerType, linkText, linkTarget }) => {
-
     let renderHeader
     switch (headerType) {
     case `h1`:

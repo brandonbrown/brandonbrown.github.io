@@ -6,11 +6,8 @@ import {
     ContentPortfolioBlock,
     Hero,
     Layout,
-    PostCard,
-    Pagination,
-    PersonalIntro,
-    TextParagraphBlock,
-    WorkCTA } from '../components/common'
+    PostCard
+} from '../components/common'
 import { MetaData } from '../components/common/meta'
 import HomeIcon from '../images/bbb-home-icon.svg'
 

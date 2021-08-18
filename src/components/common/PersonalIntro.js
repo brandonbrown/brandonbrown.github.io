@@ -6,15 +6,13 @@ import { Link } from 'gatsby'
 *
 *
 */
-const PersonalIntro = ({ text, header, icon, avatar, buttonText, buttonTarget, phoneText, phoneTarget }) => (
+const PersonalIntro = ({ text, header, icon, avatar, buttonText, buttonTarget, phoneText, phoneTarget, showButtons }) => (
     <figure className="personalIntro">
         <img src={ avatar ? avatar : null } alt={`An image of Brandon`}/>
-        <h3 dangerouslySetInnerHTML={{__html: header }} />
+        <h3 dangerouslySetInnerHTML={{__html: header }} className="hi" />
         <p dangerouslySetInnerHTML={{__html: text }} />
-        <div>
-            <Link to={buttonTarget}>{ buttonText }</Link>
-            <Link to={`sms:+11112223333`}>{ phoneText }</Link>
-        </div>
+        { showButtons ? <div><Link to={buttonTarget} className="cta-button">{ buttonText }</Link><Link to={`sms:+11112223333`} className="secondary-text">{ phoneText }</Link></div> : null }
+        
     </figure>
 )
 
@@ -27,6 +25,7 @@ PersonalIntro.defaultProps = {
     buttonTarget: `Content Text`,
     phoneText: `Content Text`,
     phoneTarget: `Content Text`,
+    showButtons: true,
 }
 
 PersonalIntro.propTypes = {
@@ -38,6 +37,7 @@ PersonalIntro.propTypes = {
     buttonTarget: PropTypes.string,
     phoneText: PropTypes.string,
     phoneTarget: PropTypes.string,
+    showButtons: PropTypes.bool
 }
 
 export default PersonalIntro

@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
@@ -8,13 +9,20 @@ import {
     ContentSmallBlock,
     Hero,
     Layout,
-    PostCard,
-    Pagination,
     PersonalIntro,
     TextParagraphBlock,
     WorkCTA } from '../components/common'
 import { MetaData } from '../components/common/meta'
 import HomeIcon from '../images/bbb-home-icon.svg'
+import Avatar from '../images/bbb-avatar-bg-m21.png'
+import ph1 from '../images/placeholders/1.jpg'
+import ph2 from '../images/placeholders/2.jpg'
+import ph3 from '../images/placeholders/3.jpg'
+import ph4 from '../images/placeholders/4.jpg'
+import ph5 from '../images/placeholders/5.jpg'
+import ph6 from '../images/placeholders/6.jpg'
+import ph7 from '../images/placeholders/7.jpg'
+import ph8 from '../images/placeholders/8.jpg'
 
 /**
 * Main index page (home page)
@@ -40,31 +48,31 @@ const Index = ({ data, location, pageContext }) => {
                     {/* text, header, icon, avatar, buttonText, buttonTarget, phoneText, phoneTarget */}
                     <PersonalIntro
                         text={`A seasoned designer with expertise in creating user interfaces and experiences with background in traditional media, branding, business strategy, and providing professional education.
-`} 
+`}
                         header={`👋 Hi, I’m Brandon!`}
-                        avatar={`avatarsrc`}
+                        avatar={Avatar}
                         buttonText={`Hire Me`}
                         buttonTarget={`#`}
-                        phoneText={`Text: 1112223333`}
+                        phoneText={`Text: (111) 222-3333`}
                         phoneTarget={`1112223333`}
                     />
-                    <section>
-                        <ContentLargeBlock />
-                        <ContentLargeBlock />
-                        <ContentLargeBlock />
-                        <ContentLargeBlock />
+                    <section className="flex flex-row flex-wrap justify-center">
+                        <ContentLargeBlock mainImage={ph1} altText="Alt Text" header="UI/UX Designer & Developer" text="Est est numquam deleniti quae quas odit explicabo. Explicabo dolorem quis assumenda sed aliquid." />
+                        <ContentLargeBlock mainImage={ph2} altText="Alt Text" header="Remote Design Thinking Facilitator" text="Est est numquam deleniti quae quas odit explicabo. Explicabo dolorem quis assumenda sed aliquid." />
+                        <ContentLargeBlock mainImage={ph3} altText="Alt Text" header="Instructor at Full Sail University" text="Est est numquam deleniti quae quas odit explicabo. Explicabo dolorem quis assumenda sed aliquid." />
+                        <ContentLargeBlock mainImage={ph4} altText="Alt Text" header="Online Educator" text="Est est numquam deleniti quae quas odit explicabo. Explicabo dolorem quis assumenda sed aliquid." />
                     </section>
-                    <section>
+                    <section className="baseContent">
                         <TextParagraphBlock 
-                            header={`header text`}
-                            headerType={`h4`}
-                            text={`Main Text`}
+                            header={`Featured Work`}
+                            headerType={`h2`}
+                            text={`Est est numquam deleniti quae quas odit explicabo. Explicabo dolorem quis assumenda sed aliquid dolores et. Aperiam architecto ea. Quia aut dignissimos similique alias quos.`}
                         />
-                    </section>
-                    <section>
-                        <ContentMediumBlock/>
-                        <ContentMediumBlock/>
-                        <ContentMediumBlock/>
+                        <div className="flex flex-row justify-between">
+                            <ContentMediumBlock text="text" mainImage={ph6} />
+                            <ContentMediumBlock text="text" mainImage={ph7} />
+                            <ContentMediumBlock text="text" mainImage={ph8} />
+                        </div>
                     </section>
                     <WorkCTA />
                     <section className="largeText">

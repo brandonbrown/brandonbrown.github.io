@@ -498,6 +498,11 @@ body {
     -moz-font-feature-settings: "liga" on;
 
     @apply font-regular bg-lightblue;
+
+    background-image: url('../images/bbb-bg-m21.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
 }
 
 ::selection {
@@ -677,9 +682,24 @@ h2 span {
 }
 
 h3 {
-    margin: 1.5em 0 0.5em 0;
+    margin: 1.5em 0 0.5em;
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+.contentLargeBlock h3 {
+
+    margin: 1em -5px 0.5em;
+    font-size: 2.4rem;
+    font-weight: 700;
+    background: linear-gradient(120deg, theme('colors.midblue') 0%, theme('colors.midblue') 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 64%;
+    background-position: 0% 133%;
+    padding: 0 27px 0 5px;
+
+    display: inline-block;
+
 }
 @media (max-width: 500px) {
     h3 {
@@ -723,7 +743,7 @@ h6 {
 }
 
 .hero {
-    @apply text-center pt-28;
+    @apply text-center pt-24 pb-8;
 }
 
 .hero img {
@@ -862,6 +882,33 @@ h6 {
     background: var(--color-base);
     color: #fff;
     border-radius: 12px;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.contentLargeBlock {
+    max-width: 440px;
+    @apply mx-4 mb-16
+}
+
+.contentMediumBlock {
+    max-width: 30%;
+    @apply mb-16
+}
+
+.contentMediumBlock img {
+    width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+.baseContent h2 {
+    font-size: 2.4rem;
+    text-align: left;
+    font-weight: 700;
 }
 
 /* Header
@@ -1014,11 +1061,41 @@ h6 {
     text-decoration: none;
 }
 
+.personalIntro {
+    width: 60ch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 25rem;
+    margin: 0 auto 8rem;
+}
+
+.personalIntro img {
+    width: 120px;
+    margin-bottom: 100%;
+    margin-right: 2ch;
+}
+
+.personalIntro > p,
+.personalIntro > div {
+    padding-left: 2ch;
+}
+
 /* Main
 /* ---------------------------------------------------------- */
 
 .site-main {
     padding: 4vw 0;
+}
+
+.cta-button {
+    font-size: 1.8rem;
+    @apply bg-red font-alt text-white text-center rounded-full px-12 py-4 inline-block font-bold mr-2;
+}
+
+.secondary-text {
+    font-size: 1.8rem;
+    @apply bg-transparent font-alt text-main text-center rounded-full px-8 py-4 inline-block font-regular;
 }
 
 /* Index
