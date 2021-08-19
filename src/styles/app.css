@@ -791,9 +791,15 @@ h6 {
 }
 
 .post-full-content {
-    max-width: 720px;
+    max-width: 60ch;
     margin: 0 auto;
-    background: #fff;
+    /* background: #fff; */
+}
+
+.post-full-content .content-body p,
+.post-full-content .content-body ul,
+.post-full-content .content-body li {
+    font-size: 1.8rem;
 }
 
 .post-feature-image img {
@@ -811,6 +817,7 @@ h6 {
 .content-body h6 {
     /* font-family: var(--font-sans-serif); */
     @apply font-alt;
+    text-align: left;
 }
 
 .content-body h1 {
@@ -982,6 +989,82 @@ p {
 
 .contentList li {
     width: 48%;
+}
+
+.contentPortfolioBlock {
+    @apply flex mb-32;
+}
+
+.contentPortfolioBlock:nth-child(even),
+.contentPortfolioBlock:nth-child(even) aside {
+    @apply flex-row-reverse
+}
+
+.contentPortfolioBlock > aside {
+    width: 50%;
+    align-items: flex-end;
+    @apply flex;
+}
+
+.contentPortfolioBlock > div {
+    width: 50%;
+    @apply flex flex-col pt-12 pb-8 pl-16 pr-52;
+}
+
+.contentPortfolioBlock aside > div {
+    @apply relative;
+    z-index: 50;
+}
+
+.contentPortfolioBlock aside > div img {
+    object-fit: cover
+}
+
+.contentPortfolioBlock aside ul {
+    @apply absolute;
+    z-index: 51;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 auto;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 62.85714286%;
+    right: 50%;
+}
+
+.contentPortfolioBlock aside ul li {
+    margin-bottom: 0;
+}
+
+.contentPortfolioBlock:nth-child(even) aside ul {
+    @apply items-start;
+    align-items: flex-start;
+    left: 50%;
+    right: 0;
+    margin: 0 auto 0 0;
+}
+
+.contentPortfolioBlock:nth-child(even) > div {
+    @apply pl-52 pr-16;
+}
+
+
+.contentPortfolioBlock h2 {
+    margin-left: 0;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.contentPortfolioBlock > div > a {
+    width: 22ch;
+    @apply bg-main mt-8;
+}
+
+.contentPortfolioBlock > div > a:hover {
+    @apply bg-red
 }
 
 

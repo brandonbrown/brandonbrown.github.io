@@ -7,21 +7,23 @@ import { Link } from 'gatsby'
 *
 */
 const ContentPortfolioBlock = ({ key, portfolio }) => ( 
-    <article key={key} className="contentLargeBlock">
-        <div>
-            <img src={portfolio.coverImage} />
+    <article key={key} className="contentPortfolioBlock">
+        <aside>
+            <div>
+                <img src={portfolio.coverImage} />
+            </div>
             <ul>
-                {portfolio.images.map(image => <li key={key + portfolio.title}><img src={image} /></li>)}
+                {portfolio.images.map(image => <li key={key + portfolio.title}><img src={image.url} /></li>)}
             </ul>
-        </div>
+        </aside>
         <div>
             <h2>{portfolio.title}</h2>
             {portfolio.intro}
             <h4>Roles &amp; Responsibilities</h4>
             <ul>
-                {portfolio.roles.map(role => <li key={key + role}>{role}</li>)}
+                {portfolio.roles.map(role => <li key={`key-${role}`}>{role}</li>)}
             </ul>
-            <Link to={portfolio.link}>Take a closer look</Link>
+            <Link to={portfolio.link} className="cta-button">Take a closer look</Link>
         </div>
     </article>
 )
