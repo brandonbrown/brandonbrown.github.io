@@ -28,7 +28,7 @@ ContentSmallBlock.defaultProps = {
     header: `Content Small Block Header Text`,
     headerType: `h3`,
     icon: `Content Small Block Hero Icon`,
-    mainImage: `Content Small Block Avatar`,
+    mainImage: null,
     buttonText: `Content Small lock buttonText`,
     buttonTarget: `Content Small Block buttonTarget`,
     phoneText: `Content Small Block phoneText`,

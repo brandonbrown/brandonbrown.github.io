@@ -40,12 +40,11 @@ const TextParagraphBlock = ({ text, header, headerType, linkText, linkTarget }) 
                         <Link to={linkTarget}>{linkText}</Link> :
                         null
                     }
+                    { text ?
+                        <p dangerouslySetInnerHTML={{__html: text }} /> :
+                        null
+                    }
                 </header> :
-                null
-            }
-    
-            { text ?
-                <p dangerouslySetInnerHTML={{__html: text }} /> :
                 null
             }
         </>

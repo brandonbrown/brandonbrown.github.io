@@ -23,6 +23,9 @@ import ph5 from '../images/placeholders/5.jpg'
 import ph6 from '../images/placeholders/6.jpg'
 import ph7 from '../images/placeholders/7.jpg'
 import ph8 from '../images/placeholders/8.jpg'
+import ph9 from '../images/placeholders/9.jpg'
+import ph10 from '../images/placeholders/10-small.jpg'
+
 
 /**
 * Main index page (home page)
@@ -69,48 +72,74 @@ const Index = ({ data, location, pageContext }) => {
                             text={`Est est numquam deleniti quae quas odit explicabo. Explicabo dolorem quis assumenda sed aliquid dolores et. Aperiam architecto ea. Quia aut dignissimos similique alias quos.`}
                         />
                         <div className="flex flex-row justify-between">
-                            <ContentMediumBlock text="text" mainImage={ph6} />
-                            <ContentMediumBlock text="text" mainImage={ph7} />
-                            <ContentMediumBlock text="text" mainImage={ph8} />
+                            <ContentMediumBlock text="text" mainImage={ph6} headerType={`h4`} />
+                            <ContentMediumBlock text="text" mainImage={ph7} headerType={`h4`} />
+                            <ContentMediumBlock text="text" mainImage={ph8} headerType={`h4`} />
                         </div>
                     </section>
-                    <WorkCTA />
+                </div>
+                <WorkCTA />
+                <div className="container">
                     <section className="largeText">
                         <p>Eligendi a dolor illo qui. Illo debitis et. Aut labore beatae doloremque ut. Perspiciatis eveniet fugiat dolor sint iure nam minus labore ea.</p>
                         <p>Dolor dicta velit ea neque occaecati. Pariatur iste amet est debitis ut enim iste nostrum. Doloribus dolores nisi quibusdam quidem aspernatur eos ut repudiandae eius. Autem vitae et. Magnam vero numquam doloribus enim.</p>
                     </section>
-                    <section>
+                    <section className="baseContent">
                         <TextParagraphBlock 
                             header={`Also Working On`}
                             headerType={`h3`}
                             text={null}
                             linkTarget={`/thislink`}
                         />
-                        <ContentSmallBlock />
-                        <ContentSmallBlock />
-                        <ContentSmallBlock />
+                        <ul className="contentList">
+                            <li><ContentSmallBlock hideImage={false} mainImage={ph10} text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} /></li>
+                            <li><ContentSmallBlock hideImage={false} mainImage={ph10} text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} /></li>
+                            <li><ContentSmallBlock hideImage={false} mainImage={ph10} text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} /></li>
+                            <li><ContentSmallBlock hideImage={false} mainImage={ph10} text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} /></li>
+                            <li><ContentSmallBlock hideImage={false} mainImage={ph10} text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} /></li>
+                            <li><ContentSmallBlock hideImage={false} mainImage={ph10} text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} /></li>
+                        </ul>
                     </section>
-                    <section>
+                    <section className="baseContent">
                         <TextParagraphBlock 
                             header={`Product Studies And Breakdowns`}
                             headerType={`h3`}
                             text={null}
                             linkTarget={`/thislink`}
                         />
-                        <ContentSmallBlock hideImage />
-                        <ContentSmallBlock hideImage />
-                        <ContentSmallBlock hideImage />
+                        <ul className="contentList">
+                            <li>
+                                <ContentSmallBlock hideImage text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} />
+                            </li>
+                            <li>
+                                <ContentSmallBlock hideImage text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} />
+                            </li>
+                            <li>
+                                <ContentSmallBlock hideImage text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} />
+                            </li>
+                            <li>
+                                <ContentSmallBlock hideImage text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} />
+                            </li>
+                            <li>
+                                <ContentSmallBlock hideImage text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} />
+                            </li>
+                            <li>
+                                <ContentSmallBlock hideImage text={`Molestias molestiae quia quis cum. Ex placeat neque similique est id et animi.`} />
+                            </li>
+                        </ul>
                     </section>
-                    <section>
+                    <section className="baseContent">
                         <TextParagraphBlock 
-                            header={`Other Articles From The Blog`}
+                            header={`Other Articles`}
                             headerType={`h3`}
                             text={`Est est numquam deleniti quae quas odit explicabo. Explicabo dolorem quis assumenda sed aliquid dolores et. Aperiam architecto ea. Quia aut dignissimos similique alias quos.`}
                             linkTarget={`/thislink`}
                         />
-                        <ContentMediumBlock />
-                        <ContentMediumBlock />
-                        <ContentMediumBlock />
+                        <div className="flex flex-row justify-between">
+                            <ContentMediumBlock text="text" mainImage={ph6} headerType={`h4`} />
+                            <ContentMediumBlock text="text" mainImage={ph7} headerType={`h4`} />
+                            <ContentMediumBlock text="text" mainImage={ph8} headerType={`h4`} />
+                        </div>
                     </section>
                 </div>
             </Layout>

@@ -629,6 +629,10 @@ a {
 }
 
 a:hover {
+    text-decoration: none;
+}
+
+p a:hover {
     text-decoration: underline;
 }
 
@@ -687,20 +691,25 @@ h3 {
     font-weight: 500;
 }
 
-.contentLargeBlock h3 {
+.contentLargeBlock h3,
+.baseContent h3 {
 
-    margin: 1em -5px 0.5em;
+    margin: 1em 0 0.5em;
     font-size: 2.4rem;
     font-weight: 700;
+    display: inline-block;
+
+}
+
+.contentLargeBlock h3 {
+    margin: 1em -5px 0.5em;
     background: linear-gradient(120deg, theme('colors.midblue') 0%, theme('colors.midblue') 100%);
     background-repeat: no-repeat;
     background-size: 100% 64%;
     background-position: 0% 133%;
     padding: 0 27px 0 5px;
-
-    display: inline-block;
-
 }
+
 @media (max-width: 500px) {
     h3 {
         font-size: 1.7rem;
@@ -711,6 +720,19 @@ h4 {
     margin: 1.5em 0 0.5em 0;
     font-size: 1.6rem;
     font-weight: 500;
+}
+
+.contentMediumBlock {
+    @apply pb-32;
+}
+
+.contentMediumBlock header h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.baseContent header p {
+    max-width: 60ch;
 }
 
 h5 {
@@ -885,7 +907,7 @@ h6 {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -905,11 +927,63 @@ p {
     max-width: none;
 }
 
+.contentSmallBlock {
+    @apply flex flex-row;
+}
+
+.contentSmallBlock img {
+    width: 72px;
+    height: 72px;
+}
+
+.contentSmallBlock header {
+    @apply pr-12;
+}
+
+.contentSmallBlock img + header {
+    @apply pl-8;
+}
+
+.contentSmallBlock header h4 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
 .baseContent h2 {
     font-size: 2.4rem;
     text-align: left;
     font-weight: 700;
 }
+
+.baseContent header {
+    position: relative;
+}
+
+.baseContent header a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.8;
+    position: absolute;
+    margin-top: 2.65rem;
+    @apply inline-block bg-main text-white rounded-full px-3 ml-2 font-alt;
+}
+
+.contentList, .contentList li {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+}
+
+.contentList {
+    width: 100%;
+    @apply flex flex-row flex-wrap justify-between pt-16 pb-32;
+}
+
+.contentList li {
+    width: 48%;
+}
+
 
 /* Header
 /* ---------------------------------------------------------- */
@@ -929,6 +1003,8 @@ p {
     -moz-box-shadow: -10px -20px 65px 12px rgba(255,255,255,1);
 
     @apply bg-main text-white font-alt font-bold px-8 m-8;
+
+    z-index: 100;
 }
 
 .site-head nav {
@@ -1062,7 +1138,7 @@ p {
 }
 
 .personalIntro {
-    width: 60ch;
+    width: 80ch;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1081,6 +1157,11 @@ p {
     padding-left: 2ch;
 }
 
+.personalIntro p {
+    font-size: 1.8rem;
+    width: calc(100% - 200px);
+}
+
 /* Main
 /* ---------------------------------------------------------- */
 
@@ -1096,6 +1177,56 @@ p {
 .secondary-text {
     font-size: 1.8rem;
     @apply bg-transparent font-alt text-main text-center rounded-full px-8 py-4 inline-block font-regular;
+}
+
+.workCTA {
+    min-height: 100vh;
+    position: relative;
+    z-index: 200;
+    @apply flex flex-row bg-main text-white items-center;
+}
+
+.workCTA > div {
+    flex: 2;
+    @apply flex-col pl-16 pr-40;
+}
+
+.workCTA > div aside {
+    @apply flex flex-row items-start;
+}
+
+.workCTA > div aside img {
+    @apply mr-4;
+}
+
+.workCTA > div div {
+    @apply py-12
+}
+
+.workCTA > img {
+    flex: 1;
+    min-height: 100vh;
+    object-fit: cover;
+    width: 45%;
+}
+
+.workCTA h3 {
+    font-size: 4.8rem;
+    @apply text-white font-semibold;
+}
+
+.workCTA .secondary-text {
+    @apply text-white;
+}
+
+.largeText{
+    @apply pb-32 pt-64;
+}
+
+.largeText p {
+    font-size: 2.4rem;
+    width: 46ch;
+    line-height: 1.35;
 }
 
 /* Index
