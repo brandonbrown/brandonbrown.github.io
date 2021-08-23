@@ -1036,6 +1036,16 @@ p {
 
 .contentPortfolioBlock aside ul li {
     margin-bottom: 0;
+    width: 34.5%;
+}
+
+.contentPortfolioBlock aside ul li:first-child {
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.contentPortfolioBlock:nth-child(3) aside ul li:first-child {
+    margin-right: 2.75%
 }
 
 .contentPortfolioBlock:nth-child(even) aside ul {

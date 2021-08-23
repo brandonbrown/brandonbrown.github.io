@@ -15,6 +15,18 @@ import p2 from '../images/placeholders/p2.jpg'
 import p3 from '../images/placeholders/p3.jpg'
 import p4 from '../images/placeholders/p4.jpg'
 
+import bb1 from '../images/portfolio/bbb-m21-bb1.jpg'
+import bb2 from '../images/portfolio/bbb-m21-bb2.jpg'
+import bb3 from '../images/portfolio/bbb-m21-bb3.jpg'
+import bb4 from '../images/portfolio/bbb-m21-bb4.jpg'
+
+import bb5 from '../images/portfolio/bbb-m21-bb5-mmf.jpg'
+import bb6 from '../images/portfolio/bbb-m21-bb6-mmf.jpg'
+import bb7 from '../images/portfolio/bbb-m21-bb7-mmf.jpg'
+import bb8 from '../images/portfolio/bbb-m21-bb8-mmf.jpg'
+
+import bb9 from '../images/portfolio/bbb-m21-bb9-skeduler.jpg'
+
 const Work = ({ data, location, pageContext }) => {
     const posts = data.allGhostPost.edges
     const displayPosts = []
@@ -37,21 +49,21 @@ const Work = ({ data, location, pageContext }) => {
             intro: <div><p>Vel dolores quibusdam ipsa omnis commodi et odit impedit. Ducimus rem sint rem adipisci eos praesentium. Illo ipsam quisquam assumenda. Qui quis est esse. Nesciunt non est et consequuntur. Ut dolor et voluptatem et labore voluptatem cupiditate.</p><p>Et iste esse rem. Repudiandae quae iure in non autem. Eum est vero quas blanditiis. Sit enim quibusdam enim molestias aut soluta. Et aliquam ipsa cum cupiditate dolore excepturi ex libero.</p></div>,
             link: `./portfolio-piece-test`,
             roles: [`Strategy`,`User Experience`,`Branding`,`Visual Design`],
-            coverImage: p1,
+            coverImage: bb7,
             images: [
                 {
                     position: 0,
-                    url: p2,
+                    url: bb8,
                     alt: `Alt Text Of Image`,
                 },
                 {
                     position: 1,
-                    url: p3,
+                    url: bb5,
                     alt: `Alt Text Of Image`,
                 },
                 {
                     position: 2,
-                    url: p4,
+                    url: bb6,
                     alt: `Alt Text Of Image`,
                 },
             ],
@@ -62,21 +74,21 @@ const Work = ({ data, location, pageContext }) => {
             intro: <div><p>Vel dolores quibusdam ipsa omnis commodi et odit impedit. Ducimus rem sint rem adipisci eos praesentium. Illo ipsam quisquam assumenda. Qui quis est esse. Nesciunt non est et consequuntur. Ut dolor et voluptatem et labore voluptatem cupiditate.</p><p>Et iste esse rem. Repudiandae quae iure in non autem. Eum est vero quas blanditiis. Sit enim quibusdam enim molestias aut soluta. Et aliquam ipsa cum cupiditate dolore excepturi ex libero.</p></div>,
             link: `./portfolio-piece-test`,
             roles: [`Strategy`,`User Experience`,`Branding`,`Visual Design`],
-            coverImage: p1,
+            coverImage: bb4,
             images: [
                 {
                     position: 0,
-                    url: p2,
+                    url: bb1,
                     alt: `Alt Text Of Image`,
                 },
                 {
                     position: 1,
-                    url: p3,
+                    url: bb2,
                     alt: `Alt Text Of Image`,
                 },
                 {
                     position: 2,
-                    url: p4,
+                    url: bb3,
                     alt: `Alt Text Of Image`,
                 },
             ],
@@ -92,7 +104,7 @@ const Work = ({ data, location, pageContext }) => {
             images: [
                 {
                     position: 0,
-                    url: p2,
+                    url: bb9,
                     alt: `Alt Text Of Image`,
                 },
                 {
