@@ -6,3 +6,5 @@ public
 .cache/
 yarn.lock
 static/client_secret.json
+.next
+.yarn
