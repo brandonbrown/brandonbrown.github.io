@@ -2,10 +2,6 @@ import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 import defaultTheme from 'tailwindcss/defaultTheme'
 
-const sharedThemeColors = {
-  white: "rgb(252,253,247)"
-}
-
 const config: Config = {
   darkMode: ['selector'],
   content: ['./src/**/*.{astro,md,mdx,ts,tsx}'],
@@ -46,7 +42,7 @@ const config: Config = {
         border: 'hsl(var(--border))',
         ring: 'hsl(var(--ring))',
       },
-      typography: ({ theme }) => ({
+      typography: ({ theme }: { theme: any }) => ({
         DEFAULT: {
           css: {
             'blockquote p:first-of-type::before': false,
