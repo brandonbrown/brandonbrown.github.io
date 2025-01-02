@@ -1,0 +1,72 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Container from '@/components/Container.astro'
+import ProjectCard from '@/components/ProjectCard.astro'
+import Link from '@/components/Link.astro'
+import { SITE } from '@/consts'
+import Layout from '@/layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+
+const projects = await getCollection('projects')
+---
+
+<Layout title="About" description={SITE.DESCRIPTION}>
+  <Container class="flex flex-col gap-y-6">
+    <!-- <Breadcrumbs items={[{ label: 'About', icon: 'lucide:info' }]} /> -->
+
+    <section>
+      <div class="min-w-full prose">
+        <h1 class="prose mb-4 text-3xl font-bold dark:text-white">A Bit About Brandon</h1>
+        <h2 class="prose mb-4 text-xl font-medium uppercase dark:text-white">Building For The Web</h2>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          I am a Front-End Engineer and Designer with a focus on Enterprise Design Systems - sometimes this is called a Creative Technologist, Designer Engineer, or Design System Engineer.
+        </p>
+        <p class="prose dark:prose-white mb-8 font-medium">
+        I have over 20 years of experience working with different digital and traditional mediums, but the web is the most awesome of them all. Currently, I work in the Fortune 500 at a large financial firm. This work allows me to focus on scaling design workflows, impact of UX, accessibility, and developer experience.
+        </p>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          In recent years I have found myself moving more towards leadership and management, which is a welcome and appropriate change at this moment in my career. I adore my ability to tinker, build, and design with my own hands and expertise yet I bubble with glee when positioned to help others create and spend time on crafting what they're proud to put their signature on.
+        </p>
+        <h2 class="prose mb-4 text-xl font-medium uppercase dark:text-white">Teaching For The Web</h2>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          Beyond my work as an engineer, I also teach and mentor students as an Instuctor at Full Sail University. This role has always been one of my favorites. For over 15 years I have been paid to talk nerd stuff with other nerds. These students always challenge me to stick with the basics, keep me on my toes for what those entering the industry expect, and to always keep an emphatic ear for all levels of professionals.
+        </p>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          I have had the privilege to write and delivery cirriculum across a broad spectrum of the web industry. From the basics of HTML and CSS, understanding the complexities of network systems and servers, advanced topics of front-end development, the history of the web and our industry, to our final project that is a capstone of all the knowledge the students have gained and their chance to build something to launch their career upon.
+        </p>
+        <h2 class="prose mb-4 text-xl font-medium uppercase dark:text-white">Side-Projects</h2>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          It has been a while since I've had the time and ability to focus on side-projects. Going into 2025 I have positioned my time and expectations to open this up. I have plans to launch multiple mobile games and applications, run a YouTube channel, and write more on my perspective and knowledge of Design Systems. Below is a list of my current planned side-projects and their status:
+        </p>
+        <ul class="prose dark:prose-white mb-8 font-medium">
+          <li>✅ - This website
+            <p>
+              Doesn't have all the bells and whistles yet that I'd typically aim for in something like a blog. I'd like to make the text scalable while resizing, be a bit more prudent on the typography choices, and add a bit more personality into the whole thing. For now though, it's good to ship and use as my new blog heading into 2025.
+            </p>
+          </li>
+          <li>⬜️ - Mobile Game 1
+            <p>Follow along at <Link href={`/tags/mobile-game-1`}>#mobile-game-1</Link></p>
+          </li>
+
+  
+          <li>⬜️ - Mobile Game 2</li>
+          <li>⬜️ - Design System Blog</li>
+          <li>⬜️ - Gamified Fitness Application</li>
+        </ul>
+        <h2 class="prose mb-4 text-xl font-medium uppercase dark:text-white">Life Away From The Screen</h2>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          Everything above is in service of my family and providing the potential for excitement, awe, and gratefulness for the time we are given together. I am a husband, father, and cat-dad. 
+        </p>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          I am an optimist to a fault, will become emotional over great movies and moments of superb cinematography, and will absolutely talk your ear off about the hidden world of amazing design you may not see around you every day.
+        </p>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          You will now find me on my Peloton near daily, bringing my old power-building routine back into my life, and trying to maintain my physical and mental energy to keep up with the play time our youngest demands.
+        </p>
+        <p class="prose dark:prose-white mb-8 font-medium">
+          A good LEGO set brings a nice zen-like calm to life, yes I am a follow-the-instructions-and-keep-it-together LEGO-dad now. There's a ton of "free-play" LEGO in the house for the kids, don't worry. I used to plant myself down for time with the Playstation, but there's less of that these days. When I used to play regularly it was Fallout 4, God of War, Battlefield 1, Rocket League, MLB The Show, and FIFA. We're a theme park and nerd-culture family, so I am happy to speak the language of Star Wars, Marvel, Doctor Who, Ender's Game, and plenty more. 
+        </p>
+      </div>
+    </section>
+  </Container>
+</Layout>
