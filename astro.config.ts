@@ -20,7 +20,7 @@ import icon from 'astro-icon'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://bybrandonbrown.com',
+  site: 'https://brandonbrown.github.io/',
   integrations: [
     tailwind({
       applyBaseStyles: false,
