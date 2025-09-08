@@ -33,10 +33,10 @@ const MobileMenu = () => {
         <Button
           variant="outline"
           size="icon"
-          className="md:hidden"
+          className="md:hidden text-white"
           title="Menu"
         >
-          <Menu className="h-5 w-5" />
+          <Menu className="h-5 w-5 text-white" />
           <span className="sr-only">Toggle menu</span>
         </Button>
       </DropdownMenuTrigger>
