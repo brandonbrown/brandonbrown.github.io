@@ -147,7 +147,7 @@ const config: Config = {
               borderColor: 'white',
             },
             '--tw-prose-body': theme('colors.slate[50]'),
-            '--tw-prose-headings': theme('colors.slate[50]'),
+            '--tw-prose-headings': theme('colors.slate[300]'),
             '--tw-prose-lead': theme('colors.slate[50]'),
             '--tw-prose-links': theme('colors.teal[400]'),
             '--tw-prose-bold': theme('colors.slate[50]'),
