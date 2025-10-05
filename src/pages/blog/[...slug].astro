@@ -81,7 +81,7 @@ const authors = await parseAuthors(post.data.authors ?? [])
 
     <section class="flex flex-col-reverse gap-6">
       <div>
-        <h1 class="pt-8 pb-1 text-4xl font-bold leading-tight sm:text-5xl">
+        <h1 class="pt-8 pb-14 text-4xl font-semibold sm:text-5xl sm:leading-tight">
           {post.data.title}
         </h1>
 
@@ -119,12 +119,12 @@ const authors = await parseAuthors(post.data.authors ?? [])
               </>
             )
           } -->
-          <div class="flex items-center gap-2 mt-1 font-semibold uppercase">
+          <div class="flex items-center gap-2 pb-2 font-semibold uppercase">
             <span>{formatDate(post.data.date)}</span>
             <Separator orientation="vertical" className="h-4" />
             <span>{readingTime(post.body)}</span>
           </div>
-          <div class="ml-2 flex flex-wrap items-center justify-start gap-2">
+          <div class="flex flex-wrap items-center justify-start gap-2 pb-6">
             {
               post.data.tags && post.data.tags.length > 0 ? (
                 post.data.tags.map((tag) => (
@@ -152,7 +152,7 @@ const authors = await parseAuthors(post.data.authors ?? [])
 
     {headings.length > 0 && <TableOfContents headings={headings} />}
 
-    <article class="prose prose-p:font-medium max-w-none dark:prose-white prose-a:text-teal-600 prose-a:!decoration-teal-400 hover:prose-a:!decoration-transparent">
+    <article class="prose prose-p:text-xl prose-p:font-medium max-w-none dark:prose-white prose-a:text-teal-600 prose-a:!decoration-teal-400 hover:prose-a:!decoration-transparent">
       <Content />
     </article>
 
