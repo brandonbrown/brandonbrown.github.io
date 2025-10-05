@@ -48,14 +48,15 @@ const config: Config = {
             'blockquote p:first-of-type::before': false,
             'blockquote p:first-of-type::after': false,
             h2: {
-              fontWeight: '700',
-              fontVariationSettings: '"wght" 700',
-              fontSize: '2.25rem',
+              fontWeight: '500',
+              fontVariationSettings: '"wght" 500',
+              fontSize: '2.75rem',
+              lineHeight: '1.2',
             },
             h3: {
-              fontWeight: '700',
-              fontVariationSettings: '"wght" 700',
-              fontSize: '1.75rem',
+              fontWeight: '600',
+              fontVariationSettings: '"wght" 600',
+              fontSize: '1.5rem',
             },
             h4: {
               fontWeight: '500',
@@ -100,14 +101,15 @@ const config: Config = {
           css: {
             color: theme('colors.slate.400'),
             h2: {
-              fontWeight: '700',
-              fontVariationSettings: '"wght" 700',
-              fontSize: '2.25rem',
+              fontWeight: '500',
+              fontVariationSettings: '"wght" 500',
+              fontSize: '2.75rem',
+              lineHeight: '1.2',
             },
             h3: {
-              fontWeight: '700',
-              fontVariationSettings: '"wght" 700',
-              fontSize: '1.75rem',
+              fontWeight: '600',
+              fontVariationSettings: '"wght" 600',
+              fontSize: '1.5rem',
             },
             h4: {
               fontWeight: '500',
