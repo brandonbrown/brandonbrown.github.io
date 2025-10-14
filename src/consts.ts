@@ -24,6 +24,7 @@ export const SITE: Site = {
 
 export const NAV_LINKS: Link[] = [
   { href: '/blog', label: 'blog' },
+  { href: '/case-studies', label: 'case studies' },
   { href: '/about', label: 'about' },
   { href: '/tags', label: 'tags' },
 ]
