@@ -1,7 +1,7 @@
 ---
 name: 'Accelerating New Design System Components Through Collaboration'
 date: 2025-10-01
-description: 'This is an example project description! You should replace this with a description of your own project.'
+description: 'How through shifting workflows and planning processes I was able to accelerate our design system deliveries.'
 tags: ['Case Study', 'Design Systems', 'Workflows']
 image: '../../../public/static/1200x630.png'
 link: 'https://example.com'

@@ -1,7 +1,7 @@
 ---
 name: 'Amplify Organizational Investment Through Design Systems'
 date: 2025-10-03
-description: 'This is an example project description! You should replace this with a description of your own project.'
+description: 'How data-driven architecture decisions can help a design system evolve.'
 tags: ['Case Study', 'Design Systems', 'Workflows', 'Integrations', 'Data-Driven']
 image: '../../../public/static/1200x630.png'
 link: 'https://example.com'
