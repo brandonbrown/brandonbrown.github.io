@@ -45,7 +45,7 @@ const authors = defineCollection({
   }),
 })
 
-const projects = defineCollection({
+const caseStudies = defineCollection({
   type: 'content',
   schema: ({ image }) =>
     z.object({
@@ -60,4 +60,4 @@ const projects = defineCollection({
     }),
 })
 
-export const collections = { blog, authors, projects }
+export const collections = { blog, authors, caseStudies }

@@ -1,0 +1,196 @@
+---
+// import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Container from '@/components/Container.astro'
+// import Link from '@/components/Link.astro'
+import CaseStudyNavigation from '@/components/CaseStudyNavigation.astro'
+import TableOfContents from '@/components/TableOfContents.astro'
+import { badgeVariants } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { Separator } from '@/components/ui/separator'
+import Layout from '@/layouts/Layout.astro'
+import { formatDate, parseAuthors, readingTime } from '@/lib/utils'
+import { Icon } from 'astro-icon/components'
+// import { Image } from 'astro:assets'
+import { type CollectionEntry, getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('case-studies'))
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }))
+}
+type Props = CollectionEntry<'case-studies'>
+
+const posts = (await getCollection('case-studies'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+
+function getPostIndex(slug: string): number {
+  return posts.findIndex((post) => post.slug === slug)
+}
+
+function getNextPost(slug: string): Props | null {
+  const postIndex = getPostIndex(slug)
+  return postIndex !== -1 && postIndex < posts.length - 1
+    ? posts[postIndex + 1]
+    : null
+}
+
+function getPrevPost(slug: string): Props | null {
+  const postIndex = getPostIndex(slug)
+  return postIndex > 0 ? posts[postIndex - 1] : null
+}
+
+const currentPostSlug = Astro.params.slug
+const nextPost = getNextPost(currentPostSlug)
+const prevPost = getPrevPost(currentPostSlug)
+
+const post = Astro.props
+const { Content, headings } = await post.render()
+
+const authors = await parseAuthors(post.data.authors ?? [])
+---
+
+<Layout
+  title={post.data.name}
+  description={post.data.description}
+  image={post.data.image?.src ?? '/static/1200x630.png'}
+>
+  <Container class="flex flex-col gap-y-6">
+    <!-- <Breadcrumbs
+      items={[
+        { href: '/blog', label: 'Blog', icon: 'lucide:archive' },
+        { label: post.data.title, icon: 'lucide:file-text' },
+      ]}
+    /> -->
+
+    <!-- {
+      post.data.image && (
+        <Image
+          src={post.data.image}
+          alt={post.data.title}
+          width={1200}
+          height={630}
+          class="object-cover"
+        />
+      )
+    } -->
+
+    <section class="flex flex-col-reverse gap-6">
+      <div>
+        <h1 class="pt-8 pb-14 text-4xl font-semibold sm:text-5xl sm:leading-tight">
+          {post.data.name}
+        </h1>
+
+        <div
+          class="flex flex-wrap items-center justify-start gap-2 text-sm text-muted-foreground"
+        >
+          <!-- {
+            authors.length > 0 && (
+              <>
+                <div class="flex items-center gap-x-2">
+                  {authors.map((author) => (
+                    <div class="flex items-center gap-x-1.5">
+                      <Image
+                        src={author.avatar}
+                        alt={author.name}
+                        width={24}
+                        height={24}
+                        class="rounded-full"
+                      />
+                      {author.isRegistered ? (
+                        <Link
+                          href={`/authors/${author.slug}`}
+                          underline
+                          class="text-foreground"
+                        >
+                          <span>{author.name}</span>
+                        </Link>
+                      ) : (
+                        <span>{author.name}</span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+                <Separator orientation="vertical" className="h-4" />
+              </>
+            )
+          } -->
+          <div class="flex items-center gap-2 pb-2 font-semibold uppercase">
+            <span>{formatDate(post.data.date)}</span>
+            <Separator orientation="vertical" className="h-4" />
+            <span>{readingTime(post.body)}</span>
+          </div>
+          <div class="flex flex-wrap items-center justify-start gap-2 pb-6">
+            {
+              post.data.tags && post.data.tags.length > 0 ? (
+                post.data.tags.map((tag) => (
+                  <a
+                    href={`/tags/${tag}`}
+                    class={badgeVariants({ variant: 'secondary' })}
+                  >
+                    <Icon name="lucide:hash" class="size-3 -translate-x-0.5" />
+                    {tag}
+                  </a>
+                ))
+              ) : (
+                <span class="text-sm text-muted-foreground">
+                  No tags available
+                </span>
+              )
+            }
+          </div>
+        </div>
+        
+      </div>
+
+      <CaseStudyNavigation prevPost={prevPost} nextPost={nextPost} />
+    </section>
+
+    {headings.length > 0 && <TableOfContents headings={headings} />}
+
+    <article class="prose prose-p:text-xl prose-p:font-medium max-w-none dark:prose-white prose-a:text-teal-600 prose-a:!decoration-teal-400 hover:prose-a:!decoration-transparent">
+      <Content />
+    </article>
+
+    <CaseStudyNavigation prevPost={prevPost} nextPost={nextPost} />
+  </Container>
+
+  <Button
+    variant="outline"
+    size="icon"
+    className="group fixed bottom-8 right-8 z-50 hidden text-white bg-cyan-950 dark:bg-white dark:text-cyan-950"
+    id="scroll-to-top"
+    title="Scroll to top"
+    aria-label="Scroll to top"
+  >
+    <Icon
+      name="lucide:arrow-up"
+      class="mx-auto size-4 transition-all group-hover:-translate-y-0.5"
+    />
+  </Button>
+
+  <script>
+    document.addEventListener('astro:page-load', () => {
+      const scrollToTopButton = document.getElementById('scroll-to-top')
+      const footer = document.querySelector('footer')
+
+      if (scrollToTopButton && footer) {
+        scrollToTopButton.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' })
+        })
+
+        window.addEventListener('scroll', () => {
+          const footerRect = footer.getBoundingClientRect()
+          const isFooterVisible = footerRect.top <= window.innerHeight
+
+          scrollToTopButton.classList.toggle(
+            'hidden',
+            window.scrollY <= 300 || isFooterVisible,
+          )
+        })
+      }
+    })
+  </script>
+</Layout>
