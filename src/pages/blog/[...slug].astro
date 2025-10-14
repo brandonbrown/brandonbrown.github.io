@@ -15,9 +15,9 @@ import { type CollectionEntry, getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
   const posts = (await getCollection('blog'))
-    .filter((post) => !post.data.draft)
-    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  return posts.map((post) => ({
+    .filter((post: Props) => !post.data.draft)
+    .sort((a: Props, b: Props) => b.data.date.valueOf() - a.data.date.valueOf())
+  return posts.map((post: Props) => ({
     params: { slug: post.slug },
     props: post,
   }))
@@ -25,11 +25,11 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<'blog'>
 
 const posts = (await getCollection('blog'))
-  .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .filter((post: Props) => !post.data.draft)
+  .sort((a: Props, b: Props) => b.data.date.valueOf() - a.data.date.valueOf())
 
 function getPostIndex(slug: string): number {
-  return posts.findIndex((post) => post.slug === slug)
+  return posts.findIndex((post: Props) => post.slug === slug)
 }
 
 function getNextPost(slug: string): Props | null {
@@ -44,11 +44,12 @@ function getPrevPost(slug: string): Props | null {
   return postIndex > 0 ? posts[postIndex - 1] : null
 }
 
-const currentPostSlug = Astro.params.slug
+// Ensure Astro.params is typed and slug exists
+const { slug: currentPostSlug } = Astro.params as { slug: string }
 const nextPost = getNextPost(currentPostSlug)
 const prevPost = getPrevPost(currentPostSlug)
 
-const post = Astro.props
+const post = Astro.props as Props
 const { Content, headings } = await post.render()
 
 const authors = await parseAuthors(post.data.authors ?? [])
@@ -127,7 +128,7 @@ const authors = await parseAuthors(post.data.authors ?? [])
           <div class="flex flex-wrap items-center justify-start gap-2 pb-6">
             {
               post.data.tags && post.data.tags.length > 0 ? (
-                post.data.tags.map((tag) => (
+                post.data.tags.map((tag: string) => (
                   <a
                     href={`/tags/${tag}`}
                     class={badgeVariants({ variant: 'secondary' })}
