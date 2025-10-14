@@ -1,7 +1,7 @@
 ---
 name: 'Reducing Design Drift and Technical Debt Through Systems Thinking and Framework Integrations'
 date: 2025-10-02
-description: 'This is an example project description! You should replace this with a description of your own project.'
+description: 'A look on my process of identifying a worrying pattern and getting ahead of it through the use of available tools and community engagement.'
 tags: ['Case Study', 'Design Systems', 'Consistency', 'Advocates', 'Integrations']
 image: '../../../public/static/1200x630.png'
 link: 'https://example.com'

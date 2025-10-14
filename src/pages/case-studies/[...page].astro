@@ -45,25 +45,7 @@ const years = Object.keys(postsByYear).sort((a, b) => parseInt(b) - parseInt(a))
         { label: `Page ${page.currentPage}`, icon: 'lucide:folder-open' },
       ]}
     /> -->
-    <div class="min-w-full prose">
-        <h1 class="prose mb-4 text-3xl font-bold dark:text-white">Case Studies</h1>
-        <div class="pb-8 prose prose-p:text-xl prose-p:font-medium max-w-none dark:prose-white prose-a:text-teal-600 prose-a:!decoration-teal-400 hover:prose-a:!decoration-transparent">
-                  <p>
-The work I'm most proud of happened when I stopped trying to solve DesignOps and Design System issues with better documentation or more components, and started treating them like any other user experience and design challenge. I applied the same methods we use for customer-facing problems: understand the real constraints people are working within, design solutions that fit their actual workflows, and remove friction from the things they need to do.
-        </p>
-        <p>
-These case studies show what that looks like in practice. Each one represents a different challenge I've tackled as a technical lead - from redesigning how cross-functional teams collaborate, to choosing when to integrate third-party tools instead of building everything from scratch, to navigating the organizational politics that can make or break a design system's success.
-        </p>
-        <p>
-What connects all of this work is a belief that the best design systems aren't just libraries of components. They're carefully designed experiences that make it easier for teams to build consistent, quality products. Sometimes that means writing code. Often it means redesigning processes, relationships, and workflows.
-        </p>
-        <p>
-The messy reality is that most of this job happens in chat threads, planning meetings, and one-on-one conversations with frustrated developers. These case studies are honest accounts of that work - what actually happened, and what I learned to approach similar challenges in the future.
-        </p>
-
-
-        </div>
-    </div>
+    <h1 class="prose mb-4 text-3xl font-bold dark:text-white">Case Studies</h1>
     <div class="flex min-h-[calc(100vh-18rem)] flex-col gap-y-8">
       {
         years.map((year) => (
@@ -80,5 +62,21 @@ The messy reality is that most of this job happens in chat threads, planning mee
         ))
       }
     </div>
+    <div class="pb-8 prose prose-p:text-xl prose-p:font-medium max-w-none dark:prose-white prose-a:text-teal-600 prose-a:!decoration-teal-400 hover:prose-a:!decoration-transparent">
+                  <p>
+The work I'm most proud of happened when I stopped trying to solve DesignOps and Design System issues with better documentation or more components, and started treating them like any other user experience and design challenge. I applied the same methods we use for customer-facing problems: understand the real constraints people are working within, design solutions that fit their actual workflows, and remove friction from the things they need to do.
+        </p>
+        <p>
+These case studies show what that looks like in practice. Each one represents a different challenge I've tackled as a technical lead - from redesigning how cross-functional teams collaborate, to choosing when to integrate third-party tools instead of building everything from scratch, to navigating the organizational politics that can make or break a design system's success.
+        </p>
+        <p>
+What connects all of this work is a belief that the best design systems aren't just libraries of components. They're carefully designed experiences that make it easier for teams to build consistent, quality products. Sometimes that means writing code. Often it means redesigning processes, relationships, and workflows.
+        </p>
+        <p>
+The messy reality is that most of this job happens in chat threads, planning meetings, and one-on-one conversations with frustrated developers. These case studies are honest accounts of that work - what actually happened, and what I learned to approach similar challenges in the future.
+        </p>
+
+
+        </div>
   </Container>
 </Layout>
