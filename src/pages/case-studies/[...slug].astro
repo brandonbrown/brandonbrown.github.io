@@ -15,8 +15,8 @@ import { type CollectionEntry, getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
   const posts = (await getCollection('case-studies'))
-    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  return posts.map((post) => ({
+    .sort((a: CollectionEntry<'case-studies'>, b: CollectionEntry<'case-studies'>) => b.data.date.valueOf() - a.data.date.valueOf())
+  return posts.map((post: CollectionEntry<'case-studies'>) => ({
     params: { slug: post.slug },
     props: post,
   }))
@@ -24,10 +24,10 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<'case-studies'>
 
 const posts = (await getCollection('case-studies'))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .sort((a: CollectionEntry<'case-studies'>, b: CollectionEntry<'case-studies'>) => b.data.date.valueOf() - a.data.date.valueOf())
 
 function getPostIndex(slug: string): number {
-  return posts.findIndex((post) => post.slug === slug)
+  return posts.findIndex((post: CollectionEntry<'case-studies'>) => post.slug === slug)
 }
 
 function getNextPost(slug: string): Props | null {
@@ -42,7 +42,8 @@ function getPrevPost(slug: string): Props | null {
   return postIndex > 0 ? posts[postIndex - 1] : null
 }
 
-const currentPostSlug = Astro.params.slug
+// Destructure slug from Astro.params to ensure correct typing
+const { slug: currentPostSlug } = Astro.params
 const nextPost = getNextPost(currentPostSlug)
 const prevPost = getPrevPost(currentPostSlug)
 
@@ -125,7 +126,7 @@ const authors = await parseAuthors(post.data.authors ?? [])
           <div class="flex flex-wrap items-center justify-start gap-2 pb-6">
             {
               post.data.tags && post.data.tags.length > 0 ? (
-                post.data.tags.map((tag) => (
+                post.data.tags.map((tag: string) => (
                   <a
                     href={`/tags/${tag}`}
                     class={badgeVariants({ variant: 'secondary' })}

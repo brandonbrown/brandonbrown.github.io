@@ -13,16 +13,19 @@ export async function getStaticPaths({
 }: {
   paginate: PaginateFunction
 }) {
-  const allPosts = await getCollection('case-studies', ({ data }) => !data.draft)
+  const allPosts = await getCollection('case-studies', ({ data }: { data: CollectionEntry<'case-studies'>['data'] }) => !data.draft)
   return paginate(
-    allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()),
+    allPosts.sort(
+      (a: CollectionEntry<'case-studies'>, b: CollectionEntry<'case-studies'>) =>
+        b.data.date.valueOf() - a.data.date.valueOf()
+    ),
     { pageSize: SITE.POSTS_PER_PAGE },
   )
 }
 
 const { page } = Astro.props
 
-const postsByYear = page.data.reduce(
+const postsByYear = (page.data as CollectionEntry<'case-studies'>[]).reduce(
   (acc: Record<string, CollectionEntry<'case-studies'>[]>, post) => {
     const year = post.data.date.getFullYear().toString()
     ;(acc[year] ??= []).push(post)

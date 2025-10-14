@@ -2,7 +2,7 @@
 // import AvatarComponent from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
-import { formatDate, parseAuthors, readingTime } from '@/lib/utils'
+import { formatDate, readingTime } from '@/lib/utils'
 // import { Image } from 'astro:assets'
 import type { CollectionEntry } from 'astro:content'
 import Link from './Link.astro'
@@ -58,7 +58,7 @@ const readTime = readingTime(entry.body)
       {
         entry.data.tags && (
           <div class="flex flex-wrap gap-2">
-            {entry.data.tags.map((tag) => (
+            {entry.data.tags.map((tag: string) => (
               <Badge variant="secondary">{tag}</Badge>
             ))}
           </div>
